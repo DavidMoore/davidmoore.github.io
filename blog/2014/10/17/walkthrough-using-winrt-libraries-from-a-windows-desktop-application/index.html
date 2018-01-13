@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    
+    <link rel="preload" href="http://www.sadrobot.co.nz/files/muli-latin-200.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="http://www.sadrobot.co.nz/files/muli-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="http://www.sadrobot.co.nz/files/muli-latin-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     
+    <title>Walkthrough: Using WinRT libraries from a Windows Desktop application | Sad Robot</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+     <meta name="generator" content="Hugo 0.32" />
+
+      
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+      
+
+     <link href='/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="Walkthrough: Using WinRT libraries from a Windows Desktop application" />
+<meta property="og:description" content="Summary These are the steps for enabling WinRT libraries from within your Windows Desktop application. A more detailed walkthrough and explanation follows.
+Steps 1) Editing your project file, add the platform target:
+&lt;AutoGenerateBindingRedirects&gt;true&lt;/AutoGenerateBindingRedirects&gt; &lt;TargetPlatformVersion&gt;8.0&lt;/TargetPlatformVersion&gt; &lt;/PropertyGroup&gt; 2) Add the following references:
+&lt;Reference Include=&#34;Windows&#34; /&gt; &lt;Reference Include=&#34;System.Runtime&#34; /&gt; &lt;Reference Include=&#34;System.Runtime.InteropServices.WindowsRuntime&#34; /&gt; &lt;Reference Include=&#34;System.Runtime.WindowsRuntime&#34; /&gt; 3) Load your project properties, and change the platform target from AnyCPU to x64 (or x86 if you&rsquo;re on a 32 bit operating system)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.sadrobot.co.nz/blog/2014/10/17/walkthrough-using-winrt-libraries-from-a-windows-desktop-application/" />
+
+
+
+<meta property="article:published_time" content="2014-10-17T18:03:08&#43;00:00"/>
+
+<meta property="article:modified_time" content="2014-10-17T18:03:08&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Walkthrough: Using WinRT libraries from a Windows Desktop application">
+<meta itemprop="description" content="Summary These are the steps for enabling WinRT libraries from within your Windows Desktop application. A more detailed walkthrough and explanation follows.
+Steps 1) Editing your project file, add the platform target:
+&lt;AutoGenerateBindingRedirects&gt;true&lt;/AutoGenerateBindingRedirects&gt; &lt;TargetPlatformVersion&gt;8.0&lt;/TargetPlatformVersion&gt; &lt;/PropertyGroup&gt; 2) Add the following references:
+&lt;Reference Include=&#34;Windows&#34; /&gt; &lt;Reference Include=&#34;System.Runtime&#34; /&gt; &lt;Reference Include=&#34;System.Runtime.InteropServices.WindowsRuntime&#34; /&gt; &lt;Reference Include=&#34;System.Runtime.WindowsRuntime&#34; /&gt; 3) Load your project properties, and change the platform target from AnyCPU to x64 (or x86 if you&rsquo;re on a 32 bit operating system).">
+
+
+<meta itemprop="datePublished" content="2014-10-17T18:03:08&#43;00:00" />
+<meta itemprop="dateModified" content="2014-10-17T18:03:08&#43;00:00" />
+<meta itemprop="wordCount" content="1219">
+
+
+
+<meta itemprop="keywords" content="lockscreen,winrt," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image:src" content="http://www.sadrobot.co.nz/images/gohugoio-card.png"/>
+<meta name="twitter:title" content="Walkthrough: Using WinRT libraries from a Windows Desktop application"/>
+<meta name="twitter:description" content="Summary These are the steps for enabling WinRT libraries from within your Windows Desktop application. A more detailed walkthrough and explanation follows.
+Steps 1) Editing your project file, add the platform target:
+&lt;AutoGenerateBindingRedirects&gt;true&lt;/AutoGenerateBindingRedirects&gt; &lt;TargetPlatformVersion&gt;8.0&lt;/TargetPlatformVersion&gt; &lt;/PropertyGroup&gt; 2) Add the following references:
+&lt;Reference Include=&#34;Windows&#34; /&gt; &lt;Reference Include=&#34;System.Runtime&#34; /&gt; &lt;Reference Include=&#34;System.Runtime.InteropServices.WindowsRuntime&#34; /&gt; &lt;Reference Include=&#34;System.Runtime.WindowsRuntime&#34; /&gt; 3) Load your project properties, and change the platform target from AnyCPU to x64 (or x86 if you&rsquo;re on a 32 bit operating system)."/>
+<meta name="twitter:site" content="@whup"/>
+
+
+
+
+
+  </head>
+  <body class="ma0 sans-serif bg-primary-color-light">
+    
+<nav class="bg-primary-color-dark pv4 w-100" role="navigation">
+
+  <div class="center flex-ns flex-wrap items-center justify-start mw9">
+
+    <h1 class="dim f3 lh-solid ml0-ns mr0 mr4-l mv0 pl3 pl4-ns">
+      <a href="http://www.sadrobot.co.nz/" class="link white">
+         Sad Robot
+      </a>
+    </h1>
+    <ul class="list ma0 pa0 dn dib-l">
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/blog/" class="dim link light-silver">
+            Blog
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/wiki/" class="dim link light-silver">
+            Wiki
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/games/" class="dim link light-silver">
+            Gaming
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="https://github.com/davidmoore/" class="dim link light-silver">
+            GitHub
+              
+            
+            
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 32 32" class="fill-current v-base" aria-label="External Link">
+<path d="M25.152 16.576v5.696q0 2.144-1.504 3.648t-3.648 1.504h-14.848q-2.144 0-3.648-1.504t-1.504-3.648v-14.848q0-2.112 1.504-3.616t3.648-1.536h12.576q0.224 0 0.384 0.16t0.16 0.416v1.152q0 0.256-0.16 0.416t-0.384 0.16h-12.576q-1.184 0-2.016 0.832t-0.864 2.016v14.848q0 1.184 0.864 2.016t2.016 0.864h14.848q1.184 0 2.016-0.864t0.832-2.016v-5.696q0-0.256 0.16-0.416t0.416-0.16h1.152q0.256 0 0.416 0.16t0.16 0.416zM32 1.152v9.12q0 0.48-0.352 0.8t-0.8 0.352-0.8-0.352l-3.136-3.136-11.648 11.648q-0.16 0.192-0.416 0.192t-0.384-0.192l-2.048-2.048q-0.192-0.16-0.192-0.384t0.192-0.416l11.648-11.648-3.136-3.136q-0.352-0.352-0.352-0.8t0.352-0.8 0.8-0.352h9.12q0.48 0 0.8 0.352t0.352 0.8z"></path>
+</svg>
+
+            
+          </a>
+        </li>
+      
+    </ul>
+
+    
+    <div class="db dib-ns pl3"></div>
+    
+    
+    <span class="absolute mt1 mt2-l pr3 right-0 top-0">
+
+  <a href="https://twitter.com/intent/follow?screen_name=whup" title="Follow on Twitter" class="link-transition twitter link dib z-999 pt3 pt0-l mr2">
+    <svg height="32px" id="Layer_1" style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+  </a>
+
+<a class="github-button needs-js link primary-color-dark" href="https://github.com/davidmoore/" data-size="large" data-show-count="false" aria-label="Star gohugoio/hugo on GitHub">Star</a>
+</span>
+
+  </div>
+</nav>
+
+    
+    <main role="main" class="content-with-sidebar min-vh-100 pb7 pb0-ns">
+      
+  <article class="w-100 ph4 pb5 pb6-ns pt1 pt5-ns">
+    <div class="flex-l">
+
+      <div class="order-2 w-100 w-20-l ph5-m ph0-l mb4 sticky">
+<aside class="fixed-lTK mw5-l right-0 f6 bl-l b--moon-gray pv4 pv0-ns ph4-l nested-list-reset nested-links nested-copy-line-height">
+	
+		<p class="b">On this page</p>
+  	<nav id="TableOfContents">
+<ul>
+<li><a href="#summary">Summary</a>
+<ul>
+<li><a href="#steps">Steps</a></li>
+<li><a href="#prerequisites-limitations">Prerequisites / Limitations</a></li>
+</ul></li>
+<li><a href="#overview">Overview</a>
+<ul>
+<li><a href="#what-is-winrt">What is WinRT?</a></li>
+<li><a href="#why-would-you-want-to-use-winrt">Why would you want to use WinRT?</a></li>
+</ul></li>
+<li><a href="#walk-through-changing-the-lock-screen">Walk-through: Changing the Lock Screen</a>
+<ul>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#getting-started">Getting started</a></li>
+<li><a href="#referencing-a-winrt-library-take-1">Referencing a WinRT library: Take 1</a></li>
+<li><a href="#preparing-the-project-file">Preparing the Project File</a></li>
+<li><a href="#referencing-a-winrt-library-take-2">Referencing a WinRT Library: Take 2</a></li>
+<li><a href="#adding-the-httpclient-nuget-package-for-downloading-the-bing-picture">Adding the HttpClient NuGet package for downloading the Bing picture</a></li>
+<li><a href="#the-code">The Code</a></li>
+<li><a href="#david-your-code-sucks-it-won-t-compile">David, your code sucks. It won’t compile.</a></li>
+</ul></li>
+<li><a href="#testing">Testing</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ul>
+</nav>
+	
+
+	<div date-pref>
+		
+			<a href="http://www.sadrobot.co.nz/blog/2017/02/02/sql-server-management-studio-is-free/" class="dib f6 pl1 hover-bg-light-gray br-100" title="SQL Server Management Studio is Free ">
+				<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
+    <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+</svg>
+
+			</a>
+		
+
+		
+			<a href="http://www.sadrobot.co.nz/blog/2014/10/15/gorilla-bas-qbasic-edit/" class="dib f6 pr1 hover-bg-light-gray br-100" title="GORILLA.BAS, QBasic &amp; Edit">
+			<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+</svg>
+
+			</a>
+		
+	</div>
+
+</aside>
+</div>
+
+      <div class="order-1 w-60-l mw9 ph0 ph5-ns mid-gray nested-copy-line-height no-underline nested-links nested-copy-seperator nested-blockquote mt0-ns" style="flex-grow:1;">
+        <div class="documentation-copy center">
+          <div id="readout" class="fixed right-0 bottom-0">
+          </div>
+          <header class="flex-none w-100">
+  
+    
+      <a href="/categories/.net" class="f6 fw8 mb0 link mid-gray dim mr3">
+        .NET
+      </a>
+    
+      <a href="/categories/visual-studio" class="f6 fw8 mb0 link mid-gray dim mr3">
+        VISUAL STUDIO
+      </a>
+    
+  
+  <h1 class="lh-title mb3 mv0 pt3 primary-color-dark">Walkthrough: Using WinRT libraries from a Windows Desktop application</h1>
+</header>
+
+<aside class="bt bw1 pt3 mt2 mid-gray b--mid-gray fn w-100">
+  
+
+  
+</aside>
+
+
+
+<div class="prose" id="prose">
+
+
+
+<h1 id="summary">Summary</h1>
+
+<p>These are the steps for enabling WinRT libraries from within your Windows Desktop application. A more detailed walkthrough and explanation follows.</p>
+
+<h2 id="steps">Steps</h2>
+
+<p>1) Editing your project file, add the platform target:</p>
+<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml">  <span class="nt">&lt;AutoGenerateBindingRedirects&gt;</span>true<span class="nt">&lt;/AutoGenerateBindingRedirects&gt;</span>
+  <span class="nt">&lt;TargetPlatformVersion&gt;</span>8.0<span class="nt">&lt;/TargetPlatformVersion&gt;</span>
+<span class="nt">&lt;/PropertyGroup&gt;</span></code></pre></div>
+<p>2) Add the following references:</p>
+<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml">  <span class="nt">&lt;Reference</span> <span class="na">Include=</span><span class="s">&#34;Windows&#34;</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;Reference</span> <span class="na">Include=</span><span class="s">&#34;System.Runtime&#34;</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;Reference</span> <span class="na">Include=</span><span class="s">&#34;System.Runtime.InteropServices.WindowsRuntime&#34;</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;Reference</span> <span class="na">Include=</span><span class="s">&#34;System.Runtime.WindowsRuntime&#34;</span> <span class="nt">/&gt;</span></code></pre></div>
+<p>3) Load your project properties, and change the platform target from <strong>AnyCPU</strong> to <strong>x64</strong> (or <strong>x86</strong> if you&rsquo;re on a 32 bit operating system).</p>
+
+<h2 id="prerequisites-limitations">Prerequisites / Limitations</h2>
+
+<ul>
+<li>You are obviously limited to WinRT-supported platforms: Windows 8 &amp; 8.1, Windows Server 2012</li>
+<li>Some of the WinRT libraries won’t work on the desktop platform, usually because they require a WinRT user interface. Pay attention to the MSDN docs which state whether they’re available for Desktop, but also feel free to experiment, as in some cases the docs are not accurate (for example, the Geolocation works on Desktop but the documentation states Windows Store apps only).</li>
+</ul>
+
+<h1 id="overview">Overview</h1>
+
+<p>You might be surprised to know that WinRT can be used from Windows apps also, with a little bit of tweaking.</p>
+
+<h2 id="what-is-winrt">What is WinRT?</h2>
+
+<ul>
+<li>WinRT is not .NET or Win32, though it shares some similarities between both.</li>
+<li>WinRT is an API over a new runtime, that supports platforms from Windows x86 to Windows Phone ARM.</li>
+<li>WinRT is implemented in C++, but you can develop for it using C# and VB.NET.</li>
+<li>Because the WinRT metadata is exposed as CLI metadata (in .WinMD files), you can reference and consume them from your CLR applications.</li>
+</ul>
+
+<h2 id="why-would-you-want-to-use-winrt">Why would you want to use WinRT?</h2>
+
+<ul>
+<li>WinRT exposes some interesting APIs and libraries for things such as the accelerometer, web cam, geolocation, speech recognition and synthesis etc: <a href="http://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx" target="_blank">http://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx</a></li>
+</ul>
+
+<h1 id="walk-through-changing-the-lock-screen">Walk-through: Changing the Lock Screen</h1>
+
+<p>As a case study, we will look into changing the user lock screen to the Bing daily picture.</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<ul>
+<li>You will need to be reasonably comfortable with async code, as most of the API is exposed via Tasks.</li>
+</ul>
+
+<h2 id="getting-started">Getting started</h2>
+
+<p>Create a new Windows C# command line application:</p>
+
+<p><img src="/wp-content/uploads/2014/10/clip_image0014.png" alt="alt text" title="New console application" /></p>
+
+<p>I&rsquo;ll call mine <strong>WinRTTest</strong>.</p>
+
+<h2 id="referencing-a-winrt-library-take-1">Referencing a WinRT library: Take 1</h2>
+
+<p>Now let&rsquo;s try adding a reference to a WinRT library.</p>
+
+<p>Go to <strong>Add Reference</strong>, and choose <strong>Browse</strong>:</p>
+
+<p><img src="/wp-content/uploads/2014/10/clip_image0024.png" alt="" title="Add WinRT reference" /></p>
+
+<p>Then hit the <strong>Browse</strong> button, and select <strong>C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd</strong> (or the 8.1 version) and click <strong>OK</strong>.</p>
+
+<p><strong>CLANG!</strong></p>
+
+<p><img src="/wp-content/uploads/2014/10/clip_image0034.png" alt="" /></p>
+
+<p>Checking the documentation as instructed, we read this:</p>
+
+<blockquote>
+<p>In the desktop projects, the Core subgroup doesn’t appear by default. You can add the Windows Runtime by opening the shortcut menu for the project node, <em>choosing Unload Project, adding the following snippet, and re-opening the project</em> (on the project node, choose Reload Project). When you invoke the Reference Manager dialog box, the Core subgroup appears.</p>
+<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml"><span class="nt">&lt;PropertyGroup&gt;</span>
+     <span class="nt">&lt;TargetPlatformVersion&gt;</span>8.0<span class="nt">&lt;/TargetPlatformVersion&gt;</span>
+<span class="nt">&lt;/PropertyGroup&gt;</span></code></pre></div>
+<p>From <a href="http://msdn.microsoft.com/en-us/library/hh708954.aspx" target="_blank">http://msdn.microsoft.com/en-us/library/hh708954.aspx</a></p>
+</blockquote>
+
+<p>Great! So now we know we must specify our target platform as 8.0.</p>
+
+<h2 id="preparing-the-project-file">Preparing the Project File</h2>
+
+<p>First let&rsquo;s edit the project file; right click on the project file and choose Unload Project then Edit Project File.</p>
+
+<p>I&rsquo;ll add the target platform property in the property group at the top of the project file:</p>
+<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml"><span class="nt">&lt;PropertyGroup&gt;</span>
+  <span class="nt">&lt;Configuration</span> <span class="na">Condition=</span><span class="s">&#34; &#39;$(Configuration)&#39; == &#34;</span> <span class="err">&#34;</span><span class="nt">&gt;</span>Debug<span class="nt">&lt;/Configuration&gt;</span> 
+  <span class="nt">&lt;Platform</span> <span class="na">Condition=</span><span class="s">&#34; &#39;$(Platform)&#39; == &#34;</span> <span class="err">&#34;</span><span class="nt">&gt;</span>AnyCPU<span class="nt">&lt;/Platform&gt;</span> 
+  <span class="nt">&lt;ProjectGuid&gt;</span>{4725C47D-8877-47C8-BD56-134E656BFF09}<span class="nt">&lt;/ProjectGuid&gt;</span> 
+  <span class="nt">&lt;OutputType&gt;</span>Exe<span class="nt">&lt;/OutputType&gt;</span> 
+  <span class="nt">&lt;AppDesignerFolder&gt;</span>Properties<span class="nt">&lt;/AppDesignerFolder&gt;</span> 
+  <span class="nt">&lt;RootNamespace&gt;</span>WinRTTest<span class="nt">&lt;/RootNamespace&gt;</span> 
+  <span class="nt">&lt;AssemblyName&gt;</span>WinRTTest<span class="nt">&lt;/AssemblyName&gt;</span> 
+  <span class="nt">&lt;TargetFrameworkVersion&gt;</span>v4.5.1<span class="nt">&lt;/TargetFrameworkVersion&gt;</span> 
+  <span class="nt">&lt;FileAlignment&gt;</span>512<span class="nt">&lt;/FileAlignment&gt;</span> 
+  <span class="nt">&lt;AutoGenerateBindingRedirects&gt;</span>true<span class="nt">&lt;/AutoGenerateBindingRedirects&gt;</span> 
+  <span class="nt">&lt;TargetPlatformVersion&gt;</span>8.0<span class="nt">&lt;/TargetPlatformVersion&gt;</span><span class="c">&lt;!-- Add this property --&gt;</span>
+<span class="nt">&lt;/PropertyGroup&gt;</span></code></pre></div>
+<h2 id="referencing-a-winrt-library-take-2">Referencing a WinRT Library: Take 2</h2>
+
+<p>Now reload the project and choose <strong>Add Reference&#8230;</strong> again. Suddenly, the Windows tab is available for us:</p>
+
+<p><img src="/wp-content/uploads/2014/10/clip_image0064.png" alt="" /></p>
+
+<p>Let&rsquo;s tick <strong>Windows</strong> and click <strong>OK</strong>.</p>
+
+<p>Now let&rsquo;s start coding with the WinRT libraries.</p>
+
+<h2 id="adding-the-httpclient-nuget-package-for-downloading-the-bing-picture">Adding the HttpClient NuGet package for downloading the Bing picture</h2>
+
+<p>The HttpClient class will be a nice easy way for us to use the Bing Daily Picture service.</p>
+
+<p>First, add a reference to the NuGet package for the HttpClient.</p>
+
+<ol>
+<li>In the Visual Studio menu, go to <strong>Tools</strong> &gt; <strong>NuGet Package Manager</strong> &gt; <strong>Package Manager Console</strong></li>
+<li>Then type in the following command at the prompt:<strong>Install-Package Microsoft.AspNet.WebApi.Client</strong></li>
+</ol>
+
+<pre><code>Install-Package Microsoft.AspNet.WebApi.Client
+Attempting to resolve dependency 'Newtonsoft.Json (≥ 6.0.4)'.
+Installing 'Newtonsoft.Json 6.0.4'.
+Successfully installed 'Newtonsoft.Json 6.0.4'.
+Installing 'Microsoft.AspNet.WebApi.Client 5.2.2'.
+You are downloading Microsoft.AspNet.WebApi.Client from Microsoft, the license agreement to which is available at &lt;a href=&quot;http://www.microsoft.com/web/webpi/eula/net_library_eula_ENU.htm&quot;&gt;http://www.microsoft.com/web/webpi/eula/net_library_eula_ENU.htm&lt;/a&gt;. Check the package for additional dependencies, which may come with their own license agreement(s). Your use of the package and dependencies constitutes your acceptance of their license agreements. If you do not accept the license agreement(s), then delete the relevant components from your device.
+Successfully installed 'Microsoft.AspNet.WebApi.Client 5.2.2'.
+Adding 'Newtonsoft.Json 6.0.4' to WinRTTest.
+Successfully added 'Newtonsoft.Json 6.0.4' to WinRTTest.
+Adding 'Microsoft.AspNet.WebApi.Client 5.2.2' to WinRTTest.
+Successfully added 'Microsoft.AspNet.WebApi.Client 5.2.2' to WinRTTest.
+</code></pre>
+
+<p>So now we have our new references:</p>
+
+<p><img src="http://www.davidmoore.info/blog/wp-content/uploads/2014/10/clip_image0084.png" alt="" /></p>
+
+<h2 id="the-code">The Code</h2>
+
+<p>Now, paste in the code below:</p>
+
+<p>&nbsp;</p>
+
+<blockquote>
+<p>Note that we are hard-coded to get the 1080p version of the desktop, and there&rsquo;s not much error handling. We&rsquo;re keeping it nice and brief; getting the appropriate wallpaper size and error handling could be left as a future exercise.</p>
+</blockquote>
+
+<h2 id="david-your-code-sucks-it-won-t-compile">David, your code sucks. It won’t compile.</h2>
+
+<p>I can’t argue with those statements:</p>
+
+<pre><code>1&gt;------ Build started: Project: WinRTTest, Configuration: Debug Any CPU ------
+1&gt;C:\Projects\WinRTTest\WinRTTest\Program.cs(37,32,37,168): error CS4028: 'await' requires that the type 'Windows.Foundation.IAsyncOperation&lt;Windows.Storage.StorageFile&gt;' have a suitable GetAwaiter method. Are you missing a using directive for 'System'?
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+</code></pre>
+
+<p>If you paid close attention to the MSDN docs earlier, it referred us to another page which states:</p>
+
+<blockquote>
+<p>That said, <em>your desktop app can’t consume much of anything from the Windows Runtime until you prepare your project with one essential reference</em>. The Windows Runtime defines some standard classes and interfaces in System.Runtime, such as IEnumerable, that are used throughout the Windows Runtime libraries. By default, your managed desktop app won’t be able to find these types, and so <strong>you must manually reference System.Runtime</strong> before you can do anything meaningful with Windows Runtime classes.</p>
+
+<p>From <a href="http://msdn.microsoft.com/en-us/library/windows/apps/jj856306.aspx#consuming_standard_windows_runtime_types" target="_blank">http://msdn.microsoft.com/en-us/library/windows/apps/jj856306.aspx#consuming_standard_windows_runtime_types</a></p>
+</blockquote>
+
+<p>While we could browse around for files, I believe it&rsquo;s actually less error prone and simpler to reference the assembly name in our project file, and let Visual Studio do the rest. It also means you can prepare your project for WinRT in one edit of the project file (see the summary at the top of the article).</p>
+
+<p>Now the System.Runtime reference isn&rsquo;t going to be enough for us, as the async support extensions are in the WindowsRuntime classes. So add the following:</p>
+<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml">  <span class="nt">&lt;Reference</span> <span class="na">Include=</span><span class="s">&#34;Windows&#34;</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;Reference</span> <span class="na">Include=</span><span class="s">&#34;System.Runtime&#34;</span> <span class="nt">/&gt;</span><span class="c">&lt;!-- Added reference --&gt;</span>
+  <span class="nt">&lt;Reference</span> <span class="na">Include=</span><span class="s">&#34;System.Runtime.InteropServices.WindowsRuntime&#34;</span> <span class="nt">/&gt;</span><span class="c">&lt;!-- Added reference --&gt;</span>
+  <span class="nt">&lt;Reference</span> <span class="na">Include=</span><span class="s">&#34;System.Runtime.WindowsRuntime&#34;</span> <span class="nt">/&gt;</span><span class="c">&lt;!-- Added reference --&gt;</span>
+<span class="nt">&lt;/ItemGroup&gt;</span></code></pre></div>
+<p>Now we can compile!</p>
+
+<h1 id="testing">Testing</h1>
+
+<p>So we run the app. The image comes down and is saved into our Pictures folder as LockScreen.jpg:</p>
+
+<p><img src="/wp-content/uploads/2014/10/clip_image0094.png" alt="" /></p>
+
+<p>But if you lock your machine by hitting <strong>Windows + L</strong>, our lock screen isn&rsquo;t showing the changes.</p>
+
+<p>Weirdly, it&rsquo;s showing in the control panel though:</p>
+
+<p><img src="/wp-content/uploads/2014/10/clip_image0104.png" alt="" /></p>
+
+<p>Well after some trial and error myself, let&rsquo;s change the target platform from <strong>AnyCPU</strong> to <strong>x64</strong> (or <strong>x86</strong> if you&rsquo;re on a 32 bit machine):</p>
+
+<p><img src="/wp-content/uploads/2014/10/clip_image0114.png" alt="" /></p>
+
+<p>And it <em>should</em> suddenly work!</p>
+
+<blockquote>
+<p>Now, it&rsquo;s unclear why this is necessary (and why we see no errors, and the lock screen actually shows in the control panel). Frustratingly, I can&rsquo;t troubleshoot the problem properly, as setting the platform target back to Any CPU suddenly continues to work also. There may be something else happening here; so I will update this article if an explanation ever comes to light.</p>
+</blockquote>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Now you can play around with some of the interesting WinRT libraries from your desktop applications, as well as exciting new WinRT extensions such as the Microsoft OCR Library: <a href="http://blogs.windows.com/buildingapps/2014/09/18/microsoft-ocr-library-for-windows-runtime/" target="_blank">http://blogs.windows.com/buildingapps/2014/09/18/microsoft-ocr-library-for-windows-runtime/</a></p>
+
+</div>
+
+          
+
+        </div>
+      </div>
+      <div class="order-0 w-20 dn db-l">
+        
+<nav role="navigation">
+  <ul class="list pa0 nl2">
+    
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/blog/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".latest-posts">Latest Posts</a>
+
+          
+        </li>
+    
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/categories/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".categories">Categories</a>
+
+          
+        </li>
+    
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/tags/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".tags">Tags</a>
+
+          
+        </li>
+    
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".archive">Archive</a>
+
+          
+            <ul class="archive desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+              
+                <li  class="f6 fw4">
+                  <a href="/blog/2017/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    2017
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/blog/2016/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    2016
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+    
+  </ul>
+</nav>
+
+      </div>
+
+    </div>
+  </article>
+
+  <div class="w-100 bg-light-gray">
+    <div class="mw7 pa4 center nested-lh-copy lh-copy">
+      <h6 class="f4 dark-gray mb2">
+  <a href="http://www.sadrobot.co.nz/blog/2014/10/17/walkthrough-using-winrt-libraries-from-a-windows-desktop-application/" class="hide-child link primary-color">
+  <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
+</span>
+    “Walkthrough: Using WinRT libraries from a Windows Desktop application”
+  </a> was last updated: October 17, 2014
+</h6>
+
+      <a href="https://github.com/DavidMoore/SadRobot/edit/master/content/blog/2014-10-17-walkthrough-using-winrt-libraries-from-a-windows-desktop-application.md" class="
+f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
+">Improve this page</a>
+
+      
+
+  
+  
+  
+
+  <div class="nested-lh-copy">
+    <ul class="list dib nested-links ml0 pl0">
+      
+        <li class="db mb2 b">
+          Tags:
+        </li>
+        
+          <li class="db dib-l mr3">
+            <a class="tag" href="/tags/lockscreen">
+              lockscreen
+            </a>
+          </li>
+        
+          <li class="db dib-l mr3">
+            <a class="tag" href="/tags/winrt">
+              winrt
+            </a>
+          </li>
+        
+              
+      
+        
+        
+      
+    </ul>
+  </div>
+
+
+    </div>
+  </div>
+
+  <div class="w-60-l ph0 ph5-ns center">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "sadrobot" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+
+
+    </main>
+
+    <footer class="bg-primary-color-dark ph4-ns pt4 relative w-100" role="contentinfo">
+    <div class="center flex-ns flex-wrap justify-between mw9 w-90">
+      <div class="pb3 pt4 w-100">
+      
+         <div class="b f3  light-gray mb3 nested-links tc">
+           Copyright &copy; David Moore 2018<br />
+          </div>
+
+          
+            <div class="center w4">
+                <svg version="1.1" id="Your_Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="98.953px" viewBox="0.859 1.023 100 98.953" enable-background="new 0.859 1.023 100 98.953"
+	 xml:space="preserve">
+<path d="M64.45,1.023H37.265v25.606H64.45V1.023L64.45,1.023z M44.258,18.443c-2.476,0-4.486-2.008-4.486-4.488
+	c0-2.477,2.01-4.486,4.486-4.486c2.479,0,4.487,2.01,4.487,4.486C48.746,16.435,46.737,18.443,44.258,18.443z M57.457,18.443
+	c-2.479,0-4.485-2.008-4.485-4.488c0-2.477,2.007-4.486,4.485-4.486s4.487,2.01,4.487,4.486
+	C61.944,16.435,59.936,18.443,57.457,18.443z M95.212,57.515c-0.401-8.685-4.126-14.752-8.712-18.343
+	c-3.793-2.979-7.954-4.407-11.396-4.913v-3.126h-48.49v3.125c-3.444,0.506-7.608,1.935-11.399,4.915
+	c-4.592,3.59-8.311,9.655-8.708,18.339c-3.285,1.152-5.646,4.243-5.646,7.915c0,4.644,3.761,8.413,8.411,8.415v-3.737
+	c-2.582-0.003-4.669-2.096-4.678-4.68c0.008-2.585,2.095-4.677,4.678-4.681c2.586,0.004,4.671,2.095,4.677,4.681h3.739
+	c-0.004-3.757-2.479-6.902-5.878-7.982c0.435-7.118,3.271-11.364,6.694-14.121c2.59-2.075,5.633-3.203,8.112-3.693v29.249h4.324
+	v19.227c-4.894,1.731-8.405,6.388-8.405,11.872h25.214c0-5.486-3.516-10.141-8.405-11.872V68.877h23.034v19.227
+	c-4.892,1.731-8.405,6.388-8.405,11.872h25.215c0-5.486-3.514-10.141-8.405-11.872V68.877h4.323V39.63
+	c2.477,0.488,5.519,1.616,8.106,3.691c3.425,2.756,6.262,7.001,6.698,14.12c-3.399,1.081-5.882,4.225-5.885,7.984h3.739
+	c0.002-2.582,2.095-4.679,4.683-4.682c2.579,0.003,4.669,2.099,4.677,4.682c-0.008,2.58-2.098,4.675-4.677,4.679v3.737
+	c4.644-0.003,8.413-3.769,8.413-8.416C100.858,61.749,98.49,58.663,95.212,57.515z M47.242,56.384h-4.822v-4.821h4.822V56.384z
+	 M47.242,50.508h-4.822v-4.82h4.822V50.508z M53.267,56.384h-4.818v-4.821h4.818V56.384z M53.267,50.508h-4.818v-4.82h4.818V50.508z
+	 M59.294,56.384h-4.825v-4.821h4.825V56.384z M59.294,50.508h-4.825v-4.82h4.825V50.508z M74.857,10.338
+	c0-3.781-3.067-6.848-6.847-6.848v13.699C71.79,17.189,74.857,14.121,74.857,10.338z M33.703,17.189V3.491
+	c-3.781,0-6.845,3.067-6.845,6.848C26.858,14.121,29.922,17.189,33.703,17.189z"/>
+</svg>
+
+              </div>
+
+          <ul class="center f6 list ma0 mv3 pa0 tc">
+            
+          </ul>
+          
+          <ul class="center f6 list ma0 mv4 pa0 tc">
+            <li class="dib mr3"><a href="https://twitter.com/whup" class="dim link light-gray pv2">@whup</a></li>
+          </ul>
+
+      </div>
+
+      
+      
+    </div>
+
+    <div class="f7 gray mb5 mb0-ns ph3 w-100"> 
+      <p class="dib mr4">Theme based on Hugo Docs theme by Bud Parr.</p>
+      <p class="dib">The Sad Robot logo is © Ricardo Moreira</p>
+    </div>
+    
+
+    <div class="bg-primary-color-dark bottom-0 dn-ns fixed pb3 ph3 w-100"> 
+      <div  class="globalmenu mobilemenu pb3 dn">
+    
+
+<ul class="list hidden dib ph0 ma0 scrolling-touch tc">
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/blog/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Blog
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/wiki/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Wiki
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/games/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Gaming
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="https://github.com/davidmoore/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          GitHub
+        </a>
+    </li>
+  
+</ul>
+
+</div>
+<div  class="docsmenu mobilemenu pb3 dn">
+    
+
+<ul class="list dib ph0 ma0 scrolling-touch tc">
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/about/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          About Me
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/getting-started/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Getting Started
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
+        <a href="/themes/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Themes
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/content-management/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Content Management
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/templates/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Templates
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/functions/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Functions
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/variables/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Variables
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
+        <a href="/commands/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          CLI
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/troubleshooting/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Troubleshooting
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/tools/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Tools
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/hosting-and-deployment/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Hosting &amp; Deployment
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
+        <a href="/contribute/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Contribute
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/tags/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Tags
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/categories/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Categories
+        </a>
+    </li>
+  
+</ul>
+
+</div>
+
+<div class="flex dn-l justify-between">
+  <button class="js-toggle flex-auto dib dn-l f6 tc db mt4-ns ph3 pv2 link mr2 white bg-primary-color-dark hover-bg-primary-color ba b--white-40 w-auto" data-target=".globalmenu">Menu</button>
+
+  <button class="js-toggle flex-auto dib dn-l f6 tc db mt4-ns ph3 pv2 link white bg-primary-color-dark hover-bg-primary-color ba b--white-40 w-auto" data-target=".docsmenu">Docs Menu</button>
+</div>
+
+    </div>
+
+</footer>
+    <script src="/dist/app.bundle.js"></script>
+
+
+
+
+  </body>
+</html>

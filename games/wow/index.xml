@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>World of Warcraft on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/games/wow/</link>
+    <description>Recent content in World of Warcraft on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://www.sadrobot.co.nz/games/wow/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Antorus, The Burning Throne</title>
+      <link>http://www.sadrobot.co.nz/games/wow/antorus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/antorus/</guid>
+      <description>Loot    Boss Tier Loot Protection Holy Retribution     Garothi Worldbreaker  HM Chest (Prot 2), CH Boots (Holy 1, Prot 2) Arcane Relic #2 (Stern Judgment)     Felhounds of Sargeras  HC Gloves (Holy 1, Prot 2), VH Belt (Prot 2) Eye of F&amp;rsquo;harg, Eye of Shatug     Antoran High Command Cloak HC Shoulders (Prot 2, Holy 2) #1 Iron Relic (Consecration in Flames), #3 Holy (Righteous Crusader)     Portal Keeper Hasabel  MC Belt (Holy 1) Riftworld Codex, #3 Iron Relic (Unflinching Defense)     Essence of Eonar Chest HM Wrists (Prot 1) Holy Relic #2 (Hammer Time), Iron Relic #2 (Stern Judgment), Bracers     Imonar the Soulhunter Legs  #1 Arcane Relic (Hammer Time)     Kin&amp;rsquo;garoth Gloves HV Helm, CM Ring (Holy 1) Apocalypse Drive     Varimathras HM Neck (Prot 1), CH Bracers (Holy 1, Prot 2)       Coven of Shivarra Shoulders HM Boots (Prot 1), HC Ring (Holy 1, Prot 1) Diima&amp;rsquo;s Glacial Aegis Highfather&amp;rsquo;s Machination    Aggramar Helm H/C Cloak (Prot 1, Holy 1), C/H Chest (Holy 1, Prot 3), HM Belt (Prot 1, ) Smoldering Titanguard     Argus the Unmaker Aman&amp;rsquo;thul&amp;rsquo;s Vision CH Neck (Holy 1, Prot 2), HM Legs (Prot 3) Aggramar&amp;rsquo;s Conviction, #1 Holy Relic (Consecration), #3 Arcane Relic (Righteous Crusader) Eonar&amp;rsquo;s Compassion Khaz&amp;rsquo;goroth&amp;rsquo;s Courage    Loot Levels    Difficulty Item Level Argus Notes     LFR 915 925 No Pantheon trinkets   Normal 930 940    Heroic 945 955    Mythic 960 970     Holy Relics    Item Name Type Trait Drop Location     Venerated Puresoul Idol Holy Second Sunrise Imonar the Soulhunter   Lightshield Amplifier Holy Expel the Darkness Antoran High Command   Coven Prayer Bead Holy Tyr&amp;rsquo;s Munificence The Coven of Shivarra   Mysterious Petrified Egg Life Shock Treatment Imonar the Soulhunter   Eidolon of Life Life Deliver the Light Kin&amp;rsquo;garoth   Root of the Lifebinder Life Second Sunrise Argus the Unmaker   Fraternal Fervor Life Tyr&amp;rsquo;s Munificence Felhounds of Sargeras    Glossary Basic Swap = tank swap when debuff drops off</description>
+    </item>
+    
+    <item>
+      <title>ElvUI Updater</title>
+      <link>http://www.sadrobot.co.nz/games/wow/elvui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/elvui/</guid>
+      <description> ElvUI Updater </description>
+    </item>
+    
+    <item>
+      <title>Mythic&#43;</title>
+      <link>http://www.sadrobot.co.nz/games/wow/mythicplus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/mythicplus/</guid>
+      <description>Mythic+ References Holy Paladin Mythic+ Guide: https://docs.google.com/document/d/1QcknG-1E-ZZRupIGOlA0A3-5WCwI1KnXotLkTjCtA_E https://questionablyepic.com/mythic-plus/</description>
+    </item>
+    
+    <item>
+      <title>Paladin Macros</title>
+      <link>http://www.sadrobot.co.nz/games/wow/basics/macros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/basics/macros/</guid>
+      <description> Macros Avenger&amp;rsquo;s Shield Casts at mouseover enemy, focus target enemy or current target If you&amp;rsquo;re in PvP and holding ALT, then enable Shield of Virtue (AOE silence) before throwing shield
+ #showtooltip Avenger&#39;s Shield /cast [mod:ctrl] Shield of Virtue /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead]Avenger&#39;s Shield  Rebuke  #showtooltip Rebuke /stopcasting /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead] Rebuke  Judgment  #showtooltip Judgment /cast [@mouseover,harm][@focus,exists,harm][] Judgment  Divine Shield #showtooltip Divine Shield /stopcasting /cancelaura [mod:ctrl] Divine Shield /cancelaura [mod:ctrl] Blessing of Protection /cast Divine Shield  Light/Hand of the Protector #showtooltip /cast [@mouseover,exists][@target,exists][@player]Light of the Protector  </description>
+    </item>
+    
+  </channel>
+</rss>

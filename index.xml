@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/</link>
+    <description>Recent content on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Mar 2013 19:32:10 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wolfram|Alpha|Sharp</title>
+      <link>http://www.sadrobot.co.nz/wolframalphasharp/</link>
+      <pubDate>Wed, 06 Mar 2013 19:32:10 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wolframalphasharp/</guid>
+      <description>C# .NET bindings for the Wolfram|Alpha webservice API.
+Wolfram|Alpha|Sharp CodePlex Site
+Wolfram|Alpha API Homepage</description>
+    </item>
+    
+    <item>
+      <title>SQL Server Management Studio is Free</title>
+      <link>http://www.sadrobot.co.nz/blog/2017/02/02/sql-server-management-studio-is-free/</link>
+      <pubDate>Thu, 02 Feb 2017 18:28:32 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2017/02/02/sql-server-management-studio-is-free/</guid>
+      <description>SQL Server Management Studio aka SSMS is available to download and use for free from Microsoft. You do not require a SQL Server license.
+The latest version of SSMS, and future versions, are available from here:
+https://msdn.microsoft.com/en-us/library/mt238290.aspx
+This makes this easier for developers and DBAs that want to work with SQL Server, without having to acquire and install a full, licensed SQL Server ISO.</description>
+    </item>
+    
+    <item>
+      <title>Walkthrough: Using WinRT libraries from a Windows Desktop application</title>
+      <link>http://www.sadrobot.co.nz/blog/2014/10/17/walkthrough-using-winrt-libraries-from-a-windows-desktop-application/</link>
+      <pubDate>Fri, 17 Oct 2014 18:03:08 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2014/10/17/walkthrough-using-winrt-libraries-from-a-windows-desktop-application/</guid>
+      <description>Summary These are the steps for enabling WinRT libraries from within your Windows Desktop application. A more detailed walkthrough and explanation follows.
+Steps 1) Editing your project file, add the platform target:
+&amp;lt;AutoGenerateBindingRedirects&amp;gt;true&amp;lt;/AutoGenerateBindingRedirects&amp;gt; &amp;lt;TargetPlatformVersion&amp;gt;8.0&amp;lt;/TargetPlatformVersion&amp;gt; &amp;lt;/PropertyGroup&amp;gt; 2) Add the following references:
+&amp;lt;Reference Include=&amp;#34;Windows&amp;#34; /&amp;gt; &amp;lt;Reference Include=&amp;#34;System.Runtime&amp;#34; /&amp;gt; &amp;lt;Reference Include=&amp;#34;System.Runtime.InteropServices.WindowsRuntime&amp;#34; /&amp;gt; &amp;lt;Reference Include=&amp;#34;System.Runtime.WindowsRuntime&amp;#34; /&amp;gt; 3) Load your project properties, and change the platform target from AnyCPU to x64 (or x86 if you&amp;rsquo;re on a 32 bit operating system).</description>
+    </item>
+    
+    <item>
+      <title>GORILLA.BAS, QBasic &amp; Edit</title>
+      <link>http://www.sadrobot.co.nz/blog/2014/10/15/gorilla-bas-qbasic-edit/</link>
+      <pubDate>Wed, 15 Oct 2014 00:04:10 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2014/10/15/gorilla-bas-qbasic-edit/</guid>
+      <description>Nostalgia time!
+Back when I got my first PC, QBasic was part of the operating system.
+I spent hours and hours playing around with QBasic and MS-DOS Editor (or simply edit as we all knew it) to see what graphics and games I could whisk up.
+There was a game that came with QBasic and MS-DOS called Gorillas, which was effectively like Worms and Scorched Earth.
+Look at those mind-blowing graphics!</description>
+    </item>
+    
+    <item>
+      <title>Fix the missing right click menu for Unreal Engine Projects (.uproject)</title>
+      <link>http://www.sadrobot.co.nz/blog/2014/09/05/fix-the-missing-right-click-menu-for-unreal-engine-projects-uproject/</link>
+      <pubDate>Fri, 05 Sep 2014 23:26:35 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2014/09/05/fix-the-missing-right-click-menu-for-unreal-engine-projects-uproject/</guid>
+      <description>When you right click on an Unreal Engine project file (.uproject), these is the kind of menu options you should see:
+But what do you do if you only see this? :
+The right click context menu is set up via the Windows Registry.
+You could get someone to export their working keys for you, but their installation paths may be different to yours.
+I’ve created a Windows batch file instead which will:</description>
+    </item>
+    
+    <item>
+      <title>Unreal Tournament 3 (UT3) Protocol Registry Fix for launching UT3 links</title>
+      <link>http://www.sadrobot.co.nz/blog/2014/07/19/unreal-tournament-3-ut3-protocol-registry-fix-for-launching-ut3-links/</link>
+      <pubDate>Sat, 19 Jul 2014 19:42:33 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2014/07/19/unreal-tournament-3-ut3-protocol-registry-fix-for-launching-ut3-links/</guid>
+      <description>UT3, at least installed via Steam, doesn&amp;rsquo;t seem to register a URI scheme in Windows so that you can create links to UT3 servers, as was possible in earlier versions of Unreal Tournament.
+This can be fixed by manually adding a ut3 protocol to the Windows registry.
+Instructions  Download the initial registry fix, but don&amp;rsquo;t merge it yet: Download UT3 Protocol registry fix Open it with a text editor such as Notepad Change the install location to make where you have UT3.</description>
+    </item>
+    
+    <item>
+      <title>Unreal Tournament</title>
+      <link>http://www.sadrobot.co.nz/games/unreal/</link>
+      <pubDate>Sat, 19 Jul 2014 19:37:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/unreal/</guid>
+      <description>Unreal Tournament 3 Unreal Tournament 3 (UT3) Protocol Registry Fix for launching UT3 links Protocol Registry Fix for launching UT3 links&amp;rdquo;)</description>
+    </item>
+    
+    <item>
+      <title>Using MSBuild property functions and inline tasks: Example doing performance calculations</title>
+      <link>http://www.sadrobot.co.nz/blog/2014/07/19/using-msbuild-property-functions-and-inline-tasks-example-doing-performance-calculations/</link>
+      <pubDate>Sat, 19 Jul 2014 17:15:50 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2014/07/19/using-msbuild-property-functions-and-inline-tasks-example-doing-performance-calculations/</guid>
+      <description>The Problem User RandDavis on Reddit asked a question about capturing elapsed time of tasks in MSBuild:
+ I&amp;rsquo;m using MSBuild 4.0 (I also have MSBuild.Community.Tasks available). Note that I&amp;rsquo;m new to the syntax involved. All I&amp;rsquo;m trying to do is this: store the current time to a property, run a process, and determine the time that has elapsed. I&amp;rsquo;ve managed to write System.DateTime.Now to a property, but I don&amp;rsquo;t know how to do a simple datediff or construct a TimeSpan, so that I can get at what I&amp;rsquo;m looking for.</description>
+    </item>
+    
+    <item>
+      <title>Visual Basic 6 project extension for Visual Studio</title>
+      <link>http://www.sadrobot.co.nz/blog/2014/01/23/visual-basic-6-project-extension-for-visual-studio/</link>
+      <pubDate>Thu, 23 Jan 2014 11:14:13 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2014/01/23/visual-basic-6-project-extension-for-visual-studio/</guid>
+      <description>I’ve just published a new release of my Visual Studio extension that allows converting VB6 projects to a project that can be loaded and built in Visual Studio.
+Download Visual Basic 6X from the Visual Studio Gallery
+Project Homepage</description>
+    </item>
+    
+    <item>
+      <title>Neat Reader: My Google Reader replacement</title>
+      <link>http://www.sadrobot.co.nz/blog/2013/09/21/neat-reader-my-google-reader-replacement/</link>
+      <pubDate>Sat, 21 Sep 2013 23:21:30 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2013/09/21/neat-reader-my-google-reader-replacement/</guid>
+      <description>I already had the idea of writing my own feed reader on my list of things to do, so when news came out that Google were phasing Reader out, it naturally became my next hobby project.
+Only spending a few hours here and there over several months, I’ve personally been using it since Google Reader died.
+Only in the last few weeks has it been fit for human consumption (or even gotten a proper name).</description>
+    </item>
+    
+    <item>
+      <title>Asychronously upload a file using jQuery to a Web API controller</title>
+      <link>http://www.sadrobot.co.nz/blog/2013/06/16/asychronously-upload-a-file-using-jquery-to-a-web-api-controller/</link>
+      <pubDate>Sun, 16 Jun 2013 20:30:35 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2013/06/16/asychronously-upload-a-file-using-jquery-to-a-web-api-controller/</guid>
+      <description>Here’s the code for the HTML5 form:
+&amp;lt;pre&amp;gt;&amp;lt;code class=&amp;#34;language-markup&amp;#34;&amp;gt;&amp;amp;lt;form id=&amp;#34;upload&amp;#34;&amp;amp;gt; &amp;amp;lt;div&amp;amp;gt; &amp;amp;lt;label for=&amp;#34;myFile&amp;#34;&amp;amp;gt;&amp;amp;lt;/label&amp;amp;gt; &amp;amp;lt;div&amp;amp;gt; &amp;amp;lt;input type=&amp;#34;file&amp;#34; id=&amp;#34;myFile&amp;#34; /&amp;amp;gt; &amp;amp;lt;/div&amp;amp;gt; &amp;amp;lt;/div&amp;amp;gt; &amp;amp;lt;button type=&amp;#34;submit&amp;#34;&amp;amp;gt;Upload&amp;amp;lt;/button&amp;amp;gt; &amp;amp;lt;/form&amp;amp;gt;&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt; We need to use jQuery to handle when the user submits the upload, to make sure it gets handled asynchronously and posted to our Web API controller:
+// Hook into the form&amp;#39;s submit event. $(&amp;#39;#upload&amp;#39;).submit(function () { // To keep things simple in this example, we&amp;#39;ll  // use the FormData XMLHttpRequest Level 2 object (which  // requires modern browsers e.</description>
+    </item>
+    
+    <item>
+      <title>Uninstalling VMWare Workstation when Hyper-V is installed</title>
+      <link>http://www.sadrobot.co.nz/blog/2013/06/11/uninstalling-vmware-workstation-when-hyper-v-is-installed/</link>
+      <pubDate>Tue, 11 Jun 2013 13:35:54 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2013/06/11/uninstalling-vmware-workstation-when-hyper-v-is-installed/</guid>
+      <description>Well, it was annoying enough that VMWare doesn’t launch on my machine when Hyper-V is installed. I’m skeptical that VMWare wouldn’t run if Hyper-V isn’t running at the same time, and this check just reeks of anti-competition.
+Unfortunately for VMWare, that can work against them rather than encourage me to uninstall Hyper-V. That means I’m ditching them for now (mainly as Visual Studio integration with Hyper-V for things like Windows 8 and Windows Phone 8 development is good; not to mention, Hyper-V is built in and doesn’t cost extra).</description>
+    </item>
+    
+    <item>
+      <title>Error C2039: &#39;SetDefaultDllDirectories&#39; when targetting Visual Studio 2012 Windows XP C&#43;&#43; Runtime</title>
+      <link>http://www.sadrobot.co.nz/blog/2013/05/27/error-c2039-setdefaultdlldirectories-when-targetting-visual-studio-2012-windows-xp-c-runtime/</link>
+      <pubDate>Mon, 27 May 2013 13:26:20 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2013/05/27/error-c2039-setdefaultdlldirectories-when-targetting-visual-studio-2012-windows-xp-c-runtime/</guid>
+      <description>We’re switching our legacy C++ projects from Visual C++ 2010 to the Visual C++ 2012 Runtime, now that Microsoft allows you to target Windows XP for C++ in 2012 (available in Visual Studio Update 1).
+So that involves switching the Platform Target from v100:
+
+To v110_xp:
+
+Well upon compilation, I saw these errors for one particular project:
+
+The key error being Error C2039: &amp;lsquo;SetDefaultDllDirectories&amp;rsquo; : is not a member of &amp;lsquo;`global namespace&amp;rdquo; from line 638 in atlcore.</description>
+    </item>
+    
+    <item>
+      <title>CSS London Tube Map</title>
+      <link>http://www.sadrobot.co.nz/blog/2013/05/23/css-london-tube-map/</link>
+      <pubDate>Thu, 23 May 2013 11:59:20 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2013/05/23/css-london-tube-map/</guid>
+      <description>This is cool, the classic London Tube Map done in HTML / CSS / Javascript.</description>
+    </item>
+    
+    <item>
+      <title>Office Developer Tools for Visual Studio 2012 Released</title>
+      <link>http://www.sadrobot.co.nz/blog/2013/03/06/office-developer-tools-for-visual-studio-2012-released/</link>
+      <pubDate>Wed, 06 Mar 2013 08:45:39 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2013/03/06/office-developer-tools-for-visual-studio-2012-released/</guid>
+      <description>The Visual Studio 2012 extensions for developing Office 2013 and Office 365 applications is now officially released.
+Office Developer Tools for Visual Studio 2012 Download.
+You can read more at the announcement from S. Somasegar’s blog:
+Now Available: Office Developer Tools for Visual Studio 2012</description>
+    </item>
+    
+    <item>
+      <title>Windows Installer custom actions, UAC and elevation</title>
+      <link>http://www.sadrobot.co.nz/blog/2013/03/01/windows-installer-custom-actions-uac-and-elevation/</link>
+      <pubDate>Fri, 01 Mar 2013 09:44:14 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2013/03/01/windows-installer-custom-actions-uac-and-elevation/</guid>
+      <description>We had a problem this week where a merge module from a third party was causing our installer to fail under UAC.
+The installation was being elevated, but the custom actions (which were doing things such as file system and registry operations) were still failing due to security exceptions.
+The root cause was that the merge module contained custom actions that were still not being run under the elevated account.</description>
+    </item>
+    
+    <item>
+      <title>Hello!</title>
+      <link>http://www.sadrobot.co.nz/blog/2013/02/28/hello-world/</link>
+      <pubDate>Thu, 28 Feb 2013 09:01:35 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2013/02/28/hello-world/</guid>
+      <description>Hi, it&amp;rsquo;s me!
+This website will be the new dumping ground for my experiences while developing software, and the home for any of my own personal software that I develop and want to make available to everyone.</description>
+    </item>
+    
+    <item>
+      <title>IPFilter Updater&amp;#8230; Updated!</title>
+      <link>http://www.sadrobot.co.nz/blog/2012/07/14/ipfilter-updater-updated/</link>
+      <pubDate>Sat, 14 Jul 2012 06:35:38 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2012/07/14/ipfilter-updater-updated/</guid>
+      <description>I&amp;rsquo;ve made some minor changes to the IPFilter Updater.
+The list mirror it was using was out of date, so I&amp;rsquo;ve found a new list provider (I-Blocklist) and obtained their permission to point at that list.
+The project has also now been re-hosted on Codeplex.
+New home: https://ipfilter.codeplex.com/</description>
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>http://www.sadrobot.co.nz/wiki/database/</link>
+      <pubDate>Fri, 27 Jan 2012 09:50:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/database/</guid>
+      <description>SQL Server</description>
+    </item>
+    
+    <item>
+      <title>Creating a machine account login for SQL Server</title>
+      <link>http://www.sadrobot.co.nz/blog/2012/01/27/creating-a-machine-account-login-for-sql-server/</link>
+      <pubDate>Fri, 27 Jan 2012 09:49:25 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2012/01/27/creating-a-machine-account-login-for-sql-server/</guid>
+      <description>You can create a machine account login for SQL Server with the following command:
+CREATE&amp;#160;USER&amp;#160;[MACHINENAME]&amp;#160;FOR&amp;#160;LOGIN&amp;#160;[DOMAINMACHINENAME$]&amp;#160;WITH&amp;#160;DEFAULT_SCHEMA=[dbo]  </description>
+    </item>
+    
+    <item>
+      <title>Patterns</title>
+      <link>http://www.sadrobot.co.nz/wiki/patterns/</link>
+      <pubDate>Tue, 17 Jan 2012 20:14:51 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practices</title>
+      <link>http://www.sadrobot.co.nz/wiki/practices/</link>
+      <pubDate>Tue, 17 Jan 2012 20:14:34 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows File Sharing</title>
+      <link>http://www.sadrobot.co.nz/how-to/windows-file-sharing/</link>
+      <pubDate>Fri, 12 Aug 2011 22:20:05 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/how-to/windows-file-sharing/</guid>
+      <description>So, you want to share your files on the lan without requiring people to log in or join your Home Group?
+The following instructions are for Windows 7 and the NTFS (default and recommended) file system.
+Turn off Simple File Sharing From the Control Panel, search for Folder Options and open it (or from an Explorer window, go to the menu Organize &amp;gt; Folder and search options
+Go to the View tab</description>
+    </item>
+    
+    <item>
+      <title>Debugging Windows Installer Custom Actions</title>
+      <link>http://www.sadrobot.co.nz/wiki/debugging/debugging-windows-installer-custom-actions-2/</link>
+      <pubDate>Wed, 10 Aug 2011 13:34:41 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/debugging/debugging-windows-installer-custom-actions-2/</guid>
+      <description>General  First, you must know the name of the custom action you want to debug. In this example we&amp;rsquo;ll call it MyCustomAction. Set the MsiBreak environment variable (user or system) to the name of the custom action. You can do this easily by running setx from the commandline:
+ C:WindowsSystem32&amp;gt;setx MsiBreak MyCustomAction&amp;lt;br /&amp;gt; SUCCESS: Specified value was saved.&amp;lt;br /&amp;gt; C:WindowsSystem32&amp;gt;
+ Run your installer
+  You should get now get a message box prompt like this:</description>
+    </item>
+    
+    <item>
+      <title>Debugging</title>
+      <link>http://www.sadrobot.co.nz/wiki/debugging/debugging/</link>
+      <pubDate>Wed, 10 Aug 2011 13:29:23 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/debugging/debugging/</guid>
+      <description>Debugging VSTO Add-ins
+Debugging Windows Installer Custom Actions
+Debugging Visual Basic 6</description>
+    </item>
+    
+    <item>
+      <title>Deleting and purging items from Team Foundation Server</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/08/08/deleting-and-purging-items-from-team-foundation-server/</link>
+      <pubDate>Mon, 08 Aug 2011 11:32:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/08/08/deleting-and-purging-items-from-team-foundation-server/</guid>
+      <description>When you delete an item from TFS, it’s not actually permanently gone.
+You can view deleted items by going to Tools &amp;gt; Options &amp;gt; Source Control &amp;gt; Visual Studio Team Foundation Server and checking the Show deleted items in the Source Control Explorer option:
+
+You can then see folders and files that have been deleted, which allows you to right click on them to choose Undelete (or go to File &amp;gt; Source Control &amp;gt; Undelete).</description>
+    </item>
+    
+    <item>
+      <title>Maintenance</title>
+      <link>http://www.sadrobot.co.nz/how-to/maintenance/</link>
+      <pubDate>Thu, 04 Aug 2011 12:04:11 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/how-to/maintenance/</guid>
+      <description>Disk maintenance Manually schedule a disk checked at next restart</description>
+    </item>
+    
+    <item>
+      <title>Manually schedule a disk check at next restart</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/08/04/manually-schedule-a-disk-check-at-next-restart/</link>
+      <pubDate>Thu, 04 Aug 2011 12:02:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/08/04/manually-schedule-a-disk-check-at-next-restart/</guid>
+      <description>You can schedule a chkdsk at reboot time for a drive by using the Windows command line utility fsutil.
+You do this by setting the &amp;ldquo;dirty&amp;rdquo; flag for a drive, which marks the drive for a chkdsk when you next reboot.
+Usage:
+ fsutil dirty query &amp;lt;volume pathname&amp;gt;  e.g.
+ fsutil dirty set C:  You can check if a drive has been marked as dirty by using the query command:</description>
+    </item>
+    
+    <item>
+      <title>MSBuild</title>
+      <link>http://www.sadrobot.co.nz/wiki/microsoft/</link>
+      <pubDate>Thu, 28 Jul 2011 14:22:44 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/microsoft/</guid>
+      <description>How Tos Debugging MSBuild Scripts</description>
+    </item>
+    
+    <item>
+      <title>Debugging MSBuild scripts</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/07/28/debugging-msbuild-scripts/</link>
+      <pubDate>Thu, 28 Jul 2011 14:20:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/07/28/debugging-msbuild-scripts/</guid>
+      <description>If you want to debug an MSBuild script from without Visual Studio, you need to use the /debug command line option.
+The trick is that this option is not normally available; you need to set a registry key to enable it.
+Enable the MSBuild Debugger Under the HKLMSoftwareMicrosoftMSBuild4.0 key, create a string value called EnableDebugger with a value of “true”.
+If you’re on a 64 bit system, you’ll also want to set the same value under the key HKLMSoftwareWow6432NodeMicrosoftMSBuild4.</description>
+    </item>
+    
+    <item>
+      <title>Generating a type library for Visual Basic 6 ActiveX Components</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/07/18/generating-a-type-library-for-visual-basic-6-activex-components/</link>
+      <pubDate>Mon, 18 Jul 2011 14:12:27 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/07/18/generating-a-type-library-for-visual-basic-6-activex-components/</guid>
+      <description>When generating setup code or isolation code (for Side by Side assemblies and Registration-free COM), VB6 ActiveX Components can be a little troublesome.
+ActiveX exes in particular can be difficult, with the WiX heat tool and various SxS tools not being able to harvest COM registration information from them properly.
+A good way of avoiding these problems is to generate a type library (.tlb) from the VB6 component, and then pointing the code generation tools at the type library.</description>
+    </item>
+    
+    <item>
+      <title>When System.Diagnostics.Process creates a process, it inherits inheritable handles from the parent process.</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/06/21/when-system-diagnostics-process-creates-a-process-it-inherits-inheritable-handles-from-the-parent-process/</link>
+      <pubDate>Tue, 21 Jun 2011 16:06:13 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/06/21/when-system-diagnostics-process-creates-a-process-it-inherits-inheritable-handles-from-the-parent-process/</guid>
+      <description>This post covers the cause of a bug I ran into at work.
+Our application would check for available updates when it started, and if they were found, it would launch the installer directly and exit the application immediately, so that the installer could run without encountering file locks.
+The installer was complaining our executable was still locked, meaning it had to schedule the overwrite of the old file with the new one after a reboot.</description>
+    </item>
+    
+    <item>
+      <title>.NET Decompilers</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/06/20/net-decompilers/</link>
+      <pubDate>Mon, 20 Jun 2011 14:55:03 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/06/20/net-decompilers/</guid>
+      <description>Reflector history The de facto .NET decompiler has been Reflector for what seems like forever.
+Reflector was originally developed by Lutz Roeder, and made freely available to the community.
+It was acquired by Red Gate Software in August 2008, who promised to maintain it as a free product.
+They reneged on this promise in February 2011, stating that Reflector would become a commercial product.
+This created a community backlash, culminating in creation and/or promotion of several free rival products through open source or offered by other vendors.</description>
+    </item>
+    
+    <item>
+      <title>How to check if the current user is an Administrator (even if UAC is on)</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/06/20/how-to-check-if-the-current-user-is-an-administrator-even-if-uac-is-on/</link>
+      <pubDate>Mon, 20 Jun 2011 11:23:47 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/06/20/how-to-check-if-the-current-user-is-an-administrator-even-if-uac-is-on/</guid>
+      <description>There may be a scenario where you want to determine from code if the current user is an Administrator.
+One example of this which I have had to deal with is checking for software updates.
+Say your application contacts a service to see if there is a newer version of the application available; if so, you can download and run the installer.
+Imagine that the installer requires admin privileges; you don’t want to run the installer if the current user does not have administrative privileges.</description>
+    </item>
+    
+    <item>
+      <title>Structuring Visual Studio solutions</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/structuring-visual-studio-solutions/</link>
+      <pubDate>Sat, 22 Jan 2011 23:12:44 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/structuring-visual-studio-solutions/</guid>
+      <description>The entire solution will be under a root folder, that may differ depending on the developer’s preferences, the branch they’re checking out etc.
+Branch structure  Folder Name  Function  Comments     Main  Trunk / main branch  &amp;#160;    Branches  &amp;#160;  &amp;#160;    BranchesDevelopment  Contains development branches  &amp;#160;    BranchesReleases  Contains live, maintenance branches  &amp;#160;    General  Non branch-specific resources  E.</description>
+    </item>
+    
+    <item>
+      <title>Error building project when referencing native assembly dependency in app.manifest</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/01/14/error-building-project-when-referencing-native-assembly-dependency-in-app-manifest/</link>
+      <pubDate>Fri, 14 Jan 2011 08:45:38 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/01/14/error-building-project-when-referencing-native-assembly-dependency-in-app-manifest/</guid>
+      <description>If you&amp;rsquo;re using an app.manifest, and defining assembly dependencies (i.e. for SxS / Side by side / Reg-free COM etc), you may encounter this error when you build the project:
+Could not find file &#39;AssemblyName, Version=x.x.x.x, PublicKeyToken=xxxxxxxxxxx, ProcessorArchitecture=x86, Type=win32&amp;#8242;. This is even when the native assembly is in place where the project can find it.
+Example For example, your app.manifest may contain this fragment:
+dependencydependentAssembly
+assemblyIdentityname=&#34;Native.Custom&#34;version=&#34;1.0.0.0&#34;processorArchitecture=&#34;x86&#34;type=&#34;win32&#34;publicKeyToken=&#34;12345678&#34;/
+dependentAssembly
+dependency This manifest is available to the project, with the manifest file in the project directory or in a subdirectory called &amp;ldquo;Native.</description>
+    </item>
+    
+    <item>
+      <title>Running .NET 2 Runtime applications under the .NET 4 Runtime</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/12/17/running-net-2-runtime-applications-under-the-net-4-runtime/</link>
+      <pubDate>Fri, 17 Dec 2010 09:38:31 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/12/17/running-net-2-runtime-applications-under-the-net-4-runtime/</guid>
+      <description>In some situations, you might want to run a .NET 2 Runtime application (.NET 2, 3.0, 3.5 SP1 etc) under the .NET 4 Runtime &amp;#8211; without recompiling.
+You can configure your app to execute under the .NET 4 runtime by adding these lines to the executable&amp;rsquo;s configuration file, under the root � configuration element:
+&amp;lt;startup&amp;gt; &amp;lt;supportedRuntimeversion=&#34;v4.0&#34;sku=&#34;.NETFramework,Version=v4.0&#34;/&amp;gt; &amp;lt;/startup&amp;gt; Because the security framework has changed in the .NET 4 runtime, you will likely encounter some exceptions containing a message similar to:</description>
+    </item>
+    
+    <item>
+      <title>IPFilter Updated to 1.0.0.1</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/08/25/ipfilter-updated-to-1-0-0-1/</link>
+      <pubDate>Wed, 25 Aug 2010 20:35:13 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/08/25/ipfilter-updated-to-1-0-0-1/</guid>
+      <description>I’ve updated the IPFilter Updater for uTorrent to version 1.0.0.1 and you can get it here.</description>
+    </item>
+    
+    <item>
+      <title>Dependency Property ReSharper Live Template</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/07/06/dependency-property-resharper-live-template/</link>
+      <pubDate>Tue, 06 Jul 2010 22:30:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/07/06/dependency-property-resharper-live-template/</guid>
+      <description>Dependency Property ReSharper Live Template
+Don’t you love Dependency Properties?
+After the ease of automatic properties though, dependency properties are a chore to define.
+If you’ve got ReSharper (if not, why not?), I’ve got a simple Live Template you can use to create your dependency properties.
+I’ve set it up to use the dp keyword.
+Here it is in use. Typing dp first to pop up the template:
+
+Hitting tab or enter will run the template, with the name macro already selected:</description>
+    </item>
+    
+    <item>
+      <title>HOW TO: Detect if the Visual C&#43;&#43; 2010 redistributable package is installed with WiX</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/06/30/how-to-detect-if-the-visual-c-2010-redistributable-package-is-installed-with-wix-2/</link>
+      <pubDate>Wed, 30 Jun 2010 17:09:49 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/06/30/how-to-detect-if-the-visual-c-2010-redistributable-package-is-installed-with-wix-2/</guid>
+      <description>As noted by Aaron Stebner, there is now a registry key you can search for to detect if the Visual C++ 2010 redistributable package is installed a machine, when installing your application.
+There are 3 different (but very similar) registry keys for each of the 3 platform packages. Each key has a DWORD value called &amp;ldquo;Installed&amp;rdquo; with a value of 1.
+ HKLMSOFTWAREMicrosoftVisualStudio10.0VCVCRedistx86 HKLMSOFTWAREMicrosoftVisualStudio10.0VCVCRedistx64 HKLMSOFTWAREMicrosoftVisualStudio10.0VCVCRedistia64  Here&amp;rsquo;s an example of using this in WiX, detecting the presence of the x86 version of the redistributable:</description>
+    </item>
+    
+    <item>
+      <title>HOW TO: Debug a Windows Installer custom action</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/06/28/how-to-debug-a-windows-installer-custom-action/</link>
+      <pubDate>Mon, 28 Jun 2010 10:53:58 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/06/28/how-to-debug-a-windows-installer-custom-action/</guid>
+      <description>Prerequisites:  Determine the name of the custom action you want to debug Ensure you have the source code and debug symbols for your custom action  Steps  Set the MsiBreak environment variable (user or system) to the name of the custom action. For example:
+&amp;lt;br /&amp;gt; Setx MsiBreak &amp;lt;strong&amp;gt;MyCustomActionName&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;/strong&amp;gt;
+ Run your installer
+ At the point where your custom action is about to run, you should get this message box prompt:</description>
+    </item>
+    
+    <item>
+      <title>Building Visual Studio 2010 Solutions in Team Foundation Server Build 2008</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/06/22/building-visual-studio-2010-solutions-in-team-foundation-server-build-2008/</link>
+      <pubDate>Tue, 22 Jun 2010 10:02:36 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/06/22/building-visual-studio-2010-solutions-in-team-foundation-server-build-2008/</guid>
+      <description>Visual Studio 2010 and Team Foundation Server 2010 have been out for a while. But what if you still have Team Foundation Server 2008 but want to build Visual Studio 2010 solutions on it?
+You can do so by updating the Team Foundation Build Service configuration to use the latest version of MSBuild that comes with the .NET Framework 4.0.
+ Open up� %Program Files%Microsoft Visual Studio 9.0Common7IDEPrivateAssembliestfsbuildservice.exe.config in a text editor Find the� MSBuildPath property, which will likely be empty, and enter the path to the .</description>
+    </item>
+    
+    <item>
+      <title>Opera 10.5 Beta and Windows 7 Integration</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/02/15/opera-10-5-beta-and-windows-7-integration/</link>
+      <pubDate>Mon, 15 Feb 2010 11:08:01 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/02/15/opera-10-5-beta-and-windows-7-integration/</guid>
+      <description>Opera 10.5 Beta is out and it&amp;rsquo;s very impressive, and looks pretty stunning due to its Windows 7 integration.
+One thing I don&amp;rsquo;t really like is how it shows all the tabs using Aero Peek when you click it in the Task Bar.
+You can turn this off:
+ Type &amp;ldquo;opera:config&amp;rdquo; in the address bar and hit Enter Scroll down to User Prefs and expand it, or type in &amp;ldquo;Windows 7&amp;#8243; in the search box Untick the &amp;ldquo;Use Windows 7 Taskbar Thumbnails&amp;rdquo; setting Click Save Restart Opera  </description>
+    </item>
+    
+    <item>
+      <title>Speccy gives you detailed system info</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/12/06/speccy-gives-you-detailed-system-info/</link>
+      <pubDate>Sun, 06 Dec 2009 15:32:38 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/12/06/speccy-gives-you-detailed-system-info/</guid>
+      <description>From Piriform, the makers of CCleaner, comes a very useful and promising system information summary tool.
+It&#39;s called Speccy:
+&amp;#160;
+You can Download Speccy Here , including a handy portable version</description>
+    </item>
+    
+    <item>
+      <title>Running 32-bit Remote Desktop Connection on Windows 64 bit</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/12/02/running-32-bit-remote-desktop-connection-on-windows-64-bit/</link>
+      <pubDate>Wed, 02 Dec 2009 11:16:27 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/12/02/running-32-bit-remote-desktop-connection-on-windows-64-bit/</guid>
+      <description>On Windows Vista 64 and Windows 7 64, there is a 32 bit version of Remote Desktop Connection (Microsoft Terminal Services Client, mstsc.exe) in %SystemRoot%SysWOW64. Running this mstsc.exe will launch the 32 bit process but it will instantly launch the 64-bit mstsc.exe from System32 and shut itself down. This makes it impossible to run Remote Desktop Connection 32 bit. This is a problem when you have 32 bit Terminal Services add-ins (which won&amp;rsquo;t run under 64 bit).</description>
+    </item>
+    
+    <item>
+      <title>Free Anti-Virus: Microsoft Security Essentials</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/11/23/free-anti-virus-microsoft-security-essentials/</link>
+      <pubDate>Mon, 23 Nov 2009 22:38:24 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/11/23/free-anti-virus-microsoft-security-essentials/</guid>
+      <description>Microsoft Security Essentials is a free anti-virus program. All of the free anti-virus programs out there have usually pretty quickly fallen out of favour with me, in particular the previous community darling AVGFree. Having a free option from Microsoft, that performs extremely well with minimal resource usage, is a boon. For privacy reasons, you might want to opt out of the Microsoft SpyNet. Opting out is a very manual process though, with instructions here Download Microsoft Security Essentials</description>
+    </item>
+    
+    <item>
+      <title>Generating GUIDs from Visual Studio 2008</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/09/30/generating-guids-from-visual-studio-2008/</link>
+      <pubDate>Wed, 30 Sep 2009 12:03:22 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/09/30/generating-guids-from-visual-studio-2008/</guid>
+      <description>I find I have to generate GUIDs often (mostly due to using WiX) and the in-built Tools &amp;gt; Create GUID tool is too cumbersome for this. I found a blog post that has a simple macro you can customize to bind a keyboard shortcut to paste in a new GUID Here are some full instructions, using their simple macro code:  Tools &amp;gt; Macros &amp;gt; Macro Explorer (or hit ALT+F8) Right click Macros, choose New Macro Project&amp;#8230; Choose a location for the Macro project and give it a meaningful name then click Add Rename Module1 to something more meaningful, then double-click to edit the module Insert the code to paste a new GUID into the current cursor position / selection:  Public Sub PasteNewGuid() DTE.</description>
+    </item>
+    
+    <item>
+      <title>Opera 10 Final Released</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/09/02/opera-10-final-released/</link>
+      <pubDate>Wed, 02 Sep 2009 08:14:01 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/09/02/opera-10-final-released/</guid>
+      <description>As promised, Opera 10 final was released on Sep 1st http://www.opera.com/</description>
+    </item>
+    
+    <item>
+      <title>Solution: Explorer open each folder in same window error and SQL Management Studio, IE and Team Explorer errors</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/08/19/solution-explorer-open-each-folder-in-same-window-error-and-sql-management-studio-ie-and-team-explorer-errors/</link>
+      <pubDate>Wed, 19 Aug 2009 20:45:01 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/08/19/solution-explorer-open-each-folder-in-same-window-error-and-sql-management-studio-ie-and-team-explorer-errors/</guid>
+      <description>Problem(s):  When attempting to open a folder in Windows Explorer, the folder opens in a new window, even if &amp;ldquo;Open each folder in the same window&amp;rdquo; is selected in Folder Options. Some links in Internet Explorer don&amp;rsquo;t open correctly Microsoft SQL Server Management Studio: An error with a message like &amp;ldquo;Unable to cast COM object of type &amp;lsquo;System.__ComObject&amp;rsquo; to interface type &amp;lsquo;Microsoft.VisualStudio.OLE.Interop.IServiceProvider&amp;rsquo;. This operation failed because the QueryInterface call on the COM component for the interface with IID &amp;lsquo;{6D5140C1-7436-11CE-8034-00AA006009FA}&amp;rsquo; failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E_NOINTERFACE)).</description>
+    </item>
+    
+    <item>
+      <title>Using batch parameter modifiers to get specific portions or file info from a full filename</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/08/19/using-batch-parameter-modifiers-to-get-specific-portions-or-file-info-from-a-full-filename/</link>
+      <pubDate>Wed, 19 Aug 2009 16:10:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/08/19/using-batch-parameter-modifiers-to-get-specific-portions-or-file-info-from-a-full-filename/</guid>
+      <description>From Using batch parameters [microsoft.com]: Cmd.exe provides the batch parameter expansion variables %0 through %9. When you use batch parameters in a batch file, %0 is replaced by the batch file name, and %1 through %9 are replaced by the corresponding arguments that you type at the command line These batch parameter modifiers variable arguments are immensely useful. That document is missing some examples, so I&amp;rsquo;ve put together a simple table:   %1</description>
+    </item>
+    
+    <item>
+      <title>Opera 10 Beta 3 is out</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/08/14/opera-10-beta-3-is-out/</link>
+      <pubDate>Fri, 14 Aug 2009 00:32:36 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/08/14/opera-10-beta-3-is-out/</guid>
+      <description>Opera 10 Beta 3 is out! The timing is uncanny because the last time I did a clean install of Windows 7, Beta 2 came out hours after I had done a new install. Today I installed Windows 7 RTM on my machine at work, and then hours later, a new beta of Opera 10. What the? [Opera 10 Beta 3 @ opera.com]</description>
+    </item>
+    
+    <item>
+      <title>Installing WinPcap &amp;amp; WC3Banlist on Windows 7</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/06/08/installing-winpcap-wc3banlist-on-windows-7/</link>
+      <pubDate>Mon, 08 Jun 2009 19:47:16 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/06/08/installing-winpcap-wc3banlist-on-windows-7/</guid>
+      <description>I had a bit of trouble getting WC3Banlist (mainly due to its dependency on WinPcap) on Windows 7 This is working on Windows 7 RC1, with User Acount Control (UAC) on (set to Default) I did quite a few things when troubleshooting so it&amp;rsquo;s hard to replicate the exact steps, but here&amp;rsquo;s some instructions on how I have it set up now: Install WinPcap  Download WinPcap 4.1 Right click the downloaded installer exe and choose Properties Go to the Compatibility tab In Compatibility mode, Tick &amp;ldquo;Run this program in compatibility mode for:&amp;rdquo; and choose Windows Vista (Service Pack 2) from the drop-down Tick &amp;ldquo;Run this program as an administrator&amp;rdquo; in Privilege Level Hit OK Run the exe and go through the normal installation  Install WC3Banlist  Download WC3Banlist Right click the installation file and choose Run as administrator Untick &amp;ldquo;Install WinPcap 3.</description>
+    </item>
+    
+    <item>
+      <title>Opera 10 Beta is out</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/06/04/opera-10-beta-is-out/</link>
+      <pubDate>Thu, 04 Jun 2009 10:38:48 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/06/04/opera-10-beta-is-out/</guid>
+      <description>Opera 10 Alpha last night prompted me to automatically update, and lo and behold it installed the Beta 1. The most noticeable change is the default skin, which is lighter and more consistent, using some new etching effects and icons everywhere. More changes are on the horizon for this for Beta 2, from the skin designer John Hicks. A cool new enhancement is you can drag down the tab bar to get thumbnails for all the tabs, known as Visual Tabs: There&amp;rsquo;s now an interface to customize the Speed Dial (rather than manually editing ini files) Opera Turbo, the Opera proxy service that offers compression of web pages (suitable for low-bandwidth connections) is built in and can be switched on or off or set to auto mode (turning itself on if it detects you&amp;rsquo;re on a slow internet connection).</description>
+    </item>
+    
+    <item>
+      <title>Unit testing multi-threaded, asynchronous code and/or events</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/06/03/unit-testing-multi-threaded-asynchronous-code-andor-events/</link>
+      <pubDate>Wed, 03 Jun 2009 10:50:15 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/06/03/unit-testing-multi-threaded-asynchronous-code-andor-events/</guid>
+      <description>I&amp;rsquo;ve been writing some unit tests recently that test some multi-threaded functionality. Typically this involves hooking up some event handlers then waiting for some asynchronous code to fire the event before proceeding with the unit test and assertions. The ManualResetEvent class (MSDN) seems a good choice for this, and this post has a small example of using it in a unit test:   [Test()] public void AfterRunAsync() { ManualResetEvent manualEvent = new ManualResetEvent(false); TestTestCase tc = new TestTestCase(1, &amp;ldquo;&amp;rdquo;, 0, 0); bool eventFired = false; tc.</description>
+    </item>
+    
+    <item>
+      <title>Remote debugging from Visual Studio 2008 on a domain machine to a machine not on the domain</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/28/remote-debugging-from-visual-studio-2008-on-a-domain-machine-to-a-machine-not-on-the-domain/</link>
+      <pubDate>Thu, 28 May 2009 17:25:27 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/28/remote-debugging-from-visual-studio-2008-on-a-domain-machine-to-a-machine-not-on-the-domain/</guid>
+      <description>This details how you can debug an application running on a remote machine from Visual Studio on your local machine, as if the remote application was running on your local machine. The keys are:  There must be a user account with the same username and password on the remote machine and the local machine (MACHINE account, not domain account). Visual Studio 2008 Remote Debugger must be installed and running on the remote machine under the user account in point 1  Create local machine account  Right click My Computer &amp;gt; Manage Expand Computer Management &amp;gt; System Tools &amp;gt; Local Users and Groups Right-click Users under Local Users and Groups and choose New User&amp;#8230; Enter in the username e.</description>
+    </item>
+    
+    <item>
+      <title>Set up IP filtering in uTorrent and keep your ipfilter.dat up to date easily</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/27/set-up-ip-filtering-in-utorrent-and-keep-your-ipfilterdat-up-to-date-easily/</link>
+      <pubDate>Wed, 27 May 2009 00:14:13 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/27/set-up-ip-filtering-in-utorrent-and-keep-your-ipfilterdat-up-to-date-easily/</guid>
+      <description>The IPFilter Updater application now has its own page: http://www.davidmoore.info/ipfilter-updater/ uTorrent is one of the most popular BitTorrent clients out there. In my opinion it&amp;rsquo;s the best. You can set up IP filtering in uTorrent to block bad seeds and peers from a list maintained by the community. How to set up IP filtering in uTorrent  Open up uTorrent and go to Options &amp;gt; Preferences from the menu or click the Preferences button in the toolbar Select the Advanced option in the tree Find ipfilter.</description>
+    </item>
+    
+    <item>
+      <title>Could not load file or assembly &amp;#226;&amp;#8364;&amp;#732;x&amp;#226;&amp;#8364;&amp;#8482; or one of its dependencies. Strong name validation failed.</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/26/could-not-load-file-or-assembly-x-or-one-of-its-dependencies-strong-name-validation-failed/</link>
+      <pubDate>Tue, 26 May 2009 15:54:34 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/26/could-not-load-file-or-assembly-x-or-one-of-its-dependencies-strong-name-validation-failed/</guid>
+      <description>In some of the work I&amp;rsquo;m doing right now, I&amp;rsquo;m manipulating an assembly after compile time - having it disassembled into IL, tweaked, then re-compiled back into an assembly. The assembly is signed and what is being done to the assembly is breaking the strong name. This is quite comforting to know; the strong name wouldn&amp;rsquo;t be so strong if it was that easy to hack an assembly with a strong name.</description>
+    </item>
+    
+    <item>
+      <title>Disabling the Opera Bit Torrent support</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/26/disabling-the-opera-bit-torrent-support/</link>
+      <pubDate>Tue, 26 May 2009 01:06:19 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/26/disabling-the-opera-bit-torrent-support/</guid>
+      <description>Opera has built-in torrent support which is very handy and nice, but not quite as nice as a full-fledged client like uTorrent To disable the Torrent support in Opera so that uTorrent or your default torrent client will be used instead:  In Opera, type in opera:config in the address bar and hit enter Click the Bit Torrent section to expand it  Untick Enable  Hit Save Click OK at the message box  You won&amp;rsquo;t have to restart Opera for this change to take effect</description>
+    </item>
+    
+    <item>
+      <title>Moving your precious user profile and documents to another folder on another drive in Windows 7</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/26/moving-your-precious-user-profile-and-documents-to-another-folder-on-another-drive-in-windows-7/</link>
+      <pubDate>Tue, 26 May 2009 00:42:10 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/26/moving-your-precious-user-profile-and-documents-to-another-folder-on-another-drive-in-windows-7/</guid>
+      <description>One of the things I learned long ago was to always have more than 1 drive or have my single drive partitioned. You keep your programs and operating system on the C drive. On your D drive goes all your data, downloads and anything that you don&amp;rsquo;t want to vanish on you suddenly. A couple of advantages of this are:  This keeps the C drive quite lean if you want to make an image of it.</description>
+    </item>
+    
+    <item>
+      <title>Swiss ball trick</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/25/swiss-ball-trick/</link>
+      <pubDate>Mon, 25 May 2009 21:40:35 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/25/swiss-ball-trick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Making a bootable USB drive for installing Windows 7 RC1</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/22/making-a-bootable-usb-drive-for-installing-windows-7-rc1/</link>
+      <pubDate>Fri, 22 May 2009 22:39:14 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/22/making-a-bootable-usb-drive-for-installing-windows-7-rc1/</guid>
+      <description>Here&amp;rsquo;s the article I followed to create my bootable USB flash drive when installing Windows 7 - something that&amp;rsquo;s essential when you don&amp;rsquo;t have a floppy drive or an optical drive in your machine. http://kmwoley.com/blog/?p=345 To make the process even simpler, you can use WinRAR or an ISO-mounting or reading application to get the installation files and boot sector from the Windows 7 RC1 ISO image without needing to burn a DVD.</description>
+    </item>
+    
+    <item>
+      <title>Configuring NLog for your application when NLog is in the Global Assembly Cache (GAC)</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/22/configuring-nlog-for-your-application-when-nlog-is-in-the-global-assembly-cache-gac/</link>
+      <pubDate>Fri, 22 May 2009 12:28:23 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/22/configuring-nlog-for-your-application-when-nlog-is-in-the-global-assembly-cache-gac/</guid>
+      <description>If you have several applications that are using NLog, it can be a good idea to install NLog into the GAC and reference that. A gotcha you must watch out for is caused by this piece of configuration from the NLog site:        Because you are not using the strong name for the Assembly-qualified name of ConfigSectionHandler, it&amp;rsquo;s impossible to do a GAC lookup, therefore NLog won&amp;rsquo;t be found and you&amp;rsquo;ll get an application error (even if NLog is actually in the GAC).</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio: Cannot add project to source control; it overlaps a project that is already bound to source control at a lower root</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/21/visual-studio-cannot-add-project-to-source-control-it-overlaps-a-project-that-is-already-bound-to-source-control-at-a-lower-root/</link>
+      <pubDate>Thu, 21 May 2009 16:53:17 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/21/visual-studio-cannot-add-project-to-source-control-it-overlaps-a-project-that-is-already-bound-to-source-control-at-a-lower-root/</guid>
+      <description>I&amp;rsquo;ve been getting this error a bit lately as I trying to add new projects to the solution, and then add them to source control: The project  cannot be added to source control. In folder , it overlaps a project that is already bound to source control at a lower root. To avoid this problem, add the project from a location below the binding root of the other source controlled projects in the solution.</description>
+    </item>
+    
+    <item>
+      <title>iTunes Lite</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/11/itunes-lite/</link>
+      <pubDate>Mon, 11 May 2009 21:23:15 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/11/itunes-lite/</guid>
+      <description>iTunes without the bloat, and the invasive Quicktime installer + annoying Bonjour service. Install Quicktime Alternative, then the iTunes installer from Ajua Online. That&amp;rsquo;s currently 17.8MB for the iTunes installer, and 10.8MB for Quicktime Alt. As opposed to the 80MB of bossy Apple iTunes installer.</description>
+    </item>
+    
+    <item>
+      <title>Movies: The Expendables, The Green Hornet, Dimension</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/04/17/movies-the-expendables-the-green-hornet-dimension/</link>
+      <pubDate>Fri, 17 Apr 2009 21:55:37 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/04/17/movies-the-expendables-the-green-hornet-dimension/</guid>
+      <description>e cool looking movies on the distant horizon. Sylvester Stallone, Arnold Schwarzenegger, Jason Statham, Mickey Rourke, Dolph Lundgren, Jet Li, Randy Couture, Steve Austin, Eric Roberts, Terry Crews, Danny Trejo&amp;hellip; The Expendables cast is wicked! This could be an awesome unabashed 80s-style action movie if the script is good enough and it doesn&amp;rsquo;t take itself too seriously. Then we have Michel Gondry directing Seth Rogen and Stephen Chow in The Green Hornet.</description>
+    </item>
+    
+    <item>
+      <title>Bouncer Win</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/04/15/bouncer-win/</link>
+      <pubDate>Wed, 15 Apr 2009 21:38:56 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/04/15/bouncer-win/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Play him off, Keyboard Cat</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/04/15/play-him-off-keyboard-cat/</link>
+      <pubDate>Wed, 15 Apr 2009 18:24:10 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/04/15/play-him-off-keyboard-cat/</guid>
+      <description>Introducing Keyboard Cat Play them off, Keyboard Cat This one&amp;rsquo;s pretty brutal, I&amp;rsquo;m going to hell:</description>
+    </item>
+    
+    <item>
+      <title>For people who&amp;#226;&amp;#8364;&amp;#8482;ve read Watchmen the &amp;#226;&amp;#8364;&amp;#339;graphic novel&amp;#226;&amp;#8364; and watched the movie</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/03/06/for-people-whove-read-watchmen-the-graphic-novel-and-watched-the-movie/</link>
+      <pubDate>Fri, 06 Mar 2009 00:31:38 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/03/06/for-people-whove-read-watchmen-the-graphic-novel-and-watched-the-movie/</guid>
+      <description>Otherwise, spoilers!</description>
+    </item>
+    
+    <item>
+      <title>US Airways Flight 1549 Re-creation</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/03/04/us-airways-flight-1549-re-creation/</link>
+      <pubDate>Wed, 04 Mar 2009 00:15:08 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/03/04/us-airways-flight-1549-re-creation/</guid>
+      <description>A re-creation of the astounding ditching of an Airbus A320 in the Hudson River, with the audio of the actual incident over the top.
+If you don&#39;t know about this incident, read up on it!</description>
+    </item>
+    
+    <item>
+      <title>Sleep walking dog&amp;#226;&amp;#8364;&amp;#166; or should that be sleep running?</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/28/sleep-walking-dog-or-should-that-be-sleep-running/</link>
+      <pubDate>Sat, 28 Feb 2009 14:23:15 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/28/sleep-walking-dog-or-should-that-be-sleep-running/</guid>
+      <description>If you&amp;rsquo;ve had a dog you&amp;rsquo;ll know how they often twitch and move their limbs in their sleep. Well, this dog is like that but on a whole other level. Must have scared the crap out of the owners the first time she did this. How about sleep barking? Sleep running in circles Imagine if the dog was narcoleptic too</description>
+    </item>
+    
+    <item>
+      <title>Improve Mozilla Firefox 3 memory usage</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/28/improve-mozilla-firefox-3-memory-usage/</link>
+      <pubDate>Sat, 28 Feb 2009 14:04:39 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/28/improve-mozilla-firefox-3-memory-usage/</guid>
+      <description>Firefox still tends to be a bit of a memory hog over an extended period of time, even though the latest major version (3) has made massive memory usage improvements over previous versions. This tweak will make sure Firefox behaves more like standard Windows applications when it comes to being minimized, as in freeing up the memory it&amp;rsquo;s using for Windows. The down-side to this is that when restored or maximized again, there will be a delay as the application shifts chunks from slow virtual memory to system memory.</description>
+    </item>
+    
+    <item>
+      <title>Finding duplicated data across one or more columns in a database table</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/28/finding-duplicated-data-across-one-or-more-columns-in-a-database-table/</link>
+      <pubDate>Sat, 28 Feb 2009 10:59:09 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/28/finding-duplicated-data-across-one-or-more-columns-in-a-database-table/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Where&amp;#226;&amp;#8364;&amp;#8482;d I get my bag?</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/27/whered-i-get-my-bag/</link>
+      <pubDate>Fri, 27 Feb 2009 13:08:02 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/27/whered-i-get-my-bag/</guid>
+      <description>Land for Bags, of course!</description>
+    </item>
+    
+    <item>
+      <title>All Blacks &#34;Of This Earth&#34; Poster</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/25/all-blacks-of-this-earth-poster/</link>
+      <pubDate>Wed, 25 Feb 2009 09:17:34 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/25/all-blacks-of-this-earth-poster/</guid>
+      <description>How cool is this poster? (Click for full size)</description>
+    </item>
+    
+    <item>
+      <title>Back to the Future Alternate Ending</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/25/back-to-the-future-alternate-ending/</link>
+      <pubDate>Wed, 25 Feb 2009 09:09:41 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/25/back-to-the-future-alternate-ending/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating thumbnail images with automatic cropping and maintaining aspect ratio</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/07/creating-thumbnail-images-with-automatic-cropping-and-maintaining-aspect-ratio/</link>
+      <pubDate>Sat, 07 Feb 2009 02:17:03 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/07/creating-thumbnail-images-with-automatic-cropping-and-maintaining-aspect-ratio/</guid>
+      <description>&lt;p&gt;Most thumbnail-generation solutions will shrink the original down while maintaining aspect ratio.&lt;/p&gt;
+
+&lt;p&gt;Usually you specify the maximum height and width of the thumbnail, e.g. 150 x 200&lt;/p&gt;
+
+&lt;p&gt;However, if your original image&amp;rsquo;s aspect ratio is different to the maximum thumbnail dimensions, you will end up with dead space vertically or horizontally (shown in green in the illustration). This can be quite an eyesore when displaying thumbnails in a grid.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-77&#34; title=&#34;Normal Thumbnail Resizing Diagram&#34; src=&#34;http://davidmoore.info/wp-content/uploads/2009/02/image-resize-normal.gif&#34; alt=&#34;Normal Thumbnail Resizing Diagram&#34; width=&#34;672&#34; height=&#34;334&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve got an algorithm that will automatically crop the image either horizontally or vertically to then match the thumbnail aspect ratio, so you end up with the thumbnails all being the same size even though they may be coming from originals of wildly different aspect ratio.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ESET NOD32 Antivirus and Proxies</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/01/17/eset-nod32-antivirus-and-proxies/</link>
+      <pubDate>Sat, 17 Jan 2009 07:01:50 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/01/17/eset-nod32-antivirus-and-proxies/</guid>
+      <description>Today I&amp;rsquo;m working on a .NET hobby project.
+At a simple level, I&amp;rsquo;m writing a web proxy implementation, � and was using 8080 as the default port.
+When trying to write and run unit tests to make sure my server was binding to this port and shutting down as and when expected, I found I could connect to 8080 even when the proxy wasn&amp;rsquo;t running. Telnet-ing to that port would initiate a connection, and would eventually drop out at varying speeds, and immediately if I hit a key.</description>
+    </item>
+    
+    <item>
+      <title>Last.fm says the country that best matches my musical taste is&amp;#8230;</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/01/08/lastfm-says-the-country-that-best-matches-my-musical-taste-is/</link>
+      <pubDate>Thu, 08 Jan 2009 03:26:43 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/01/08/lastfm-says-the-country-that-best-matches-my-musical-taste-is/</guid>
+      <description>Spain! With a 25% score.
+http://kobnet.net/~seod/CountryMatch/usermap.php?u=whup
+I&amp;rsquo;m not entirely sure what it&amp;rsquo;s meant to represent. I&amp;rsquo;m guessing the percentage of users from that country that reasonably match my music tastes?</description>
+    </item>
+    
+    <item>
+      <title>Castle Project update</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/01/08/castle-project-update/</link>
+      <pubDate>Thu, 08 Jan 2009 03:18:26 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/01/08/castle-project-update/</guid>
+      <description>Hamilton has applied a bunch of patches and fixes to the Castle Project for the Components and Windsor sub-projects. Including 2 minor and insignificant patches that I submitted +D. It&amp;rsquo;s good to feel part of a major Open Source project, even for a small contribution.
+http://hammett.castleproject.org/?p=336
+While I&amp;rsquo;m currently focusing my efforts on ASP.NET MVC and moved away from MonoRail, I use Castle extensively in my .NET projects, particularly ActiveRecord and Windsor/MicroKernel.</description>
+    </item>
+    
+    <item>
+      <title>Compilation of 2008 Viral Videos</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/12/12/compilation-of-2008-viral-videos/</link>
+      <pubDate>Fri, 12 Dec 2008 09:36:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/12/12/compilation-of-2008-viral-videos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Performance</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/12/09/visual-studio-performance/</link>
+      <pubDate>Tue, 09 Dec 2008 18:18:46 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/12/09/visual-studio-performance/</guid>
+      <description>I&amp;rsquo;m running Visual Studio 2008 on a old, single-core laptop with 1GB RAM.
+VS is a resource hog, so it&amp;rsquo;s not long before my laptop is struggling having a reasonable size solution in addition to the usual open applications.
+There are a few things you can do to try and squeeze a bit more performance out of Visual Studio I&amp;rsquo;ve found from various blogs and looking around myself. The first two are the most useful.</description>
+    </item>
+    
+    <item>
+      <title>Opera 10 Alpha</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/12/04/opera-10-alpha/</link>
+      <pubDate>Thu, 04 Dec 2008 19:56:18 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/12/04/opera-10-alpha/</guid>
+      <description>Opera 10 Alpha is out!
+Apart from it being an updated and faster engine, it also adds 100% ACID3 support, HTML Email Composition (finally!), integrated spell checker, and automatic updates.
+All this on top of the in-built features like mouse gestures, integrated ad blocker, the slick mail, news feed and chat client, Bit Torrent support, Wand password manager, desktop widgets etc.</description>
+    </item>
+    
+    <item>
+      <title>Useful UPnP Troubleshooter</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/11/27/useful-upnp-troubleshooter/</link>
+      <pubDate>Thu, 27 Nov 2008 16:44:39 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/11/27/useful-upnp-troubleshooter/</guid>
+      <description>Universal Plug &amp;amp; Play aka UPnP is used by a lot of networking devices and software to communicate with each other for automatic setup/installation.
+Many software programs and games that need inward-bound internet connectivity can automatically configure your UPnP broadband router for their use. Examples of these programs are Instant Messengers such as MSN Chat, and Bit Torrent clients like uTorrent and Azureus.
+If your programs are having trouble with UPnP, you can use the following links to troubleshoot, including a handy small program that will detect what steps you need to take to get UPnP going.</description>
+    </item>
+    
+    <item>
+      <title>20 of the best optical illusions</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/11/26/20-of-the-best-optical-illusions/</link>
+      <pubDate>Wed, 26 Nov 2008 17:18:43 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/11/26/20-of-the-best-optical-illusions/</guid>
+      <description>20 Top Optical Illusions [Telegraph.co.uk]
+Some I haven&amp;rsquo;t seen before, and some of the most famous. Trippy!
+[](http://www.telegraph.co.uk/telegraph/multimedia/archive/01120/illusionone_1120795i.jpg)</description>
+    </item>
+    
+    <item>
+      <title>Bruce Lee &#43; nunchaku &#43; ping pong = win</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/11/21/bruce-lee-nunchaku-ping-pong-win/</link>
+      <pubDate>Fri, 21 Nov 2008 22:19:09 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/11/21/bruce-lee-nunchaku-ping-pong-win/</guid>
+      <description>A Bruce Lee edition N96. How cool is that?</description>
+    </item>
+    
+    <item>
+      <title>Opera &#34;Unlinker&#34; User JavaScript</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/11/06/opera-unlinker-user-javascript/</link>
+      <pubDate>Thu, 06 Nov 2008 01:38:27 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/11/06/opera-unlinker-user-javascript/</guid>
+      <description>It&amp;rsquo;s quite common on many websites, particularly forums, to post links to images.
+Unlinker is a very popular plugin for Firefox, which allows you to change the links to images in the page to in-line images.
+Opera doesn&amp;rsquo;t have a fully-fledged plugin system like Firefox (which is a pro just as much as it is a con), but you can customize it using User JavaScript.
+I&amp;rsquo;ve made a simple script to implement a very basic version of Unlinker.</description>
+    </item>
+    
+    <item>
+      <title>Paris &amp;#038; London photos</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/11/06/paris-london-photos/</link>
+      <pubDate>Thu, 06 Nov 2008 01:24:47 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/11/06/paris-london-photos/</guid>
+      <description>Elinor and Julia visited from New Zealand, and we went to Paris and hung out in London for a few days. I&amp;rsquo;ve posted some photos on Facebook but I&amp;rsquo;ll try to blog something about it at some point. Was good fun, and nice to see Els and get some travel done (even if it was to Paris again).
+So I&amp;rsquo;m ready to get cracking into work again and get prepared for my return to New Zealand which is really only weeks away.</description>
+    </item>
+    
+    <item>
+      <title>Paris &amp;amp; London photos</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/11/06/paris-london-photos-2/</link>
+      <pubDate>Thu, 06 Nov 2008 01:24:47 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/11/06/paris-london-photos-2/</guid>
+      <description>Elinor and Julia visited from New Zealand, and we went to Paris and hung out in London for a few days. I&amp;rsquo;ve posted some photos on Facebook but I&amp;rsquo;ll try to blog something about it at some point. Was good fun, and nice to see Els and get some travel done (even if it was to Paris again). So I&amp;rsquo;m ready to get cracking into work again and get prepared for my return to New Zealand which is really only weeks away.</description>
+    </item>
+    
+    <item>
+      <title>Om Nom Nom!</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/21/om-nom-nom/</link>
+      <pubDate>Tue, 21 Oct 2008 19:31:15 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/21/om-nom-nom/</guid>
+      <description>I was wandering around Chiswick a few weeks back and came upon a tree that made me lol and immediately think &amp;ldquo;OM NOM NOM!&amp;rdquo;. So I has made om nom nom pictar!</description>
+    </item>
+    
+    <item>
+      <title>Opera&#39;s MAMA analyses the spread and use of web technologies</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/19/operas-mama-analyses-the-spread-and-use-of-web-technologies/</link>
+      <pubDate>Sun, 19 Oct 2008 16:05:30 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/19/operas-mama-analyses-the-spread-and-use-of-web-technologies/</guid>
+      <description>The Opera guys have created a project called MAMA &amp;#8211; &amp;ldquo;Metadata Analysis and Mining Application&amp;rdquo;. It is designed to trawl the web and analyse what technologies and techniques are actually being used in web pages.
+Their intial study results are in, taken from 3 and a half million URLs.
+Interestingly, tables are still right up there with most popular tags, suggesting there are still a lot of people using tables for layouts, particularly when you see this quote:</description>
+    </item>
+    
+    <item>
+      <title>Returning to New Zealand in December</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/19/returning-to-new-zealand-in-december/</link>
+      <pubDate>Sun, 19 Oct 2008 14:55:02 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/19/returning-to-new-zealand-in-december/</guid>
+      <description>Talking to the flatties, everyone&amp;rsquo;s quite keen to come back to New Zealand a few months earlier than our visa expiration.
+Aaron and Renee want to get back for a wedding and their legendary gran&amp;rsquo;s birthday.
+This suits me, as I&amp;rsquo;m broke, and won&amp;rsquo;t achieve anything staying here much longer.
+I will settle on a date soon so I can book the flight. I&amp;rsquo;d like to come back for xmas for sure.</description>
+    </item>
+    
+    <item>
+      <title>Finding duplicate rows in the database</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/17/finding-duplicate-rows-in-the-database/</link>
+      <pubDate>Fri, 17 Oct 2008 11:39:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/17/finding-duplicate-rows-in-the-database/</guid>
+      <description>NOTE: This post has been re-visited in Finding duplicated data across one or more columns in a database table
+Information gleaned from Microsoft KB article: How to remove duplicate rows from a table in SQL Server
+When you allow duplicated rows in a database that aren&amp;rsquo;t expected and shouldn&amp;rsquo;t be allowed, it&amp;rsquo;s a flag saying that you need a unique index on the table to prevent duplicate rows to be added in the first place.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft ASP.NET MVC goes to Beta</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/17/microsoft-aspnet-mvc-goes-to-beta/</link>
+      <pubDate>Fri, 17 Oct 2008 11:22:03 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/17/microsoft-aspnet-mvc-goes-to-beta/</guid>
+      <description>I&amp;rsquo;m currently using ASP.NET MVC to build the next-gen version of my CMS/App Framework Orange.
+I&amp;rsquo;ve been using CodePlex community builds, but MVC has finally gone to Beta. I&amp;rsquo;m just now in the process of fixing my code to go with the minor breaking changes in the beta.
+I&amp;rsquo;m really liking many things about MVC so far, but a review of MVC is another blog post for the future.
+Download ASP.</description>
+    </item>
+    
+    <item>
+      <title>System.BadImageFormatException</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/14/systembadimageformatexception/</link>
+      <pubDate>Tue, 14 Oct 2008 12:52:42 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/14/systembadimageformatexception/</guid>
+      <description>I&amp;rsquo;m currently build the new Overclockers New Zealand website in .NET
+I have a nice continuous integration server going smoothly, but my most recent check-in threw up a strange error when running the Unit Tests:
+ System.BadImageFormatException : Could not load file or assembly &amp;lsquo;Overclockers.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null&amp;rsquo; or one of its dependencies. The module was expected to contain an assembly manifest.
+ The server is actually a VMWare instance, but is running a 32-bit version of Windows Server 2003 EE.</description>
+    </item>
+    
+    <item>
+      <title>A new Jean-Claude Van Damme movie worth seeing?</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/13/a-new-jean-claude-van-damme-movie-worth-seeing/</link>
+      <pubDate>Mon, 13 Oct 2008 12:43:50 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/13/a-new-jean-claude-van-damme-movie-worth-seeing/</guid>
+      <description>Jean-Claude Van Damme playing himself in an action comedy? The trailer actually looks half good, and it has positive reviews so far.
+ Jean-Claude finds himself out of money, fighting for custody of his daughter and losing every good action role to Steven Seagal. In an attempt to escape, the aging star walks away from his shrinking spotlight and returns home to his native Brussels. But when he is thrown into a real-life hostage situation, everyone sees a side of Van Damme they’ve never seen before as he takes on the police, battles the perpetrators and creates a media firestorm that captures the attention of the world</description>
+    </item>
+    
+    <item>
+      <title>Digg Reel presents the best viral videos of the week</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/12/digg-reel-presents-the-best-viral-videos-of-the-week/</link>
+      <pubDate>Sun, 12 Oct 2008 22:45:09 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/12/digg-reel-presents-the-best-viral-videos-of-the-week/</guid>
+      <description>The Digg Reel is a show over at &amp;ldquo;Internet Television&amp;rdquo; site Revision 3.
+They find the most popular videos posted on digg.com and package them together in a little hosted show. They even pick out some of the choicest user comments on the videos, reference other videos, and occasionally some pretty terrible but funny special effects and gags of their own.
+While you might already have seen some of the videos during the week if you haven&amp;rsquo;t been hiding under a rock, you&amp;rsquo;ll at least be sure you&amp;rsquo;re not missing out on any of the viral videos of the moment.</description>
+    </item>
+    
+    <item>
+      <title>Redmine beats the pants off Trac</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/12/redmine-beats-the-pants-off-trac/</link>
+      <pubDate>Sun, 12 Oct 2008 22:29:35 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/12/redmine-beats-the-pants-off-trac/</guid>
+      <description>Trac is an extremely popular free issue tracker / wiki with source control integration. Many open source projects are using it.
+I&amp;rsquo;ve been using Trac for a long time now, and while it used to be very good, it&amp;rsquo;s too stagnant and is lacking in too many ways.
+It doesn&amp;rsquo;t support multiple projects, the ticket workflow is cumbersome, the security and roles are rudimentary at best, and call my superficial, but I just don&amp;rsquo;t like how it looks.</description>
+    </item>
+    
+    <item>
+      <title>Clever Lunch Insurance</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/09/21/clever-lunch-insurance/</link>
+      <pubDate>Sun, 21 Sep 2008 19:42:39 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/09/21/clever-lunch-insurance/</guid>
+      <description>I&amp;rsquo;ve never been one to pack a lunch for work, especially sandwiches (MEH @ sandwiches). So noone&amp;rsquo;s ever stolen my lunch from the office fridge, but then I don&amp;rsquo;t know who does those kinds of things.
+Someone&amp;rsquo;s come up with a very simple but effective deterrant: a sealable lunch bag with a mould print on it.Before After
+The makers seem to want to charge money for this, but you can probably make your own very easily.</description>
+    </item>
+    
+    <item>
+      <title>Fucking thing SUCKS</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/07/11/fucking-thing-sucks/</link>
+      <pubDate>Fri, 11 Jul 2008 17:12:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/07/11/fucking-thing-sucks/</guid>
+      <description>You&amp;rsquo;ve probably already seen the infamous Bill O&amp;rsquo;Reilly flips out video. If not, here it is:
+There&amp;rsquo;s some pretty funny remixes of it too.
+Bill O&amp;rsquo;Reilly&amp;rsquo;s Producer
+One of the intriguing things about the original is thinking how people react off camera and deal with the irrate O&amp;rsquo;Reilly. You hear a little bit of the producer on the original, but you still have to wonder how he manages the man day to day, and somehow gets O&amp;rsquo;Reilly to actually finish the piece.</description>
+    </item>
+    
+    <item>
+      <title>You can now disconnect from the Internet</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/07/10/you-can-now-disconnect-from-the-internet/</link>
+      <pubDate>Thu, 10 Jul 2008 12:15:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/07/10/you-can-now-disconnect-from-the-internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Essential lolblogs</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/06/26/essential-lolblogs/</link>
+      <pubDate>Thu, 26 Jun 2008 14:00:12 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/06/26/essential-lolblogs/</guid>
+      <description>You need to add these sites to your feed reader or make sure you check them everyday. Guaranteed to give you a laugh at least once a day, no matter how bad it&amp;rsquo;s going.
+I Has A Hotdog (Funny pics of dogs with captions aka loldogs)
+I Can Has Cheezburger (Funny pics of cats with captions aka lolcats)
+Fail Blog (Funny pictures and videos of epic failure)</description>
+    </item>
+    
+    <item>
+      <title>London Visa News</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/06/26/london-visa-news/</link>
+      <pubDate>Thu, 26 Jun 2008 12:06:43 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/06/26/london-visa-news/</guid>
+      <description>News on the London front! I still have quite a few months left on my visa, but my 12 months of allowed work are nearly used up. This means I can still stay in London but won&amp;rsquo;t be allowed to work.
+My job wants to keep me on, so I will basically have to come back to NZ for a short time soon. From there, work will arrange sponsorship for me, and I will then re-enter London on a work visa that lasts for up to 2 years and is then renewable.</description>
+    </item>
+    
+    <item>
+      <title>Opshop in London</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/06/19/opshop-in-london/</link>
+      <pubDate>Thu, 19 Jun 2008 16:48:28 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/06/19/opshop-in-london/</guid>
+      <description>Went to Opshop last night. Was good fun, and had a view from the top balcony. Photos are here.</description>
+    </item>
+    
+    <item>
+      <title>Beyond &#34;The King of Kong&#34;</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/06/13/beyond-the-king-of-kong/</link>
+      <pubDate>Fri, 13 Jun 2008 10:17:34 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/06/13/beyond-the-king-of-kong/</guid>
+      <description>If you haven&amp;rsquo;t watched The King of Kong, I highly recommend it.
+It&amp;rsquo;s a documentary about 2 men from entirely different backgrounds and circumstances facing off for the world record of the classic arcade game Donkey Kong. It might sound boring, but it&amp;rsquo;s 1% about the game, and 99% about human behaviour, obssession, celebrity, redemption, underdog versus establishment. Very entertaining and rivetting. (97% rating on Rotten Tomatoes)
+Anyway, I can&amp;rsquo;t get over the fact that the &amp;ldquo;villain&amp;rdquo; of the documentary &amp;#8211; Billy Mitchell &amp;#8211; reminds me so much of Michael Scott from The Office.</description>
+    </item>
+    
+    <item>
+      <title>Baby Blacks give Ireland beating; David Moore pinged for high tackle</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/06/13/baby-blacks-give-ireland-beating-david-moore-pinged-for-high-tackle/</link>
+      <pubDate>Fri, 13 Jun 2008 06:20:52 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/06/13/baby-blacks-give-ireland-beating-david-moore-pinged-for-high-tackle/</guid>
+      <description>The New Zealand Under-20 rugby team is playing in the inaugural IRB Junior World Championship and just thrashed Ireland 65-10.
+I watched some of the coverage at the TVNZ site (they have full footage of both halves here).
+There was a flanker playing for Ireland called David Moore. While I skipped through the video I managed to see him give away a couple of penalties, including for a blatant head-high clothes-hanger tackle.</description>
+    </item>
+    
+    <item>
+      <title>Opera 9.5 is out</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/06/13/opera-95-is-out/</link>
+      <pubDate>Fri, 13 Jun 2008 06:07:07 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/06/13/opera-95-is-out/</guid>
+      <description>Opera is my favourite browser, and the final release of the newest version has just been released to the public.
+It&amp;rsquo;s blazing fast, and comes with a lot of stuff out of the box such as:
+ Integrated ad blocker (right click on a page and choose Block Content&amp;#8230;, then you can click on what you want to block) Mouse gestures Mail and chat client Widgets Speed dial (If you create a new tab, you get a patchwork of thumbnails of your selected favourite sites so they&amp;rsquo;re one click away) Pretty much everything that a lot of other browsers had to follow suit with after Opera had innovated them, and usually need to be downloaded in an extension or plug-in.</description>
+    </item>
+    
+    <item>
+      <title>Green Tea Pills are like, whoa</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/06/12/green-tea-pills-are-like-whoa/</link>
+      <pubDate>Thu, 12 Jun 2008 22:20:50 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/06/12/green-tea-pills-are-like-whoa/</guid>
+      <description>So my workmate offers me a green tea pill this afternoon. I like green tea, and a green tea pill sounds healthy and good enough (if not a strange way to be getting your green tea).
+He then checks on the bottle, and notes a warning saying &amp;ldquo;Do not take after 4pm&amp;rdquo; and tells me about it after I&amp;rsquo;ve already downed the pill.
+Turns out the pill has got caffeine, guarana and every other possible legal stimulant and anti-oxidant you could name.</description>
+    </item>
+    
+    <item>
+      <title>Oh hai</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/06/09/hello-world-2/</link>
+      <pubDate>Mon, 09 Jun 2008 02:12:26 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/06/09/hello-world-2/</guid>
+      <description>It&amp;rsquo;s been a while! The old blog is broken while I updated the software, but for now I&amp;rsquo;ve plumped for a good old WordPress install.
+A lot&amp;rsquo;s happened since the last post on the old blog, which was posted just before I went to Cardiff to watch the All Blacks choke in the World Cup semi final.
+Well New Zealand just beat Ireland on the weekend in their first game since the ill-fated World Cup campaign.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/data/</guid>
+      <description>Data .. toctree:: :titlesonly:
+cassandra</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/debugging/error-codes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/debugging/error-codes/</guid>
+      <description>Error Codes HRESULT https://msdn.microsoft.com/en-us/library/cc231198.aspx
+The HRESULT numbering space is vendor-extensible. Vendors can supply their own values for this field, as long as the C bit (0x20000000) is set, indicating it is a customer code.
+The HRESULT numbering space has the following internal structure. Any protocol that uses NTSTATUS values on the wire is responsible for stating the order in which the bytes are placed on the wire.
+S (1 bit): Severity.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/wcf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/wcf/</guid>
+      <description>===Chapter 3: Message Exchange Patterns, Topologies, and Choreographies===
+==Message Exchange Patterns (MEP)==
+The Datagram MEP
+ 1-way, send and forget May or may not elicit a response, which would require a new connection A datagram MEP is expressed in Web Services Description Language (WSDL) as an operation that contains a wsdl:input element and no wsdl:output elements In WCF, the contract method must have a void return type, and the OperationContract attribute needs IsOneWay set to true  WCF applications that receive datagrams over HTTP send the 202 reply upon receipt of the datagram but before processing the datagram.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/</guid>
+      <description> Developedia Software development reference and knowledge base
+Contents </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/sourcecontrol/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/sourcecontrol/git/</guid>
+      <description>Git Configure for Windows On Windows machine, open up Git Bash
+$ ssh-keygen -t rsa -C &amp;ldquo;David Moore david@digitalgenus.com&amp;ldquo; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/.ssh/id_rsa. Your public key has been saved in /d/Users/David/.ssh/id_rsa.pub. The key fingerprint is: 8a:ef:52:86:76:53:b3:ed:d6:54:02:c3:75:9d:94:22 David Moore david@digitalgenus.com
+David@WHUP ~/.ssh
+Copy the contents of ~/.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/theory/solid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/theory/solid/</guid>
+      <description>S.O.L.I.D. S.O.L.I.D. aka SOLID stands for:
+S: Single Responsibility Principle aka SRP A class should have a single responsibility.
+O: Open / Closed A class should be open for extension, but closed to modification.
+L: Liskov substitution principle An object should be replaceable with an object of its subtype without breaking the program.
+I: Interface Segregation Principle Many interfaces are desirable over one general-purpose interface
+D: Dependency Injection Principle aka DI Classes should depend on supplied abstractions, instead of concrete implementations.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/theory/yagni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/theory/yagni/</guid>
+      <description>YAGNI You Aren&amp;rsquo;t Gonna Need It:
+This originates from eXtreme Programming (XP).
+You should only add functionality until there is a need for that functionality, rather than adding functionality you forsee as being possibly necessary later.
+This helps keep the code base leaner, and allow changing requirements and refactoring.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/web/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/</guid>
+      <description>Web Technologies .. toctree:: :titlesonly:
+javascript/index</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/windows/maintenance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/windows/maintenance/</guid>
+      <description>Windows Maintenance Deployment Image Servicing and Management tool (DISM) DISM can be used to mount and service a Windows image from a .wim file, .vhd file, or a .vhdx file or, in some cases, to update a running operating system.
+You can use DISM to do various cleanup operations related to installed components, updates and service packs.
+Remove Service Pack backup components after Service Pack installation After installing a Service Pack, you can clean up backed up components:</description>
+    </item>
+    
+    <item>
+      <title>Antorus, The Burning Throne</title>
+      <link>http://www.sadrobot.co.nz/games/wow/antorus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/antorus/</guid>
+      <description>Loot    Boss Tier Loot Protection Holy Retribution     Garothi Worldbreaker  HM Chest (Prot 2), CH Boots (Holy 1, Prot 2) Arcane Relic #2 (Stern Judgment)     Felhounds of Sargeras  HC Gloves (Holy 1, Prot 2), VH Belt (Prot 2) Eye of F&amp;rsquo;harg, Eye of Shatug     Antoran High Command Cloak HC Shoulders (Prot 2, Holy 2) #1 Iron Relic (Consecration in Flames), #3 Holy (Righteous Crusader)     Portal Keeper Hasabel  MC Belt (Holy 1) Riftworld Codex, #3 Iron Relic (Unflinching Defense)     Essence of Eonar Chest HM Wrists (Prot 1) Holy Relic #2 (Hammer Time), Iron Relic #2 (Stern Judgment), Bracers     Imonar the Soulhunter Legs  #1 Arcane Relic (Hammer Time)     Kin&amp;rsquo;garoth Gloves HV Helm, CM Ring (Holy 1) Apocalypse Drive     Varimathras HM Neck (Prot 1), CH Bracers (Holy 1, Prot 2)       Coven of Shivarra Shoulders HM Boots (Prot 1), HC Ring (Holy 1, Prot 1) Diima&amp;rsquo;s Glacial Aegis Highfather&amp;rsquo;s Machination    Aggramar Helm H/C Cloak (Prot 1, Holy 1), C/H Chest (Holy 1, Prot 3), HM Belt (Prot 1, ) Smoldering Titanguard     Argus the Unmaker Aman&amp;rsquo;thul&amp;rsquo;s Vision CH Neck (Holy 1, Prot 2), HM Legs (Prot 3) Aggramar&amp;rsquo;s Conviction, #1 Holy Relic (Consecration), #3 Arcane Relic (Righteous Crusader) Eonar&amp;rsquo;s Compassion Khaz&amp;rsquo;goroth&amp;rsquo;s Courage    Loot Levels    Difficulty Item Level Argus Notes     LFR 915 925 No Pantheon trinkets   Normal 930 940    Heroic 945 955    Mythic 960 970     Holy Relics    Item Name Type Trait Drop Location     Venerated Puresoul Idol Holy Second Sunrise Imonar the Soulhunter   Lightshield Amplifier Holy Expel the Darkness Antoran High Command   Coven Prayer Bead Holy Tyr&amp;rsquo;s Munificence The Coven of Shivarra   Mysterious Petrified Egg Life Shock Treatment Imonar the Soulhunter   Eidolon of Life Life Deliver the Light Kin&amp;rsquo;garoth   Root of the Lifebinder Life Second Sunrise Argus the Unmaker   Fraternal Fervor Life Tyr&amp;rsquo;s Munificence Felhounds of Sargeras    Glossary Basic Swap = tank swap when debuff drops off</description>
+    </item>
+    
+    <item>
+      <title>CSharp Async &amp; Await</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/async/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/async/</guid>
+      <description>Asynchronous programming in C APM: C# 1.0 / .NET 1.0 Style This is known as the Asynchronous Programming Model (APM) and is associated with the IAsyncResult pattern.
+Asynchronous calls are made using Begin and End methods on an API, with callbacks and state being passed between them.
+ Exception handling Exceptions can be thrown from BeginRead (such as trying to read from a stream that has already been closed). Unexpected errors occurring during the async request (e.</description>
+    </item>
+    
+    <item>
+      <title>Covariance &amp; Contravariance</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/csharp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/csharp/</guid>
+      <description>Covariant if it preserves the ordering of types (≤), which orders types from more specific to more generic; Contravariant if it reverses this ordering; Bivariant if both of these apply (i.e., both I&amp;lt;A&amp;gt; ≤ I&amp;lt;B&amp;gt; and I&amp;lt;B&amp;gt; ≤ I&amp;lt;A&amp;gt; at the same time); Invariant or Nonvariant if neither of these applies.  In C# interfaces, in represents contravariance, and out represents covariance.
+For example in C#, if Cat is a subtype of Animal, then:</description>
+    </item>
+    
+    <item>
+      <title>ElvUI Updater</title>
+      <link>http://www.sadrobot.co.nz/games/wow/elvui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/elvui/</guid>
+      <description> ElvUI Updater </description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>http://www.sadrobot.co.nz/wiki/javascript/javascript-patterns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/javascript/javascript-patterns/</guid>
+      <description>#JavaScript Patterns
+Promises #References
+http://www.html5rocks.com/en/tutorials/es6/promises/ http://www.infoq.com/news/2014/05/promises-javascript</description>
+    </item>
+    
+    <item>
+      <title>JavaScript for C# Developers</title>
+      <link>http://www.sadrobot.co.nz/wiki/javascript/forcsharpdevelopers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/javascript/forcsharpdevelopers/</guid>
+      <description>Objects A Javascript object has a lot in common with a C# dictionary.
+You could imagine it as a dynamic type in C# that looks up values in a dictionary.
+Methods are object properties that reference a function.
+this is the calling context, not the current class.
+Functions Can return a reference to themselves.
+There is an arguments implicit parameter.
+All parameters are optional.
+Unspecified parameters are set to undefined</description>
+    </item>
+    
+    <item>
+      <title>Mythic&#43;</title>
+      <link>http://www.sadrobot.co.nz/games/wow/mythicplus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/mythicplus/</guid>
+      <description>Mythic+ References Holy Paladin Mythic+ Guide: https://docs.google.com/document/d/1QcknG-1E-ZZRupIGOlA0A3-5WCwI1KnXotLkTjCtA_E https://questionablyepic.com/mythic-plus/</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>http://www.sadrobot.co.nz/wiki/javascript/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/javascript/overview/</guid>
+      <description>ECMAScript, JavaScript, Java, asm.js ECMAScript is the standardized, versioned spec of JavaScript.
+ECMAScript Support The ES6 spec is expected to be finalized and implemented by the various browser vendors sometime mid / late 2015.
+================= === ==================================== Browser ES5 ECMAScript 2015 (ES6) (in progress) ================= === ==================================== Chrome 23+ Evergreen Internet Explorer 9+ 12+ Firefox 21+ Evergreen ================= === ====================================
+Evergreen browsers automatically update to the latest version.
+Transpiling ES6 Google Traceur is an ES6 to ES5 transpiler that can be used to develop in ES6 but target ES5 browsers.</description>
+    </item>
+    
+    <item>
+      <title>Paladin Macros</title>
+      <link>http://www.sadrobot.co.nz/games/wow/basics/macros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/basics/macros/</guid>
+      <description> Macros Avenger&amp;rsquo;s Shield Casts at mouseover enemy, focus target enemy or current target If you&amp;rsquo;re in PvP and holding ALT, then enable Shield of Virtue (AOE silence) before throwing shield
+ #showtooltip Avenger&#39;s Shield /cast [mod:ctrl] Shield of Virtue /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead]Avenger&#39;s Shield  Rebuke  #showtooltip Rebuke /stopcasting /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead] Rebuke  Judgment  #showtooltip Judgment /cast [@mouseover,harm][@focus,exists,harm][] Judgment  Divine Shield #showtooltip Divine Shield /stopcasting /cancelaura [mod:ctrl] Divine Shield /cancelaura [mod:ctrl] Blessing of Protection /cast Divine Shield  Light/Hand of the Protector #showtooltip /cast [@mouseover,exists][@target,exists][@player]Light of the Protector  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    
+    <link rel="preload" href="http://www.sadrobot.co.nz/files/muli-latin-200.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="http://www.sadrobot.co.nz/files/muli-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="http://www.sadrobot.co.nz/files/muli-latin-800.woff2" as="font" type="font/woff2" crossorigin>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     
+    <title>Windows File Sharing | Sad Robot</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+     <meta name="generator" content="Hugo 0.32" />
+
+      
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+      
+
+     <link href='/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="Windows File Sharing" />
+<meta property="og:description" content="So, you want to share your files on the lan without requiring people to log in or join your Home Group?
+The following instructions are for Windows 7 and the NTFS (default and recommended) file system.
+Turn off Simple File Sharing From the Control Panel, search for Folder Options and open it (or from an Explorer window, go to the menu Organize &gt; Folder and search options
+Go to the View tab" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.sadrobot.co.nz/how-to/windows-file-sharing/" />
+
+
+
+<meta property="article:published_time" content="2011-08-12T22:20:05&#43;00:00"/>
+
+<meta property="article:modified_time" content="2011-08-12T22:20:05&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Windows File Sharing">
+<meta itemprop="description" content="So, you want to share your files on the lan without requiring people to log in or join your Home Group?
+The following instructions are for Windows 7 and the NTFS (default and recommended) file system.
+Turn off Simple File Sharing From the Control Panel, search for Folder Options and open it (or from an Explorer window, go to the menu Organize &gt; Folder and search options
+Go to the View tab">
+
+
+<meta itemprop="datePublished" content="2011-08-12T22:20:05&#43;00:00" />
+<meta itemprop="dateModified" content="2011-08-12T22:20:05&#43;00:00" />
+<meta itemprop="wordCount" content="964">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image:src" content="http://www.sadrobot.co.nz/images/gohugoio-card.png"/>
+<meta name="twitter:title" content="Windows File Sharing"/>
+<meta name="twitter:description" content="So, you want to share your files on the lan without requiring people to log in or join your Home Group?
+The following instructions are for Windows 7 and the NTFS (default and recommended) file system.
+Turn off Simple File Sharing From the Control Panel, search for Folder Options and open it (or from an Explorer window, go to the menu Organize &gt; Folder and search options
+Go to the View tab"/>
+<meta name="twitter:site" content="@whup"/>
+
+
+
+
+
+  </head>
+  <body class="ma0 sans-serif bg-primary-color-light">
+    
+<nav class="bg-primary-color-dark pv4 w-100" role="navigation">
+
+  <div class="center flex-ns flex-wrap items-center justify-start mw9">
+
+    <h1 class="dim f3 lh-solid ml0-ns mr0 mr4-l mv0 pl3 pl4-ns">
+      <a href="http://www.sadrobot.co.nz/" class="link white">
+         Sad Robot
+      </a>
+    </h1>
+    <ul class="list ma0 pa0 dn dib-l">
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/blog/" class="dim link light-silver">
+            Blog
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/wiki/" class="dim link light-silver">
+            Wiki
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/games/" class="dim link light-silver">
+            Gaming
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="https://github.com/davidmoore/" class="dim link light-silver">
+            GitHub
+              
+            
+            
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 32 32" class="fill-current v-base" aria-label="External Link">
+<path d="M25.152 16.576v5.696q0 2.144-1.504 3.648t-3.648 1.504h-14.848q-2.144 0-3.648-1.504t-1.504-3.648v-14.848q0-2.112 1.504-3.616t3.648-1.536h12.576q0.224 0 0.384 0.16t0.16 0.416v1.152q0 0.256-0.16 0.416t-0.384 0.16h-12.576q-1.184 0-2.016 0.832t-0.864 2.016v14.848q0 1.184 0.864 2.016t2.016 0.864h14.848q1.184 0 2.016-0.864t0.832-2.016v-5.696q0-0.256 0.16-0.416t0.416-0.16h1.152q0.256 0 0.416 0.16t0.16 0.416zM32 1.152v9.12q0 0.48-0.352 0.8t-0.8 0.352-0.8-0.352l-3.136-3.136-11.648 11.648q-0.16 0.192-0.416 0.192t-0.384-0.192l-2.048-2.048q-0.192-0.16-0.192-0.384t0.192-0.416l11.648-11.648-3.136-3.136q-0.352-0.352-0.352-0.8t0.352-0.8 0.8-0.352h9.12q0.48 0 0.8 0.352t0.352 0.8z"></path>
+</svg>
+
+            
+          </a>
+        </li>
+      
+    </ul>
+
+    
+    <div class="db dib-ns pl3"></div>
+    
+    
+    <span class="absolute mt1 mt2-l pr3 right-0 top-0">
+
+  <a href="https://twitter.com/intent/follow?screen_name=whup" title="Follow on Twitter" class="link-transition twitter link dib z-999 pt3 pt0-l mr2">
+    <svg height="32px" id="Layer_1" style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+  </a>
+
+<a class="github-button needs-js link primary-color-dark" href="https://github.com/davidmoore/" data-size="large" data-show-count="false" aria-label="Star gohugoio/hugo on GitHub">Star</a>
+</span>
+
+  </div>
+</nav>
+
+    
+    <main role="main" class="content-with-sidebar min-vh-100 pb7 pb0-ns">
+      
+  <article class="w-100 ph4 pb5 pb6-ns pt1 pt5-ns">
+    <div class="flex-l">
+
+      <div class="order-2 w-100 w-20-l ph5-m ph0-l mb4 sticky">
+<aside class="fixed-lTK mw5-l right-0 f6 bl-l b--moon-gray pv4 pv0-ns ph4-l nested-list-reset nested-links nested-copy-line-height">
+	
+
+	<div date-pref>
+		
+
+		
+			<a href="http://www.sadrobot.co.nz/how-to/maintenance/" class="dib f6 pr1 hover-bg-light-gray br-100" title="Maintenance">
+			<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+</svg>
+
+			</a>
+		
+	</div>
+
+</aside>
+</div>
+
+      <div class="order-1 w-60-l mw9 ph0 ph5-ns mid-gray nested-copy-line-height no-underline nested-links nested-copy-seperator nested-blockquote mt0-ns" style="flex-grow:1;">
+        <div class="documentation-copy center">
+          <div id="readout" class="fixed right-0 bottom-0">
+          </div>
+          <header class="flex-none w-100">
+  
+  <h1 class="lh-title mb3 mv0 pt3 primary-color-dark">Windows File Sharing</h1>
+</header>
+
+<aside class="bt bw1 pt3 mt2 mid-gray b--mid-gray fn w-100">
+  
+
+  
+</aside>
+
+
+
+<div class="prose" id="prose">
+
+
+
+<p>So, you want to share your files on the lan without requiring people to log in or join your Home Group?</p>
+
+<p>The following instructions are for Windows 7 and the NTFS (default and recommended) file system.</p>
+
+<h2 id="turn-off-simple-file-sharing">Turn off Simple File Sharing</h2>
+
+<p>From the <strong>Control Panel</strong>, search for <em>Folder Options</em> and open it (or from an Explorer window, go to the menu <strong>Organize</strong> &gt; <strong>Folder and search options</strong></p>
+
+<p>Go to the <strong>View</strong> tab</p>
+
+<p>Scroll down the list, and make sure the <strong>Use Sharing Wizard (Recommended)</strong> option is <em>un-checked</em> as in the screenshot:</p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image2.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb2.png" width="400" height="485" /></a></p>
+
+<h2 id="enable-the-guest-account">Enable the Guest account</h2>
+
+<p>From the <strong>Control Panel</strong>, search for <strong>Guest</strong> and click on <strong>Turn guest account on or off</strong>:</p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image3.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb3.png" width="244" height="117" /></a></p>
+
+<p>Click on the Guest account:</p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image4.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb4.png" width="244" height="110" /></a></p>
+
+<p>Click to <strong>Turn On</strong> the Guest account:</p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image5.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb5.png" width="244" height="162" /></a></p>
+
+<h2 id="give-guest-account-network-access-privileges">Give Guest account network access privileges</h2>
+
+<p>Bring up the <strong>Run</strong> dialog by going to <strong>Start</strong> &gt; <strong>Run</strong> or hit the <strong>Windows key + R</strong> shortcut</p>
+
+<p>Type in <strong>gpedit.msc</strong> and hit Enter or click <strong>OK</strong></p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image23.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb23.png" width="244" height="136" /></a></p>
+
+<p>Expand the nodes as shown in the screenshot until you can select the <strong>User Rights Assignment</strong> under <strong>Local Computer Policy</strong> &gt; <strong>Computer Configuration</strong> &gt; <strong>Windows Settings</strong> &gt; <strong>Security Settings</strong> &gt; <strong>Local Policies</strong></p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image7.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb7.png" width="244" height="213" /></a></p>
+
+<p>From the action pane, double-click the <strong>Deny access to this computer from the network</strong> item:</p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image8.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb8.png" width="244" height="74" /></a></p>
+
+<p>If the <strong>Guest</strong> account or <strong>Guests</strong> group are in the list, select them and click <strong>Remove</strong></p>
+
+<h2 id="configure-share">Configure Share</h2>
+
+<p>Locate the folder you wish to share in Explorer</p>
+
+<p>Right click the folder and choose <strong>Share with</strong> &gt; <strong>Advanced sharing…</strong></p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image24.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb24.png" width="244" height="69" /></a></p>
+
+<blockquote>
+<p>Alternatively, you can open the Folder properties and select the Sharing tab.</p>
+</blockquote>
+
+<p>Click the <strong>Advanced Sharing…</strong> button</p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image10.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb10.png" width="190" height="244" /></a></p>
+
+<p>Tick <strong>Share this folder</strong></p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image11.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb11.png" width="242" height="244" /></a></p>
+
+<p>Click <strong>Permissions</strong></p>
+
+<p>The default permissions grant <em>Everyone</em> <strong>Read</strong> access (the Everyone group contains Guest).</p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image12.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb12.png" width="202" height="244" /></a></p>
+
+<p>If you wish to give people any write access at all, it’s recommended you tick Allow for Full Control and use the NTFS Security as the place to configure permissions.</p>
+
+<blockquote>
+<p>The reason for this is that even if someone may have Full Control on the share, they <em>still need the required NTFS permissions</em>. This allows you to focus on the fine-grained NTFS permissions on your share folder and files and not have to worry about the share permissions at all, without compromising security.</p>
+
+<p>This also means if you want to give guests modify or create writes on <em>specific folders or files</em> in the share, you can do that in their file permissions without having to configure additional shares.</p>
+</blockquote>
+
+<p>Click <strong>OK</strong> to close the Permissions for the share, and then click <strong>OK</strong> in the Advanced Sharing dialog to finish creating the share and take you back to the Folder Properties.</p>
+
+<p>Don’t close the Folder properties yet.</p>
+
+<h2 id="configure-ntfs-permissions">Configure NTFS Permissions</h2>
+
+<h3 id="give-the-guests-ntfs-access-to-the-files">Give the Guests NTFS access to the files</h3>
+
+<p>Go to the <strong>Security</strong> tab for the folder.</p>
+
+<p>Click <strong>Edit</strong></p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image13.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb13.png" width="190" height="244" /></a></p>
+
+<p>Click the <strong>Add…</strong> button, type in <em>Guests</em> and click <strong>OK</strong></p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image14.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb14.png" width="244" height="73" /></a></p>
+
+<p>This adds the Guests group (which includes Guest), and gives it Read permissions by default:</p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image15.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb15.png" width="244" height="132" /></a></p>
+
+<blockquote>
+<p>If you wish to give Guests write access to create, delete and/or modify files and folders, tick <strong>Allow</strong> for <strong>Modify</strong> also.</p>
+</blockquote>
+
+<p>Click the <strong>OK</strong> button when you’re done.</p>
+
+<h3 id="apply-permissions-to-the-share-s-folders-and-files">Apply permissions to the share’s folders and files</h3>
+
+<blockquote>
+<p>We must ensure the permissions have been propagated to the folders and files in the share, so that we don’t run into problems with guests not seeing particular folders or files in the share, or seeing them but not being able to access them.</p>
+
+<p>You may occasionally have to repeat this step when you transfer or create new files or folders in the share, and guests report having trouble accessing them.</p>
+</blockquote>
+
+<p>Click the <strong>Advanced</strong> button.</p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image16.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb16.png" width="190" height="244" /></a></p>
+
+<p>Click the <strong>Change Permissions…</strong> button on the Permission tab</p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image17.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb17.png" width="227" height="134" /></a></p>
+
+<p>Ensure that <strong>Replace all child object permissions with inheritable permissions from this object is checked</strong>, then hit <strong>OK</strong>.</p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image18.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb18.png" width="244" height="84" /></a></p>
+
+<p>Click <strong>Yes</strong> to continue.</p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image19.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb19.png" width="244" height="104" /></a></p>
+
+<blockquote>
+<p>Depending on the number of files and folders in your share and the speed of your machine, this may take a little while to apply.</p>
+</blockquote>
+
+<p>Once that is done, you can click <strong>OK</strong> to close the Advanced Security Settings for the share, then click <strong>Close</strong> to close the share folder properties.</p>
+
+<h2 id="troubleshooting">Troubleshooting</h2>
+
+<p>You can view what folders and files are being shared, as well as open sessions and files, using the <strong>Computer Management</strong> console.</p>
+
+<p>You can open this by right clicking on <strong>Computer</strong> in the <strong>Start Menu</strong> (or Explorer) and choosing <strong>Manage</strong>.</p>
+
+<blockquote>
+<p>You can also get to the Computer Management Console by going to Start &gt; Run, typing in compmgmt.msc and hitting Enter or clicking OK.</p>
+</blockquote>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image20.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb20.png" width="244" height="93" /></a></p>
+
+<p>Expand the <strong>Shared Folders</strong> node.</p>
+
+<h3 id="shares">Shares</h3>
+
+<p>The <strong>Shares</strong> group lists your current shares, their folder path and the number of clients connected. From here you can right click to <strong>Stop Sharing</strong> a share.</p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image21.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb21.png" width="244" height="47" /></a></p>
+
+<blockquote>
+<p>Note that you’ll see default <em>ADMIN$</em>, IPC$, <em>C$</em> and additional ‘<em>$’</em> shares for each physical drive on your machine. Don’t be alarmed; these are administrative shares are should not be removed. No one but computer administrators with logon privileges can access them.</p>
+</blockquote>
+
+<h3 id="sessions">Sessions</h3>
+
+<p>The <strong>Sessions</strong> group lists the current sessions in action, including who the users are, the Computer they’re logging on from, the number of files they have open, the time they’ve been connected to your share, and importantly if they’re logged on as a Guest or not.</p>
+
+<p><a href="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image22.png" target="_blank"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://www.sadrobot.co.nz/wp-content/uploads/2011/08/image_thumb22.png" width="244" height="49" /></a></p>
+
+<p>Right clicking an entry in here gives you the option to <strong>Close Session</strong>, (or right click in an empty area in the list to <strong>Disconnect All Sessions</strong>) which can help when you want to get people to re-authenticate when troubleshooting.</p>
+
+<h3 id="open-files">Open Files</h3>
+
+<p><strong>Open Files</strong> is similar to the Sessions group, but gives you more detail on the folders and files opened by various accounts, and the kind of access they’re opening the folders and files with.</p>
+
+<p>Right clicking on open files lets you choose to <strong>Close Open File</strong>, and right clicking in an empty part of the pane gives you the <strong>Disconnect All Open Files</strong> option.</p>
+
+</div>
+
+          
+
+        </div>
+      </div>
+      <div class="order-0 w-20 dn db-l">
+        
+<nav role="navigation">
+  <ul class="list pa0 nl2">
+    
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/blog/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".latest-posts">Latest Posts</a>
+
+          
+        </li>
+    
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/categories/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".categories">Categories</a>
+
+          
+        </li>
+    
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/tags/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".tags">Tags</a>
+
+          
+        </li>
+    
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".archive">Archive</a>
+
+          
+            <ul class="archive desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+              
+                <li  class="f6 fw4">
+                  <a href="/blog/2017/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    2017
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/blog/2016/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    2016
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+    
+  </ul>
+</nav>
+
+      </div>
+
+    </div>
+  </article>
+
+  <div class="w-100 bg-light-gray">
+    <div class="mw7 pa4 center nested-lh-copy lh-copy">
+      <h6 class="f4 dark-gray mb2">
+  <a href="http://www.sadrobot.co.nz/how-to/windows-file-sharing/" class="hide-child link primary-color">
+  <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
+</span>
+    “Windows File Sharing”
+  </a> was last updated: August 12, 2011
+</h6>
+
+      <a href="https://github.com/DavidMoore/SadRobot/edit/master/content/how-to/windows-file-sharing.md" class="
+f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
+">Improve this page</a>
+
+      
+
+
+    </div>
+  </div>
+
+  <div class="w-60-l ph0 ph5-ns center">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "sadrobot" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+
+
+    </main>
+
+    <footer class="bg-primary-color-dark ph4-ns pt4 relative w-100" role="contentinfo">
+    <div class="center flex-ns flex-wrap justify-between mw9 w-90">
+      <div class="pb3 pt4 w-100">
+      
+         <div class="b f3  light-gray mb3 nested-links tc">
+           Copyright &copy; David Moore 2018<br />
+          </div>
+
+          
+            <div class="center w4">
+                <svg version="1.1" id="Your_Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100px" height="98.953px" viewBox="0.859 1.023 100 98.953" enable-background="new 0.859 1.023 100 98.953"
+	 xml:space="preserve">
+<path d="M64.45,1.023H37.265v25.606H64.45V1.023L64.45,1.023z M44.258,18.443c-2.476,0-4.486-2.008-4.486-4.488
+	c0-2.477,2.01-4.486,4.486-4.486c2.479,0,4.487,2.01,4.487,4.486C48.746,16.435,46.737,18.443,44.258,18.443z M57.457,18.443
+	c-2.479,0-4.485-2.008-4.485-4.488c0-2.477,2.007-4.486,4.485-4.486s4.487,2.01,4.487,4.486
+	C61.944,16.435,59.936,18.443,57.457,18.443z M95.212,57.515c-0.401-8.685-4.126-14.752-8.712-18.343
+	c-3.793-2.979-7.954-4.407-11.396-4.913v-3.126h-48.49v3.125c-3.444,0.506-7.608,1.935-11.399,4.915
+	c-4.592,3.59-8.311,9.655-8.708,18.339c-3.285,1.152-5.646,4.243-5.646,7.915c0,4.644,3.761,8.413,8.411,8.415v-3.737
+	c-2.582-0.003-4.669-2.096-4.678-4.68c0.008-2.585,2.095-4.677,4.678-4.681c2.586,0.004,4.671,2.095,4.677,4.681h3.739
+	c-0.004-3.757-2.479-6.902-5.878-7.982c0.435-7.118,3.271-11.364,6.694-14.121c2.59-2.075,5.633-3.203,8.112-3.693v29.249h4.324
+	v19.227c-4.894,1.731-8.405,6.388-8.405,11.872h25.214c0-5.486-3.516-10.141-8.405-11.872V68.877h23.034v19.227
+	c-4.892,1.731-8.405,6.388-8.405,11.872h25.215c0-5.486-3.514-10.141-8.405-11.872V68.877h4.323V39.63
+	c2.477,0.488,5.519,1.616,8.106,3.691c3.425,2.756,6.262,7.001,6.698,14.12c-3.399,1.081-5.882,4.225-5.885,7.984h3.739
+	c0.002-2.582,2.095-4.679,4.683-4.682c2.579,0.003,4.669,2.099,4.677,4.682c-0.008,2.58-2.098,4.675-4.677,4.679v3.737
+	c4.644-0.003,8.413-3.769,8.413-8.416C100.858,61.749,98.49,58.663,95.212,57.515z M47.242,56.384h-4.822v-4.821h4.822V56.384z
+	 M47.242,50.508h-4.822v-4.82h4.822V50.508z M53.267,56.384h-4.818v-4.821h4.818V56.384z M53.267,50.508h-4.818v-4.82h4.818V50.508z
+	 M59.294,56.384h-4.825v-4.821h4.825V56.384z M59.294,50.508h-4.825v-4.82h4.825V50.508z M74.857,10.338
+	c0-3.781-3.067-6.848-6.847-6.848v13.699C71.79,17.189,74.857,14.121,74.857,10.338z M33.703,17.189V3.491
+	c-3.781,0-6.845,3.067-6.845,6.848C26.858,14.121,29.922,17.189,33.703,17.189z"/>
+</svg>
+
+              </div>
+
+          <ul class="center f6 list ma0 mv3 pa0 tc">
+            
+          </ul>
+          
+          <ul class="center f6 list ma0 mv4 pa0 tc">
+            <li class="dib mr3"><a href="https://twitter.com/whup" class="dim link light-gray pv2">@whup</a></li>
+          </ul>
+
+      </div>
+
+      
+      
+    </div>
+
+    <div class="f7 gray mb5 mb0-ns ph3 w-100"> 
+      <p class="dib mr4">Theme based on Hugo Docs theme by Bud Parr.</p>
+      <p class="dib">The Sad Robot logo is © Ricardo Moreira</p>
+    </div>
+    
+
+    <div class="bg-primary-color-dark bottom-0 dn-ns fixed pb3 ph3 w-100"> 
+      <div  class="globalmenu mobilemenu pb3 dn">
+    
+
+<ul class="list hidden dib ph0 ma0 scrolling-touch tc">
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/blog/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Blog
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/wiki/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Wiki
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/games/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          Gaming
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="https://github.com/davidmoore/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          GitHub
+        </a>
+    </li>
+  
+</ul>
+
+</div>
+<div  class="docsmenu mobilemenu pb3 dn">
+    
+
+<ul class="list dib ph0 ma0 scrolling-touch tc">
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/about/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          About Me
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/getting-started/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Getting Started
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
+        <a href="/themes/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Themes
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/content-management/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Content Management
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/templates/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Templates
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/functions/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Functions
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/variables/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Variables
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
+        <a href="/commands/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          CLI
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/troubleshooting/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Troubleshooting
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/tools/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Tools
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/hosting-and-deployment/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Hosting &amp; Deployment
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100 mb2 bb b--mid-gray">
+        <a href="/contribute/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Contribute
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/tags/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Tags
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/categories/" class="ttu f6 link primary-color-light  hover-white db brand-font mb1  ma0 w-100 pv2 ph4">
+          Categories
+        </a>
+    </li>
+  
+</ul>
+
+</div>
+
+<div class="flex dn-l justify-between">
+  <button class="js-toggle flex-auto dib dn-l f6 tc db mt4-ns ph3 pv2 link mr2 white bg-primary-color-dark hover-bg-primary-color ba b--white-40 w-auto" data-target=".globalmenu">Menu</button>
+
+  <button class="js-toggle flex-auto dib dn-l f6 tc db mt4-ns ph3 pv2 link white bg-primary-color-dark hover-bg-primary-color ba b--white-40 w-auto" data-target=".docsmenu">Docs Menu</button>
+</div>
+
+    </div>
+
+</footer>
+    <script src="/dist/app.bundle.js"></script>
+
+
+
+
+  </body>
+</html>

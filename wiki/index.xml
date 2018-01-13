@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wiki on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/wiki/</link>
+    <description>Recent content in Wiki on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Jan 2012 09:50:40 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/wiki/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Database</title>
+      <link>http://www.sadrobot.co.nz/wiki/database/</link>
+      <pubDate>Fri, 27 Jan 2012 09:50:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/database/</guid>
+      <description>SQL Server</description>
+    </item>
+    
+    <item>
+      <title>Patterns</title>
+      <link>http://www.sadrobot.co.nz/wiki/patterns/</link>
+      <pubDate>Tue, 17 Jan 2012 20:14:51 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practices</title>
+      <link>http://www.sadrobot.co.nz/wiki/practices/</link>
+      <pubDate>Tue, 17 Jan 2012 20:14:34 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Debugging Windows Installer Custom Actions</title>
+      <link>http://www.sadrobot.co.nz/wiki/debugging/debugging-windows-installer-custom-actions-2/</link>
+      <pubDate>Wed, 10 Aug 2011 13:34:41 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/debugging/debugging-windows-installer-custom-actions-2/</guid>
+      <description>General  First, you must know the name of the custom action you want to debug. In this example we&amp;rsquo;ll call it MyCustomAction. Set the MsiBreak environment variable (user or system) to the name of the custom action. You can do this easily by running setx from the commandline:
+ C:WindowsSystem32&amp;gt;setx MsiBreak MyCustomAction&amp;lt;br /&amp;gt; SUCCESS: Specified value was saved.&amp;lt;br /&amp;gt; C:WindowsSystem32&amp;gt;
+ Run your installer
+  You should get now get a message box prompt like this:</description>
+    </item>
+    
+    <item>
+      <title>Debugging</title>
+      <link>http://www.sadrobot.co.nz/wiki/debugging/debugging/</link>
+      <pubDate>Wed, 10 Aug 2011 13:29:23 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/debugging/debugging/</guid>
+      <description>Debugging VSTO Add-ins
+Debugging Windows Installer Custom Actions
+Debugging Visual Basic 6</description>
+    </item>
+    
+    <item>
+      <title>MSBuild</title>
+      <link>http://www.sadrobot.co.nz/wiki/microsoft/</link>
+      <pubDate>Thu, 28 Jul 2011 14:22:44 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/microsoft/</guid>
+      <description>How Tos Debugging MSBuild Scripts</description>
+    </item>
+    
+    <item>
+      <title>Structuring Visual Studio solutions</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/structuring-visual-studio-solutions/</link>
+      <pubDate>Sat, 22 Jan 2011 23:12:44 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/structuring-visual-studio-solutions/</guid>
+      <description>The entire solution will be under a root folder, that may differ depending on the developer’s preferences, the branch they’re checking out etc.
+Branch structure  Folder Name  Function  Comments     Main  Trunk / main branch  &amp;#160;    Branches  &amp;#160;  &amp;#160;    BranchesDevelopment  Contains development branches  &amp;#160;    BranchesReleases  Contains live, maintenance branches  &amp;#160;    General  Non branch-specific resources  E.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/data/</guid>
+      <description>Data .. toctree:: :titlesonly:
+cassandra</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/debugging/error-codes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/debugging/error-codes/</guid>
+      <description>Error Codes HRESULT https://msdn.microsoft.com/en-us/library/cc231198.aspx
+The HRESULT numbering space is vendor-extensible. Vendors can supply their own values for this field, as long as the C bit (0x20000000) is set, indicating it is a customer code.
+The HRESULT numbering space has the following internal structure. Any protocol that uses NTSTATUS values on the wire is responsible for stating the order in which the bytes are placed on the wire.
+S (1 bit): Severity.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/wcf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/wcf/</guid>
+      <description>===Chapter 3: Message Exchange Patterns, Topologies, and Choreographies===
+==Message Exchange Patterns (MEP)==
+The Datagram MEP
+ 1-way, send and forget May or may not elicit a response, which would require a new connection A datagram MEP is expressed in Web Services Description Language (WSDL) as an operation that contains a wsdl:input element and no wsdl:output elements In WCF, the contract method must have a void return type, and the OperationContract attribute needs IsOneWay set to true  WCF applications that receive datagrams over HTTP send the 202 reply upon receipt of the datagram but before processing the datagram.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/</guid>
+      <description> Developedia Software development reference and knowledge base
+Contents </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/sourcecontrol/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/sourcecontrol/git/</guid>
+      <description>Git Configure for Windows On Windows machine, open up Git Bash
+$ ssh-keygen -t rsa -C &amp;ldquo;David Moore david@digitalgenus.com&amp;ldquo; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/.ssh/id_rsa. Your public key has been saved in /d/Users/David/.ssh/id_rsa.pub. The key fingerprint is: 8a:ef:52:86:76:53:b3:ed:d6:54:02:c3:75:9d:94:22 David Moore david@digitalgenus.com
+David@WHUP ~/.ssh
+Copy the contents of ~/.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/theory/solid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/theory/solid/</guid>
+      <description>S.O.L.I.D. S.O.L.I.D. aka SOLID stands for:
+S: Single Responsibility Principle aka SRP A class should have a single responsibility.
+O: Open / Closed A class should be open for extension, but closed to modification.
+L: Liskov substitution principle An object should be replaceable with an object of its subtype without breaking the program.
+I: Interface Segregation Principle Many interfaces are desirable over one general-purpose interface
+D: Dependency Injection Principle aka DI Classes should depend on supplied abstractions, instead of concrete implementations.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/theory/yagni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/theory/yagni/</guid>
+      <description>YAGNI You Aren&amp;rsquo;t Gonna Need It:
+This originates from eXtreme Programming (XP).
+You should only add functionality until there is a need for that functionality, rather than adding functionality you forsee as being possibly necessary later.
+This helps keep the code base leaner, and allow changing requirements and refactoring.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/web/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/</guid>
+      <description>Web Technologies .. toctree:: :titlesonly:
+javascript/index</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/windows/maintenance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/windows/maintenance/</guid>
+      <description>Windows Maintenance Deployment Image Servicing and Management tool (DISM) DISM can be used to mount and service a Windows image from a .wim file, .vhd file, or a .vhdx file or, in some cases, to update a running operating system.
+You can use DISM to do various cleanup operations related to installed components, updates and service packs.
+Remove Service Pack backup components after Service Pack installation After installing a Service Pack, you can clean up backed up components:</description>
+    </item>
+    
+    <item>
+      <title>CSharp Async &amp; Await</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/async/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/async/</guid>
+      <description>Asynchronous programming in C APM: C# 1.0 / .NET 1.0 Style This is known as the Asynchronous Programming Model (APM) and is associated with the IAsyncResult pattern.
+Asynchronous calls are made using Begin and End methods on an API, with callbacks and state being passed between them.
+ Exception handling Exceptions can be thrown from BeginRead (such as trying to read from a stream that has already been closed). Unexpected errors occurring during the async request (e.</description>
+    </item>
+    
+    <item>
+      <title>Covariance &amp; Contravariance</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/csharp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/csharp/</guid>
+      <description>Covariant if it preserves the ordering of types (≤), which orders types from more specific to more generic; Contravariant if it reverses this ordering; Bivariant if both of these apply (i.e., both I&amp;lt;A&amp;gt; ≤ I&amp;lt;B&amp;gt; and I&amp;lt;B&amp;gt; ≤ I&amp;lt;A&amp;gt; at the same time); Invariant or Nonvariant if neither of these applies.  In C# interfaces, in represents contravariance, and out represents covariance.
+For example in C#, if Cat is a subtype of Animal, then:</description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>http://www.sadrobot.co.nz/wiki/javascript/javascript-patterns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/javascript/javascript-patterns/</guid>
+      <description>#JavaScript Patterns
+Promises #References
+http://www.html5rocks.com/en/tutorials/es6/promises/ http://www.infoq.com/news/2014/05/promises-javascript</description>
+    </item>
+    
+    <item>
+      <title>JavaScript for C# Developers</title>
+      <link>http://www.sadrobot.co.nz/wiki/javascript/forcsharpdevelopers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/javascript/forcsharpdevelopers/</guid>
+      <description>Objects A Javascript object has a lot in common with a C# dictionary.
+You could imagine it as a dynamic type in C# that looks up values in a dictionary.
+Methods are object properties that reference a function.
+this is the calling context, not the current class.
+Functions Can return a reference to themselves.
+There is an arguments implicit parameter.
+All parameters are optional.
+Unspecified parameters are set to undefined</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>http://www.sadrobot.co.nz/wiki/javascript/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/javascript/overview/</guid>
+      <description>ECMAScript, JavaScript, Java, asm.js ECMAScript is the standardized, versioned spec of JavaScript.
+ECMAScript Support The ES6 spec is expected to be finalized and implemented by the various browser vendors sometime mid / late 2015.
+================= === ==================================== Browser ES5 ECMAScript 2015 (ES6) (in progress) ================= === ==================================== Chrome 23+ Evergreen Internet Explorer 9+ 12+ Firefox 21+ Evergreen ================= === ====================================
+Evergreen browsers automatically update to the latest version.
+Transpiling ES6 Google Traceur is an ES6 to ES5 transpiler that can be used to develop in ES6 but target ES5 browsers.</description>
+    </item>
+    
+  </channel>
+</rss>

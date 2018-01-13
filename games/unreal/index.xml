@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unreal Tournament on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/games/unreal/</link>
+    <description>Recent content in Unreal Tournament on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Jul 2014 19:37:40 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/games/unreal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unreal Tournament</title>
+      <link>http://www.sadrobot.co.nz/games/unreal/</link>
+      <pubDate>Sat, 19 Jul 2014 19:37:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/unreal/</guid>
+      <description>Unreal Tournament 3 Unreal Tournament 3 (UT3) Protocol Registry Fix for launching UT3 links Protocol Registry Fix for launching UT3 links&amp;rdquo;)</description>
+    </item>
+    
+  </channel>
+</rss>

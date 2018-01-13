@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>How-to on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/how-to/</link>
+    <description>Recent content in How-to on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Aug 2011 22:20:05 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/how-to/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows File Sharing</title>
+      <link>http://www.sadrobot.co.nz/how-to/windows-file-sharing/</link>
+      <pubDate>Fri, 12 Aug 2011 22:20:05 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/how-to/windows-file-sharing/</guid>
+      <description>So, you want to share your files on the lan without requiring people to log in or join your Home Group?
+The following instructions are for Windows 7 and the NTFS (default and recommended) file system.
+Turn off Simple File Sharing From the Control Panel, search for Folder Options and open it (or from an Explorer window, go to the menu Organize &amp;gt; Folder and search options
+Go to the View tab</description>
+    </item>
+    
+    <item>
+      <title>Maintenance</title>
+      <link>http://www.sadrobot.co.nz/how-to/maintenance/</link>
+      <pubDate>Thu, 04 Aug 2011 12:04:11 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/how-to/maintenance/</guid>
+      <description>Disk maintenance Manually schedule a disk checked at next restart</description>
+    </item>
+    
+  </channel>
+</rss>
