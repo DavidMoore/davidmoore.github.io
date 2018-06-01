@@ -6,10 +6,22 @@
     <description>Recent content in Blog on Sad Robot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Feb 2017 18:28:32 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jan 2018 06:15:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.sadrobot.co.nz/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SQL Operations Studio</title>
+      <link>http://www.sadrobot.co.nz/blog/2018/01/14/sql-operations-studio/</link>
+      <pubDate>Sun, 14 Jan 2018 06:15:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2018/01/14/sql-operations-studio/</guid>
+      <description>SQL Operations Studio Released Microsoft recently released a preview of a free, new SQL management suite called SQL Operations Studio.
+It is obviously based on Visual Studio Code, so is extensible and scriptable, and potentially the SQL Operations Studio features may be added to VSCode later.
+The product already has an incredibly useful, customizable dashboard feature, as well as support for viewing SQL Query Plans and Execution Plans.
+There is also a connection manager that handles Azure connection.</description>
+    </item>
     
     <item>
       <title>SQL Server Management Studio is Free</title>

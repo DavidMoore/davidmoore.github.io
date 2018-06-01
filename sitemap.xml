@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/blog/2018/01/14/sql-operations-studio/</loc>
+    <lastmod>2018-01-14T06:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/blog/2017/02/02/sql-server-management-studio-is-free/</loc>
     <lastmod>2017-02-02T18:28:32+00:00</lastmod>
   </url>
@@ -846,7 +851,7 @@
   
   <url>
     <loc>http://www.sadrobot.co.nz/blog/</loc>
-    <lastmod>2017-02-02T18:28:32+00:00</lastmod>
+    <lastmod>2018-01-14T06:15:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -2130,6 +2135,10 @@
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/games/wow/basics/protection/</loc>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/tags/proxy/</loc>
     <lastmod>2009-01-17T07:01:50+00:00</lastmod>
     <priority>0</priority>
@@ -2407,19 +2416,19 @@
   
   <url>
     <loc>http://www.sadrobot.co.nz/categories/sql/</loc>
-    <lastmod>2017-02-02T18:28:32+00:00</lastmod>
+    <lastmod>2018-01-14T06:15:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.sadrobot.co.nz/tags/sql/</loc>
-    <lastmod>2017-02-02T18:28:32+00:00</lastmod>
+    <lastmod>2018-01-14T06:15:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.sadrobot.co.nz/tags/sql-server/</loc>
-    <lastmod>2017-02-02T18:28:32+00:00</lastmod>
+    <lastmod>2018-01-14T06:15:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
