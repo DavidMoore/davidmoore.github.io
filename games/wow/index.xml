@@ -6,6 +6,7 @@
     <description>Recent content in World of Warcraft: Battle for Azeroth on Sad Robot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 21 Aug 2018 08:40:22 +1200</lastBuildDate>
     
 	<atom:link href="http://www.sadrobot.co.nz/games/wow/index.xml" rel="self" type="application/rss+xml" />
     
@@ -57,6 +58,27 @@ ElvUI Updater ElvUI is not available from the Twitch add-on manager, so you norm
       
       <guid>http://www.sadrobot.co.nz/games/wow/mythicplus/</guid>
       <description>Mythic+ Affixes    Affix Holy Protection     Necrotic If the tank gets too many stacks, be ready to use Sacrifice and Devotion Aura You can bubble off stacks. Spellwarding can&amp;rsquo;t remove stacks, but will prevent new stacks from being applied and allow the existing stacks to drop off.    References Holy Paladin Mythic+ Guide: https://docs.google.com/document/d/1QcknG-1E-ZZRupIGOlA0A3-5WCwI1KnXotLkTjCtA_E Mythic+ Dungeon Guides: https://questionablyepic.com/mythic-plus/</description>
+    </item>
+    
+    <item>
+      <title>Paladin Macros</title>
+      <link>http://www.sadrobot.co.nz/games/wow/macros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/macros/</guid>
+      <description>Avenger&amp;rsquo;s Shield Casts at mouseover enemy, focus target enemy or current target If you&amp;rsquo;re in PvP and holding CTRL, then enable Shield of Virtue (AOE silence) before throwing shield
+ #showtooltip Avenger&#39;s Shield /cast [mod:ctrl] Shield of Virtue /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead]Avenger&#39;s Shield  Rebuke Kick / interrupt your mouseover target, focus target or selected target (in that priority order)
+ #showtooltip Rebuke /stopcasting /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead] Rebuke  Judgment Judges your mouseover target if they&amp;rsquo;re an enemy, enemy focus target or finally your target.</description>
+    </item>
+    
+    <item>
+      <title>Protection Paladin</title>
+      <link>http://www.sadrobot.co.nz/games/wow/protection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/protection/</guid>
+      <description> Rotation Judgement &amp;gt; Avenger&amp;rsquo;s Shield &amp;gt; Hammer of the Righteous
+Survivability  Shield of the Righteous is your active mitigation; it is now armor only (physical) Make sure you&amp;rsquo;re standing in Consecration for damage mitigation Casting Avenger&amp;rsquo;s Shield will buff your next SotR HotP is your self heal Seraphim has something of a defensive benefit now that SotR is physical only but should still be considered a DPS talent For magic damage, you will need a cooldown (Ardent Defender, Guardian of Ancient Kings, Bubble taunt) Talent Spellwarding for magic immunity  DPS  Coming soon  </description>
     </item>
     
   </channel>
