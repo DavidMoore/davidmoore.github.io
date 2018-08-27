@@ -584,6 +584,10 @@
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/wiki/windows/bootable-usb/</loc>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/wiki/windows/maintenance/</loc>
   </url>
   
@@ -696,7 +700,7 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/antorus/</loc>
+    <loc>http://www.sadrobot.co.nz/games/wow/basics/legion/antorus/</loc>
   </url>
   
   <url>
@@ -709,6 +713,10 @@
     <loc>http://www.sadrobot.co.nz/tags/applications/</loc>
     <lastmod>2010-02-15T11:08:01+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/ipfilter/architecture/</loc>
   </url>
   
   <url>
@@ -745,6 +753,10 @@
     <loc>http://www.sadrobot.co.nz/tags/asynchronous/</loc>
     <lastmod>2009-06-03T10:50:15+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/games/wow/dungeon/ataldazar/</loc>
   </url>
   
   <url>
@@ -798,6 +810,11 @@
   <url>
     <loc>http://www.sadrobot.co.nz/tags/bark/</loc>
     <lastmod>2009-02-28T14:23:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/games/wow/basics/</loc>
     <priority>0</priority>
   </url>
   
@@ -983,6 +1000,10 @@
     <loc>http://www.sadrobot.co.nz/tags/columns/</loc>
     <lastmod>2009-02-28T10:59:09+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/ipfilter/commandline/</loc>
   </url>
   
   <url>
@@ -1312,6 +1333,10 @@
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/games/wow/dungeon/freehold/</loc>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/tags/frozen-throne/</loc>
     <lastmod>2009-06-08T19:47:16+00:00</lastmod>
     <priority>0</priority>
@@ -1438,6 +1463,14 @@
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/ipfilter/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/ipfilter/</loc>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/tags/ieproxy.dll/</loc>
     <lastmod>2009-08-19T20:45:01+00:00</lastmod>
     <priority>0</priority>
@@ -1510,7 +1543,11 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/wiki/javascript/javascript-patterns/</loc>
+    <loc>http://www.sadrobot.co.nz/wiki/javascript/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/wiki/javascript/patterns/</loc>
   </url>
   
   <url>
@@ -1572,6 +1609,10 @@
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/games/wow/dungeon/kings-rest/</loc>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/tags/land-for-bags/</loc>
     <lastmod>2009-02-27T13:08:02+00:00</lastmod>
     <priority>0</priority>
@@ -1587,6 +1628,18 @@
     <loc>http://www.sadrobot.co.nz/tags/last.fm/</loc>
     <lastmod>2009-01-08T03:26:43+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/games/wow/basics/legion/mythicplus/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/games/wow/basics/legion/macros/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/games/wow/basics/legion/protection/</loc>
   </url>
   
   <url>
@@ -2997,6 +3050,10 @@
   
   <url>
     <loc>http://www.sadrobot.co.nz/games/wow/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/games/wow/basics/legion/</loc>
   </url>
   
   <url>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basics on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/games/wow/basics/</link>
+    <description>Recent content in Basics on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://www.sadrobot.co.nz/games/wow/basics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Paladin Macros</title>
+      <link>http://www.sadrobot.co.nz/games/wow/basics/macros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/basics/macros/</guid>
+      <description>Avenger&amp;rsquo;s Shield Casts at mouseover enemy, focus target enemy or current target If you&amp;rsquo;re in PvP and holding CTRL, then enable Shield of Virtue (AOE silence) before throwing shield
+ #showtooltip Avenger&#39;s Shield /cast [mod:ctrl] Shield of Virtue /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead]Avenger&#39;s Shield  Rebuke Kick / interrupt your mouseover target, focus target or selected target (in that priority order)
+ #showtooltip Rebuke /stopcasting /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead] Rebuke  Judgment Judges your mouseover target if they&amp;rsquo;re an enemy, enemy focus target or finally your target.</description>
+    </item>
+    
+    <item>
+      <title>Protection Paladin</title>
+      <link>http://www.sadrobot.co.nz/games/wow/basics/protection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/basics/protection/</guid>
+      <description> Rotation Judgement &amp;gt; Avenger&amp;rsquo;s Shield &amp;gt; Hammer of the Righteous
+Survivability  Shield of the Righteous is your active mitigation; it is now armor only (physical) Make sure you&amp;rsquo;re standing in Consecration for damage mitigation Casting Avenger&amp;rsquo;s Shield will buff your next SotR HotP is your self heal Seraphim has something of a defensive benefit now that SotR is physical only but should still be considered a DPS talent For magic damage, you will need a cooldown (Ardent Defender, Guardian of Ancient Kings, Bubble taunt) Talent Spellwarding for magic immunity  DPS  Coming soon  </description>
+    </item>
+    
+  </channel>
+</rss>

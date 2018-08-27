@@ -45,7 +45,7 @@
 
 
 
-<meta itemprop="wordCount" content="82">
+<meta itemprop="wordCount" content="154">
 
 
 
@@ -150,14 +150,6 @@
 
 	<div date-pref>
 		
-			<a href="http://www.sadrobot.co.nz/games/wow/mythicplus/" class="dib f6 pl1 hover-bg-light-gray br-100" title="Mythic&#43; ">
-				<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
-    <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
-    <path d="M0 0h24v24H0z" fill="none"/>
-</svg>
-
-			</a>
-		
 
 		
 			<a href="http://www.sadrobot.co.nz/games/wow/basics/protection/" class="dib f6 pr1 hover-bg-light-gray br-100" title="Protection Paladin">
@@ -198,41 +190,47 @@
 
 
 
-<h2 id="macros">Macros</h2>
-
-<h3 id="avenger-s-shield">Avenger&rsquo;s Shield</h3>
+<h4 id="avenger-s-shield">Avenger&rsquo;s Shield</h4>
 
 <p>Casts at mouseover enemy, focus target enemy or current target
-If you&rsquo;re in PvP and holding ALT, then enable Shield of Virtue (AOE silence) before throwing shield</p>
+If you&rsquo;re in PvP and holding CTRL, then enable Shield of Virtue (AOE silence) before throwing shield</p>
 
 <pre><code>  #showtooltip Avenger's Shield
   /cast [mod:ctrl] Shield of Virtue
   /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead]Avenger's Shield
 </code></pre>
 
-<h3 id="rebuke">Rebuke</h3>
+<h4 id="rebuke">Rebuke</h4>
+
+<p>Kick / interrupt your mouseover target, focus target or selected target (in that priority order)</p>
 
 <pre><code>  #showtooltip Rebuke
   /stopcasting
   /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead] Rebuke
 </code></pre>
 
-<h3 id="judgment">Judgment</h3>
+<h4 id="judgment">Judgment</h4>
+
+<p>Judges your mouseover target if they&rsquo;re an enemy, enemy focus target or finally your target.</p>
 
 <pre><code>  #showtooltip Judgment
   /cast [@mouseover,harm][@focus,exists,harm][] Judgment
 </code></pre>
 
-<h3 id="divine-shield">Divine Shield</h3>
+<h4 id="divine-shield">Divine Shield</h4>
+
+<p>Casts Divine Shield, and hit it again to cancel your immunity. Use this when doing bubble taunt combos or using bubbles to reset stacks or cheese mechanics.</p>
 
 <pre><code>#showtooltip Divine Shield
 /stopcasting
-/cancelaura [mod:ctrl] Divine Shield
-/cancelaura [mod:ctrl] Blessing of Protection
+/cancelaura Divine Shield
+/cancelaura Blessing of Protection
 /cast Divine Shield
 </code></pre>
 
-<h3 id="light-hand-of-the-protector">Light/Hand of the Protector</h3>
+<h4 id="light-hand-of-the-protector">Light/Hand of the Protector</h4>
+
+<p>Cast Light of the Protector / Hand of the Protector on your mouseover target, selected target or yourself.</p>
 
 <pre><code>#showtooltip
 /cast [@mouseover,exists][@target,exists][@player]Light of the Protector
@@ -251,10 +249,10 @@ If you&rsquo;re in PvP and holding ALT, then enable Shield of Virtue (AOE silenc
     
       
       <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".world-of-warcraft">World of Warcraft</a>
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".world-of-warcraft-battle-for-azeroth">World of Warcraft: Battle for Azeroth</a>
 
           
-            <ul class="world-of-warcraft desktopmenu animated fadeIn list pl0 bg-light-gray db">
+            <ul class="world-of-warcraft-battle-for-azeroth desktopmenu animated fadeIn list pl0 bg-light-gray db">
               
                 <li  class="f6 fw4">
                   <a href="/games/wow/mythicplus/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
@@ -275,14 +273,61 @@ If you&rsquo;re in PvP and holding ALT, then enable Shield of Virtue (AOE silenc
                 </li>
               
                 <li  class="f6 fw4">
-                  <a href="/games/wow/antorus/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
-                    Antorus, The Burning Throne
+                  <a href="/games/wow/elvui/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    ElvUI Updater
                   </a>
                 </li>
               
                 <li  class="f6 fw4">
-                  <a href="/games/wow/elvui/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
-                    ElvUI Updater
+                  <a href="/games/wow/dungeon/ataldazar/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Dungeon: Ataldazar
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/games/wow/dungeon/freehold/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Dungeon: Freehold
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/games/wow/dungeon/kings-rest/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Dungeon: King&#39;s Rest
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+    
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".world-of-warcraft-legion">World of Warcraft: Legion</a>
+
+          
+            <ul class="world-of-warcraft-legion desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+              
+                <li  class="f6 fw4">
+                  <a href="/games/wow/basics/legion/mythicplus/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Legion Mythic&#43;
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/games/wow/basics/legion/protection/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Legion Protection Paladin
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/games/wow/basics/legion/macros/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Legion Paladin Macros
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/games/wow/basics/legion/antorus/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Antorus, The Burning Throne
                   </a>
                 </li>
               

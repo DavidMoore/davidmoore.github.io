@@ -1256,6 +1256,16 @@ javascript/index</description>
     
     <item>
       <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/windows/bootable-usb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/windows/bootable-usb/</guid>
+      <description>Making a Windows Bootable USB Drive Format the USB drive and make it bootable Replace ? with the letter of your USB Drive below
+diskpart list disk select disk ? clean create partition primary select partition 1 active format fs=ntfs quick label=&amp;quot;Windows Setup&amp;quot; exit  Make it boot Windows 10 Installer Copy over Windows 10 files Use 7-zip to extract the contents of the .iso to the USB drive</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://www.sadrobot.co.nz/wiki/windows/maintenance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1267,11 +1277,32 @@ Remove Service Pack backup components after Service Pack installation After inst
     
     <item>
       <title>Antorus, The Burning Throne</title>
-      <link>http://www.sadrobot.co.nz/games/wow/antorus/</link>
+      <link>http://www.sadrobot.co.nz/games/wow/basics/legion/antorus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/games/wow/antorus/</guid>
+      <guid>http://www.sadrobot.co.nz/games/wow/basics/legion/antorus/</guid>
       <description>Loot    Boss Tier Loot Protection Holy Retribution     Garothi Worldbreaker  HM Chest (Prot 2), CH Boots (Holy 1, Prot 2) Arcane Relic #2 (Stern Judgment)     Felhounds of Sargeras  HC Gloves (Holy 1, Prot 2), VH Belt (Prot 2) Eye of F&amp;rsquo;harg, Eye of Shatug     Antoran High Command Cloak HC Shoulders (Prot 2, Holy 2) #1 Iron Relic (Consecration in Flames), #3 Holy (Righteous Crusader)     Portal Keeper Hasabel  MC Belt (Holy 1) Riftworld Codex, #3 Iron Relic (Unflinching Defense)     Essence of Eonar Chest HM Wrists (Prot 1) Holy Relic #2 (Hammer Time), Iron Relic #2 (Stern Judgment), Bracers     Imonar the Soulhunter Legs  #1 Arcane Relic (Hammer Time)     Kin&amp;rsquo;garoth Gloves HV Helm, CM Ring (Holy 1) Apocalypse Drive     Varimathras HM Neck (Prot 1), CH Bracers (Holy 1, Prot 2)    Seeping Scourgewing   Coven of Shivarra Shoulders HM Boots (Prot 1), HC Ring (Holy 1, Prot 1) Diima&amp;rsquo;s Glacial Aegis Highfather&amp;rsquo;s Machination    Aggramar Helm H/C Cloak (Prot 1, Holy 1), C/H Chest (Holy 1, Prot 3), HM Belt (Prot 1, ) Smoldering Titanguard  Gorshalach&amp;rsquo;s Legacy   Argus the Unmaker Aman&amp;rsquo;thul&amp;rsquo;s Vision CH Neck (Holy 1, Prot 2), HM Legs (Prot 3) Aggramar&amp;rsquo;s Conviction, #1 Holy Relic (Consecration), #3 Arcane Relic (Righteous Crusader) Eonar&amp;rsquo;s Compassion Khaz&amp;rsquo;goroth&amp;rsquo;s Courage    Loot Levels    Difficulty Item Level Argus Notes     LFR 915 925 No Pantheon trinkets   Normal 930 940    Heroic 945 955    Mythic 960 970     Holy Relics    Item Name Type Trait Drop Location     Venerated Puresoul Idol Holy Second Sunrise Imonar the Soulhunter   Lightshield Amplifier Holy Expel the Darkness Antoran High Command   Coven Prayer Bead Holy Tyr&amp;rsquo;s Munificence The Coven of Shivarra   Mysterious Petrified Egg Life Shock Treatment Imonar the Soulhunter   Eidolon of Life Life Deliver the Light Kin&amp;rsquo;garoth   Root of the Lifebinder Life Second Sunrise Argus the Unmaker   Fraternal Fervor Life Tyr&amp;rsquo;s Munificence Felhounds of Sargeras    Glossary Basic Swap = tank swap when debuff drops off</description>
+    </item>
+    
+    <item>
+      <title>Architecture</title>
+      <link>http://www.sadrobot.co.nz/ipfilter/architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/ipfilter/architecture/</guid>
+      <description>The IPFilter updater takes in a set of one or more inputs, and one or more outputs.
+IPFilter acquires and merges all of the inputs, and generates the output result.
+The merged inputs are then synced to the output(s).
+Inputs Input URIs The input must be resolved to an absolute URI. While the final URI must be absolute, there are shortcuts and abbreviations to make the specified input(s) more concise and readable.</description>
+    </item>
+    
+    <item>
+      <title>Ataldazar</title>
+      <link>http://www.sadrobot.co.nz/games/wow/dungeon/ataldazar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/ataldazar/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -1283,6 +1314,22 @@ Remove Service Pack backup components after Service Pack installation After inst
       <description>Asynchronous programming in C APM: C# 1.0 / .NET 1.0 Style This is known as the Asynchronous Programming Model (APM) and is associated with the IAsyncResult pattern.
 Asynchronous calls are made using Begin and End methods on an API, with callbacks and state being passed between them.
  Exception handling Exceptions can be thrown from BeginRead (such as trying to read from a stream that has already been closed). Unexpected errors occurring during the async request (e.</description>
+    </item>
+    
+    <item>
+      <title>Commandline</title>
+      <link>http://www.sadrobot.co.nz/ipfilter/commandline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/ipfilter/commandline/</guid>
+      <description>Command Line You can control IPFilter Update from the command line easily.
+Syntax ipfilter.exe [options] [inputs] [outputs]
+Options /silent
+ Launch, run and exit silently. Useful for when automating IPFilter yourself.
+ /service
+ Instruct IPFilter to register itself as a Windows service, and start running.
+ Supported file formats .zip, .gzip, .dat, .json
+Inputs You can specify inputs as URIs / URLs or file system paths (including UNC paths).</description>
     </item>
     
     <item>
@@ -1301,22 +1348,38 @@ For example in C#, if Cat is a subtype of Animal, then:</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/elvui/</guid>
-      <description>What is ElvUI? ElVUI is a beautiful, minimalist but highly customizable user interface suite for World of Warcraft.
-I have been using ElVUI for a few years now, and would recommend it to newcomers or veterans.
+      <description>Download Latest Version: https://github.com/DavidMoore/ElvUI.Updater/releases/download/0.9.1/Setup.exe
+ Releases: https://github.com/DavidMoore/ElvUI.Updater/releases/latest Support: https://github.com/DavidMoore/ElvUI.Updater/issues  What is ElvUI? ElvUI is a beautiful, minimalist, highly customizable user interface suite for World of Warcraft.
+I have been using ElvUI for a few years now, and would recommend it to newcomers or veterans.
 You can find out more about ElvUI here: https://www.tukui.org/download.php?ui=elvui
-ElvUI Updater ElvUI is not available from the Twitch add-on manager, so you normally have to download and update it yourself.
-This utility will do the hard work for you by downloading the latest version of ElvUI, and installing it into your WoW addons folder.</description>
+ElvUI Updater ElvUI is not available from the Twitch add-on manager, so you normally have to download and update it yourself.</description>
     </item>
     
     <item>
-      <title>JavaScript</title>
-      <link>http://www.sadrobot.co.nz/wiki/javascript/javascript-patterns/</link>
+      <title>Freehold</title>
+      <link>http://www.sadrobot.co.nz/games/wow/dungeon/freehold/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/wiki/javascript/javascript-patterns/</guid>
-      <description>#JavaScript Patterns
-Promises #References
-http://www.html5rocks.com/en/tutorials/es6/promises/ http://www.infoq.com/news/2014/05/promises-javascript</description>
+      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/freehold/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IPFilter Updater</title>
+      <link>http://www.sadrobot.co.nz/ipfilter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/ipfilter/</guid>
+      <description> IPFilter </description>
+    </item>
+    
+    <item>
+      <title>JavaScript Patterns</title>
+      <link>http://www.sadrobot.co.nz/wiki/javascript/patterns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/javascript/patterns/</guid>
+      <description>JavaScript Patterns Promises References http://www.html5rocks.com/en/tutorials/es6/promises/ http://www.infoq.com/news/2014/05/promises-javascript</description>
     </item>
     
     <item>
@@ -1333,6 +1396,44 @@ Functions Can return a reference to themselves.
 There is an arguments implicit parameter.
 All parameters are optional.
 Unspecified parameters are set to undefined</description>
+    </item>
+    
+    <item>
+      <title>King&#39;s Rest</title>
+      <link>http://www.sadrobot.co.nz/games/wow/dungeon/kings-rest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/kings-rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Legion Mythic&#43;</title>
+      <link>http://www.sadrobot.co.nz/games/wow/basics/legion/mythicplus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/basics/legion/mythicplus/</guid>
+      <description>Mythic+ Affixes    Affix Holy Protection     Necrotic If the tank gets too many stacks, be ready to use Sacrifice and Devotion Aura You can bubble off stacks. Spellwarding can&amp;rsquo;t remove stacks, but will prevent new stacks from being applied and allow the existing stacks to drop off.    References Holy Paladin Mythic+ Guide: https://docs.google.com/document/d/1QcknG-1E-ZZRupIGOlA0A3-5WCwI1KnXotLkTjCtA_E Mythic+ Dungeon Guides: https://questionablyepic.com/mythic-plus/</description>
+    </item>
+    
+    <item>
+      <title>Legion Paladin Macros</title>
+      <link>http://www.sadrobot.co.nz/games/wow/basics/legion/macros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/basics/legion/macros/</guid>
+      <description>Avenger&amp;rsquo;s Shield Casts at mouseover enemy, focus target enemy or current target If you&amp;rsquo;re in PvP and holding CTRL, then enable Shield of Virtue (AOE silence) before throwing shield
+ #showtooltip Avenger&#39;s Shield /cast [mod:ctrl] Shield of Virtue /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead]Avenger&#39;s Shield  Rebuke Kick / interrupt your mouseover target, focus target or selected target (in that priority order)
+ #showtooltip Rebuke /stopcasting /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead] Rebuke  Judgment Judges your mouseover target if they&amp;rsquo;re an enemy, enemy focus target or finally your target.</description>
+    </item>
+    
+    <item>
+      <title>Legion Protection Paladin</title>
+      <link>http://www.sadrobot.co.nz/games/wow/basics/legion/protection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/basics/legion/protection/</guid>
+      <description>Rotation Survivability  Use Shield of the Righteous to get your active mitigation up. Make sure you&amp;rsquo;re standing in Consecration for extra benefit (also more if you wear legendary ring) Cast Judgement first to buff the next Shield of the Righteous You can cast SoTR a few times in advance to buy you some time if you&amp;rsquo;re not going to be in melee range of a target Avenger&amp;rsquo;s Shield can keep a reasonable absorb shield up on you If Judgement crits, it will lower the cooldown on the next SoTR If you have Righteous Protection, Judgement will lower the cooldown on next HoTP  DPS  Stack Seraphim with wings, and Eye of Tyr if you have shoulders Keep Consecration up Avenger&amp;rsquo;s Shield if it&amp;rsquo;s off cooldown Judgement to possibly proc AS if you chose Crusader talent Otherwise, Blessed Hammer / Hammer of the Righteous for damage and chance of proccing AS SotR for additional DPS if it won&amp;rsquo;t be needed, or don&amp;rsquo;t need charges for Seraphim yet  Ability Combos You can stack core spells with cooldowns to increase your ability to take extremely large hits that might otherwise kill you.</description>
     </item>
     
     <item>
@@ -1363,8 +1464,9 @@ Transpiling ES6 Google Traceur is an ES6 to ES5 transpiler that can be used to d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/basics/macros/</guid>
-      <description> Macros Avenger&amp;rsquo;s Shield Casts at mouseover enemy, focus target enemy or current target If you&amp;rsquo;re in PvP and holding ALT, then enable Shield of Virtue (AOE silence) before throwing shield
- #showtooltip Avenger&#39;s Shield /cast [mod:ctrl] Shield of Virtue /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead]Avenger&#39;s Shield  Rebuke  #showtooltip Rebuke /stopcasting /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead] Rebuke  Judgment  #showtooltip Judgment /cast [@mouseover,harm][@focus,exists,harm][] Judgment  Divine Shield #showtooltip Divine Shield /stopcasting /cancelaura [mod:ctrl] Divine Shield /cancelaura [mod:ctrl] Blessing of Protection /cast Divine Shield  Light/Hand of the Protector #showtooltip /cast [@mouseover,exists][@target,exists][@player]Light of the Protector  </description>
+      <description>Avenger&amp;rsquo;s Shield Casts at mouseover enemy, focus target enemy or current target If you&amp;rsquo;re in PvP and holding CTRL, then enable Shield of Virtue (AOE silence) before throwing shield
+ #showtooltip Avenger&#39;s Shield /cast [mod:ctrl] Shield of Virtue /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead]Avenger&#39;s Shield  Rebuke Kick / interrupt your mouseover target, focus target or selected target (in that priority order)
+ #showtooltip Rebuke /stopcasting /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead] Rebuke  Judgment Judges your mouseover target if they&amp;rsquo;re an enemy, enemy focus target or finally your target.</description>
     </item>
     
     <item>
@@ -1373,8 +1475,8 @@ Transpiling ES6 Google Traceur is an ES6 to ES5 transpiler that can be used to d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/basics/protection/</guid>
-      <description>Rotation Survivability
- Use Shield of the Righteous to get your active mitigation up. Make sure you&amp;rsquo;re standing in Consecration for extra benefit (also more if you wear legendary ring) Cast Judgement first to buff the next Shield of the Righteous You can cast SoTR a few times in advance to buy you some time if you&amp;rsquo;re not going to be in melee range of a target Avenger&amp;rsquo;s Shield can keep a reasonable absorb shield up on you If Judgement crits, it will lower the cooldown on the next SoTR If you have Righteous Protection, Judgement will lower the cooldown on next HoTP  DPS</description>
+      <description> Rotation Judgement &amp;gt; Avenger&amp;rsquo;s Shield &amp;gt; Hammer of the Righteous
+Survivability  Shield of the Righteous is your active mitigation; it is now armor only (physical) Make sure you&amp;rsquo;re standing in Consecration for damage mitigation Casting Avenger&amp;rsquo;s Shield will buff your next SotR HotP is your self heal Seraphim has something of a defensive benefit now that SotR is physical only but should still be considered a DPS talent For magic damage, you will need a cooldown (Ardent Defender, Guardian of Ancient Kings, Bubble taunt) Talent Spellwarding for magic immunity  DPS  Coming soon  </description>
     </item>
     
   </channel>
