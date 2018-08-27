@@ -9,7 +9,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
      
-    <title>Overview | Sad Robot</title>
+    <title>Sad Robot</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
@@ -20,10 +20,11 @@
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
       
 
-     <link href='/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="Overview" />
-<meta property="og:description" content="JavaScript: what is it? How does it relate to ECMAScript, Java and TypeScript?" />
+     <link href='/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="" />
+<meta property="og:description" content="Making a Windows Bootable USB Drive Format the USB drive and make it bootable Replace ? with the letter of your USB Drive below
+diskpart list disk select disk ? clean create partition primary select partition 1 active format fs=ntfs quick label=&quot;Windows Setup&quot; exit  Make it boot Windows 10 Installer Copy over Windows 10 files Use 7-zip to extract the contents of the .iso to the USB drive" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.sadrobot.co.nz/wiki/javascript/overview/" />
+<meta property="og:url" content="http://www.sadrobot.co.nz/wiki/windows/bootable-usb/" />
 
 
 
@@ -40,20 +41,22 @@
 
 
 
-<meta itemprop="name" content="Overview">
-<meta itemprop="description" content="JavaScript: what is it? How does it relate to ECMAScript, Java and TypeScript?">
+<meta itemprop="name" content="">
+<meta itemprop="description" content="Making a Windows Bootable USB Drive Format the USB drive and make it bootable Replace ? with the letter of your USB Drive below
+diskpart list disk select disk ? clean create partition primary select partition 1 active format fs=ntfs quick label=&quot;Windows Setup&quot; exit  Make it boot Windows 10 Installer Copy over Windows 10 files Use 7-zip to extract the contents of the .iso to the USB drive">
 
 
 
-<meta itemprop="wordCount" content="213">
+<meta itemprop="wordCount" content="113">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image:src" content="http://www.sadrobot.co.nz/images/gohugoio-card.png"/>
-<meta name="twitter:title" content="Overview"/>
-<meta name="twitter:description" content="JavaScript: what is it? How does it relate to ECMAScript, Java and TypeScript?"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="Making a Windows Bootable USB Drive Format the USB drive and make it bootable Replace ? with the letter of your USB Drive below
+diskpart list disk select disk ? clean create partition primary select partition 1 active format fs=ntfs quick label=&quot;Windows Setup&quot; exit  Make it boot Windows 10 Installer Copy over Windows 10 files Use 7-zip to extract the contents of the .iso to the USB drive"/>
 <meta name="twitter:site" content="@whup"/>
 
 
@@ -150,7 +153,7 @@
 
 	<div date-pref>
 		
-			<a href="http://www.sadrobot.co.nz/wiki/javascript/forcsharpdevelopers/" class="dib f6 pl1 hover-bg-light-gray br-100" title="JavaScript for C# Developers ">
+			<a href="http://www.sadrobot.co.nz/wiki/web/" class="dib f6 pl1 hover-bg-light-gray br-100" title=" ">
 				<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
     <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
     <path d="M0 0h24v24H0z" fill="none"/>
@@ -159,6 +162,14 @@
 			</a>
 		
 
+		
+			<a href="http://www.sadrobot.co.nz/wiki/windows/maintenance/" class="dib f6 pr1 hover-bg-light-gray br-100" title="">
+			<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+</svg>
+
+			</a>
 		
 	</div>
 
@@ -171,14 +182,10 @@
           </div>
           <header class="flex-none w-100">
   
-  <h1 class="lh-title mb3 mv0 pt3 primary-color-dark">Overview</h1>
+  <h1 class="lh-title mb3 mv0 pt3 primary-color-dark"></h1>
 </header>
 
 <aside class="bt bw1 pt3 mt2 mid-gray b--mid-gray fn w-100">
-  
-    <div class="f4 fw4 lh-copy">
-      JavaScript: what is it? How does it relate to ECMAScript, Java and TypeScript?
-    </div>
   
 
   
@@ -190,57 +197,43 @@
 
 
 
-<h2 id="ecmascript-javascript-java-asm-js">ECMAScript, JavaScript, Java, asm.js</h2>
+<h1 id="making-a-windows-bootable-usb-drive">Making a Windows Bootable USB Drive</h1>
 
-<p>ECMAScript is the standardized, versioned spec of JavaScript.</p>
+<h2 id="format-the-usb-drive-and-make-it-bootable">Format the USB drive and make it bootable</h2>
 
-<h2 id="ecmascript-support">ECMAScript Support</h2>
+<p>Replace <code>?</code> with the letter of your USB Drive below</p>
 
-<p>The ES6 spec is expected to be finalized and implemented by the various browser vendors sometime mid / late 2015.</p>
+<pre><code>diskpart
+list disk
+select disk ?
+clean
+create partition primary
+select partition 1
+active
+format fs=ntfs quick label=&quot;Windows Setup&quot;
+exit
+</code></pre>
 
-<p>================= === ====================================
-Browser           ES5 ECMAScript 2015  (ES6) (in progress)
-================= === ====================================
-Chrome            23+ Evergreen
-Internet Explorer 9+  12+
-Firefox           21+ Evergreen
-================= === ====================================</p>
+<h2 id="make-it-boot-windows-10-installer">Make it boot Windows 10 Installer</h2>
 
-<p>Evergreen browsers automatically update to the latest version.</p>
+<h3 id="copy-over-windows-10-files">Copy over Windows 10 files</h3>
 
-<h2 id="transpiling-es6">Transpiling ES6</h2>
+<p>Use 7-zip to extract the contents of the .iso to the USB drive</p>
 
-<p>Google Traceur is an ES6 to ES5 transpiler that can be used to develop in ES6 but target ES5 browsers.</p>
+<h3 id="update-bootcode-on-the-usb-drive">Update Bootcode on the USB Drive</h3>
 
-<h2 id="typescript">TypeScript</h2>
+<p>Replace <code>?</code> with the drive letter of your USB Drive</p>
 
-<p>TypeScript is a superset of ES6, driven by Microsoft.</p>
+<pre><code>C:\&gt; &amp; bootsect.exe /nt60 ?:
 
-<p>It has 1st-class support in VS2013 Update 2 and onwards.</p>
+Target volumes will be updated with BOOTMGR compatible bootcode.
 
-<p>It also transcompiles, and allows targetting ES3, ES5 and later ES6.</p>
+?: (\\?\Volume{guid})
 
-<p>Google were developing their own superset called AtScript, which was going to be used by Angular 2. However, Google are now using TypeScript instead.</p>
+    Successfully updated NTFS filesystem bootcode.
 
-<h2 id="notable-javascript-luminaries">Notable JavaScript luminaries</h2>
-
-<ul>
-<li>Brendan Eich</li>
-<li>John Resig</li>
-<li>Douglas Crockford</li>
-</ul>
-
-<h2 id="javascript-on-the-desktop">JavaScript on the Desktop</h2>
-
-<p>You can script in Windows using JScript (instead of VBScript)</p>
-
-<h2 id="javascript-as-intermediate-language">JavaScript as intermediate language</h2>
-
-<p>Google Web Toolkit (GWT) was perhaps the most notable early language to compile to JavaScript, in this case compiling a subset of Java to JavaScript.</p>
-
-<p>Emscripten is an LLVM linker for compiling native code to JavaScript</p>
-
-<p>Other notables are CoffeeScript, Dart.</p>
+Bootcode was successfully updated on all targeted volumes.
+</code></pre>
 
 </div>
 
@@ -308,14 +301,14 @@ Firefox           21+ Evergreen
   <div class="w-100 bg-light-gray">
     <div class="mw7 pa4 center nested-lh-copy lh-copy">
       <h6 class="f4 dark-gray mb2">
-  <a href="http://www.sadrobot.co.nz/wiki/javascript/overview/" class="hide-child link primary-color">
+  <a href="http://www.sadrobot.co.nz/wiki/windows/bootable-usb/" class="hide-child link primary-color">
   <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
 </span>
-    “Overview”
+    “”
   </a> was last updated: January 1, 0001
 </h6>
 
-      <a href="https://github.com/DavidMoore/SadRobot/edit/master/content/wiki/javascript/overview.md" class="
+      <a href="https://github.com/DavidMoore/SadRobot/edit/master/content/wiki/windows/bootable-usb.md" class="
 f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
 ">Improve this page</a>
 

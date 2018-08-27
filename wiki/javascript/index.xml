@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/wiki/javascript/</link>
+    <description>Recent content in JavaScript on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://www.sadrobot.co.nz/wiki/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JavaScript Patterns</title>
+      <link>http://www.sadrobot.co.nz/wiki/javascript/patterns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/javascript/patterns/</guid>
+      <description>JavaScript Patterns Promises References http://www.html5rocks.com/en/tutorials/es6/promises/ http://www.infoq.com/news/2014/05/promises-javascript</description>
+    </item>
+    
+    <item>
+      <title>JavaScript for C# Developers</title>
+      <link>http://www.sadrobot.co.nz/wiki/javascript/forcsharpdevelopers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/javascript/forcsharpdevelopers/</guid>
+      <description>Objects A Javascript object has a lot in common with a C# dictionary.
+You could imagine it as a dynamic type in C# that looks up values in a dictionary.
+Methods are object properties that reference a function.
+this is the calling context, not the current class.
+Functions Can return a reference to themselves.
+There is an arguments implicit parameter.
+All parameters are optional.
+Unspecified parameters are set to undefined</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>http://www.sadrobot.co.nz/wiki/javascript/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/javascript/overview/</guid>
+      <description>ECMAScript, JavaScript, Java, asm.js ECMAScript is the standardized, versioned spec of JavaScript.
+ECMAScript Support The ES6 spec is expected to be finalized and implemented by the various browser vendors sometime mid / late 2015.
+================= === ==================================== Browser ES5 ECMAScript 2015 (ES6) (in progress) ================= === ==================================== Chrome 23+ Evergreen Internet Explorer 9+ 12+ Firefox 21+ Evergreen ================= === ====================================
+Evergreen browsers automatically update to the latest version.
+Transpiling ES6 Google Traceur is an ES6 to ES5 transpiler that can be used to develop in ES6 but target ES5 browsers.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -59,7 +59,7 @@ Unspecified parameters are set to undefined">
 
 
 
-<meta itemprop="wordCount" content="534">
+<meta itemprop="wordCount" content="535">
 
 
 
@@ -171,7 +171,7 @@ Unspecified parameters are set to undefined"/>
 
 	<div date-pref>
 		
-			<a href="http://www.sadrobot.co.nz/wiki/javascript/javascript-patterns/" class="dib f6 pl1 hover-bg-light-gray br-100" title="JavaScript ">
+			<a href="http://www.sadrobot.co.nz/wiki/javascript/patterns/" class="dib f6 pl1 hover-bg-light-gray br-100" title="JavaScript Patterns ">
 				<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
     <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
     <path d="M0 0h24v24H0z" fill="none"/>
@@ -251,11 +251,13 @@ Unspecified parameters are set to undefined"/>
 
 <p>Array is more like Dictionary<int, object> where the index is an auto-incrementing value.</p>
 
-<p>##Classes</p>
+<h2 id="classes">Classes</h2>
 
-<p>No <code>class in javascript, but there is a</code>new` keyword.</p>
+<p>No <code>class</code> in javascript, but there is a <code>new</code> keyword.</p>
 
-<p>Prototypical inheritance etc; inheritance polyfill code.</p>
+<p>Prototypical inheritance etc;</p>
+
+<p>Inheritance polyfill code:</p>
 
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create" target="_blank">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create</a></p>
 <div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nb">Object</span><span class="p">.</span><span class="nx">create</span> <span class="o">!=</span> <span class="s1">&#39;function&#39;</span><span class="p">)</span> <span class="p">{</span>
@@ -275,13 +277,13 @@ Unspecified parameters are set to undefined"/>
     <span class="p">};</span>
   <span class="p">})();</span>
 <span class="p">}</span></code></pre></div>
-<p>##Closures</p>
+<h2 id="closures">Closures</h2>
 
-<p>##Polymorphism</p>
+<h2 id="polymorphism">Polymorphism</h2>
 
 <p>Functions cannot be overloaded in Javascript</p>
 
-<p>##Equality &amp; Truthiness</p>
+<h2 id="equality-truthiness">Equality &amp; Truthiness</h2>
 
 <p>In C#, you have null as your default value for empty references.</p>
 
@@ -292,7 +294,7 @@ Unspecified parameters are set to undefined"/>
 <p>e.g. this is illegal in C#:</p>
 <div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="kt">var</span> <span class="k">value</span> <span class="p">=</span> <span class="s">&#34;Non-null string value&#34;</span><span class="p">;</span>
 <span class="k">if</span><span class="p">(</span><span class="k">value</span><span class="p">)</span> <span class="nc">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;Say something&#34;</span><span class="p">);</span></code></pre></div>
-<p>###Equals</p>
+<h3 id="equals">Equals</h3>
 
 <p>In JavaScript, <code>==</code> is a soft comparison. You can use <code>===</code> for hard comparison, which strictly matches type and value, and is more equivalent to <code>.Equals</code> or <code>==</code> in C#.</p>
 
@@ -305,25 +307,25 @@ Unspecified parameters are set to undefined"/>
 <span class="s2">&#34;yes&#34;</span> <span class="o">===</span> <span class="s2">&#34;yes&#34;</span><span class="p">;</span>
 <span class="mi">1</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
 <span class="mi">1</span> <span class="o">===</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span></code></pre></div>
-<p>##Multi-line strings</p>
+<h2 id="multi-line-strings">Multi-line strings</h2>
 
-<p>####C#:</p>
+<h4 id="c">C#:</h4>
 <div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="kt">var</span> <span class="k">value</span> <span class="p">=</span> <span class="s">@&#34;First line
 </span><span class="s">Second line
 </span><span class="s">Third line&#34;</span><span class="p">;</span></code></pre></div>
-<p>####JavaScript:</p>
+<h4 id="javascript">JavaScript:</h4>
 
 <p>Use backticks:</p>
 <div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">value</span> <span class="o">=</span> <span class="sb">`First line
 </span><span class="sb">Second line
 </span><span class="sb">Third line`</span><span class="p">;</span></code></pre></div>
-<p>##Anonymous functions</p>
+<h2 id="anonymous-functions">Anonymous functions</h2>
 
 <h2 id="lambdas">Lambdas</h2>
 
-<p>###CSharp</p>
+<h3 id="csharp">CSharp</h3>
 <div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="kt">var</span> <span class="n">expression</span> <span class="p">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="s">&#34;Test&#34;</span><span class="p">;</span></code></pre></div>
-<p>###Javascript</p>
+<h3 id="javascript-1">Javascript</h3>
 <div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">expression</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="s2">&#34;Test&#34;</span><span class="p">;</span></code></pre></div>
 <h2 id="promises">Promises</h2>
 
@@ -345,7 +347,7 @@ Unspecified parameters are set to undefined"/>
 
 <h1 id="development-tips-and-tricks">Development tips and tricks</h1>
 
-<p>Debugging</p>
+<h2 id="debugging">Debugging</h2>
 
 <p>You can put the <strong><code>debugger;</code></strong> statement anywhere to force a breakpoint in development tools.</p>
 
