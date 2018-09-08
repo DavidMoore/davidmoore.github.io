@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.NET Patterns on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/wiki/dotnet/patterns/</link>
+    <description>Recent content in .NET Patterns on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://www.sadrobot.co.nz/wiki/dotnet/patterns/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Visitor Pattern</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/patterns/visitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/patterns/visitor/</guid>
+      <description>Generic Implementation When implementing the Visitor pattern, in some examples you may have to define overrides for all supported visitable types in the interface, and then have implementations.
+If visiting each node simply involves invoking Accept on the node, passing in the visitor implementation, then that&amp;rsquo;s a lot of unnecessary work.
+You can use a generic implementation, so that you don&amp;rsquo;t need to update the interface and implementation(s) of the visitor each time you want to support a new node:</description>
+    </item>
+    
+  </channel>
+</rss>

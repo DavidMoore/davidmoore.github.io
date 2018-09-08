@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.NET on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/wiki/dotnet/</link>
+    <description>Recent content in .NET on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Jan 2011 23:12:44 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/wiki/dotnet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Structuring Visual Studio solutions</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/structuring-visual-studio-solutions/</link>
+      <pubDate>Sat, 22 Jan 2011 23:12:44 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/structuring-visual-studio-solutions/</guid>
+      <description>The entire solution will be under a root folder, that may differ depending on the developer’s preferences, the branch they’re checking out etc.
+Branch structure  Folder Name  Function  Comments     Main  Trunk / main branch  &amp;#160;    Branches  &amp;#160;  &amp;#160;    BranchesDevelopment  Contains development branches  &amp;#160;    BranchesReleases  Contains live, maintenance branches  &amp;#160;    General  Non branch-specific resources  E.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/wcf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/wcf/</guid>
+      <description>===Chapter 3: Message Exchange Patterns, Topologies, and Choreographies===
+==Message Exchange Patterns (MEP)==
+The Datagram MEP
+ 1-way, send and forget May or may not elicit a response, which would require a new connection A datagram MEP is expressed in Web Services Description Language (WSDL) as an operation that contains a wsdl:input element and no wsdl:output elements In WCF, the contract method must have a void return type, and the OperationContract attribute needs IsOneWay set to true  WCF applications that receive datagrams over HTTP send the 202 reply upon receipt of the datagram but before processing the datagram.</description>
+    </item>
+    
+    <item>
+      <title>CSharp Async &amp; Await</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/async/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/async/</guid>
+      <description>Asynchronous programming in C APM: C# 1.0 / .NET 1.0 Style This is known as the Asynchronous Programming Model (APM) and is associated with the IAsyncResult pattern.
+Asynchronous calls are made using Begin and End methods on an API, with callbacks and state being passed between them.
+ Exception handling Exceptions can be thrown from BeginRead (such as trying to read from a stream that has already been closed). Unexpected errors occurring during the async request (e.</description>
+    </item>
+    
+    <item>
+      <title>Covariance &amp; Contravariance</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/csharp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/csharp/</guid>
+      <description>Covariant if it preserves the ordering of types (≤), which orders types from more specific to more generic; Contravariant if it reverses this ordering; Bivariant if both of these apply (i.e., both I&amp;lt;A&amp;gt; ≤ I&amp;lt;B&amp;gt; and I&amp;lt;B&amp;gt; ≤ I&amp;lt;A&amp;gt; at the same time); Invariant or Nonvariant if neither of these applies.  In C# interfaces, in represents contravariance, and out represents covariance.
+For example in C#, if Cat is a subtype of Animal, then:</description>
+    </item>
+    
+  </channel>
+</rss>

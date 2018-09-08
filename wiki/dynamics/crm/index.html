@@ -9,7 +9,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
      
-    <title>Architecture | Sad Robot</title>
+    <title>Microsoft Dynamics 365 CRM | Sad Robot</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
@@ -20,10 +20,10 @@
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
       
 
-     <link href='/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="Architecture" />
-<meta property="og:description" content="IPFilter Architecture" />
+     <link href='/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="Microsoft Dynamics 365 CRM" />
+<meta property="og:description" content="Developing for and integrating with Microsoft Dynamics 365 CRM" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.sadrobot.co.nz/ipfilter/architecture/" />
+<meta property="og:url" content="http://www.sadrobot.co.nz/wiki/dynamics/crm/" />
 
 
 
@@ -40,20 +40,20 @@
 
 
 
-<meta itemprop="name" content="Architecture">
-<meta itemprop="description" content="IPFilter Architecture">
+<meta itemprop="name" content="Microsoft Dynamics 365 CRM">
+<meta itemprop="description" content="Developing for and integrating with Microsoft Dynamics 365 CRM">
 
 
 
-<meta itemprop="wordCount" content="334">
+<meta itemprop="wordCount" content="550">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image:src" content="http://www.sadrobot.co.nz/images/gohugoio-card.png"/>
-<meta name="twitter:title" content="Architecture"/>
-<meta name="twitter:description" content="IPFilter Architecture"/>
+<meta name="twitter:title" content="Microsoft Dynamics 365 CRM"/>
+<meta name="twitter:description" content="Developing for and integrating with Microsoft Dynamics 365 CRM"/>
 <meta name="twitter:site" content="@whup"/>
 
 
@@ -150,34 +150,16 @@
 		<p class="b">On this page</p>
   	<nav id="TableOfContents">
 <ul>
-<li><a href="#inputs">Inputs</a>
+<li><a href="#crm-web-api">CRM Web API</a>
 <ul>
-<li><a href="#input-uris">Input URIs</a></li>
-<li><a href="#input-formats">Input Formats</a></li>
-<li><a href="#bundles">Bundles</a></li>
+<li><a href="#registering-your-application-for-dynamics-365">Registering your application for Dynamics 365</a></li>
 </ul></li>
-<li><a href="#enumerators">Enumerators</a></li>
-<li><a href="#textenumerator">TextEnumerator</a></li>
-<li><a href="#urienumerator">UriEnumerator</a></li>
-<li><a href="#jsonenumerator">JsonEnumerator</a></li>
+<li><a href="#javascript">JavaScript</a></li>
+<li><a href="#resources">Resources</a></li>
+<li><a href="#references">References</a></li>
 </ul>
 </nav>
 	
-
-	<div date-pref>
-		
-
-		
-			<a href="http://www.sadrobot.co.nz/ipfilter/commandline/" class="dib f6 pr1 hover-bg-light-gray br-100" title="Commandline">
-			<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
-    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
-    <path d="M0 0h24v24H0z" fill="none"/>
-</svg>
-
-			</a>
-		
-	</div>
-
 </aside>
 </div>
 
@@ -187,13 +169,13 @@
           </div>
           <header class="flex-none w-100">
   
-  <h1 class="lh-title mb3 mv0 pt3 primary-color-dark">Architecture</h1>
+  <h1 class="lh-title mb3 mv0 pt3 primary-color-dark">Microsoft Dynamics 365 CRM</h1>
 </header>
 
 <aside class="bt bw1 pt3 mt2 mid-gray b--mid-gray fn w-100">
   
     <div class="f4 fw4 lh-copy">
-      IPFilter Architecture
+      Developing for and integrating with Microsoft Dynamics 365 CRM
     </div>
   
 
@@ -206,69 +188,100 @@
 
 
 
-<p>The IPFilter updater takes in a set of one or more inputs, and one or more outputs.</p>
-
-<p>IPFilter acquires and merges all of the inputs, and generates the output result.</p>
-
-<p>The merged inputs are then synced to the output(s).</p>
-
-<h1 id="inputs">Inputs</h1>
-
-<h2 id="input-uris">Input URIs</h2>
-
-<p>The input must be resolved to an absolute URI. While the final URI must be absolute, there are shortcuts and abbreviations to make the specified input(s) more concise and readable.</p>
-
-<h2 id="input-formats">Input Formats</h2>
-
-<p>The input files can be of a couple of formats:</p>
+<h1 id="crm-web-api">CRM Web API</h1>
 
 <ul>
-<li>A raw ipfilter file</li>
-<li>A compressed ipfilter file (zip, gzip)</li>
-<li>A JSON file in the IPFilter Bundle format. This is a special format that allows additional inputs to be specified.</li>
+<li>The Web API is the preferred API for CRM 2016 and upwards.</li>
+<li>OData 4.0 RESTful web service</li>
+<li>Not to be confused with the deprecated OData Endpoint (2011)</li>
+<li>Maximum records returned is 5000 before pagination kicks in</li>
+<li>Uses Open ID Connect / OAuth for authentication. Can use ADAL library for this in .NET</li>
+<li>Your application needs to be registered in Active Directory to be able to make requests</li>
+<li>The Web API URL is found in  Settings &gt; Customizations &gt; Developer Resources</li>
 </ul>
 
-<h2 id="bundles">Bundles</h2>
+<h2 id="registering-your-application-for-dynamics-365">Registering your application for Dynamics 365</h2>
 
-<p>A bundle file is a JSON definition of input(s) and/or output(s).</p>
+<p><a href="https://stackoverflow.com/questions/37215742/401-unauthorized-authentication-using-rest-api-dynamics-crm-with-azure-ad/48554845#48554845" target="_blank">https://stackoverflow.com/questions/37215742/401-unauthorized-authentication-using-rest-api-dynamics-crm-with-azure-ad/48554845#48554845</a></p>
 
-<p>This facilitates combining complex or large lists of ipfilter input URIs into a small file that can be saved. It can simplify URIs by having a list parent, and consolidate authentication for protected lists.</p>
+<p>App registration</p>
 
-<p>Because inputs specified in a bundle can be bundles themselves, this allows a nested hierarchy of sources to be defined.</p>
+<ul>
+<li>Log into portal.azure.com using your Office 365 administrator user of your Dynamics CRM subscription.</li>
+<li>Go to Azure Active Director\App registrations and add New application registrations</li>
+<li>Enter &ldquo;Name&rdquo; and &ldquo;Sign-on URL&rdquo;, the URL could be anything (<a href="https://localhost" target="_blank">https://localhost</a> for example)</li>
+<li>Select the registered app you just created, go to Settings\Keys</li>
+<li>Enter a key description, click Save and copy the Value (and keep it since you will need it later). Also copy the Application ID of the registered app.</li>
+<li>Go to &ldquo;Required Permissions&rdquo;, click Add, select &ldquo;Dynamics CRM Online&rdquo; then tick &ldquo;Access CRM Online as organisation users&rdquo;.</li>
+</ul>
 
-<p>This allows specialized bundles to be created and published on your local network or even publicly.</p>
+<p>These steps enable a client application to access Dynamics CRM by using the Application ID and the client secret you created in step 5. Your client application is now able to be authenticated against Azure AD with permission to access CRM Online. However, CRM Online does not know about this &ldquo;client application&rdquo; or &ldquo;user&rdquo;. CRM API will response a 401 if you try to access it.
+Add CRM application user</p>
 
-<h1 id="enumerators">Enumerators</h1>
+<p>To let CRM know about the &ldquo;client application&rdquo; or &ldquo;user&rdquo;, you&rsquo;ll need to add an application user.</p>
 
-<h1 id="textenumerator">TextEnumerator</h1>
+<ul>
+<li>Go to CRM\Security Roles, create a new Security Role or just copy the &ldquo;System Administrator&rdquo; Role</li>
+<li>Go to CRM\Settings\Security\Users, create a new User, change the form to &ldquo;Application User&rdquo;</li>
+<li>Enter the required fields with the Application ID that you have in previous step. Once saved, CRM will auto populate the Azure AD Object ID and the URI.</li>
+<li>Add the user to the Security Role created from previous step.</li>
+</ul>
 
-<p>The lowest level enumerator, reading in text lines from the specified stream. Binary lines are skipped over.</p>
+<p>Now you should be able to access CRM API using HttpClient and ADAL using the sample code below:</p>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="kt">var</span> <span class="n">ap</span> <span class="p">=</span> <span class="k">await</span> <span class="nc">AuthenticationParameters</span><span class="p">.</span><span class="n">CreateFromResourceUrlAsync</span><span class="p">(</span>
+                <span class="k">new</span> <span class="n">Uri</span><span class="p">(</span><span class="s">&#34;https://*****.api.crm6.dynamics.com/api/data/v9.0/&#34;</span><span class="p">));</span>
 
-<h1 id="urienumerator">UriEnumerator</h1>
+<span class="n">String</span> <span class="n">authorityUrl</span> <span class="p">=</span> <span class="nc">ap</span><span class="p">.</span><span class="n">Authority</span><span class="p">;</span>
+<span class="n">String</span> <span class="n">resourceUrl</span> <span class="p">=</span> <span class="nc">ap</span><span class="p">.</span><span class="n">Resource</span><span class="p">;</span>
 
-<p>The highest level enumerator, this takes in a source URI.</p>
+<span class="kt">var</span> <span class="n">authContext</span> <span class="p">=</span> <span class="k">new</span> <span class="n">AuthenticationContext</span><span class="p">(</span><span class="n">authorityUrl</span><span class="p">);</span>
+<span class="kt">var</span> <span class="n">clientCred</span> <span class="p">=</span> <span class="k">new</span> <span class="n">ClientCredential</span><span class="p">(</span><span class="s">&#34;Application ID&#34;</span><span class="p">,</span> <span class="s">&#34;Client Secret&#34;</span><span class="p">);</span>
+<span class="kt">var</span> <span class="n">test</span> <span class="p">=</span> <span class="k">await</span> <span class="nc">authContext</span><span class="p">.</span><span class="n">AcquireTokenAsync</span><span class="p">(</span><span class="n">resourceUrl</span><span class="p">,</span> <span class="n">clientCred</span><span class="p">);</span>
 
-<p>It will acquire the contents of the source URI, decompressing if necessary.</p>
+<span class="nc">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="nc">test</span><span class="p">.</span><span class="n">AccessToken</span><span class="p">);</span>
 
-<p>If the resulting contents is determined to be a Bundle, the Bundle when then be parsed and each input source passed through to the UriEnumerator.</p>
+<span class="k">using</span> <span class="p">(</span><span class="kt">var</span> <span class="n">client</span> <span class="p">=</span> <span class="k">new</span> <span class="n">HttpClient</span><span class="p">())</span>
+<span class="p">{</span>
+    <span class="nc">client</span><span class="p">.</span><span class="nc">DefaultRequestHeaders</span><span class="p">.</span><span class="n">Authorization</span> <span class="p">=</span> <span class="k">new</span> <span class="n">AuthenticationHeaderValue</span><span class="p">(</span><span class="s">&#34;Bearer&#34;</span><span class="p">,</span> <span class="nc">test</span><span class="p">.</span><span class="n">AccessToken</span><span class="p">);</span>
 
-<h1 id="jsonenumerator">JsonEnumerator</h1>
+    <span class="kt">var</span> <span class="n">response</span> <span class="p">=</span> <span class="k">await</span> <span class="nc">client</span><span class="p">.</span><span class="n">GetAsync</span><span class="p">(</span><span class="s">&#34;https://*****.api.crm6.dynamics.com/api/data/v9.0/contacts&#34;</span><span class="p">);</span>
+    <span class="kt">var</span> <span class="n">contacts</span> <span class="p">=</span> <span class="k">await</span> <span class="nc">response</span><span class="p">.</span><span class="nc">Content</span><span class="p">.</span><span class="n">ReadAsStringAsync</span><span class="p">();</span>
 
-<p>The JsonEnumerator finds and iterates over the input sources defined in the passed json file.</p>
+    <span class="nc">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">contacts</span><span class="p">);</span>
+<span class="p">}</span></code></pre></div>
+<h1 id="javascript">JavaScript</h1>
 
-<p>Each input source has its URI resolved, then passed through to the UriEnumerator.</p>
+<p>The JavaScript code below uses XMLHttpRequest to retrieve account records where the state = &ldquo;WA&rdquo;, the customer type is &ldquo;Customer&rdquo;, the record is active and the modified date is on or before 12/31/2014.</p>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">req</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">XMLHttpRequest</span><span class="p">();</span>
+<span class="nx">req</span><span class="p">.</span><span class="nx">open</span><span class="p">(</span><span class="s2">&#34;GET&#34;</span><span class="p">,</span> <span class="nx">Xrm</span><span class="p">.</span><span class="nx">Page</span><span class="p">.</span><span class="nx">context</span><span class="p">.</span><span class="nx">getClientUrl</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&#34;/api/data/v8.1/accounts?$select=name,_primarycontactid_value,telephone1&amp;$filter=address1_stateorprovince eq &#39;WA&#39; and  customertypecode eq 3 and  statecode eq 0 and  modifiedon le 2014-12-31T08:00:00.000Z&amp;$orderby=name asc&amp;$count=true&#34;</span><span class="p">,</span> <span class="kc">true</span><span class="p">);</span>
+<span class="nx">req</span><span class="p">.</span><span class="nx">setRequestHeader</span><span class="p">(</span><span class="s2">&#34;OData-MaxVersion&#34;</span><span class="p">,</span> <span class="s2">&#34;4.0&#34;</span><span class="p">);</span>
+<span class="nx">req</span><span class="p">.</span><span class="nx">setRequestHeader</span><span class="p">(</span><span class="s2">&#34;OData-Version&#34;</span><span class="p">,</span> <span class="s2">&#34;4.0&#34;</span><span class="p">);</span>
+<span class="nx">req</span><span class="p">.</span><span class="nx">setRequestHeader</span><span class="p">(</span><span class="s2">&#34;Accept&#34;</span><span class="p">,</span> <span class="s2">&#34;application/json&#34;</span><span class="p">);</span>
+<span class="nx">req</span><span class="p">.</span><span class="nx">setRequestHeader</span><span class="p">(</span><span class="s2">&#34;Content-Type&#34;</span><span class="p">,</span> <span class="s2">&#34;application/json; charset=utf-8&#34;</span><span class="p">);</span>
+<span class="nx">req</span><span class="p">.</span><span class="nx">setRequestHeader</span><span class="p">(</span><span class="s2">&#34;Prefer&#34;</span><span class="p">,</span> <span class="s2">&#34;odata.include-annotations=\&#34;OData.Community.Display.V1.FormattedValue\&#34;&#34;</span><span class="p">);</span>
+<span class="nx">req</span><span class="p">.</span><span class="nx">setRequestHeader</span><span class="p">(</span><span class="s2">&#34;Prefer&#34;</span><span class="p">,</span> <span class="s2">&#34;odata.maxpagesize=50&#34;</span><span class="p">);</span>
+<span class="nx">req</span><span class="p">.</span><span class="nx">onreadystatechange</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">readyState</span> <span class="o">===</span> <span class="mi">4</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">req</span><span class="p">.</span><span class="nx">onreadystatechange</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">status</span> <span class="o">===</span> <span class="mi">200</span><span class="p">)</span> <span class="p">{</span>
+            <span class="kd">var</span> <span class="nx">results</span> <span class="o">=</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">response</span><span class="p">);</span>
+            <span class="kd">var</span> <span class="nx">recordCount</span> <span class="o">=</span> <span class="nx">results</span><span class="p">[</span><span class="s2">&#34;@odata.count&#34;</span><span class="p">];</span>
+            <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">results</span><span class="p">.</span><span class="nx">value</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+                 <span class="kd">var</span> <span class="nx">name</span> <span class="o">=</span> <span class="nx">results</span><span class="p">.</span><span class="nx">value</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="s2">&#34;name&#34;</span><span class="p">];</span>
+                 <span class="kd">var</span> <span class="nx">_primarycontactid_value</span> <span class="o">=</span> <span class="nx">results</span><span class="p">.</span><span class="nx">value</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="s2">&#34;_primarycontactid_value&#34;</span><span class="p">];</span>
+                 <span class="kd">var</span> <span class="nx">_primarycontactid_value_formatted</span> <span class="o">=</span> <span class="nx">results</span><span class="p">.</span><span class="nx">value</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="s2">&#34;_primarycontactid_value@OData.Community.Display.V1.FormattedValue&#34;</span><span class="p">];</span>
+                 <span class="kd">var</span> <span class="nx">telephone1</span> <span class="o">=</span> <span class="nx">results</span><span class="p">.</span><span class="nx">value</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="s2">&#34;telephone1&#34;</span><span class="p">];</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="k">else</span> <span class="p">{</span>
+            <span class="nx">alert</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">statusText</span><span class="p">);</span></code></pre></div>
+<h1 id="resources">Resources</h1>
 
-<p><code>ipfilter</code></p>
+<h1 id="references">References</h1>
 
-<blockquote>
-<p>Downloads the latest default list, and installs it to all detected Bit Torrent applications.</p>
-</blockquote>
-
-<p><code>ipfilter https://servername/ipfilter.gzip \\server\shared\ipfilter.dat o:C:\Temp\ipfilter.dat</code></p>
-
-<blockquote>
-<p>Downloads and combines two lists from a gzipped-list from the internet and a local network share, then saves it to a local file.</p>
-</blockquote>
+<ul>
+<li><a href="https://mscrmrocks.wikispaces.com/CRM+Web+API" target="_blank">https://mscrmrocks.wikispaces.com/CRM+Web+API</a></li>
+</ul>
 
 </div>
 
@@ -336,16 +349,16 @@
   <div class="w-100 bg-light-gray">
     <div class="mw7 pa4 center nested-lh-copy lh-copy">
       <h6 class="f4 dark-gray mb2">
-  <a href="http://www.sadrobot.co.nz/ipfilter/architecture/" class="hide-child link primary-color">
+  <a href="http://www.sadrobot.co.nz/wiki/dynamics/crm/" class="hide-child link primary-color">
   <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
 </span>
-    “Architecture”
+    “Microsoft Dynamics 365 CRM”
   </a> was last updated: January 1, 0001
   
   
 </h6>
 
-      <a href="https://github.com/DavidMoore/SadRobot/edit/master/content/ipfilter/architecture.md" class="
+      <a href="https://github.com/DavidMoore/SadRobot/edit/master/content/wiki/dynamics/crm.md" class="
 f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
 ">Improve this page</a>
 

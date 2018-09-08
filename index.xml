@@ -243,7 +243,7 @@ New home: https://ipfilter.codeplex.com/</description>
       
       <guid>http://www.sadrobot.co.nz/blog/2012/01/27/creating-a-machine-account-login-for-sql-server/</guid>
       <description>You can create a machine account login for SQL Server with the following command:
-CREATE&amp;#160;USER&amp;#160;[MACHINENAME]&amp;#160;FOR&amp;#160;LOGIN&amp;#160;[DOMAINMACHINENAME$]&amp;#160;WITH&amp;#160;DEFAULT_SCHEMA=[dbo]  </description>
+CREATE&amp;#160;USER&amp;#160;[MACHINENAME]&amp;#160;FOR&amp;#160;LOGIN&amp;#160;[DOMAIN\MACHINENAME$]&amp;#160;WITH&amp;#160;DEFAULT_SCHEMA=[dbo]  </description>
     </item>
     
     <item>
@@ -1302,7 +1302,7 @@ Inputs Input URIs The input must be resolved to an absolute URI. While the final
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/dungeon/ataldazar/</guid>
-      <description></description>
+      <description> Priestess Alun&amp;rsquo;za  Use activate mitigation, perhaps a cooldown, for Gilded Claws Tank her near a Tainted Blood puddle Step into Tainted Blood just before she casts Transfusion Stun and kill Spirits of Gold so they don&amp;rsquo;t absorb Tainted Blood puddles. If there are no more Tainted Blood puddles, it will attack party members. Don&amp;rsquo;t get hit by Corrupted Gold, as it will damage you and debuff you, reducing damage done by 30% for 10 seconds Dispel Molten Gold debuff  Vol&amp;rsquo;kaal  Kill all 3 totems within 6 seconds of each other, or they will heal to full Vol&amp;rsquo;kaal will heal himself while the totems are up, so don&amp;rsquo;t bother DPSing him When the totems are down, Vol&amp;rsquo;kaal&amp;rsquo;s health will decay, but he does 50% more damage and spews out Toxic Pools Interrupt Noxious Stench Tank him along the outside, and keep moving around to dodge the Toxic Pools so you don&amp;rsquo;t run out of room and allow DPS to hit him  Rezan  Use active mitigation and/or cooldowns when hit by Serrated Teeth, as you bleed and take 50% additional physical damage Pick up Reanimated Raptor adds from Ancient Dry Bones piles Run away if Purse is on you, and try to avoid running Rezan through Ancient Dry Bones to reduce adds Tank him near stairs to allow people to LOS Terrifying Visage Healer should be ready to dispel fear from the tank if they can&amp;rsquo;t LOS the fear  Yazma  Use active mitigation and / or cooldowns for Skewer Dodge Echoes of Shad&amp;rsquo;ra, or it will burst and hurt players within 3 yds and drop a pool of Shadowy Remains Non-tanks should move away from Yazma and ideally stack on a marked location when Soulrend is cast, allowing Soulspawn to be stunned / slowed and DPSed down before they reach Yazma If any Soulspawn reaches Yazma, they will add a stacking 21 second debuff that ticks on all party members  </description>
     </item>
     
     <item>
@@ -1361,7 +1361,7 @@ ElvUI Updater ElvUI is not available from the Twitch add-on manager, so you norm
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/dungeon/freehold/</guid>
-      <description></description>
+      <description>Talents Choose Blessing of Protection to put on party members if fixated by ground shark on 2nd boss (save for healer ideally)</description>
     </item>
     
     <item>
@@ -1399,7 +1399,7 @@ Unspecified parameters are set to undefined</description>
     </item>
     
     <item>
-      <title>King&#39;s Rest</title>
+      <title>Kings&#39; Rest</title>
       <link>http://www.sadrobot.co.nz/games/wow/dungeon/kings-rest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1437,6 +1437,24 @@ Unspecified parameters are set to undefined</description>
     </item>
     
     <item>
+      <title>Microsoft Dynamics 365 CRM</title>
+      <link>http://www.sadrobot.co.nz/wiki/dynamics/crm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dynamics/crm/</guid>
+      <description>CRM Web API  The Web API is the preferred API for CRM 2016 and upwards. OData 4.0 RESTful web service Not to be confused with the deprecated OData Endpoint (2011) Maximum records returned is 5000 before pagination kicks in Uses Open ID Connect / OAuth for authentication. Can use ADAL library for this in .NET Your application needs to be registered in Active Directory to be able to make requests The Web API URL is found in Settings &amp;gt; Customizations &amp;gt; Developer Resources  Registering your application for Dynamics 365 https://stackoverflow.</description>
+    </item>
+    
+    <item>
+      <title>My Profiles</title>
+      <link>http://www.sadrobot.co.nz/games/wow/profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/profile/</guid>
+      <description> Links  Armory Profile raider.io Profile  </description>
+    </item>
+    
+    <item>
       <title>Mythic&#43;</title>
       <link>http://www.sadrobot.co.nz/games/wow/mythicplus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1470,13 +1488,119 @@ Transpiling ES6 Google Traceur is an ES6 to ES5 transpiler that can be used to d
     </item>
     
     <item>
+      <title>Paladin PvP Guide</title>
+      <link>http://www.sadrobot.co.nz/games/wow/pvp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/pvp/</guid>
+      <description> References    Name Description Authors Updated     Skillcapped Paladin PvP Guide       </description>
+    </item>
+    
+    <item>
       <title>Protection Paladin</title>
       <link>http://www.sadrobot.co.nz/games/wow/protection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/protection/</guid>
-      <description> Rotation Judgement &amp;gt; Avenger&amp;rsquo;s Shield &amp;gt; Hammer of the Righteous
-Survivability  Shield of the Righteous is your active mitigation; it is now armor only (physical) Make sure you&amp;rsquo;re standing in Consecration for damage mitigation Casting Avenger&amp;rsquo;s Shield will buff your next SotR HotP is your self heal Seraphim has something of a defensive benefit now that SotR is physical only but should still be considered a DPS talent For magic damage, you will need a cooldown (Ardent Defender, Guardian of Ancient Kings, Bubble taunt) Talent Spellwarding for magic immunity  DPS  Coming soon  </description>
+      <description>Stats Item Level &amp;gt; Haste &amp;gt; Mastery &amp;gt;= Versatility &amp;gt; Crit
+Enchants &amp;amp; Gems  Weapon Enchant: Quick Navigation Ring Enchant: Haste Gems: 1 x Strength then Haste  Consumables  Flask: Strength Battle Potion: Potion of Bursting Blood for Single Target, Battle Potion of Strength for Multi-Target Food: Feast or Haste  Trinkets Azerite Traits Defensive Gemhide
+Offensive Rotation Judgement &amp;gt; Avenger&amp;rsquo;s Shield &amp;gt; Hammer of the Righteous</description>
+    </item>
+    
+    <item>
+      <title>Raid: Uldir</title>
+      <link>http://www.sadrobot.co.nz/games/wow/uldir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/uldir/</guid>
+      <description>Loot Levels    Difficulty Item Level     LFR 340   Normal 355   Heroic 370   Mythic 385     Weapons can only Warforge (+5 or +10) Azerite Armor cannot Warforge or Titanforge  Boss Loot  BoEAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution Wrist Haste / Mast Hands Crit / Haste TalocAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution Trinket: +Int, aoe damage proc2H Str Mace Crit/Haste Wrists Vers/Crit Legs: Haste/Mastery MOTHERAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution HeadArchive of the TitansLaser MatrixAzerite VeinsElemental WhirlEphemeral RecoveryResounding ProtectionImpassive VisageInspiring VanguardGrace of the JusticarDivine Right Offhand Crit/Vers Waist Mast/Crit Ring: Crit/Haste Fetid DevourerAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution 1H Axe1H Axe Crit/Vers Hands Crit/Vers Cloak: Haste/Mastery Zek&#39;vozAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution 1H Ver/Mast MaceTrinket: +Str, Damage proc (cone) Legs: Vers/Mastery Feet: Haste/Vers Ring: Mastery/Crit VectisAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution VectisChestArchive of the TitansLaser MatrixStrength In NumbersUnstable FlamesWoundbinderJudicious DefenseBreaking DawnRelentless Inquisitor Shield Crit/VersTrinket: +Int; Active ability adds 3k to next 5 direct heals on target.</description>
+    </item>
+    
+    <item>
+      <title>Settings &amp; Performance</title>
+      <link>http://www.sadrobot.co.nz/games/wow/performance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/performance/</guid>
+      <description>System &amp;gt; Graphics Always have these on:
+Project Textures (SET projectedTextures &amp;quot;1.000000&amp;quot;)
+Projected textures are usually used for ground visual effects for important mechanics in dungeons and raids; if you don&amp;rsquo;t have them enabled, you will often not be able to see these mechanics and die to them.
+Anti-Aliasing:
+System &amp;gt; Advanced    Setting Description Recommendation     Triple Buffering Smooths our framerate and eliminates tearing, but introduces input lag.</description>
+    </item>
+    
+    <item>
+      <title>Shrine of the Storm</title>
+      <link>http://www.sadrobot.co.nz/games/wow/dungeon/shrine-of-the-storm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/shrine-of-the-storm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Siege of Boralus</title>
+      <link>http://www.sadrobot.co.nz/games/wow/dungeon/siege-of-boralus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/siege-of-boralus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temple of Sethraliss</title>
+      <link>http://www.sadrobot.co.nz/games/wow/dungeon/temple-of-sethraliss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/temple-of-sethraliss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The MOTHERLODE!!</title>
+      <link>http://www.sadrobot.co.nz/games/wow/dungeon/the-motherlode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/the-motherlode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Underrot</title>
+      <link>http://www.sadrobot.co.nz/games/wow/dungeon/the-underrot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/the-underrot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tol Dagor</title>
+      <link>http://www.sadrobot.co.nz/games/wow/dungeon/tol-dagor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/tol-dagor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visitor Pattern</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/patterns/visitor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/patterns/visitor/</guid>
+      <description>Generic Implementation When implementing the Visitor pattern, in some examples you may have to define overrides for all supported visitable types in the interface, and then have implementations.
+If visiting each node simply involves invoking Accept on the node, passing in the visitor implementation, then that&amp;rsquo;s a lot of unnecessary work.
+You can use a generic implementation, so that you don&amp;rsquo;t need to update the interface and implementation(s) of the visitor each time you want to support a new node:</description>
+    </item>
+    
+    <item>
+      <title>Waycrest Manor</title>
+      <link>http://www.sadrobot.co.nz/games/wow/dungeon/waycrest-manor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/waycrest-manor/</guid>
+      <description></description>
     </item>
     
   </channel>

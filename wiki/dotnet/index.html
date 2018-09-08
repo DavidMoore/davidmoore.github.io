@@ -9,7 +9,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
      
-    <title>Architecture | Sad Robot</title>
+    <title>.NET | Sad Robot</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
@@ -20,10 +20,14 @@
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
       
 
-     <link href='/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="Architecture" />
-<meta property="og:description" content="IPFilter Architecture" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.sadrobot.co.nz/ipfilter/architecture/" />
+     <link href='/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content=".NET" />
+<meta property="og:description" content=".NET" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.sadrobot.co.nz/wiki/dotnet/" />
+
+
+
+<meta property="og:updated_time" content="2011-01-22T23:12:44&#43;00:00"/>
 
 
 
@@ -34,26 +38,13 @@
 
 
 
+<meta itemprop="name" content=".NET">
+<meta itemprop="description" content=".NET">
 
-
-
-
-
-
-<meta itemprop="name" content="Architecture">
-<meta itemprop="description" content="IPFilter Architecture">
-
-
-
-<meta itemprop="wordCount" content="334">
-
-
-
-<meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image:src" content="http://www.sadrobot.co.nz/images/gohugoio-card.png"/>
-<meta name="twitter:title" content="Architecture"/>
-<meta name="twitter:description" content="IPFilter Architecture"/>
+<meta name="twitter:title" content=".NET"/>
+<meta name="twitter:description" content=".NET"/>
 <meta name="twitter:site" content="@whup"/>
 
 
@@ -141,142 +132,13 @@
     
     <main role="main" class="content-with-sidebar min-vh-100 pb7 pb0-ns">
       
-  <article class="w-100 ph4 pb5 pb6-ns pt1 pt5-ns">
-    <div class="flex-l">
-
-      <div class="order-2 w-100 w-20-l ph5-m ph0-l mb4 sticky">
-<aside class="fixed-lTK mw5-l right-0 f6 bl-l b--moon-gray pv4 pv0-ns ph4-l nested-list-reset nested-links nested-copy-line-height">
-	
-		<p class="b">On this page</p>
-  	<nav id="TableOfContents">
-<ul>
-<li><a href="#inputs">Inputs</a>
-<ul>
-<li><a href="#input-uris">Input URIs</a></li>
-<li><a href="#input-formats">Input Formats</a></li>
-<li><a href="#bundles">Bundles</a></li>
-</ul></li>
-<li><a href="#enumerators">Enumerators</a></li>
-<li><a href="#textenumerator">TextEnumerator</a></li>
-<li><a href="#urienumerator">UriEnumerator</a></li>
-<li><a href="#jsonenumerator">JsonEnumerator</a></li>
-</ul>
-</nav>
-	
-
-	<div date-pref>
-		
-
-		
-			<a href="http://www.sadrobot.co.nz/ipfilter/commandline/" class="dib f6 pr1 hover-bg-light-gray br-100" title="Commandline">
-			<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
-    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
-    <path d="M0 0h24v24H0z" fill="none"/>
-</svg>
-
-			</a>
-		
-	</div>
-
-</aside>
-</div>
-
-      <div class="order-1 w-60-l mw9 ph0 ph5-ns mid-gray nested-copy-line-height no-underline nested-links nested-copy-seperator nested-blockquote mt0-ns" style="flex-grow:1;">
-        <div class="documentation-copy center">
-          <div id="readout" class="fixed right-0 bottom-0">
-          </div>
-          <header class="flex-none w-100">
   
-  <h1 class="lh-title mb3 mv0 pt3 primary-color-dark">Architecture</h1>
-</header>
-
-<aside class="bt bw1 pt3 mt2 mid-gray b--mid-gray fn w-100">
   
-    <div class="f4 fw4 lh-copy">
-      IPFilter Architecture
-    </div>
-  
+  <div class="w-100 ph4 pb5 pb6-ns pt1 mt4 pt3-ns">
 
-  
-</aside>
-
-
-
-<div class="prose" id="prose">
-
-
-
-<p>The IPFilter updater takes in a set of one or more inputs, and one or more outputs.</p>
-
-<p>IPFilter acquires and merges all of the inputs, and generates the output result.</p>
-
-<p>The merged inputs are then synced to the output(s).</p>
-
-<h1 id="inputs">Inputs</h1>
-
-<h2 id="input-uris">Input URIs</h2>
-
-<p>The input must be resolved to an absolute URI. While the final URI must be absolute, there are shortcuts and abbreviations to make the specified input(s) more concise and readable.</p>
-
-<h2 id="input-formats">Input Formats</h2>
-
-<p>The input files can be of a couple of formats:</p>
-
-<ul>
-<li>A raw ipfilter file</li>
-<li>A compressed ipfilter file (zip, gzip)</li>
-<li>A JSON file in the IPFilter Bundle format. This is a special format that allows additional inputs to be specified.</li>
-</ul>
-
-<h2 id="bundles">Bundles</h2>
-
-<p>A bundle file is a JSON definition of input(s) and/or output(s).</p>
-
-<p>This facilitates combining complex or large lists of ipfilter input URIs into a small file that can be saved. It can simplify URIs by having a list parent, and consolidate authentication for protected lists.</p>
-
-<p>Because inputs specified in a bundle can be bundles themselves, this allows a nested hierarchy of sources to be defined.</p>
-
-<p>This allows specialized bundles to be created and published on your local network or even publicly.</p>
-
-<h1 id="enumerators">Enumerators</h1>
-
-<h1 id="textenumerator">TextEnumerator</h1>
-
-<p>The lowest level enumerator, reading in text lines from the specified stream. Binary lines are skipped over.</p>
-
-<h1 id="urienumerator">UriEnumerator</h1>
-
-<p>The highest level enumerator, this takes in a source URI.</p>
-
-<p>It will acquire the contents of the source URI, decompressing if necessary.</p>
-
-<p>If the resulting contents is determined to be a Bundle, the Bundle when then be parsed and each input source passed through to the UriEnumerator.</p>
-
-<h1 id="jsonenumerator">JsonEnumerator</h1>
-
-<p>The JsonEnumerator finds and iterates over the input sources defined in the passed json file.</p>
-
-<p>Each input source has its URI resolved, then passed through to the UriEnumerator.</p>
-
-<p><code>ipfilter</code></p>
-
-<blockquote>
-<p>Downloads the latest default list, and installs it to all detected Bit Torrent applications.</p>
-</blockquote>
-
-<p><code>ipfilter https://servername/ipfilter.gzip \\server\shared\ipfilter.dat o:C:\Temp\ipfilter.dat</code></p>
-
-<blockquote>
-<p>Downloads and combines two lists from a gzipped-list from the internet and a local network share, then saves it to a local file.</p>
-</blockquote>
-
-</div>
-
-          
-
-        </div>
-      </div>
-      <div class="order-0 w-20 dn db-l">
+  <div class="flex">
+    <div class="dn db-l w-20">
+      
         
 <nav role="navigation">
   <ul class="list pa0 nl2">
@@ -328,55 +190,58 @@
   </ul>
 </nav>
 
-      </div>
-
+      
     </div>
-  </article>
 
-  <div class="w-100 bg-light-gray">
-    <div class="mw7 pa4 center nested-lh-copy lh-copy">
-      <h6 class="f4 dark-gray mb2">
-  <a href="http://www.sadrobot.co.nz/ipfilter/architecture/" class="hide-child link primary-color">
-  <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
-</span>
-    “Architecture”
-  </a> was last updated: January 1, 0001
-  
-  
-</h6>
-
-      <a href="https://github.com/DavidMoore/SadRobot/edit/master/content/ipfilter/architecture.md" class="
-f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
-">Improve this page</a>
+    <div class="w-100 w-80-l ph0 ph4-l">
+      <article class="w-100 nested-copy-line-height nested-links nested-img">
+        <h1 class="primary-color-dark f2">
+          .NET
+        </h1>
+        <div class=" mid-gray f5 f4-l">
+          
+        </div>
+      </article>
 
       
 
+      <div class="flex flex-wrap">
+        
+        <section class="flex-ns flex-wrap justify-between w-100">
+          
+            <div class="relative flex-auto w-100 w-40-l mr3 mb3 bg-white ba b--moon-gray nested-copy-line-height weight-0">
+
+  <div class="bg-white mb2 pa3 pa4-l gray">
+    
+
+    <h1 class="near-black f3">
+      <a href="/wiki/dotnet/patterns/" class="link primary-color dim">.NET Patterns</a>
+    </h1>
+
+    <div class="lh-copy links">
+      
+          .NET Patterns
+        
+
+        <a href="/wiki/dotnet/patterns/" class="f6 mt2 db link primary-color dim">
+          Read More &raquo;
+        </a>
 
     </div>
+
+
+  </div>
+</div>
+
+          
+        </section>
+      </div>
+
+    </div>
+
   </div>
 
-  <div class="w-60-l ph0 ph5-ns center">
-    <div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "sadrobot" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-  </div>
+</div>
 
 
     </main>

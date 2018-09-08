@@ -214,7 +214,7 @@ New home: https://ipfilter.codeplex.com/</description>
       
       <guid>http://www.sadrobot.co.nz/blog/2012/01/27/creating-a-machine-account-login-for-sql-server/</guid>
       <description>You can create a machine account login for SQL Server with the following command:
-CREATE&amp;#160;USER&amp;#160;[MACHINENAME]&amp;#160;FOR&amp;#160;LOGIN&amp;#160;[DOMAINMACHINENAME$]&amp;#160;WITH&amp;#160;DEFAULT_SCHEMA=[dbo]  </description>
+CREATE&amp;#160;USER&amp;#160;[MACHINENAME]&amp;#160;FOR&amp;#160;LOGIN&amp;#160;[DOMAIN\MACHINENAME$]&amp;#160;WITH&amp;#160;DEFAULT_SCHEMA=[dbo]  </description>
     </item>
     
     <item>

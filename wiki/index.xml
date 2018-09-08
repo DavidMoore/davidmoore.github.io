@@ -71,16 +71,6 @@ Debugging Visual Basic 6</description>
     </item>
     
     <item>
-      <title>Structuring Visual Studio solutions</title>
-      <link>http://www.sadrobot.co.nz/wiki/dotnet/structuring-visual-studio-solutions/</link>
-      <pubDate>Sat, 22 Jan 2011 23:12:44 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/dotnet/structuring-visual-studio-solutions/</guid>
-      <description>The entire solution will be under a root folder, that may differ depending on the developer’s preferences, the branch they’re checking out etc.
-Branch structure  Folder Name  Function  Comments     Main  Trunk / main branch  &amp;#160;    Branches  &amp;#160;  &amp;#160;    BranchesDevelopment  Contains development branches  &amp;#160;    BranchesReleases  Contains live, maintenance branches  &amp;#160;    General  Non branch-specific resources  E.</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>http://www.sadrobot.co.nz/wiki/data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -100,18 +90,6 @@ cassandra</description>
 The HRESULT numbering space is vendor-extensible. Vendors can supply their own values for this field, as long as the C bit (0x20000000) is set, indicating it is a customer code.
 The HRESULT numbering space has the following internal structure. Any protocol that uses NTSTATUS values on the wire is responsible for stating the order in which the bytes are placed on the wire.
 S (1 bit): Severity.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/wiki/dotnet/wcf/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/dotnet/wcf/</guid>
-      <description>===Chapter 3: Message Exchange Patterns, Topologies, and Choreographies===
-==Message Exchange Patterns (MEP)==
-The Datagram MEP
- 1-way, send and forget May or may not elicit a response, which would require a new connection A datagram MEP is expressed in Web Services Description Language (WSDL) as an operation that contains a wsdl:input element and no wsdl:output elements In WCF, the contract method must have a void return type, and the OperationContract attribute needs IsOneWay set to true  WCF applications that receive datagrams over HTTP send the 202 reply upon receipt of the datagram but before processing the datagram.</description>
     </item>
     
     <item>
@@ -191,27 +169,6 @@ diskpart list disk select disk ? clean create partition primary select partition
       <description>Windows Maintenance Deployment Image Servicing and Management tool (DISM) DISM can be used to mount and service a Windows image from a .wim file, .vhd file, or a .vhdx file or, in some cases, to update a running operating system.
 You can use DISM to do various cleanup operations related to installed components, updates and service packs.
 Remove Service Pack backup components after Service Pack installation After installing a Service Pack, you can clean up backed up components:</description>
-    </item>
-    
-    <item>
-      <title>CSharp Async &amp; Await</title>
-      <link>http://www.sadrobot.co.nz/wiki/dotnet/async/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/dotnet/async/</guid>
-      <description>Asynchronous programming in C APM: C# 1.0 / .NET 1.0 Style This is known as the Asynchronous Programming Model (APM) and is associated with the IAsyncResult pattern.
-Asynchronous calls are made using Begin and End methods on an API, with callbacks and state being passed between them.
- Exception handling Exceptions can be thrown from BeginRead (such as trying to read from a stream that has already been closed). Unexpected errors occurring during the async request (e.</description>
-    </item>
-    
-    <item>
-      <title>Covariance &amp; Contravariance</title>
-      <link>http://www.sadrobot.co.nz/wiki/dotnet/csharp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/dotnet/csharp/</guid>
-      <description>Covariant if it preserves the ordering of types (≤), which orders types from more specific to more generic; Contravariant if it reverses this ordering; Bivariant if both of these apply (i.e., both I&amp;lt;A&amp;gt; ≤ I&amp;lt;B&amp;gt; and I&amp;lt;B&amp;gt; ≤ I&amp;lt;A&amp;gt; at the same time); Invariant or Nonvariant if neither of these applies.  In C# interfaces, in represents contravariance, and out represents covariance.
-For example in C#, if Cat is a subtype of Animal, then:</description>
     </item>
     
   </channel>

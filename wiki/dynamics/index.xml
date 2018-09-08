@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft Dynamics on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/wiki/dynamics/</link>
+    <description>Recent content in Microsoft Dynamics on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://www.sadrobot.co.nz/wiki/dynamics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Microsoft Dynamics 365 CRM</title>
+      <link>http://www.sadrobot.co.nz/wiki/dynamics/crm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dynamics/crm/</guid>
+      <description>CRM Web API  The Web API is the preferred API for CRM 2016 and upwards. OData 4.0 RESTful web service Not to be confused with the deprecated OData Endpoint (2011) Maximum records returned is 5000 before pagination kicks in Uses Open ID Connect / OAuth for authentication. Can use ADAL library for this in .NET Your application needs to be registered in Active Directory to be able to make requests The Web API URL is found in Settings &amp;gt; Customizations &amp;gt; Developer Resources  Registering your application for Dynamics 365 https://stackoverflow.</description>
+    </item>
+    
+  </channel>
+</rss>

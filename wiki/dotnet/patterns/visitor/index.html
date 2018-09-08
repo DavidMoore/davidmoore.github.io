@@ -9,7 +9,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
      
-    <title>Architecture | Sad Robot</title>
+    <title>Visitor Pattern | Sad Robot</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
@@ -20,10 +20,10 @@
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
       
 
-     <link href='/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="Architecture" />
-<meta property="og:description" content="IPFilter Architecture" />
+     <link href='/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="Visitor Pattern" />
+<meta property="og:description" content="Explanation of the Visitor pattern, with implementations in C#" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.sadrobot.co.nz/ipfilter/architecture/" />
+<meta property="og:url" content="http://www.sadrobot.co.nz/wiki/dotnet/patterns/visitor/" />
 
 
 
@@ -40,20 +40,20 @@
 
 
 
-<meta itemprop="name" content="Architecture">
-<meta itemprop="description" content="IPFilter Architecture">
+<meta itemprop="name" content="Visitor Pattern">
+<meta itemprop="description" content="Explanation of the Visitor pattern, with implementations in C#">
 
 
 
-<meta itemprop="wordCount" content="334">
+<meta itemprop="wordCount" content="98">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image:src" content="http://www.sadrobot.co.nz/images/gohugoio-card.png"/>
-<meta name="twitter:title" content="Architecture"/>
-<meta name="twitter:description" content="IPFilter Architecture"/>
+<meta name="twitter:title" content="Visitor Pattern"/>
+<meta name="twitter:description" content="Explanation of the Visitor pattern, with implementations in C#"/>
 <meta name="twitter:site" content="@whup"/>
 
 
@@ -150,34 +150,10 @@
 		<p class="b">On this page</p>
   	<nav id="TableOfContents">
 <ul>
-<li><a href="#inputs">Inputs</a>
-<ul>
-<li><a href="#input-uris">Input URIs</a></li>
-<li><a href="#input-formats">Input Formats</a></li>
-<li><a href="#bundles">Bundles</a></li>
-</ul></li>
-<li><a href="#enumerators">Enumerators</a></li>
-<li><a href="#textenumerator">TextEnumerator</a></li>
-<li><a href="#urienumerator">UriEnumerator</a></li>
-<li><a href="#jsonenumerator">JsonEnumerator</a></li>
+<li><a href="#generic-implementation">Generic Implementation</a></li>
 </ul>
 </nav>
 	
-
-	<div date-pref>
-		
-
-		
-			<a href="http://www.sadrobot.co.nz/ipfilter/commandline/" class="dib f6 pr1 hover-bg-light-gray br-100" title="Commandline">
-			<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
-    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
-    <path d="M0 0h24v24H0z" fill="none"/>
-</svg>
-
-			</a>
-		
-	</div>
-
 </aside>
 </div>
 
@@ -187,13 +163,13 @@
           </div>
           <header class="flex-none w-100">
   
-  <h1 class="lh-title mb3 mv0 pt3 primary-color-dark">Architecture</h1>
+  <h1 class="lh-title mb3 mv0 pt3 primary-color-dark">Visitor Pattern</h1>
 </header>
 
 <aside class="bt bw1 pt3 mt2 mid-gray b--mid-gray fn w-100">
   
     <div class="f4 fw4 lh-copy">
-      IPFilter Architecture
+      Explanation of the Visitor pattern, with implementations in C#
     </div>
   
 
@@ -206,69 +182,25 @@
 
 
 
-<p>The IPFilter updater takes in a set of one or more inputs, and one or more outputs.</p>
+<h1 id="generic-implementation">Generic Implementation</h1>
 
-<p>IPFilter acquires and merges all of the inputs, and generates the output result.</p>
+<p>When implementing the Visitor pattern, in some examples you may have to define overrides for all supported visitable types in the interface, and then have implementations.</p>
 
-<p>The merged inputs are then synced to the output(s).</p>
+<p>If visiting each node simply involves invoking Accept on the node, passing in the visitor implementation, then that&rsquo;s a lot of unnecessary work.</p>
 
-<h1 id="inputs">Inputs</h1>
+<p>You can use a generic implementation, so that you don&rsquo;t need to update the interface and implementation(s) of the visitor each time you want to support a new node:</p>
 
-<h2 id="input-uris">Input URIs</h2>
+<pre><code>
+interface IVisitor {
 
-<p>The input must be resolved to an absolute URI. While the final URI must be absolute, there are shortcuts and abbreviations to make the specified input(s) more concise and readable.</p>
+    T Visit&lt;T&gt;(T node) where T : INode;
+}
 
-<h2 id="input-formats">Input Formats</h2>
+interface INode {
+    void Accept(IVisitor visitor);
+}
 
-<p>The input files can be of a couple of formats:</p>
-
-<ul>
-<li>A raw ipfilter file</li>
-<li>A compressed ipfilter file (zip, gzip)</li>
-<li>A JSON file in the IPFilter Bundle format. This is a special format that allows additional inputs to be specified.</li>
-</ul>
-
-<h2 id="bundles">Bundles</h2>
-
-<p>A bundle file is a JSON definition of input(s) and/or output(s).</p>
-
-<p>This facilitates combining complex or large lists of ipfilter input URIs into a small file that can be saved. It can simplify URIs by having a list parent, and consolidate authentication for protected lists.</p>
-
-<p>Because inputs specified in a bundle can be bundles themselves, this allows a nested hierarchy of sources to be defined.</p>
-
-<p>This allows specialized bundles to be created and published on your local network or even publicly.</p>
-
-<h1 id="enumerators">Enumerators</h1>
-
-<h1 id="textenumerator">TextEnumerator</h1>
-
-<p>The lowest level enumerator, reading in text lines from the specified stream. Binary lines are skipped over.</p>
-
-<h1 id="urienumerator">UriEnumerator</h1>
-
-<p>The highest level enumerator, this takes in a source URI.</p>
-
-<p>It will acquire the contents of the source URI, decompressing if necessary.</p>
-
-<p>If the resulting contents is determined to be a Bundle, the Bundle when then be parsed and each input source passed through to the UriEnumerator.</p>
-
-<h1 id="jsonenumerator">JsonEnumerator</h1>
-
-<p>The JsonEnumerator finds and iterates over the input sources defined in the passed json file.</p>
-
-<p>Each input source has its URI resolved, then passed through to the UriEnumerator.</p>
-
-<p><code>ipfilter</code></p>
-
-<blockquote>
-<p>Downloads the latest default list, and installs it to all detected Bit Torrent applications.</p>
-</blockquote>
-
-<p><code>ipfilter https://servername/ipfilter.gzip \\server\shared\ipfilter.dat o:C:\Temp\ipfilter.dat</code></p>
-
-<blockquote>
-<p>Downloads and combines two lists from a gzipped-list from the internet and a local network share, then saves it to a local file.</p>
-</blockquote>
+</code></pre>
 
 </div>
 
@@ -336,16 +268,16 @@
   <div class="w-100 bg-light-gray">
     <div class="mw7 pa4 center nested-lh-copy lh-copy">
       <h6 class="f4 dark-gray mb2">
-  <a href="http://www.sadrobot.co.nz/ipfilter/architecture/" class="hide-child link primary-color">
+  <a href="http://www.sadrobot.co.nz/wiki/dotnet/patterns/visitor/" class="hide-child link primary-color">
   <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
 </span>
-    “Architecture”
+    “Visitor Pattern”
   </a> was last updated: January 1, 0001
   
   
 </h6>
 
-      <a href="https://github.com/DavidMoore/SadRobot/edit/master/content/ipfilter/architecture.md" class="
+      <a href="https://github.com/DavidMoore/SadRobot/edit/master/content/wiki/dotNET/patterns/visitor.md" class="
 f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
 ">Improve this page</a>
 
