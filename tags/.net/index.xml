@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.Net on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/.net/</link>
+    <description>Recent content in .Net on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Dec 2010 09:38:31 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Running .NET 2 Runtime applications under the .NET 4 Runtime</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/12/17/running-net-2-runtime-applications-under-the-net-4-runtime/</link>
+      <pubDate>Fri, 17 Dec 2010 09:38:31 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/12/17/running-net-2-runtime-applications-under-the-net-4-runtime/</guid>
+      <description>In some situations, you might want to run a .NET 2 Runtime application (.NET 2, 3.0, 3.5 SP1 etc) under the .NET 4 Runtime &amp;#8211; without recompiling.
+You can configure your app to execute under the .NET 4 runtime by adding these lines to the executable&amp;rsquo;s configuration file, under the root � configuration element:
+&amp;lt;startup&amp;gt; &amp;lt;supportedRuntimeversion=&#34;v4.0&#34;sku=&#34;.NETFramework,Version=v4.0&#34;/&amp;gt; &amp;lt;/startup&amp;gt; Because the security framework has changed in the .NET 4 runtime, you will likely encounter some exceptions containing a message similar to:</description>
+    </item>
+    
+    <item>
+      <title>Unit testing multi-threaded, asynchronous code and/or events</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/06/03/unit-testing-multi-threaded-asynchronous-code-andor-events/</link>
+      <pubDate>Wed, 03 Jun 2009 10:50:15 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/06/03/unit-testing-multi-threaded-asynchronous-code-andor-events/</guid>
+      <description>I&amp;rsquo;ve been writing some unit tests recently that test some multi-threaded functionality. Typically this involves hooking up some event handlers then waiting for some asynchronous code to fire the event before proceeding with the unit test and assertions. The ManualResetEvent class (MSDN) seems a good choice for this, and this post has a small example of using it in a unit test:   [Test()] public void AfterRunAsync() { ManualResetEvent manualEvent = new ManualResetEvent(false); TestTestCase tc = new TestTestCase(1, &amp;ldquo;&amp;rdquo;, 0, 0); bool eventFired = false; tc.</description>
+    </item>
+    
+    <item>
+      <title>Remote debugging from Visual Studio 2008 on a domain machine to a machine not on the domain</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/28/remote-debugging-from-visual-studio-2008-on-a-domain-machine-to-a-machine-not-on-the-domain/</link>
+      <pubDate>Thu, 28 May 2009 17:25:27 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/28/remote-debugging-from-visual-studio-2008-on-a-domain-machine-to-a-machine-not-on-the-domain/</guid>
+      <description>This details how you can debug an application running on a remote machine from Visual Studio on your local machine, as if the remote application was running on your local machine. The keys are:  There must be a user account with the same username and password on the remote machine and the local machine (MACHINE account, not domain account). Visual Studio 2008 Remote Debugger must be installed and running on the remote machine under the user account in point 1  Create local machine account  Right click My Computer &amp;gt; Manage Expand Computer Management &amp;gt; System Tools &amp;gt; Local Users and Groups Right-click Users under Local Users and Groups and choose New User&amp;#8230; Enter in the username e.</description>
+    </item>
+    
+    <item>
+      <title>Set up IP filtering in uTorrent and keep your ipfilter.dat up to date easily</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/27/set-up-ip-filtering-in-utorrent-and-keep-your-ipfilterdat-up-to-date-easily/</link>
+      <pubDate>Wed, 27 May 2009 00:14:13 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/27/set-up-ip-filtering-in-utorrent-and-keep-your-ipfilterdat-up-to-date-easily/</guid>
+      <description>The IPFilter Updater application now has its own page: http://www.davidmoore.info/ipfilter-updater/ uTorrent is one of the most popular BitTorrent clients out there. In my opinion it&amp;rsquo;s the best. You can set up IP filtering in uTorrent to block bad seeds and peers from a list maintained by the community. How to set up IP filtering in uTorrent  Open up uTorrent and go to Options &amp;gt; Preferences from the menu or click the Preferences button in the toolbar Select the Advanced option in the tree Find ipfilter.</description>
+    </item>
+    
+    <item>
+      <title>Could not load file or assembly &amp;#226;&amp;#8364;&amp;#732;x&amp;#226;&amp;#8364;&amp;#8482; or one of its dependencies. Strong name validation failed.</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/26/could-not-load-file-or-assembly-x-or-one-of-its-dependencies-strong-name-validation-failed/</link>
+      <pubDate>Tue, 26 May 2009 15:54:34 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/26/could-not-load-file-or-assembly-x-or-one-of-its-dependencies-strong-name-validation-failed/</guid>
+      <description>In some of the work I&amp;rsquo;m doing right now, I&amp;rsquo;m manipulating an assembly after compile time - having it disassembled into IL, tweaked, then re-compiled back into an assembly. The assembly is signed and what is being done to the assembly is breaking the strong name. This is quite comforting to know; the strong name wouldn&amp;rsquo;t be so strong if it was that easy to hack an assembly with a strong name.</description>
+    </item>
+    
+    <item>
+      <title>Configuring NLog for your application when NLog is in the Global Assembly Cache (GAC)</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/22/configuring-nlog-for-your-application-when-nlog-is-in-the-global-assembly-cache-gac/</link>
+      <pubDate>Fri, 22 May 2009 12:28:23 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/22/configuring-nlog-for-your-application-when-nlog-is-in-the-global-assembly-cache-gac/</guid>
+      <description>If you have several applications that are using NLog, it can be a good idea to install NLog into the GAC and reference that. A gotcha you must watch out for is caused by this piece of configuration from the NLog site:        Because you are not using the strong name for the Assembly-qualified name of ConfigSectionHandler, it&amp;rsquo;s impossible to do a GAC lookup, therefore NLog won&amp;rsquo;t be found and you&amp;rsquo;ll get an application error (even if NLog is actually in the GAC).</description>
+    </item>
+    
+    <item>
+      <title>Creating thumbnail images with automatic cropping and maintaining aspect ratio</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/07/creating-thumbnail-images-with-automatic-cropping-and-maintaining-aspect-ratio/</link>
+      <pubDate>Sat, 07 Feb 2009 02:17:03 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/07/creating-thumbnail-images-with-automatic-cropping-and-maintaining-aspect-ratio/</guid>
+      <description>&lt;p&gt;Most thumbnail-generation solutions will shrink the original down while maintaining aspect ratio.&lt;/p&gt;
+
+&lt;p&gt;Usually you specify the maximum height and width of the thumbnail, e.g. 150 x 200&lt;/p&gt;
+
+&lt;p&gt;However, if your original image&amp;rsquo;s aspect ratio is different to the maximum thumbnail dimensions, you will end up with dead space vertically or horizontally (shown in green in the illustration). This can be quite an eyesore when displaying thumbnails in a grid.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-77&#34; title=&#34;Normal Thumbnail Resizing Diagram&#34; src=&#34;http://davidmoore.info/wp-content/uploads/2009/02/image-resize-normal.gif&#34; alt=&#34;Normal Thumbnail Resizing Diagram&#34; width=&#34;672&#34; height=&#34;334&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve got an algorithm that will automatically crop the image either horizontally or vertically to then match the thumbnail aspect ratio, so you end up with the thumbnails all being the same size even though they may be coming from originals of wildly different aspect ratio.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Castle Project update</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/01/08/castle-project-update/</link>
+      <pubDate>Thu, 08 Jan 2009 03:18:26 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/01/08/castle-project-update/</guid>
+      <description>Hamilton has applied a bunch of patches and fixes to the Castle Project for the Components and Windsor sub-projects. Including 2 minor and insignificant patches that I submitted +D. It&amp;rsquo;s good to feel part of a major Open Source project, even for a small contribution.
+http://hammett.castleproject.org/?p=336
+While I&amp;rsquo;m currently focusing my efforts on ASP.NET MVC and moved away from MonoRail, I use Castle extensively in my .NET projects, particularly ActiveRecord and Windsor/MicroKernel.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Performance</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/12/09/visual-studio-performance/</link>
+      <pubDate>Tue, 09 Dec 2008 18:18:46 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/12/09/visual-studio-performance/</guid>
+      <description>I&amp;rsquo;m running Visual Studio 2008 on a old, single-core laptop with 1GB RAM.
+VS is a resource hog, so it&amp;rsquo;s not long before my laptop is struggling having a reasonable size solution in addition to the usual open applications.
+There are a few things you can do to try and squeeze a bit more performance out of Visual Studio I&amp;rsquo;ve found from various blogs and looking around myself. The first two are the most useful.</description>
+    </item>
+    
+    <item>
+      <title>System.BadImageFormatException</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/14/systembadimageformatexception/</link>
+      <pubDate>Tue, 14 Oct 2008 12:52:42 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/14/systembadimageformatexception/</guid>
+      <description>I&amp;rsquo;m currently build the new Overclockers New Zealand website in .NET
+I have a nice continuous integration server going smoothly, but my most recent check-in threw up a strange error when running the Unit Tests:
+ System.BadImageFormatException : Could not load file or assembly &amp;lsquo;Overclockers.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null&amp;rsquo; or one of its dependencies. The module was expected to contain an assembly manifest.
+ The server is actually a VMWare instance, but is running a 32-bit version of Windows Server 2003 EE.</description>
+    </item>
+    
+    <item>
+      <title>You can now disconnect from the Internet</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/07/10/you-can-now-disconnect-from-the-internet/</link>
+      <pubDate>Thu, 10 Jul 2008 12:15:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/07/10/you-can-now-disconnect-from-the-internet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

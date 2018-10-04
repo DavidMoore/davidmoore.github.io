@@ -14,7 +14,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-     <meta name="generator" content="Hugo 0.32" />
+     <meta name="generator" content="Hugo 0.48" />
 
       
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -25,24 +25,8 @@
 This can be fixed by manually adding a ut3 protocol to the Windows registry.
 Instructions  Download the initial registry fix, but don&rsquo;t merge it yet: Download UT3 Protocol registry fix Open it with a text editor such as Notepad Change the install location to make where you have UT3." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.sadrobot.co.nz/blog/2014/07/19/unreal-tournament-3-ut3-protocol-registry-fix-for-launching-ut3-links/" />
-
-
-
-<meta property="article:published_time" content="2014-07-19T19:42:33&#43;00:00"/>
-
-<meta property="article:modified_time" content="2018-01-14T19:03:00&#43;13:00"/>
-
-
-
-
-
-
-
-
-
-
-
+<meta property="og:url" content="http://www.sadrobot.co.nz/blog/2014/07/19/unreal-tournament-3-ut3-protocol-registry-fix-for-launching-ut3-links/" /><meta property="article:published_time" content="2014-07-19T19:42:33&#43;00:00"/>
+<meta property="article:modified_time" content="2018-10-04T20:12:49&#43;13:00"/>
 <meta itemprop="name" content="Unreal Tournament 3 (UT3) Protocol Registry Fix for launching UT3 links">
 <meta itemprop="description" content="UT3, at least installed via Steam, doesn&rsquo;t seem to register a URI scheme in Windows so that you can create links to UT3 servers, as was possible in earlier versions of Unreal Tournament.
 This can be fixed by manually adding a ut3 protocol to the Windows registry.
@@ -57,7 +41,8 @@ Instructions  Download the initial registry fix, but don&rsquo;t merge it yet: D
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image:src" content="http://www.sadrobot.co.nz/images/gohugoio-card.png"/>
+<meta name="twitter:image" content="http://www.sadrobot.co.nz/images/gohugoio-card.png"/>
+
 <meta name="twitter:title" content="Unreal Tournament 3 (UT3) Protocol Registry Fix for launching UT3 links"/>
 <meta name="twitter:description" content="UT3, at least installed via Steam, doesn&rsquo;t seem to register a URI scheme in Windows so that you can create links to UT3 servers, as was possible in earlier versions of Unreal Tournament.
 This can be fixed by manually adding a ut3 protocol to the Windows registry.
@@ -106,6 +91,16 @@ Instructions  Download the initial registry fix, but don&rsquo;t merge it yet: D
             
           <a href="/games/" class="dim link light-silver">
             Gaming
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/ipfilter/" class="dim link light-silver">
+            IPFilter
               
             
             
@@ -219,7 +214,7 @@ Instructions  Download the initial registry fix, but don&rsquo;t merge it yet: D
 <h2 id="instructions">Instructions</h2>
 
 <ol>
-<li>Download the initial registry fix, but don&rsquo;t merge it yet: <a href="/ut/ut3protocol.zip">Download UT3 Protocol registry fix</a></li>
+<li>Download the initial registry fix, but don&rsquo;t merge it yet: <a href="/downloads/games/ut/ut3protocol.zip">Download UT3 Protocol registry fix</a></li>
 <li>Open it with a text editor such as Notepad</li>
 <li>Change the install location to make where you have UT3. If your steam library is by default C:\Games\Steam, then you won&rsquo;t have to change anything.</li>
 <li>Save the file.</li>
@@ -227,27 +222,22 @@ Instructions  Download the initial registry fix, but don&rsquo;t merge it yet: D
 </ol>
 
 <p>For information&rsquo;s sake, the contents of the registry file is below. You can create your own registry file from this by copying and saving the text, giving the file a .reg file extension.</p>
+<div class="highlight"><pre class="chroma"><code class="language-registry" data-lang="registry">Windows Registry Editor Version 5.00
 
-<pre>Windows Registry Editor Version 5.00
+<span class="k">[</span><span class="nb">HKEY_CLASSES_ROOT</span><span class="k">\unreal]</span>
+<span class="na">@</span><span class="o">=</span><span class="s">&#34;URL:Unreal Tournament 3 Protocol&#34;</span>
+<span class="na">&#34;URL Protocol&#34;</span><span class="o">=</span><span class="s">&#34;&#34;</span>
 
-[HKEY_CLASSES_ROOT\unreal]
-@="URL:Unreal Tournament 3 Protocol"
-"URL Protocol"=""
+<span class="k">[</span><span class="nb">HKEY_CLASSES_ROOT</span><span class="k">\unreal\DefaultIcon]</span>
+<span class="na">@</span><span class="o">=</span><span class="s">&#34;C:\\Games\\Steam\\steamapps\\common\\unreal tournament 3\\Binaries\\UT3.exe,1&#34;</span>
 
-[HKEY_CLASSES_ROOT\unreal\DefaultIcon]
-@="C:\\Games\\Steam\\steamapps\\common\\unreal tournament 3\\Binaries\\UT3.exe,1"
+<span class="k">[</span><span class="nb">HKEY_CLASSES_ROOT</span><span class="k">\unreal\shell]</span>
+<span class="na">@</span><span class="o">=</span><span class="s">&#34;open&#34;</span>
 
-[HKEY_CLASSES_ROOT\unreal\shell]
-@="open"
+<span class="k">[</span><span class="nb">HKEY_CLASSES_ROOT</span><span class="k">\unreal\shell\open]</span>
 
-[HKEY_CLASSES_ROOT\unreal\shell\open]
-
-[HKEY_CLASSES_ROOT\unreal\shell\open\command]
-@="\"C:\\Games\\Steam\\steamapps\\common\\unreal tournament 3\\Binaries\\UT3.exe\" \"%1\""
-
-
-</pre>
-
+<span class="k">[</span><span class="nb">HKEY_CLASSES_ROOT</span><span class="k">\unreal\shell\open\command]</span>
+<span class="na">@</span><span class="o">=</span><span class="s">&#34;\&#34;C:\\Games\\Steam\\steamapps\\common\\unreal tournament 3\\Binaries\\UT3.exe\&#34; \&#34;%1\&#34;&#34;</span></code></pre></div>
 <p>I will look into automating this to detect where UT3 is installed, but I&rsquo;m not sure how or where to get this information from Steam programmatically.</p>
 
 <h1 id="creating-server-links">Creating server links</h1>
@@ -339,7 +329,7 @@ Instructions  Download the initial registry fix, but don&rsquo;t merge it yet: D
   <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
 </span>
     “Unreal Tournament 3 (UT3) Protocol Registry Fix for launching UT3 links”
-  </a> was last updated: January 14, 2018
+  </a> was last updated: October 4, 2018
   
   
 </h6>
@@ -356,7 +346,7 @@ f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
 
   <div class="w-60-l ph0 ph5-ns center">
     <div id="disqus_thread"></div>
-<script>
+<script type="application/javascript">
     var disqus_config = function () {
     
     
@@ -455,6 +445,12 @@ f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
     <li  class="tl dib ma0 hover-bg-black w-100">
         <a href="/games/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
           Gaming
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/ipfilter/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          IPFilter
         </a>
     </li>
   

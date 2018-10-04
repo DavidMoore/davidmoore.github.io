@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Duplicates on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/duplicates/</link>
+    <description>Recent content in Duplicates on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Feb 2009 10:59:09 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/duplicates/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Finding duplicated data across one or more columns in a database table</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/28/finding-duplicated-data-across-one-or-more-columns-in-a-database-table/</link>
+      <pubDate>Sat, 28 Feb 2009 10:59:09 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/28/finding-duplicated-data-across-one-or-more-columns-in-a-database-table/</guid>
+      <description>A few months ago I posted a little query about finding duplicate rows in a database table. I&amp;rsquo;m revisiting this because I helped out Doogie with a similar query last night but with some complications. Let&amp;rsquo;s start with the original simple scenario of checking duplicates in a single column. Some example data, a Users table: +-&amp;mdash;+-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;mdash;+ | Id | Email | +-&amp;mdash;+-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;mdash;+ | 1 | joe@bloggs.com | | 2 | joe@bloggs.</description>
+    </item>
+    
+    <item>
+      <title>Finding duplicate rows in the database</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/17/finding-duplicate-rows-in-the-database/</link>
+      <pubDate>Fri, 17 Oct 2008 11:39:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/17/finding-duplicate-rows-in-the-database/</guid>
+      <description>NOTE: This post has been re-visited in Finding duplicated data across one or more columns in a database table
+Information gleaned from Microsoft KB article: How to remove duplicate rows from a table in SQL Server
+When you allow duplicated rows in a database that aren&amp;rsquo;t expected and shouldn&amp;rsquo;t be allowed, it&amp;rsquo;s a flag saying that you need a unique index on the table to prevent duplicate rows to be added in the first place.</description>
+    </item>
+    
+  </channel>
+</rss>

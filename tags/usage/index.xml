@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Usage on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/usage/</link>
+    <description>Recent content in Usage on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Feb 2009 14:04:39 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/usage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Improve Mozilla Firefox 3 memory usage</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/28/improve-mozilla-firefox-3-memory-usage/</link>
+      <pubDate>Sat, 28 Feb 2009 14:04:39 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/28/improve-mozilla-firefox-3-memory-usage/</guid>
+      <description>Firefox still tends to be a bit of a memory hog over an extended period of time, even though the latest major version (3) has made massive memory usage improvements over previous versions. This tweak will make sure Firefox behaves more like standard Windows applications when it comes to being minimized, as in freeing up the memory it&amp;rsquo;s using for Windows. The down-side to this is that when restored or maximized again, there will be a delay as the application shifts chunks from slow virtual memory to system memory.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Browser on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/browser/</link>
+    <description>Recent content in Browser on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Sep 2009 08:14:01 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/browser/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Opera 10 Final Released</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/09/02/opera-10-final-released/</link>
+      <pubDate>Wed, 02 Sep 2009 08:14:01 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/09/02/opera-10-final-released/</guid>
+      <description>As promised, Opera 10 final was released on Sep 1st http://www.opera.com/</description>
+    </item>
+    
+    <item>
+      <title>Opera 10 Beta 3 is out</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/08/14/opera-10-beta-3-is-out/</link>
+      <pubDate>Fri, 14 Aug 2009 00:32:36 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/08/14/opera-10-beta-3-is-out/</guid>
+      <description>Opera 10 Beta 3 is out! The timing is uncanny because the last time I did a clean install of Windows 7, Beta 2 came out hours after I had done a new install. Today I installed Windows 7 RTM on my machine at work, and then hours later, a new beta of Opera 10. What the? [Opera 10 Beta 3 @ opera.com]</description>
+    </item>
+    
+    <item>
+      <title>Opera 10 Alpha</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/12/04/opera-10-alpha/</link>
+      <pubDate>Thu, 04 Dec 2008 19:56:18 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/12/04/opera-10-alpha/</guid>
+      <description>Opera 10 Alpha is out!
+Apart from it being an updated and faster engine, it also adds 100% ACID3 support, HTML Email Composition (finally!), integrated spell checker, and automatic updates.
+All this on top of the in-built features like mouse gestures, integrated ad blocker, the slick mail, news feed and chat client, Bit Torrent support, Wand password manager, desktop widgets etc.</description>
+    </item>
+    
+    <item>
+      <title>Opera&#39;s MAMA analyses the spread and use of web technologies</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/19/operas-mama-analyses-the-spread-and-use-of-web-technologies/</link>
+      <pubDate>Sun, 19 Oct 2008 16:05:30 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/19/operas-mama-analyses-the-spread-and-use-of-web-technologies/</guid>
+      <description>The Opera guys have created a project called MAMA &amp;#8211; &amp;ldquo;Metadata Analysis and Mining Application&amp;rdquo;. It is designed to trawl the web and analyse what technologies and techniques are actually being used in web pages.
+Their intial study results are in, taken from 3 and a half million URLs.
+Interestingly, tables are still right up there with most popular tags, suggesting there are still a lot of people using tables for layouts, particularly when you see this quote:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Validation on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/validation/</link>
+    <description>Recent content in Validation on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 May 2009 15:54:34 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/validation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Could not load file or assembly &amp;#226;&amp;#8364;&amp;#732;x&amp;#226;&amp;#8364;&amp;#8482; or one of its dependencies. Strong name validation failed.</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/26/could-not-load-file-or-assembly-x-or-one-of-its-dependencies-strong-name-validation-failed/</link>
+      <pubDate>Tue, 26 May 2009 15:54:34 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/26/could-not-load-file-or-assembly-x-or-one-of-its-dependencies-strong-name-validation-failed/</guid>
+      <description>In some of the work I&amp;rsquo;m doing right now, I&amp;rsquo;m manipulating an assembly after compile time - having it disassembled into IL, tweaked, then re-compiled back into an assembly. The assembly is signed and what is being done to the assembly is breaking the strong name. This is quite comforting to know; the strong name wouldn&amp;rsquo;t be so strong if it was that easy to hack an assembly with a strong name.</description>
+    </item>
+    
+  </channel>
+</rss>

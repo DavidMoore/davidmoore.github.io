@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pinch on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/pinch/</link>
+    <description>Recent content in Pinch on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Feb 2009 13:08:02 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/pinch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Where&amp;#226;&amp;#8364;&amp;#8482;d I get my bag?</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/27/whered-i-get-my-bag/</link>
+      <pubDate>Fri, 27 Feb 2009 13:08:02 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/27/whered-i-get-my-bag/</guid>
+      <description>Land for Bags, of course!</description>
+    </item>
+    
+  </channel>
+</rss>

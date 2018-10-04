@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Performance on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/performance/</link>
+    <description>Recent content in Performance on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Dec 2008 18:18:46 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Visual Studio Performance</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/12/09/visual-studio-performance/</link>
+      <pubDate>Tue, 09 Dec 2008 18:18:46 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/12/09/visual-studio-performance/</guid>
+      <description>I&amp;rsquo;m running Visual Studio 2008 on a old, single-core laptop with 1GB RAM.
+VS is a resource hog, so it&amp;rsquo;s not long before my laptop is struggling having a reasonable size solution in addition to the usual open applications.
+There are a few things you can do to try and squeeze a bit more performance out of Visual Studio I&amp;rsquo;ve found from various blogs and looking around myself. The first two are the most useful.</description>
+    </item>
+    
+  </channel>
+</rss>

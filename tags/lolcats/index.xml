@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lolcats on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/lolcats/</link>
+    <description>Recent content in Lolcats on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jun 2008 14:00:12 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/lolcats/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Essential lolblogs</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/06/26/essential-lolblogs/</link>
+      <pubDate>Thu, 26 Jun 2008 14:00:12 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/06/26/essential-lolblogs/</guid>
+      <description>You need to add these sites to your feed reader or make sure you check them everyday. Guaranteed to give you a laugh at least once a day, no matter how bad it&amp;rsquo;s going.
+I Has A Hotdog (Funny pics of dogs with captions aka loldogs)
+I Can Has Cheezburger (Funny pics of cats with captions aka lolcats)
+Fail Blog (Funny pictures and videos of epic failure)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -247,29 +247,11 @@ CREATE&amp;#160;USER&amp;#160;[MACHINENAME]&amp;#160;FOR&amp;#160;LOGIN&amp;#160
     </item>
     
     <item>
-      <title>Patterns</title>
-      <link>http://www.sadrobot.co.nz/wiki/patterns/</link>
-      <pubDate>Tue, 17 Jan 2012 20:14:51 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/patterns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Practices</title>
-      <link>http://www.sadrobot.co.nz/wiki/practices/</link>
-      <pubDate>Tue, 17 Jan 2012 20:14:34 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/practices/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Windows File Sharing</title>
-      <link>http://www.sadrobot.co.nz/how-to/windows-file-sharing/</link>
+      <link>http://www.sadrobot.co.nz/wiki/windows/windows-file-sharing/</link>
       <pubDate>Fri, 12 Aug 2011 22:20:05 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/how-to/windows-file-sharing/</guid>
+      <guid>http://www.sadrobot.co.nz/wiki/windows/windows-file-sharing/</guid>
       <description>So, you want to share your files on the lan without requiring people to log in or join your Home Group?
 The following instructions are for Windows 7 and the NTFS (default and recommended) file system.
 Turn off Simple File Sharing From the Control Panel, search for Folder Options and open it (or from an Explorer window, go to the menu Organize &amp;gt; Folder and search options
@@ -309,15 +291,6 @@ Debugging Visual Basic 6</description>
 You can view deleted items by going to Tools &amp;gt; Options &amp;gt; Source Control &amp;gt; Visual Studio Team Foundation Server and checking the Show deleted items in the Source Control Explorer option:
 
 You can then see folders and files that have been deleted, which allows you to right click on them to choose Undelete (or go to File &amp;gt; Source Control &amp;gt; Undelete).</description>
-    </item>
-    
-    <item>
-      <title>Maintenance</title>
-      <link>http://www.sadrobot.co.nz/how-to/maintenance/</link>
-      <pubDate>Thu, 04 Aug 2011 12:04:11 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/how-to/maintenance/</guid>
-      <description>Disk maintenance Manually schedule a disk checked at next restart</description>
     </item>
     
     <item>
@@ -770,7 +743,7 @@ If you don&#39;t know about this incident, read up on it!</description>
       <pubDate>Sat, 28 Feb 2009 10:59:09 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/blog/2009/02/28/finding-duplicated-data-across-one-or-more-columns-in-a-database-table/</guid>
-      <description></description>
+      <description>A few months ago I posted a little query about finding duplicate rows in a database table. I&amp;rsquo;m revisiting this because I helped out Doogie with a similar query last night but with some complications. Let&amp;rsquo;s start with the original simple scenario of checking duplicates in a single column. Some example data, a Users table: +-&amp;mdash;+-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;mdash;+ | Id | Email | +-&amp;mdash;+-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;mdash;+ | 1 | joe@bloggs.com | | 2 | joe@bloggs.</description>
     </item>
     
     <item>
@@ -1208,14 +1181,23 @@ Contents </description>
     
     <item>
       <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/practices/versioning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/practices/versioning/</guid>
+      <description> Windows Installer Product Version only allows 3 digits
+ 1st and 2nd digits are actually limited from 0 to 255 3rd digit allows up to 65535  </description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://www.sadrobot.co.nz/wiki/sourcecontrol/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/wiki/sourcecontrol/git/</guid>
-      <description>Git Configure for Windows On Windows machine, open up Git Bash
-$ ssh-keygen -t rsa -C &amp;ldquo;David Moore david@digitalgenus.com&amp;ldquo; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/.ssh/id_rsa. Your public key has been saved in /d/Users/David/.ssh/id_rsa.pub. The key fingerprint is: 8a:ef:52:86:76:53:b3:ed:d6:54:02:c3:75:9d:94:22 David Moore david@digitalgenus.com
-David@WHUP ~/.ssh
-Copy the contents of ~/.</description>
+      <description>Git Create an empty branch git checkout --orphan &amp;lt;branch&amp;gt; git reset --hard  Clear the working directory git rm --cached -rf .
+Configure for Windows On Windows machine, open up Git Bash
+$ ssh-keygen -t rsa -C &amp;ldquo;David Moore david@digitalgenus.com&amp;ldquo; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/.</description>
     </item>
     
     <item>
@@ -1302,7 +1284,7 @@ Inputs Input URIs The input must be resolved to an absolute URI. While the final
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/dungeon/ataldazar/</guid>
-      <description> Priestess Alun&amp;rsquo;za  Use activate mitigation, perhaps a cooldown, for Gilded Claws Tank her near a Tainted Blood puddle Step into Tainted Blood just before she casts Transfusion Stun and kill Spirits of Gold so they don&amp;rsquo;t absorb Tainted Blood puddles. If there are no more Tainted Blood puddles, it will attack party members. Don&amp;rsquo;t get hit by Corrupted Gold, as it will damage you and debuff you, reducing damage done by 30% for 10 seconds Dispel Molten Gold debuff  Vol&amp;rsquo;kaal  Kill all 3 totems within 6 seconds of each other, or they will heal to full Vol&amp;rsquo;kaal will heal himself while the totems are up, so don&amp;rsquo;t bother DPSing him When the totems are down, Vol&amp;rsquo;kaal&amp;rsquo;s health will decay, but he does 50% more damage and spews out Toxic Pools Interrupt Noxious Stench Tank him along the outside, and keep moving around to dodge the Toxic Pools so you don&amp;rsquo;t run out of room and allow DPS to hit him  Rezan  Use active mitigation and/or cooldowns when hit by Serrated Teeth, as you bleed and take 50% additional physical damage Pick up Reanimated Raptor adds from Ancient Dry Bones piles Run away if Purse is on you, and try to avoid running Rezan through Ancient Dry Bones to reduce adds Tank him near stairs to allow people to LOS Terrifying Visage Healer should be ready to dispel fear from the tank if they can&amp;rsquo;t LOS the fear  Yazma  Use active mitigation and / or cooldowns for Skewer Dodge Echoes of Shad&amp;rsquo;ra, or it will burst and hurt players within 3 yds and drop a pool of Shadowy Remains Non-tanks should move away from Yazma and ideally stack on a marked location when Soulrend is cast, allowing Soulspawn to be stunned / slowed and DPSed down before they reach Yazma If any Soulspawn reaches Yazma, they will add a stacking 21 second debuff that ticks on all party members  </description>
+      <description>Notable Trash  If Dazar&amp;rsquo;ai Confessors get a Bwonsamdi&amp;rsquo;s Mantle cast off, drag trash out of the bubble, as it makes their casts un-interruptible Interrupt Dazar&amp;rsquo;ai Augur&amp;rsquo;s Fiery Enchant (exploding fire circles under party members&amp;rsquo; feet) For Shieldbearers of Zul, use Hammer of Justice or Blinding Light to interrupt their Bulwark of Juju   Priestess Alun&amp;rsquo;za  Use activate mitigation, perhaps a cooldown, for Gilded Claws Tank her near a Tainted Blood puddle Step into Tainted Blood just before she casts Transfusion Stun and kill Spirits of Gold so they don&amp;rsquo;t absorb Tainted Blood puddles.</description>
     </item>
     
     <item>
@@ -1314,6 +1296,15 @@ Inputs Input URIs The input must be resolved to an absolute URI. While the final
       <description>Asynchronous programming in C APM: C# 1.0 / .NET 1.0 Style This is known as the Asynchronous Programming Model (APM) and is associated with the IAsyncResult pattern.
 Asynchronous calls are made using Begin and End methods on an API, with callbacks and state being passed between them.
  Exception handling Exceptions can be thrown from BeginRead (such as trying to read from a stream that has already been closed). Unexpected errors occurring during the async request (e.</description>
+    </item>
+    
+    <item>
+      <title>Changelog</title>
+      <link>http://www.sadrobot.co.nz/ipfilter/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/ipfilter/changelog/</guid>
+      <description> 3.0.0 Beta 1 Fixes  #40 Automatic update fails due to github SSL/TLS restrictions  Changes  Program updates from GitHub Releases Distributing a curated, combined default list available from GitHub Releases page  </description>
     </item>
     
     <item>
@@ -1356,6 +1347,17 @@ ElvUI Updater ElvUI is not available from the Twitch add-on manager, so you norm
     </item>
     
     <item>
+      <title>FAQ</title>
+      <link>http://www.sadrobot.co.nz/ipfilter/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/ipfilter/faq/</guid>
+      <description>FAQ What is IPFilter Updater? It&amp;rsquo;s a small Windows application that will download and update an ipfilter list for use in Bit Torrent clients.
+What Bit Torrent clients are supported? Currently uTorrent, BitTorrent and qBittorrent are supported out of the box, but you can also configure other applications to pick up the downloaded list.
+What is an ipfilter? An ipfilter list is a simple (but usually very large) list of addresses and ranges of malicious peers that will transmit junk data (i.</description>
+    </item>
+    
+    <item>
       <title>Freehold</title>
       <link>http://www.sadrobot.co.nz/games/wow/dungeon/freehold/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1370,7 +1372,11 @@ ElvUI Updater ElvUI is not available from the Twitch add-on manager, so you norm
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/ipfilter/</guid>
-      <description> IPFilter </description>
+      <description> The ipfilter.dat file helps protect your privacy and security when using Bit Torrent by blocking a list of potentially malicious peers.
+This utility downloads and installs a selected list for your Bit Torrent client.
+Download
+Supported BitTorrent Applications  qBitTorrent (recommended) μTorrent Bit Torrent  Is your preferred Bit Torrent client not on this list? Request Application Support.
+</description>
     </item>
     
     <item>
@@ -1404,7 +1410,7 @@ Unspecified parameters are set to undefined</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/dungeon/kings-rest/</guid>
-      <description></description>
+      <description> Dazar, The First King  Use Blessing of Spellwarding or Divine Shield to break the fear  </description>
     </item>
     
     <item>
@@ -1460,7 +1466,16 @@ Unspecified parameters are set to undefined</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/mythicplus/</guid>
-      <description>Mythic+ Affixes    Affix Holy Protection     Necrotic If the tank gets too many stacks, be ready to use Sacrifice and Devotion Aura You can bubble off stacks. Spellwarding can&amp;rsquo;t remove stacks, but will prevent new stacks from being applied and allow the existing stacks to drop off.    References Holy Paladin Mythic+ Guide: https://docs.google.com/document/d/1QcknG-1E-ZZRupIGOlA0A3-5WCwI1KnXotLkTjCtA_E Mythic+ Dungeon Guides: https://questionablyepic.com/mythic-plus/</description>
+      <description>Loot  Weekly Chest contains 1 item Azerite pieces only drop from the Weekly Chest No gear or talent changes in Mythic+ You can zone out, change gear and/or talents, then zone back in You can now bonus roll for loot in Mythic+     Keystone Level End of Dungeon Weekly Chest Azerite Armor (Weekly Chest)     Mythic 2 345 355 340   Mythic 3 345 355 340   Mythic 4 350 360 355   Mythic 5 355 360 355   Mythic 6 355 365 355   Mythic 7 360 370 370   Mythic 8 365 370 370   Mythic 9 365 375 370   Mythic 10+ 370 380 385    Affix Schedule Affix 1 Affix 2 Affix 3 Fortified Sanguine Necrotic Tyrannical Bursting Skittish Fortified Teeming Quaking Tyrannical Raging Necrotic Fortified Bolstering Skittish Tyrannical Teeming Volcanic Fortified Sanguine Grievous Tyrannical Bolstering Explosive Fortified Bursting Quaking Tyrannical Raging Volcanic Fortified Teeming Explosive Tyrannical Bolstering Grievous</description>
+    </item>
+    
+    <item>
+      <title>ORM</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/orm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/orm/</guid>
+      <description> Generic Implementation </description>
     </item>
     
     <item>
@@ -1503,8 +1518,7 @@ Transpiling ES6 Google Traceur is an ES6 to ES5 transpiler that can be used to d
       
       <guid>http://www.sadrobot.co.nz/games/wow/protection/</guid>
       <description>Stats Item Level &amp;gt; Haste &amp;gt; Mastery &amp;gt;= Versatility &amp;gt; Crit
-Enchants &amp;amp; Gems  Weapon Enchant: Quick Navigation Ring Enchant: Haste Gems: 1 x Strength then Haste  Consumables  Flask: Strength Battle Potion: Potion of Bursting Blood for Single Target, Battle Potion of Strength for Multi-Target Food: Feast or Haste  Trinkets Azerite Traits Defensive Gemhide
-Offensive Rotation Judgement &amp;gt; Avenger&amp;rsquo;s Shield &amp;gt; Hammer of the Righteous</description>
+Enchants &amp;amp; Gems  Weapon Enchant: Quick Navigation Ring Enchant: Haste Gems: 1 x Strength then Haste  Consumables  Flask: Strength Battle Potion: Potion of Bursting Blood for Single Target, Battle Potion of Strength for Multi-Target Food: Feast or Haste  Trinkets Azerite Traits   RankDefensiveOffensive STAOESTAOE OuterMiddleInnerOuterMiddleInnerOuterMiddleInnerOuterMiddleInner   S+ TierGemhideSoaring Shield S TierAblative ShieldingGemhide Inspiring Vanguard x1Inspiring Vanguard Ablative Shielding A TierCrystalline CarapaceCrystalline Carapace Impassive VisageBulwark of Light Meticulous SchemingImpassive Visage TradewindsBulwark of the Masses Bulwark of LightAvenger’s Might Life SpeedTradewinds Shimmering HavenIncite the Pack Blood SiphonBlood Siphon Avenger’s MightLife Speed Shimmering Haven B TierSoaring ShieldAzerite Veins Azerite VeinsResounding Protection Resounding ProtectionMeticulous Scheming Archive of the TitansArchive of the Titans On My WayOn My Way Concentrated MendingUnstable Catalyst Strength in Numbers   Defensive Gemhide</description>
     </item>
     
     <item>
@@ -1513,7 +1527,7 @@ Offensive Rotation Judgement &amp;gt; Avenger&amp;rsquo;s Shield &amp;gt; Hammer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/uldir/</guid>
-      <description>Loot Levels    Difficulty Item Level     LFR 340   Normal 355   Heroic 370   Mythic 385     Weapons can only Warforge (+5 or +10) Azerite Armor cannot Warforge or Titanforge  Boss Loot  BoEAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution Wrist Haste / Mast Hands Crit / Haste TalocAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution Trinket: +Int, aoe damage proc2H Str Mace Crit/Haste Wrists Vers/Crit Legs: Haste/Mastery MOTHERAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution HeadArchive of the TitansLaser MatrixAzerite VeinsElemental WhirlEphemeral RecoveryResounding ProtectionImpassive VisageInspiring VanguardGrace of the JusticarDivine Right Offhand Crit/Vers Waist Mast/Crit Ring: Crit/Haste Fetid DevourerAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution 1H Axe1H Axe Crit/Vers Hands Crit/Vers Cloak: Haste/Mastery Zek&#39;vozAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution 1H Ver/Mast MaceTrinket: +Str, Damage proc (cone) Legs: Vers/Mastery Feet: Haste/Vers Ring: Mastery/Crit VectisAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution VectisChestArchive of the TitansLaser MatrixStrength In NumbersUnstable FlamesWoundbinderJudicious DefenseBreaking DawnRelentless Inquisitor Shield Crit/VersTrinket: +Int; Active ability adds 3k to next 5 direct heals on target.</description>
+      <description>Loot Levels    Difficulty Item Level     LFR 340   Normal 355   Heroic 370   Mythic 385     Weapons can only Warforge (+5 or +10) Azerite Armor cannot Warforge or Titanforge  Boss Loot  BoEAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution Wrist Haste / Mast Hands Crit / Haste Wing 1 TalocAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution Trinket: +Int, aoe damage proc2H Str Mace Crit/Haste Wrists Vers/Crit Legs: Haste/Mastery MOTHERAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution HeadArchive of the TitansLaser MatrixAzerite VeinsElemental WhirlEphemeral RecoveryResounding ProtectionImpassive VisageInspiring VanguardGrace of the JusticarDivine Right Offhand Crit/Vers Waist Mast/Crit Ring: Crit/Haste Zek&#39;vozAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution 1H Ver/Mast MaceTrinket: +Str, Damage proc (cone) Legs: Vers/Mastery Feet: Haste/Vers Ring: Mastery/Crit Fetid DevourerAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution 1H Axe1H Axe Crit/Vers Hands Crit/Vers Cloak: Haste/Mastery VectisAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution VectisChestArchive of the TitansLaser MatrixStrength In NumbersUnstable FlamesWoundbinderJudicious DefenseBreaking DawnRelentless Inquisitor Shield Crit/VersTrinket: +Int; Active ability adds 3k to next 5 direct heals on target.</description>
     </item>
     
     <item>
@@ -1535,7 +1549,7 @@ System &amp;gt; Advanced    Setting Description Recommendation     Triple Buffer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/dungeon/shrine-of-the-storm/</guid>
-      <description></description>
+      <description> Notable Trash  Abyss Dwellers: Use Blessing of Spellwarding or Divine Shield to drop stacks or prevent application of Rip Mind  Lord Stormsong  Make sure you have Avenger&amp;rsquo;s Shield ready to interrupt the Void Bolt he will cast immediately after Awaken the Void  </description>
     </item>
     
     <item>
@@ -1544,7 +1558,7 @@ System &amp;gt; Advanced    Setting Description Recommendation     Triple Buffer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/dungeon/siege-of-boralus/</guid>
-      <description></description>
+      <description> Notable Trash  Bilge Rat Buccaneer: Use Blinding Light to disorient them when they try to cast Banana Rampage Ashvane Invader: Use Divine Shield or Blessing of Spellwarding to drop stacks of Stinging Venom Coating  Sergeant Bainbridge/Chopper Redhook  Blessing of Spellwarding or Divine Shield to immune bombs if they&amp;rsquo;re about to go off  </description>
     </item>
     
     <item>
@@ -1553,7 +1567,7 @@ System &amp;gt; Advanced    Setting Description Recommendation     Triple Buffer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/dungeon/temple-of-sethraliss/</guid>
-      <description></description>
+      <description> Notable Trash  Faithless Tender: Interrupt Drain  Merektha  Hammer of Justice can free party members from A Knot of Snakes Move adds out of Dust Cloud  Galvazzt  Use Blessing of Spellwarding to soak Galvanize, or Divine Shield to remove stacks if necessary  </description>
     </item>
     
     <item>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unreal Engine on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/unreal-engine/</link>
+    <description>Recent content in Unreal Engine on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Sep 2014 23:26:35 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/unreal-engine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fix the missing right click menu for Unreal Engine Projects (.uproject)</title>
+      <link>http://www.sadrobot.co.nz/blog/2014/09/05/fix-the-missing-right-click-menu-for-unreal-engine-projects-uproject/</link>
+      <pubDate>Fri, 05 Sep 2014 23:26:35 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2014/09/05/fix-the-missing-right-click-menu-for-unreal-engine-projects-uproject/</guid>
+      <description>When you right click on an Unreal Engine project file (.uproject), these is the kind of menu options you should see:
+But what do you do if you only see this? :
+The right click context menu is set up via the Windows Registry.
+You could get someone to export their working keys for you, but their installation paths may be different to yours.
+I’ve created a Windows batch file instead which will:</description>
+    </item>
+    
+  </channel>
+</rss>

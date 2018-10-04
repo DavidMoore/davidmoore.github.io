@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Revision3 on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/revision3/</link>
+    <description>Recent content in Revision3 on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Oct 2008 22:45:09 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/revision3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Digg Reel presents the best viral videos of the week</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/12/digg-reel-presents-the-best-viral-videos-of-the-week/</link>
+      <pubDate>Sun, 12 Oct 2008 22:45:09 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/12/digg-reel-presents-the-best-viral-videos-of-the-week/</guid>
+      <description>The Digg Reel is a show over at &amp;ldquo;Internet Television&amp;rdquo; site Revision 3.
+They find the most popular videos posted on digg.com and package them together in a little hosted show. They even pick out some of the choicest user comments on the videos, reference other videos, and occasionally some pretty terrible but funny special effects and gags of their own.
+While you might already have seen some of the videos during the week if you haven&amp;rsquo;t been hiding under a rock, you&amp;rsquo;ll at least be sure you&amp;rsquo;re not missing out on any of the viral videos of the moment.</description>
+    </item>
+    
+  </channel>
+</rss>

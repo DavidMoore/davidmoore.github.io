@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Viral on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/viral/</link>
+    <description>Recent content in Viral on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Dec 2008 09:36:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/viral/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Compilation of 2008 Viral Videos</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/12/12/compilation-of-2008-viral-videos/</link>
+      <pubDate>Fri, 12 Dec 2008 09:36:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/12/12/compilation-of-2008-viral-videos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bruce Lee &#43; nunchaku &#43; ping pong = win</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/11/21/bruce-lee-nunchaku-ping-pong-win/</link>
+      <pubDate>Fri, 21 Nov 2008 22:19:09 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/11/21/bruce-lee-nunchaku-ping-pong-win/</guid>
+      <description>A Bruce Lee edition N96. How cool is that?</description>
+    </item>
+    
+  </channel>
+</rss>

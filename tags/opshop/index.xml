@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opshop on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/opshop/</link>
+    <description>Recent content in Opshop on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Jun 2008 16:48:28 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/opshop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Opshop in London</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/06/19/opshop-in-london/</link>
+      <pubDate>Thu, 19 Jun 2008 16:48:28 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/06/19/opshop-in-london/</guid>
+      <description>Went to Opshop last night. Was good fun, and had a view from the top balcony. Photos are here.</description>
+    </item>
+    
+  </channel>
+</rss>

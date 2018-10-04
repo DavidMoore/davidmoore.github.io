@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IPFilter Updater on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/ipfilter/contents/</link>
+    <description>Recent content in IPFilter Updater on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Oct 2018 20:16:45 +1300</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/ipfilter/contents/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Architecture</title>
+      <link>http://www.sadrobot.co.nz/ipfilter/architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/ipfilter/architecture/</guid>
+      <description>The IPFilter updater takes in a set of one or more inputs, and one or more outputs.
+IPFilter acquires and merges all of the inputs, and generates the output result.
+The merged inputs are then synced to the output(s).
+Inputs Input URIs The input must be resolved to an absolute URI. While the final URI must be absolute, there are shortcuts and abbreviations to make the specified input(s) more concise and readable.</description>
+    </item>
+    
+    <item>
+      <title>Changelog</title>
+      <link>http://www.sadrobot.co.nz/ipfilter/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/ipfilter/changelog/</guid>
+      <description> 3.0.0 Beta 1 Fixes  #40 Automatic update fails due to github SSL/TLS restrictions  Changes  Program updates from GitHub Releases Distributing a curated, combined default list available from GitHub Releases page  </description>
+    </item>
+    
+    <item>
+      <title>Commandline</title>
+      <link>http://www.sadrobot.co.nz/ipfilter/commandline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/ipfilter/commandline/</guid>
+      <description>Command Line You can control IPFilter Update from the command line easily.
+Syntax ipfilter.exe [options] [inputs] [outputs]
+Options /silent
+ Launch, run and exit silently. Useful for when automating IPFilter yourself.
+ /service
+ Instruct IPFilter to register itself as a Windows service, and start running.
+ Supported file formats .zip, .gzip, .dat, .json
+Inputs You can specify inputs as URIs / URLs or file system paths (including UNC paths).</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>http://www.sadrobot.co.nz/ipfilter/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/ipfilter/faq/</guid>
+      <description>FAQ What is IPFilter Updater? It&amp;rsquo;s a small Windows application that will download and update an ipfilter list for use in Bit Torrent clients.
+What Bit Torrent clients are supported? Currently uTorrent, BitTorrent and qBittorrent are supported out of the box, but you can also configure other applications to pick up the downloaded list.
+What is an ipfilter? An ipfilter list is a simple (but usually very large) list of addresses and ranges of malicious peers that will transmit junk data (i.</description>
+    </item>
+    
+    <item>
+      <title>IPFilter Updater</title>
+      <link>http://www.sadrobot.co.nz/ipfilter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/ipfilter/</guid>
+      <description> The ipfilter.dat file helps protect your privacy and security when using Bit Torrent by blocking a list of potentially malicious peers.
+This utility downloads and installs a selected list for your Bit Torrent client.
+Download
+Supported BitTorrent Applications  qBitTorrent (recommended) μTorrent Bit Torrent  Is your preferred Bit Torrent client not on this list? Request Application Support.
+</description>
+    </item>
+    
+  </channel>
+</rss>

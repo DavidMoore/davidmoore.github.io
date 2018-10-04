@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/internet/</link>
+    <description>Recent content in Internet on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Sep 2009 08:14:01 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Opera 10 Final Released</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/09/02/opera-10-final-released/</link>
+      <pubDate>Wed, 02 Sep 2009 08:14:01 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/09/02/opera-10-final-released/</guid>
+      <description>As promised, Opera 10 final was released on Sep 1st http://www.opera.com/</description>
+    </item>
+    
+    <item>
+      <title>Opera 10 Beta is out</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/06/04/opera-10-beta-is-out/</link>
+      <pubDate>Thu, 04 Jun 2009 10:38:48 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/06/04/opera-10-beta-is-out/</guid>
+      <description>Opera 10 Alpha last night prompted me to automatically update, and lo and behold it installed the Beta 1. The most noticeable change is the default skin, which is lighter and more consistent, using some new etching effects and icons everywhere. More changes are on the horizon for this for Beta 2, from the skin designer John Hicks. A cool new enhancement is you can drag down the tab bar to get thumbnails for all the tabs, known as Visual Tabs: There&amp;rsquo;s now an interface to customize the Speed Dial (rather than manually editing ini files) Opera Turbo, the Opera proxy service that offers compression of web pages (suitable for low-bandwidth connections) is built in and can be switched on or off or set to auto mode (turning itself on if it detects you&amp;rsquo;re on a slow internet connection).</description>
+    </item>
+    
+    <item>
+      <title>You can now disconnect from the Internet</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/07/10/you-can-now-disconnect-from-the-internet/</link>
+      <pubDate>Thu, 10 Jul 2008 12:15:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/07/10/you-can-now-disconnect-from-the-internet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

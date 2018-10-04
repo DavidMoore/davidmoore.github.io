@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Purge on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/purge/</link>
+    <description>Recent content in Purge on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Aug 2011 11:32:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/purge/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deleting and purging items from Team Foundation Server</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/08/08/deleting-and-purging-items-from-team-foundation-server/</link>
+      <pubDate>Mon, 08 Aug 2011 11:32:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/08/08/deleting-and-purging-items-from-team-foundation-server/</guid>
+      <description>When you delete an item from TFS, it’s not actually permanently gone.
+You can view deleted items by going to Tools &amp;gt; Options &amp;gt; Source Control &amp;gt; Visual Studio Team Foundation Server and checking the Show deleted items in the Source Control Explorer option:
+
+You can then see folders and files that have been deleted, which allows you to right click on them to choose Undelete (or go to File &amp;gt; Source Control &amp;gt; Undelete).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43; on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/categories/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 May 2013 13:26:20 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/categories/c++/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Error C2039: &#39;SetDefaultDllDirectories&#39; when targetting Visual Studio 2012 Windows XP C&#43;&#43; Runtime</title>
+      <link>http://www.sadrobot.co.nz/blog/2013/05/27/error-c2039-setdefaultdlldirectories-when-targetting-visual-studio-2012-windows-xp-c-runtime/</link>
+      <pubDate>Mon, 27 May 2013 13:26:20 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2013/05/27/error-c2039-setdefaultdlldirectories-when-targetting-visual-studio-2012-windows-xp-c-runtime/</guid>
+      <description>We’re switching our legacy C++ projects from Visual C++ 2010 to the Visual C++ 2012 Runtime, now that Microsoft allows you to target Windows XP for C++ in 2012 (available in Visual Studio Update 1).
+So that involves switching the Platform Target from v100:
+
+To v110_xp:
+
+Well upon compilation, I saw these errors for one particular project:
+
+The key error being Error C2039: &amp;lsquo;SetDefaultDllDirectories&amp;rsquo; : is not a member of &amp;lsquo;`global namespace&amp;rdquo; from line 638 in atlcore.</description>
+    </item>
+    
+  </channel>
+</rss>

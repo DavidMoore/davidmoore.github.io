@@ -21,21 +21,15 @@
     </item>
     
     <item>
-      <title>Patterns</title>
-      <link>http://www.sadrobot.co.nz/wiki/patterns/</link>
-      <pubDate>Tue, 17 Jan 2012 20:14:51 +0000</pubDate>
+      <title>Windows File Sharing</title>
+      <link>http://www.sadrobot.co.nz/wiki/windows/windows-file-sharing/</link>
+      <pubDate>Fri, 12 Aug 2011 22:20:05 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/wiki/patterns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Practices</title>
-      <link>http://www.sadrobot.co.nz/wiki/practices/</link>
-      <pubDate>Tue, 17 Jan 2012 20:14:34 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/practices/</guid>
-      <description></description>
+      <guid>http://www.sadrobot.co.nz/wiki/windows/windows-file-sharing/</guid>
+      <description>So, you want to share your files on the lan without requiring people to log in or join your Home Group?
+The following instructions are for Windows 7 and the NTFS (default and recommended) file system.
+Turn off Simple File Sharing From the Control Panel, search for Folder Options and open it (or from an Explorer window, go to the menu Organize &amp;gt; Folder and search options
+Go to the View tab</description>
     </item>
     
     <item>
@@ -104,14 +98,23 @@ Contents </description>
     
     <item>
       <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/practices/versioning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/practices/versioning/</guid>
+      <description> Windows Installer Product Version only allows 3 digits
+ 1st and 2nd digits are actually limited from 0 to 255 3rd digit allows up to 65535  </description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://www.sadrobot.co.nz/wiki/sourcecontrol/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/wiki/sourcecontrol/git/</guid>
-      <description>Git Configure for Windows On Windows machine, open up Git Bash
-$ ssh-keygen -t rsa -C &amp;ldquo;David Moore david@digitalgenus.com&amp;ldquo; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/.ssh/id_rsa. Your public key has been saved in /d/Users/David/.ssh/id_rsa.pub. The key fingerprint is: 8a:ef:52:86:76:53:b3:ed:d6:54:02:c3:75:9d:94:22 David Moore david@digitalgenus.com
-David@WHUP ~/.ssh
-Copy the contents of ~/.</description>
+      <description>Git Create an empty branch git checkout --orphan &amp;lt;branch&amp;gt; git reset --hard  Clear the working directory git rm --cached -rf .
+Configure for Windows On Windows machine, open up Git Bash
+$ ssh-keygen -t rsa -C &amp;ldquo;David Moore david@digitalgenus.com&amp;ldquo; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/.</description>
     </item>
     
     <item>

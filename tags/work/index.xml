@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Work on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/work/</link>
+    <description>Recent content in Work on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jun 2008 12:06:43 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/work/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>London Visa News</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/06/26/london-visa-news/</link>
+      <pubDate>Thu, 26 Jun 2008 12:06:43 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/06/26/london-visa-news/</guid>
+      <description>News on the London front! I still have quite a few months left on my visa, but my 12 months of allowed work are nearly used up. This means I can still stay in London but won&amp;rsquo;t be allowed to work.
+My job wants to keep me on, so I will basically have to come back to NZ for a short time soon. From there, work will arrange sponsorship for me, and I will then re-enter London on a work visa that lasts for up to 2 years and is then renewable.</description>
+    </item>
+    
+  </channel>
+</rss>

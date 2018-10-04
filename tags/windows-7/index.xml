@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows 7 on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/windows-7/</link>
+    <description>Recent content in Windows 7 on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Feb 2010 11:08:01 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/windows-7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Opera 10.5 Beta and Windows 7 Integration</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/02/15/opera-10-5-beta-and-windows-7-integration/</link>
+      <pubDate>Mon, 15 Feb 2010 11:08:01 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/02/15/opera-10-5-beta-and-windows-7-integration/</guid>
+      <description>Opera 10.5 Beta is out and it&amp;rsquo;s very impressive, and looks pretty stunning due to its Windows 7 integration.
+One thing I don&amp;rsquo;t really like is how it shows all the tabs using Aero Peek when you click it in the Task Bar.
+You can turn this off:
+ Type &amp;ldquo;opera:config&amp;rdquo; in the address bar and hit Enter Scroll down to User Prefs and expand it, or type in &amp;ldquo;Windows 7&amp;#8243; in the search box Untick the &amp;ldquo;Use Windows 7 Taskbar Thumbnails&amp;rdquo; setting Click Save Restart Opera  </description>
+    </item>
+    
+    <item>
+      <title>Running 32-bit Remote Desktop Connection on Windows 64 bit</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/12/02/running-32-bit-remote-desktop-connection-on-windows-64-bit/</link>
+      <pubDate>Wed, 02 Dec 2009 11:16:27 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/12/02/running-32-bit-remote-desktop-connection-on-windows-64-bit/</guid>
+      <description>On Windows Vista 64 and Windows 7 64, there is a 32 bit version of Remote Desktop Connection (Microsoft Terminal Services Client, mstsc.exe) in %SystemRoot%SysWOW64. Running this mstsc.exe will launch the 32 bit process but it will instantly launch the 64-bit mstsc.exe from System32 and shut itself down. This makes it impossible to run Remote Desktop Connection 32 bit. This is a problem when you have 32 bit Terminal Services add-ins (which won&amp;rsquo;t run under 64 bit).</description>
+    </item>
+    
+    <item>
+      <title>Installing WinPcap &amp;amp; WC3Banlist on Windows 7</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/06/08/installing-winpcap-wc3banlist-on-windows-7/</link>
+      <pubDate>Mon, 08 Jun 2009 19:47:16 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/06/08/installing-winpcap-wc3banlist-on-windows-7/</guid>
+      <description>I had a bit of trouble getting WC3Banlist (mainly due to its dependency on WinPcap) on Windows 7 This is working on Windows 7 RC1, with User Acount Control (UAC) on (set to Default) I did quite a few things when troubleshooting so it&amp;rsquo;s hard to replicate the exact steps, but here&amp;rsquo;s some instructions on how I have it set up now: Install WinPcap  Download WinPcap 4.1 Right click the downloaded installer exe and choose Properties Go to the Compatibility tab In Compatibility mode, Tick &amp;ldquo;Run this program in compatibility mode for:&amp;rdquo; and choose Windows Vista (Service Pack 2) from the drop-down Tick &amp;ldquo;Run this program as an administrator&amp;rdquo; in Privilege Level Hit OK Run the exe and go through the normal installation  Install WC3Banlist  Download WC3Banlist Right click the installation file and choose Run as administrator Untick &amp;ldquo;Install WinPcap 3.</description>
+    </item>
+    
+    <item>
+      <title>Moving your precious user profile and documents to another folder on another drive in Windows 7</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/26/moving-your-precious-user-profile-and-documents-to-another-folder-on-another-drive-in-windows-7/</link>
+      <pubDate>Tue, 26 May 2009 00:42:10 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/26/moving-your-precious-user-profile-and-documents-to-another-folder-on-another-drive-in-windows-7/</guid>
+      <description>One of the things I learned long ago was to always have more than 1 drive or have my single drive partitioned. You keep your programs and operating system on the C drive. On your D drive goes all your data, downloads and anything that you don&amp;rsquo;t want to vanish on you suddenly. A couple of advantages of this are:  This keeps the C drive quite lean if you want to make an image of it.</description>
+    </item>
+    
+    <item>
+      <title>Making a bootable USB drive for installing Windows 7 RC1</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/22/making-a-bootable-usb-drive-for-installing-windows-7-rc1/</link>
+      <pubDate>Fri, 22 May 2009 22:39:14 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/22/making-a-bootable-usb-drive-for-installing-windows-7-rc1/</guid>
+      <description>Here&amp;rsquo;s the article I followed to create my bootable USB flash drive when installing Windows 7 - something that&amp;rsquo;s essential when you don&amp;rsquo;t have a floppy drive or an optical drive in your machine. http://kmwoley.com/blog/?p=345 To make the process even simpler, you can use WinRAR or an ISO-mounting or reading application to get the installation files and boot sector from the Windows 7 RC1 ISO image without needing to burn a DVD.</description>
+    </item>
+    
+  </channel>
+</rss>

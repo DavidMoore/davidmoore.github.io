@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/categories/games/</link>
+    <description>Recent content in Games on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Jul 2014 19:42:33 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/categories/games/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unreal Tournament 3 (UT3) Protocol Registry Fix for launching UT3 links</title>
+      <link>http://www.sadrobot.co.nz/blog/2014/07/19/unreal-tournament-3-ut3-protocol-registry-fix-for-launching-ut3-links/</link>
+      <pubDate>Sat, 19 Jul 2014 19:42:33 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2014/07/19/unreal-tournament-3-ut3-protocol-registry-fix-for-launching-ut3-links/</guid>
+      <description>UT3, at least installed via Steam, doesn&amp;rsquo;t seem to register a URI scheme in Windows so that you can create links to UT3 servers, as was possible in earlier versions of Unreal Tournament.
+This can be fixed by manually adding a ut3 protocol to the Windows registry.
+Instructions  Download the initial registry fix, but don&amp;rsquo;t merge it yet: Download UT3 Protocol registry fix Open it with a text editor such as Notepad Change the install location to make where you have UT3.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -14,7 +14,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-     <meta name="generator" content="Hugo 0.32" />
+     <meta name="generator" content="Hugo 0.48" />
 
       
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -30,23 +30,7 @@ There is an arguments implicit parameter.
 All parameters are optional.
 Unspecified parameters are set to undefined" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.sadrobot.co.nz/wiki/javascript/forcsharpdevelopers/" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<meta property="og:url" content="http://www.sadrobot.co.nz/wiki/javascript/forcsharpdevelopers/" /><meta property="article:modified_time" content="2018-08-21T08:40:37&#43;12:00"/>
 <meta itemprop="name" content="JavaScript for C# Developers">
 <meta itemprop="description" content="Objects A Javascript object has a lot in common with a C# dictionary.
 You could imagine it as a dynamic type in C# that looks up values in a dictionary.
@@ -65,7 +49,8 @@ Unspecified parameters are set to undefined">
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image:src" content="http://www.sadrobot.co.nz/images/gohugoio-card.png"/>
+<meta name="twitter:image" content="http://www.sadrobot.co.nz/images/gohugoio-card.png"/>
+
 <meta name="twitter:title" content="JavaScript for C# Developers"/>
 <meta name="twitter:description" content="Objects A Javascript object has a lot in common with a C# dictionary.
 You could imagine it as a dynamic type in C# that looks up values in a dictionary.
@@ -119,6 +104,16 @@ Unspecified parameters are set to undefined"/>
             
           <a href="/games/" class="dim link light-silver">
             Gaming
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/ipfilter/" class="dim link light-silver">
+            IPFilter
               
             
             
@@ -242,7 +237,8 @@ Unspecified parameters are set to undefined"/>
 <p>CSharp</p>
 <div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp">    <span class="kt">var</span> <span class="k">value</span> <span class="p">=</span> <span class="n">GetPossiblyNullValue</span><span class="p">()</span> <span class="p">??</span> <span class="s">&#34;Default value&#34;</span><span class="p">;</span></code></pre></div>
 <p>Javascript</p>
-<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">value</span> <span class="o">=</span> <span class="nx">getPossiblyNullValue</span><span class="p">()</span> <span class="o">||</span> <span class="s2">&#34;Default value&#34;</span><span class="p">;</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">value</span> <span class="o">=</span> <span class="nx">getPossiblyNullValue</span><span class="p">()</span> <span class="o">||</span> <span class="s2">&#34;Default value&#34;</span><span class="p">;</span>
+</code></pre></div>
 <h2 id="globals">Globals</h2>
 
 <p>Anything not defined within a function or using the var keyword, will be set on the global <code>window</code> object.</p>
@@ -276,7 +272,8 @@ Unspecified parameters are set to undefined"/>
       <span class="k">return</span> <span class="nx">result</span><span class="p">;</span>
     <span class="p">};</span>
   <span class="p">})();</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span>
+</code></pre></div>
 <h2 id="closures">Closures</h2>
 
 <h2 id="polymorphism">Polymorphism</h2>
@@ -293,7 +290,7 @@ Unspecified parameters are set to undefined"/>
 
 <p>e.g. this is illegal in C#:</p>
 <div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="kt">var</span> <span class="k">value</span> <span class="p">=</span> <span class="s">&#34;Non-null string value&#34;</span><span class="p">;</span>
-<span class="k">if</span><span class="p">(</span><span class="k">value</span><span class="p">)</span> <span class="nc">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;Say something&#34;</span><span class="p">);</span></code></pre></div>
+<span class="k">if</span><span class="p">(</span><span class="k">value</span><span class="p">)</span> <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="s">&#34;Say something&#34;</span><span class="p">);</span></code></pre></div>
 <h3 id="equals">Equals</h3>
 
 <p>In JavaScript, <code>==</code> is a soft comparison. You can use <code>===</code> for hard comparison, which strictly matches type and value, and is more equivalent to <code>.Equals</code> or <code>==</code> in C#.</p>
@@ -301,12 +298,14 @@ Unspecified parameters are set to undefined"/>
 <p>In JavaScript, any value that is <code>null</code>, <code>0</code>, empty or <code>undefined</code> is considered <code>false</code>.</p>
 <div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="s2">&#34;&#34;</span> <span class="o">==</span> <span class="kc">false</span><span class="p">;</span>
 <span class="mi">0</span> <span class="o">==</span> <span class="kc">false</span><span class="p">;</span>
-<span class="kc">null</span> <span class="o">==</span> <span class="kc">false</span><span class="p">;</span></code></pre></div>
+<span class="kc">null</span> <span class="o">==</span> <span class="kc">false</span><span class="p">;</span>
+</code></pre></div>
 <p>Objects are only equal to themselves.</p>
 <div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="s2">&#34;yes&#34;</span> <span class="o">==</span> <span class="s2">&#34;yes&#34;</span><span class="p">;</span>
 <span class="s2">&#34;yes&#34;</span> <span class="o">===</span> <span class="s2">&#34;yes&#34;</span><span class="p">;</span>
 <span class="mi">1</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
-<span class="mi">1</span> <span class="o">===</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span></code></pre></div>
+<span class="mi">1</span> <span class="o">===</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+</code></pre></div>
 <h2 id="multi-line-strings">Multi-line strings</h2>
 
 <h4 id="c">C#:</h4>
@@ -318,7 +317,8 @@ Unspecified parameters are set to undefined"/>
 <p>Use backticks:</p>
 <div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">value</span> <span class="o">=</span> <span class="sb">`First line
 </span><span class="sb">Second line
-</span><span class="sb">Third line`</span><span class="p">;</span></code></pre></div>
+</span><span class="sb">Third line`</span><span class="p">;</span>
+</code></pre></div>
 <h2 id="anonymous-functions">Anonymous functions</h2>
 
 <h2 id="lambdas">Lambdas</h2>
@@ -326,7 +326,8 @@ Unspecified parameters are set to undefined"/>
 <h3 id="csharp">CSharp</h3>
 <div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="kt">var</span> <span class="n">expression</span> <span class="p">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="s">&#34;Test&#34;</span><span class="p">;</span></code></pre></div>
 <h3 id="javascript-1">Javascript</h3>
-<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">expression</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="s2">&#34;Test&#34;</span><span class="p">;</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">expression</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="s2">&#34;Test&#34;</span><span class="p">;</span>
+</code></pre></div>
 <h2 id="promises">Promises</h2>
 
 <p>Javascript is single-threaded, meaning blocking and long-running calls can make websites unusable.</p>
@@ -423,7 +424,7 @@ Unspecified parameters are set to undefined"/>
   <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
 </span>
     “JavaScript for C# Developers”
-  </a> was last updated: January 1, 0001
+  </a> was last updated: August 21, 2018
   
   
 </h6>
@@ -440,7 +441,7 @@ f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
 
   <div class="w-60-l ph0 ph5-ns center">
     <div id="disqus_thread"></div>
-<script>
+<script type="application/javascript">
     var disqus_config = function () {
     
     
@@ -539,6 +540,12 @@ f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
     <li  class="tl dib ma0 hover-bg-black w-100">
         <a href="/games/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
           Gaming
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/ipfilter/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          IPFilter
         </a>
     </li>
   

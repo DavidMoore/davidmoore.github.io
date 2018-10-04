@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mysql on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/mysql/</link>
+    <description>Recent content in Mysql on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Feb 2009 10:59:09 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Finding duplicated data across one or more columns in a database table</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/28/finding-duplicated-data-across-one-or-more-columns-in-a-database-table/</link>
+      <pubDate>Sat, 28 Feb 2009 10:59:09 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/28/finding-duplicated-data-across-one-or-more-columns-in-a-database-table/</guid>
+      <description>A few months ago I posted a little query about finding duplicate rows in a database table. I&amp;rsquo;m revisiting this because I helped out Doogie with a similar query last night but with some complications. Let&amp;rsquo;s start with the original simple scenario of checking duplicates in a single column. Some example data, a Users table: +-&amp;mdash;+-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;mdash;+ | Id | Email | +-&amp;mdash;+-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;mdash;+ | 1 | joe@bloggs.com | | 2 | joe@bloggs.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Http on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/http/</link>
+    <description>Recent content in Http on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Jan 2009 07:01:50 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/http/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ESET NOD32 Antivirus and Proxies</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/01/17/eset-nod32-antivirus-and-proxies/</link>
+      <pubDate>Sat, 17 Jan 2009 07:01:50 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/01/17/eset-nod32-antivirus-and-proxies/</guid>
+      <description>Today I&amp;rsquo;m working on a .NET hobby project.
+At a simple level, I&amp;rsquo;m writing a web proxy implementation, � and was using 8080 as the default port.
+When trying to write and run unit tests to make sure my server was binding to this port and shutting down as and when expected, I found I could connect to 8080 even when the proxy wasn&amp;rsquo;t running. Telnet-ing to that port would initiate a connection, and would eventually drop out at varying speeds, and immediately if I hit a key.</description>
+    </item>
+    
+  </channel>
+</rss>

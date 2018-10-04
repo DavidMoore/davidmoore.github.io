@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nlog on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/nlog/</link>
+    <description>Recent content in Nlog on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 May 2009 12:28:23 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/nlog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Configuring NLog for your application when NLog is in the Global Assembly Cache (GAC)</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/22/configuring-nlog-for-your-application-when-nlog-is-in-the-global-assembly-cache-gac/</link>
+      <pubDate>Fri, 22 May 2009 12:28:23 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/22/configuring-nlog-for-your-application-when-nlog-is-in-the-global-assembly-cache-gac/</guid>
+      <description>If you have several applications that are using NLog, it can be a good idea to install NLog into the GAC and reference that. A gotcha you must watch out for is caused by this piece of configuration from the NLog site:        Because you are not using the strong name for the Assembly-qualified name of ConfigSectionHandler, it&amp;rsquo;s impossible to do a GAC lookup, therefore NLog won&amp;rsquo;t be found and you&amp;rsquo;ll get an application error (even if NLog is actually in the GAC).</description>
+    </item>
+    
+  </channel>
+</rss>

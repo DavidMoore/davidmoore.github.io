@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ipfilterupdater on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/ipfilterupdater/</link>
+    <description>Recent content in Ipfilterupdater on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Aug 2010 20:35:13 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/ipfilterupdater/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IPFilter Updated to 1.0.0.1</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/08/25/ipfilter-updated-to-1-0-0-1/</link>
+      <pubDate>Wed, 25 Aug 2010 20:35:13 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/08/25/ipfilter-updated-to-1-0-0-1/</guid>
+      <description>I’ve updated the IPFilter Updater for uTorrent to version 1.0.0.1 and you can get it here.</description>
+    </item>
+    
+    <item>
+      <title>Set up IP filtering in uTorrent and keep your ipfilter.dat up to date easily</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/27/set-up-ip-filtering-in-utorrent-and-keep-your-ipfilterdat-up-to-date-easily/</link>
+      <pubDate>Wed, 27 May 2009 00:14:13 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/27/set-up-ip-filtering-in-utorrent-and-keep-your-ipfilterdat-up-to-date-easily/</guid>
+      <description>The IPFilter Updater application now has its own page: http://www.davidmoore.info/ipfilter-updater/ uTorrent is one of the most popular BitTorrent clients out there. In my opinion it&amp;rsquo;s the best. You can set up IP filtering in uTorrent to block bad seeds and peers from a list maintained by the community. How to set up IP filtering in uTorrent  Open up uTorrent and go to Options &amp;gt; Preferences from the menu or click the Preferences button in the toolbar Select the Advanced option in the tree Find ipfilter.</description>
+    </item>
+    
+  </channel>
+</rss>

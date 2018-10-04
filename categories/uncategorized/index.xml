@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uncategorized on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/categories/uncategorized/</link>
+    <description>Recent content in Uncategorized on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Oct 2014 00:04:10 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/categories/uncategorized/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GORILLA.BAS, QBasic &amp; Edit</title>
+      <link>http://www.sadrobot.co.nz/blog/2014/10/15/gorilla-bas-qbasic-edit/</link>
+      <pubDate>Wed, 15 Oct 2014 00:04:10 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2014/10/15/gorilla-bas-qbasic-edit/</guid>
+      <description>Nostalgia time!
+Back when I got my first PC, QBasic was part of the operating system.
+I spent hours and hours playing around with QBasic and MS-DOS Editor (or simply edit as we all knew it) to see what graphics and games I could whisk up.
+There was a game that came with QBasic and MS-DOS called Gorillas, which was effectively like Worms and Scorched Earth.
+Look at those mind-blowing graphics!</description>
+    </item>
+    
+    <item>
+      <title>Asychronously upload a file using jQuery to a Web API controller</title>
+      <link>http://www.sadrobot.co.nz/blog/2013/06/16/asychronously-upload-a-file-using-jquery-to-a-web-api-controller/</link>
+      <pubDate>Sun, 16 Jun 2013 20:30:35 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2013/06/16/asychronously-upload-a-file-using-jquery-to-a-web-api-controller/</guid>
+      <description>Here’s the code for the HTML5 form:
+&amp;lt;pre&amp;gt;&amp;lt;code class=&amp;#34;language-markup&amp;#34;&amp;gt;&amp;amp;lt;form id=&amp;#34;upload&amp;#34;&amp;amp;gt; &amp;amp;lt;div&amp;amp;gt; &amp;amp;lt;label for=&amp;#34;myFile&amp;#34;&amp;amp;gt;&amp;amp;lt;/label&amp;amp;gt; &amp;amp;lt;div&amp;amp;gt; &amp;amp;lt;input type=&amp;#34;file&amp;#34; id=&amp;#34;myFile&amp;#34; /&amp;amp;gt; &amp;amp;lt;/div&amp;amp;gt; &amp;amp;lt;/div&amp;amp;gt; &amp;amp;lt;button type=&amp;#34;submit&amp;#34;&amp;amp;gt;Upload&amp;amp;lt;/button&amp;amp;gt; &amp;amp;lt;/form&amp;amp;gt;&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt; We need to use jQuery to handle when the user submits the upload, to make sure it gets handled asynchronously and posted to our Web API controller:
+// Hook into the form&amp;#39;s submit event. $(&amp;#39;#upload&amp;#39;).submit(function () { // To keep things simple in this example, we&amp;#39;ll  // use the FormData XMLHttpRequest Level 2 object (which  // requires modern browsers e.</description>
+    </item>
+    
+    <item>
+      <title>Uninstalling VMWare Workstation when Hyper-V is installed</title>
+      <link>http://www.sadrobot.co.nz/blog/2013/06/11/uninstalling-vmware-workstation-when-hyper-v-is-installed/</link>
+      <pubDate>Tue, 11 Jun 2013 13:35:54 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2013/06/11/uninstalling-vmware-workstation-when-hyper-v-is-installed/</guid>
+      <description>Well, it was annoying enough that VMWare doesn’t launch on my machine when Hyper-V is installed. I’m skeptical that VMWare wouldn’t run if Hyper-V isn’t running at the same time, and this check just reeks of anti-competition.
+Unfortunately for VMWare, that can work against them rather than encourage me to uninstall Hyper-V. That means I’m ditching them for now (mainly as Visual Studio integration with Hyper-V for things like Windows 8 and Windows Phone 8 development is good; not to mention, Hyper-V is built in and doesn’t cost extra).</description>
+    </item>
+    
+    <item>
+      <title>CSS London Tube Map</title>
+      <link>http://www.sadrobot.co.nz/blog/2013/05/23/css-london-tube-map/</link>
+      <pubDate>Thu, 23 May 2013 11:59:20 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2013/05/23/css-london-tube-map/</guid>
+      <description>This is cool, the classic London Tube Map done in HTML / CSS / Javascript.</description>
+    </item>
+    
+    <item>
+      <title>Hello!</title>
+      <link>http://www.sadrobot.co.nz/blog/2013/02/28/hello-world/</link>
+      <pubDate>Thu, 28 Feb 2013 09:01:35 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2013/02/28/hello-world/</guid>
+      <description>Hi, it&amp;rsquo;s me!
+This website will be the new dumping ground for my experiences while developing software, and the home for any of my own personal software that I develop and want to make available to everyone.</description>
+    </item>
+    
+    <item>
+      <title>All Blacks &#34;Of This Earth&#34; Poster</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/25/all-blacks-of-this-earth-poster/</link>
+      <pubDate>Wed, 25 Feb 2009 09:17:34 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/25/all-blacks-of-this-earth-poster/</guid>
+      <description>How cool is this poster? (Click for full size)</description>
+    </item>
+    
+    <item>
+      <title>Baby Blacks give Ireland beating; David Moore pinged for high tackle</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/06/13/baby-blacks-give-ireland-beating-david-moore-pinged-for-high-tackle/</link>
+      <pubDate>Fri, 13 Jun 2008 06:20:52 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/06/13/baby-blacks-give-ireland-beating-david-moore-pinged-for-high-tackle/</guid>
+      <description>The New Zealand Under-20 rugby team is playing in the inaugural IRB Junior World Championship and just thrashed Ireland 65-10.
+I watched some of the coverage at the TVNZ site (they have full footage of both halves here).
+There was a flanker playing for Ireland called David Moore. While I skipped through the video I managed to see him give away a couple of penalties, including for a blatant head-high clothes-hanger tackle.</description>
+    </item>
+    
+  </channel>
+</rss>

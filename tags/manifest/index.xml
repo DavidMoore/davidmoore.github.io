@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manifest on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/manifest/</link>
+    <description>Recent content in Manifest on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jan 2011 08:45:38 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/manifest/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Error building project when referencing native assembly dependency in app.manifest</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/01/14/error-building-project-when-referencing-native-assembly-dependency-in-app-manifest/</link>
+      <pubDate>Fri, 14 Jan 2011 08:45:38 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/01/14/error-building-project-when-referencing-native-assembly-dependency-in-app-manifest/</guid>
+      <description>If you&amp;rsquo;re using an app.manifest, and defining assembly dependencies (i.e. for SxS / Side by side / Reg-free COM etc), you may encounter this error when you build the project:
+Could not find file &#39;AssemblyName, Version=x.x.x.x, PublicKeyToken=xxxxxxxxxxx, ProcessorArchitecture=x86, Type=win32&amp;#8242;. This is even when the native assembly is in place where the project can find it.
+Example For example, your app.manifest may contain this fragment:
+dependencydependentAssembly
+assemblyIdentityname=&#34;Native.Custom&#34;version=&#34;1.0.0.0&#34;processorArchitecture=&#34;x86&#34;type=&#34;win32&#34;publicKeyToken=&#34;12345678&#34;/
+dependentAssembly
+dependency This manifest is available to the project, with the manifest file in the project directory or in a subdirectory called &amp;ldquo;Native.</description>
+    </item>
+    
+  </channel>
+</rss>

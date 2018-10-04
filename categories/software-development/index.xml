@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Development on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/categories/software-development/</link>
+    <description>Recent content in Software Development on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Jul 2014 17:15:50 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/categories/software-development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using MSBuild property functions and inline tasks: Example doing performance calculations</title>
+      <link>http://www.sadrobot.co.nz/blog/2014/07/19/using-msbuild-property-functions-and-inline-tasks-example-doing-performance-calculations/</link>
+      <pubDate>Sat, 19 Jul 2014 17:15:50 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2014/07/19/using-msbuild-property-functions-and-inline-tasks-example-doing-performance-calculations/</guid>
+      <description>The Problem User RandDavis on Reddit asked a question about capturing elapsed time of tasks in MSBuild:
+ I&amp;rsquo;m using MSBuild 4.0 (I also have MSBuild.Community.Tasks available). Note that I&amp;rsquo;m new to the syntax involved. All I&amp;rsquo;m trying to do is this: store the current time to a property, run a process, and determine the time that has elapsed. I&amp;rsquo;ve managed to write System.DateTime.Now to a property, but I don&amp;rsquo;t know how to do a simple datediff or construct a TimeSpan, so that I can get at what I&amp;rsquo;m looking for.</description>
+    </item>
+    
+    <item>
+      <title>Deleting and purging items from Team Foundation Server</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/08/08/deleting-and-purging-items-from-team-foundation-server/</link>
+      <pubDate>Mon, 08 Aug 2011 11:32:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/08/08/deleting-and-purging-items-from-team-foundation-server/</guid>
+      <description>When you delete an item from TFS, it’s not actually permanently gone.
+You can view deleted items by going to Tools &amp;gt; Options &amp;gt; Source Control &amp;gt; Visual Studio Team Foundation Server and checking the Show deleted items in the Source Control Explorer option:
+
+You can then see folders and files that have been deleted, which allows you to right click on them to choose Undelete (or go to File &amp;gt; Source Control &amp;gt; Undelete).</description>
+    </item>
+    
+    <item>
+      <title>Debugging MSBuild scripts</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/07/28/debugging-msbuild-scripts/</link>
+      <pubDate>Thu, 28 Jul 2011 14:20:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/07/28/debugging-msbuild-scripts/</guid>
+      <description>If you want to debug an MSBuild script from without Visual Studio, you need to use the /debug command line option.
+The trick is that this option is not normally available; you need to set a registry key to enable it.
+Enable the MSBuild Debugger Under the HKLMSoftwareMicrosoftMSBuild4.0 key, create a string value called EnableDebugger with a value of “true”.
+If you’re on a 64 bit system, you’ll also want to set the same value under the key HKLMSoftwareWow6432NodeMicrosoftMSBuild4.</description>
+    </item>
+    
+    <item>
+      <title>Error building project when referencing native assembly dependency in app.manifest</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/01/14/error-building-project-when-referencing-native-assembly-dependency-in-app-manifest/</link>
+      <pubDate>Fri, 14 Jan 2011 08:45:38 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/01/14/error-building-project-when-referencing-native-assembly-dependency-in-app-manifest/</guid>
+      <description>If you&amp;rsquo;re using an app.manifest, and defining assembly dependencies (i.e. for SxS / Side by side / Reg-free COM etc), you may encounter this error when you build the project:
+Could not find file &#39;AssemblyName, Version=x.x.x.x, PublicKeyToken=xxxxxxxxxxx, ProcessorArchitecture=x86, Type=win32&amp;#8242;. This is even when the native assembly is in place where the project can find it.
+Example For example, your app.manifest may contain this fragment:
+dependencydependentAssembly
+assemblyIdentityname=&#34;Native.Custom&#34;version=&#34;1.0.0.0&#34;processorArchitecture=&#34;x86&#34;type=&#34;win32&#34;publicKeyToken=&#34;12345678&#34;/
+dependentAssembly
+dependency This manifest is available to the project, with the manifest file in the project directory or in a subdirectory called &amp;ldquo;Native.</description>
+    </item>
+    
+    <item>
+      <title>IPFilter Updated to 1.0.0.1</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/08/25/ipfilter-updated-to-1-0-0-1/</link>
+      <pubDate>Wed, 25 Aug 2010 20:35:13 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/08/25/ipfilter-updated-to-1-0-0-1/</guid>
+      <description>I’ve updated the IPFilter Updater for uTorrent to version 1.0.0.1 and you can get it here.</description>
+    </item>
+    
+    <item>
+      <title>HOW TO: Debug a Windows Installer custom action</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/06/28/how-to-debug-a-windows-installer-custom-action/</link>
+      <pubDate>Mon, 28 Jun 2010 10:53:58 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/06/28/how-to-debug-a-windows-installer-custom-action/</guid>
+      <description>Prerequisites:  Determine the name of the custom action you want to debug Ensure you have the source code and debug symbols for your custom action  Steps  Set the MsiBreak environment variable (user or system) to the name of the custom action. For example:
+&amp;lt;br /&amp;gt; Setx MsiBreak &amp;lt;strong&amp;gt;MyCustomActionName&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;/strong&amp;gt;
+ Run your installer
+ At the point where your custom action is about to run, you should get this message box prompt:</description>
+    </item>
+    
+    <item>
+      <title>Building Visual Studio 2010 Solutions in Team Foundation Server Build 2008</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/06/22/building-visual-studio-2010-solutions-in-team-foundation-server-build-2008/</link>
+      <pubDate>Tue, 22 Jun 2010 10:02:36 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/06/22/building-visual-studio-2010-solutions-in-team-foundation-server-build-2008/</guid>
+      <description>Visual Studio 2010 and Team Foundation Server 2010 have been out for a while. But what if you still have Team Foundation Server 2008 but want to build Visual Studio 2010 solutions on it?
+You can do so by updating the Team Foundation Build Service configuration to use the latest version of MSBuild that comes with the .NET Framework 4.0.
+ Open up� %Program Files%Microsoft Visual Studio 9.0Common7IDEPrivateAssembliestfsbuildservice.exe.config in a text editor Find the� MSBuildPath property, which will likely be empty, and enter the path to the .</description>
+    </item>
+    
+    <item>
+      <title>Using batch parameter modifiers to get specific portions or file info from a full filename</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/08/19/using-batch-parameter-modifiers-to-get-specific-portions-or-file-info-from-a-full-filename/</link>
+      <pubDate>Wed, 19 Aug 2009 16:10:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/08/19/using-batch-parameter-modifiers-to-get-specific-portions-or-file-info-from-a-full-filename/</guid>
+      <description>From Using batch parameters [microsoft.com]: Cmd.exe provides the batch parameter expansion variables %0 through %9. When you use batch parameters in a batch file, %0 is replaced by the batch file name, and %1 through %9 are replaced by the corresponding arguments that you type at the command line These batch parameter modifiers variable arguments are immensely useful. That document is missing some examples, so I&amp;rsquo;ve put together a simple table:   %1</description>
+    </item>
+    
+    <item>
+      <title>Unit testing multi-threaded, asynchronous code and/or events</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/06/03/unit-testing-multi-threaded-asynchronous-code-andor-events/</link>
+      <pubDate>Wed, 03 Jun 2009 10:50:15 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/06/03/unit-testing-multi-threaded-asynchronous-code-andor-events/</guid>
+      <description>I&amp;rsquo;ve been writing some unit tests recently that test some multi-threaded functionality. Typically this involves hooking up some event handlers then waiting for some asynchronous code to fire the event before proceeding with the unit test and assertions. The ManualResetEvent class (MSDN) seems a good choice for this, and this post has a small example of using it in a unit test:   [Test()] public void AfterRunAsync() { ManualResetEvent manualEvent = new ManualResetEvent(false); TestTestCase tc = new TestTestCase(1, &amp;ldquo;&amp;rdquo;, 0, 0); bool eventFired = false; tc.</description>
+    </item>
+    
+    <item>
+      <title>Remote debugging from Visual Studio 2008 on a domain machine to a machine not on the domain</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/28/remote-debugging-from-visual-studio-2008-on-a-domain-machine-to-a-machine-not-on-the-domain/</link>
+      <pubDate>Thu, 28 May 2009 17:25:27 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/28/remote-debugging-from-visual-studio-2008-on-a-domain-machine-to-a-machine-not-on-the-domain/</guid>
+      <description>This details how you can debug an application running on a remote machine from Visual Studio on your local machine, as if the remote application was running on your local machine. The keys are:  There must be a user account with the same username and password on the remote machine and the local machine (MACHINE account, not domain account). Visual Studio 2008 Remote Debugger must be installed and running on the remote machine under the user account in point 1  Create local machine account  Right click My Computer &amp;gt; Manage Expand Computer Management &amp;gt; System Tools &amp;gt; Local Users and Groups Right-click Users under Local Users and Groups and choose New User&amp;#8230; Enter in the username e.</description>
+    </item>
+    
+    <item>
+      <title>Could not load file or assembly &amp;#226;&amp;#8364;&amp;#732;x&amp;#226;&amp;#8364;&amp;#8482; or one of its dependencies. Strong name validation failed.</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/26/could-not-load-file-or-assembly-x-or-one-of-its-dependencies-strong-name-validation-failed/</link>
+      <pubDate>Tue, 26 May 2009 15:54:34 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/26/could-not-load-file-or-assembly-x-or-one-of-its-dependencies-strong-name-validation-failed/</guid>
+      <description>In some of the work I&amp;rsquo;m doing right now, I&amp;rsquo;m manipulating an assembly after compile time - having it disassembled into IL, tweaked, then re-compiled back into an assembly. The assembly is signed and what is being done to the assembly is breaking the strong name. This is quite comforting to know; the strong name wouldn&amp;rsquo;t be so strong if it was that easy to hack an assembly with a strong name.</description>
+    </item>
+    
+    <item>
+      <title>Configuring NLog for your application when NLog is in the Global Assembly Cache (GAC)</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/22/configuring-nlog-for-your-application-when-nlog-is-in-the-global-assembly-cache-gac/</link>
+      <pubDate>Fri, 22 May 2009 12:28:23 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/22/configuring-nlog-for-your-application-when-nlog-is-in-the-global-assembly-cache-gac/</guid>
+      <description>If you have several applications that are using NLog, it can be a good idea to install NLog into the GAC and reference that. A gotcha you must watch out for is caused by this piece of configuration from the NLog site:        Because you are not using the strong name for the Assembly-qualified name of ConfigSectionHandler, it&amp;rsquo;s impossible to do a GAC lookup, therefore NLog won&amp;rsquo;t be found and you&amp;rsquo;ll get an application error (even if NLog is actually in the GAC).</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio: Cannot add project to source control; it overlaps a project that is already bound to source control at a lower root</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/21/visual-studio-cannot-add-project-to-source-control-it-overlaps-a-project-that-is-already-bound-to-source-control-at-a-lower-root/</link>
+      <pubDate>Thu, 21 May 2009 16:53:17 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/21/visual-studio-cannot-add-project-to-source-control-it-overlaps-a-project-that-is-already-bound-to-source-control-at-a-lower-root/</guid>
+      <description>I&amp;rsquo;ve been getting this error a bit lately as I trying to add new projects to the solution, and then add them to source control: The project  cannot be added to source control. In folder , it overlaps a project that is already bound to source control at a lower root. To avoid this problem, add the project from a location below the binding root of the other source controlled projects in the solution.</description>
+    </item>
+    
+    <item>
+      <title>Finding duplicated data across one or more columns in a database table</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/28/finding-duplicated-data-across-one-or-more-columns-in-a-database-table/</link>
+      <pubDate>Sat, 28 Feb 2009 10:59:09 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/28/finding-duplicated-data-across-one-or-more-columns-in-a-database-table/</guid>
+      <description>A few months ago I posted a little query about finding duplicate rows in a database table. I&amp;rsquo;m revisiting this because I helped out Doogie with a similar query last night but with some complications. Let&amp;rsquo;s start with the original simple scenario of checking duplicates in a single column. Some example data, a Users table: +-&amp;mdash;+-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;mdash;+ | Id | Email | +-&amp;mdash;+-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;mdash;+ | 1 | joe@bloggs.com | | 2 | joe@bloggs.</description>
+    </item>
+    
+    <item>
+      <title>Creating thumbnail images with automatic cropping and maintaining aspect ratio</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/07/creating-thumbnail-images-with-automatic-cropping-and-maintaining-aspect-ratio/</link>
+      <pubDate>Sat, 07 Feb 2009 02:17:03 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/07/creating-thumbnail-images-with-automatic-cropping-and-maintaining-aspect-ratio/</guid>
+      <description>&lt;p&gt;Most thumbnail-generation solutions will shrink the original down while maintaining aspect ratio.&lt;/p&gt;
+
+&lt;p&gt;Usually you specify the maximum height and width of the thumbnail, e.g. 150 x 200&lt;/p&gt;
+
+&lt;p&gt;However, if your original image&amp;rsquo;s aspect ratio is different to the maximum thumbnail dimensions, you will end up with dead space vertically or horizontally (shown in green in the illustration). This can be quite an eyesore when displaying thumbnails in a grid.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-77&#34; title=&#34;Normal Thumbnail Resizing Diagram&#34; src=&#34;http://davidmoore.info/wp-content/uploads/2009/02/image-resize-normal.gif&#34; alt=&#34;Normal Thumbnail Resizing Diagram&#34; width=&#34;672&#34; height=&#34;334&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve got an algorithm that will automatically crop the image either horizontally or vertically to then match the thumbnail aspect ratio, so you end up with the thumbnails all being the same size even though they may be coming from originals of wildly different aspect ratio.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ESET NOD32 Antivirus and Proxies</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/01/17/eset-nod32-antivirus-and-proxies/</link>
+      <pubDate>Sat, 17 Jan 2009 07:01:50 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/01/17/eset-nod32-antivirus-and-proxies/</guid>
+      <description>Today I&amp;rsquo;m working on a .NET hobby project.
+At a simple level, I&amp;rsquo;m writing a web proxy implementation, � and was using 8080 as the default port.
+When trying to write and run unit tests to make sure my server was binding to this port and shutting down as and when expected, I found I could connect to 8080 even when the proxy wasn&amp;rsquo;t running. Telnet-ing to that port would initiate a connection, and would eventually drop out at varying speeds, and immediately if I hit a key.</description>
+    </item>
+    
+    <item>
+      <title>Castle Project update</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/01/08/castle-project-update/</link>
+      <pubDate>Thu, 08 Jan 2009 03:18:26 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/01/08/castle-project-update/</guid>
+      <description>Hamilton has applied a bunch of patches and fixes to the Castle Project for the Components and Windsor sub-projects. Including 2 minor and insignificant patches that I submitted +D. It&amp;rsquo;s good to feel part of a major Open Source project, even for a small contribution.
+http://hammett.castleproject.org/?p=336
+While I&amp;rsquo;m currently focusing my efforts on ASP.NET MVC and moved away from MonoRail, I use Castle extensively in my .NET projects, particularly ActiveRecord and Windsor/MicroKernel.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio Performance</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/12/09/visual-studio-performance/</link>
+      <pubDate>Tue, 09 Dec 2008 18:18:46 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/12/09/visual-studio-performance/</guid>
+      <description>I&amp;rsquo;m running Visual Studio 2008 on a old, single-core laptop with 1GB RAM.
+VS is a resource hog, so it&amp;rsquo;s not long before my laptop is struggling having a reasonable size solution in addition to the usual open applications.
+There are a few things you can do to try and squeeze a bit more performance out of Visual Studio I&amp;rsquo;ve found from various blogs and looking around myself. The first two are the most useful.</description>
+    </item>
+    
+    <item>
+      <title>Opera 10 Alpha</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/12/04/opera-10-alpha/</link>
+      <pubDate>Thu, 04 Dec 2008 19:56:18 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/12/04/opera-10-alpha/</guid>
+      <description>Opera 10 Alpha is out!
+Apart from it being an updated and faster engine, it also adds 100% ACID3 support, HTML Email Composition (finally!), integrated spell checker, and automatic updates.
+All this on top of the in-built features like mouse gestures, integrated ad blocker, the slick mail, news feed and chat client, Bit Torrent support, Wand password manager, desktop widgets etc.</description>
+    </item>
+    
+    <item>
+      <title>Useful UPnP Troubleshooter</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/11/27/useful-upnp-troubleshooter/</link>
+      <pubDate>Thu, 27 Nov 2008 16:44:39 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/11/27/useful-upnp-troubleshooter/</guid>
+      <description>Universal Plug &amp;amp; Play aka UPnP is used by a lot of networking devices and software to communicate with each other for automatic setup/installation.
+Many software programs and games that need inward-bound internet connectivity can automatically configure your UPnP broadband router for their use. Examples of these programs are Instant Messengers such as MSN Chat, and Bit Torrent clients like uTorrent and Azureus.
+If your programs are having trouble with UPnP, you can use the following links to troubleshoot, including a handy small program that will detect what steps you need to take to get UPnP going.</description>
+    </item>
+    
+    <item>
+      <title>Opera &#34;Unlinker&#34; User JavaScript</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/11/06/opera-unlinker-user-javascript/</link>
+      <pubDate>Thu, 06 Nov 2008 01:38:27 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/11/06/opera-unlinker-user-javascript/</guid>
+      <description>It&amp;rsquo;s quite common on many websites, particularly forums, to post links to images.
+Unlinker is a very popular plugin for Firefox, which allows you to change the links to images in the page to in-line images.
+Opera doesn&amp;rsquo;t have a fully-fledged plugin system like Firefox (which is a pro just as much as it is a con), but you can customize it using User JavaScript.
+I&amp;rsquo;ve made a simple script to implement a very basic version of Unlinker.</description>
+    </item>
+    
+    <item>
+      <title>Opera&#39;s MAMA analyses the spread and use of web technologies</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/19/operas-mama-analyses-the-spread-and-use-of-web-technologies/</link>
+      <pubDate>Sun, 19 Oct 2008 16:05:30 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/19/operas-mama-analyses-the-spread-and-use-of-web-technologies/</guid>
+      <description>The Opera guys have created a project called MAMA &amp;#8211; &amp;ldquo;Metadata Analysis and Mining Application&amp;rdquo;. It is designed to trawl the web and analyse what technologies and techniques are actually being used in web pages.
+Their intial study results are in, taken from 3 and a half million URLs.
+Interestingly, tables are still right up there with most popular tags, suggesting there are still a lot of people using tables for layouts, particularly when you see this quote:</description>
+    </item>
+    
+    <item>
+      <title>Finding duplicate rows in the database</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/17/finding-duplicate-rows-in-the-database/</link>
+      <pubDate>Fri, 17 Oct 2008 11:39:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/17/finding-duplicate-rows-in-the-database/</guid>
+      <description>NOTE: This post has been re-visited in Finding duplicated data across one or more columns in a database table
+Information gleaned from Microsoft KB article: How to remove duplicate rows from a table in SQL Server
+When you allow duplicated rows in a database that aren&amp;rsquo;t expected and shouldn&amp;rsquo;t be allowed, it&amp;rsquo;s a flag saying that you need a unique index on the table to prevent duplicate rows to be added in the first place.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft ASP.NET MVC goes to Beta</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/17/microsoft-aspnet-mvc-goes-to-beta/</link>
+      <pubDate>Fri, 17 Oct 2008 11:22:03 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/17/microsoft-aspnet-mvc-goes-to-beta/</guid>
+      <description>I&amp;rsquo;m currently using ASP.NET MVC to build the next-gen version of my CMS/App Framework Orange.
+I&amp;rsquo;ve been using CodePlex community builds, but MVC has finally gone to Beta. I&amp;rsquo;m just now in the process of fixing my code to go with the minor breaking changes in the beta.
+I&amp;rsquo;m really liking many things about MVC so far, but a review of MVC is another blog post for the future.
+Download ASP.</description>
+    </item>
+    
+    <item>
+      <title>System.BadImageFormatException</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/14/systembadimageformatexception/</link>
+      <pubDate>Tue, 14 Oct 2008 12:52:42 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/14/systembadimageformatexception/</guid>
+      <description>I&amp;rsquo;m currently build the new Overclockers New Zealand website in .NET
+I have a nice continuous integration server going smoothly, but my most recent check-in threw up a strange error when running the Unit Tests:
+ System.BadImageFormatException : Could not load file or assembly &amp;lsquo;Overclockers.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null&amp;rsquo; or one of its dependencies. The module was expected to contain an assembly manifest.
+ The server is actually a VMWare instance, but is running a 32-bit version of Windows Server 2003 EE.</description>
+    </item>
+    
+    <item>
+      <title>Redmine beats the pants off Trac</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/12/redmine-beats-the-pants-off-trac/</link>
+      <pubDate>Sun, 12 Oct 2008 22:29:35 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/12/redmine-beats-the-pants-off-trac/</guid>
+      <description>Trac is an extremely popular free issue tracker / wiki with source control integration. Many open source projects are using it.
+I&amp;rsquo;ve been using Trac for a long time now, and while it used to be very good, it&amp;rsquo;s too stagnant and is lacking in too many ways.
+It doesn&amp;rsquo;t support multiple projects, the ticket workflow is cumbersome, the security and roles are rudimentary at best, and call my superficial, but I just don&amp;rsquo;t like how it looks.</description>
+    </item>
+    
+    <item>
+      <title>You can now disconnect from the Internet</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/07/10/you-can-now-disconnect-from-the-internet/</link>
+      <pubDate>Thu, 10 Jul 2008 12:15:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/07/10/you-can-now-disconnect-from-the-internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opera 9.5 is out</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/06/13/opera-95-is-out/</link>
+      <pubDate>Fri, 13 Jun 2008 06:07:07 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/06/13/opera-95-is-out/</guid>
+      <description>Opera is my favourite browser, and the final release of the newest version has just been released to the public.
+It&amp;rsquo;s blazing fast, and comes with a lot of stuff out of the box such as:
+ Integrated ad blocker (right click on a page and choose Block Content&amp;#8230;, then you can click on what you want to block) Mouse gestures Mail and chat client Widgets Speed dial (If you create a new tab, you get a patchwork of thumbnails of your selected favourite sites so they&amp;rsquo;re one click away) Pretty much everything that a lot of other browsers had to follow suit with after Opera had innovated them, and usually need to be downloaded in an extension or plug-in.</description>
+    </item>
+    
+  </channel>
+</rss>

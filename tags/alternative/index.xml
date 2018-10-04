@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alternative on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/alternative/</link>
+    <description>Recent content in Alternative on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 May 2009 21:23:15 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/alternative/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>iTunes Lite</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/11/itunes-lite/</link>
+      <pubDate>Mon, 11 May 2009 21:23:15 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/11/itunes-lite/</guid>
+      <description>iTunes without the bloat, and the invasive Quicktime installer + annoying Bonjour service. Install Quicktime Alternative, then the iTunes installer from Ajua Online. That&amp;rsquo;s currently 17.8MB for the iTunes installer, and 10.8MB for Quicktime Alt. As opposed to the 80MB of bossy Apple iTunes installer.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,7 @@
     <description>Recent content in .NET on Sad Robot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Jan 2011 23:12:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Oct 2018 20:13:43 +1300</lastBuildDate>
     
 	<atom:link href="http://www.sadrobot.co.nz/wiki/dotnet/index.xml" rel="self" type="application/rss+xml" />
     
@@ -52,6 +52,15 @@ Asynchronous calls are made using Begin and End methods on an API, with callback
       <guid>http://www.sadrobot.co.nz/wiki/dotnet/csharp/</guid>
       <description>Covariant if it preserves the ordering of types (≤), which orders types from more specific to more generic; Contravariant if it reverses this ordering; Bivariant if both of these apply (i.e., both I&amp;lt;A&amp;gt; ≤ I&amp;lt;B&amp;gt; and I&amp;lt;B&amp;gt; ≤ I&amp;lt;A&amp;gt; at the same time); Invariant or Nonvariant if neither of these applies.  In C# interfaces, in represents contravariance, and out represents covariance.
 For example in C#, if Cat is a subtype of Animal, then:</description>
+    </item>
+    
+    <item>
+      <title>ORM</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/orm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/orm/</guid>
+      <description> Generic Implementation </description>
     </item>
     
   </channel>

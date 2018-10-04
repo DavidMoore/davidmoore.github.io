@@ -14,7 +14,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-     <meta name="generator" content="Hugo 0.32" />
+     <meta name="generator" content="Hugo 0.48" />
 
       
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -23,23 +23,7 @@
      <link href='/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="Microsoft Dynamics 365 CRM" />
 <meta property="og:description" content="Developing for and integrating with Microsoft Dynamics 365 CRM" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.sadrobot.co.nz/wiki/dynamics/crm/" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<meta property="og:url" content="http://www.sadrobot.co.nz/wiki/dynamics/crm/" /><meta property="article:modified_time" content="2018-10-04T20:13:43&#43;13:00"/>
 <meta itemprop="name" content="Microsoft Dynamics 365 CRM">
 <meta itemprop="description" content="Developing for and integrating with Microsoft Dynamics 365 CRM">
 
@@ -51,7 +35,8 @@
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image:src" content="http://www.sadrobot.co.nz/images/gohugoio-card.png"/>
+<meta name="twitter:image" content="http://www.sadrobot.co.nz/images/gohugoio-card.png"/>
+
 <meta name="twitter:title" content="Microsoft Dynamics 365 CRM"/>
 <meta name="twitter:description" content="Developing for and integrating with Microsoft Dynamics 365 CRM"/>
 <meta name="twitter:site" content="@whup"/>
@@ -98,6 +83,16 @@
             
           <a href="/games/" class="dim link light-silver">
             Gaming
+              
+            
+            
+          </a>
+        </li>
+      
+        <li class="f5 dib mr4" role="menuitem">
+            
+          <a href="/ipfilter/" class="dim link light-silver">
+            IPFilter
               
             
             
@@ -228,26 +223,26 @@ Add CRM application user</p>
 </ul>
 
 <p>Now you should be able to access CRM API using HttpClient and ADAL using the sample code below:</p>
-<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="kt">var</span> <span class="n">ap</span> <span class="p">=</span> <span class="k">await</span> <span class="nc">AuthenticationParameters</span><span class="p">.</span><span class="n">CreateFromResourceUrlAsync</span><span class="p">(</span>
+<div class="highlight"><pre class="chroma"><code class="language-csharp" data-lang="csharp"><span class="kt">var</span> <span class="n">ap</span> <span class="p">=</span> <span class="k">await</span> <span class="n">AuthenticationParameters</span><span class="p">.</span><span class="n">CreateFromResourceUrlAsync</span><span class="p">(</span>
                 <span class="k">new</span> <span class="n">Uri</span><span class="p">(</span><span class="s">&#34;https://*****.api.crm6.dynamics.com/api/data/v9.0/&#34;</span><span class="p">));</span>
 
-<span class="n">String</span> <span class="n">authorityUrl</span> <span class="p">=</span> <span class="nc">ap</span><span class="p">.</span><span class="n">Authority</span><span class="p">;</span>
-<span class="n">String</span> <span class="n">resourceUrl</span> <span class="p">=</span> <span class="nc">ap</span><span class="p">.</span><span class="n">Resource</span><span class="p">;</span>
+<span class="n">String</span> <span class="n">authorityUrl</span> <span class="p">=</span> <span class="n">ap</span><span class="p">.</span><span class="n">Authority</span><span class="p">;</span>
+<span class="n">String</span> <span class="n">resourceUrl</span> <span class="p">=</span> <span class="n">ap</span><span class="p">.</span><span class="n">Resource</span><span class="p">;</span>
 
 <span class="kt">var</span> <span class="n">authContext</span> <span class="p">=</span> <span class="k">new</span> <span class="n">AuthenticationContext</span><span class="p">(</span><span class="n">authorityUrl</span><span class="p">);</span>
 <span class="kt">var</span> <span class="n">clientCred</span> <span class="p">=</span> <span class="k">new</span> <span class="n">ClientCredential</span><span class="p">(</span><span class="s">&#34;Application ID&#34;</span><span class="p">,</span> <span class="s">&#34;Client Secret&#34;</span><span class="p">);</span>
-<span class="kt">var</span> <span class="n">test</span> <span class="p">=</span> <span class="k">await</span> <span class="nc">authContext</span><span class="p">.</span><span class="n">AcquireTokenAsync</span><span class="p">(</span><span class="n">resourceUrl</span><span class="p">,</span> <span class="n">clientCred</span><span class="p">);</span>
+<span class="kt">var</span> <span class="n">test</span> <span class="p">=</span> <span class="k">await</span> <span class="n">authContext</span><span class="p">.</span><span class="n">AcquireTokenAsync</span><span class="p">(</span><span class="n">resourceUrl</span><span class="p">,</span> <span class="n">clientCred</span><span class="p">);</span>
 
-<span class="nc">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="nc">test</span><span class="p">.</span><span class="n">AccessToken</span><span class="p">);</span>
+<span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">test</span><span class="p">.</span><span class="n">AccessToken</span><span class="p">);</span>
 
 <span class="k">using</span> <span class="p">(</span><span class="kt">var</span> <span class="n">client</span> <span class="p">=</span> <span class="k">new</span> <span class="n">HttpClient</span><span class="p">())</span>
 <span class="p">{</span>
-    <span class="nc">client</span><span class="p">.</span><span class="nc">DefaultRequestHeaders</span><span class="p">.</span><span class="n">Authorization</span> <span class="p">=</span> <span class="k">new</span> <span class="n">AuthenticationHeaderValue</span><span class="p">(</span><span class="s">&#34;Bearer&#34;</span><span class="p">,</span> <span class="nc">test</span><span class="p">.</span><span class="n">AccessToken</span><span class="p">);</span>
+    <span class="n">client</span><span class="p">.</span><span class="n">DefaultRequestHeaders</span><span class="p">.</span><span class="n">Authorization</span> <span class="p">=</span> <span class="k">new</span> <span class="n">AuthenticationHeaderValue</span><span class="p">(</span><span class="s">&#34;Bearer&#34;</span><span class="p">,</span> <span class="n">test</span><span class="p">.</span><span class="n">AccessToken</span><span class="p">);</span>
 
-    <span class="kt">var</span> <span class="n">response</span> <span class="p">=</span> <span class="k">await</span> <span class="nc">client</span><span class="p">.</span><span class="n">GetAsync</span><span class="p">(</span><span class="s">&#34;https://*****.api.crm6.dynamics.com/api/data/v9.0/contacts&#34;</span><span class="p">);</span>
-    <span class="kt">var</span> <span class="n">contacts</span> <span class="p">=</span> <span class="k">await</span> <span class="nc">response</span><span class="p">.</span><span class="nc">Content</span><span class="p">.</span><span class="n">ReadAsStringAsync</span><span class="p">();</span>
+    <span class="kt">var</span> <span class="n">response</span> <span class="p">=</span> <span class="k">await</span> <span class="n">client</span><span class="p">.</span><span class="n">GetAsync</span><span class="p">(</span><span class="s">&#34;https://*****.api.crm6.dynamics.com/api/data/v9.0/contacts&#34;</span><span class="p">);</span>
+    <span class="kt">var</span> <span class="n">contacts</span> <span class="p">=</span> <span class="k">await</span> <span class="n">response</span><span class="p">.</span><span class="n">Content</span><span class="p">.</span><span class="n">ReadAsStringAsync</span><span class="p">();</span>
 
-    <span class="nc">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">contacts</span><span class="p">);</span>
+    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">contacts</span><span class="p">);</span>
 <span class="p">}</span></code></pre></div>
 <h1 id="javascript">JavaScript</h1>
 
@@ -274,7 +269,8 @@ Add CRM application user</p>
             <span class="p">}</span>
         <span class="p">}</span>
         <span class="k">else</span> <span class="p">{</span>
-            <span class="nx">alert</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">statusText</span><span class="p">);</span></code></pre></div>
+            <span class="nx">alert</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">statusText</span><span class="p">);</span>
+</code></pre></div>
 <h1 id="resources">Resources</h1>
 
 <h1 id="references">References</h1>
@@ -353,7 +349,7 @@ Add CRM application user</p>
   <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
 </span>
     “Microsoft Dynamics 365 CRM”
-  </a> was last updated: January 1, 0001
+  </a> was last updated: October 4, 2018
   
   
 </h6>
@@ -370,7 +366,7 @@ f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
 
   <div class="w-60-l ph0 ph5-ns center">
     <div id="disqus_thread"></div>
-<script>
+<script type="application/javascript">
     var disqus_config = function () {
     
     
@@ -469,6 +465,12 @@ f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
     <li  class="tl dib ma0 hover-bg-black w-100">
         <a href="/games/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
           Gaming
+        </a>
+    </li>
+  
+    <li  class="tl dib ma0 hover-bg-black w-100">
+        <a href="/ipfilter/" class="ttu f6 link primary-color-light overflow hover-white db brand-font  ma0 w-100 pv3 ph4">
+          IPFilter
         </a>
     </li>
   

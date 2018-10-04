@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>How To on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/categories/how-to/</link>
+    <description>Recent content in How To on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Aug 2011 11:32:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/categories/how-to/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deleting and purging items from Team Foundation Server</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/08/08/deleting-and-purging-items-from-team-foundation-server/</link>
+      <pubDate>Mon, 08 Aug 2011 11:32:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/08/08/deleting-and-purging-items-from-team-foundation-server/</guid>
+      <description>When you delete an item from TFS, it’s not actually permanently gone.
+You can view deleted items by going to Tools &amp;gt; Options &amp;gt; Source Control &amp;gt; Visual Studio Team Foundation Server and checking the Show deleted items in the Source Control Explorer option:
+
+You can then see folders and files that have been deleted, which allows you to right click on them to choose Undelete (or go to File &amp;gt; Source Control &amp;gt; Undelete).</description>
+    </item>
+    
+    <item>
+      <title>Manually schedule a disk check at next restart</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/08/04/manually-schedule-a-disk-check-at-next-restart/</link>
+      <pubDate>Thu, 04 Aug 2011 12:02:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/08/04/manually-schedule-a-disk-check-at-next-restart/</guid>
+      <description>You can schedule a chkdsk at reboot time for a drive by using the Windows command line utility fsutil.
+You do this by setting the &amp;ldquo;dirty&amp;rdquo; flag for a drive, which marks the drive for a chkdsk when you next reboot.
+Usage:
+ fsutil dirty query &amp;lt;volume pathname&amp;gt;  e.g.
+ fsutil dirty set C:  You can check if a drive has been marked as dirty by using the query command:</description>
+    </item>
+    
+    <item>
+      <title>Error building project when referencing native assembly dependency in app.manifest</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/01/14/error-building-project-when-referencing-native-assembly-dependency-in-app-manifest/</link>
+      <pubDate>Fri, 14 Jan 2011 08:45:38 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/01/14/error-building-project-when-referencing-native-assembly-dependency-in-app-manifest/</guid>
+      <description>If you&amp;rsquo;re using an app.manifest, and defining assembly dependencies (i.e. for SxS / Side by side / Reg-free COM etc), you may encounter this error when you build the project:
+Could not find file &#39;AssemblyName, Version=x.x.x.x, PublicKeyToken=xxxxxxxxxxx, ProcessorArchitecture=x86, Type=win32&amp;#8242;. This is even when the native assembly is in place where the project can find it.
+Example For example, your app.manifest may contain this fragment:
+dependencydependentAssembly
+assemblyIdentityname=&#34;Native.Custom&#34;version=&#34;1.0.0.0&#34;processorArchitecture=&#34;x86&#34;type=&#34;win32&#34;publicKeyToken=&#34;12345678&#34;/
+dependentAssembly
+dependency This manifest is available to the project, with the manifest file in the project directory or in a subdirectory called &amp;ldquo;Native.</description>
+    </item>
+    
+    <item>
+      <title>Running .NET 2 Runtime applications under the .NET 4 Runtime</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/12/17/running-net-2-runtime-applications-under-the-net-4-runtime/</link>
+      <pubDate>Fri, 17 Dec 2010 09:38:31 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/12/17/running-net-2-runtime-applications-under-the-net-4-runtime/</guid>
+      <description>In some situations, you might want to run a .NET 2 Runtime application (.NET 2, 3.0, 3.5 SP1 etc) under the .NET 4 Runtime &amp;#8211; without recompiling.
+You can configure your app to execute under the .NET 4 runtime by adding these lines to the executable&amp;rsquo;s configuration file, under the root � configuration element:
+&amp;lt;startup&amp;gt; &amp;lt;supportedRuntimeversion=&#34;v4.0&#34;sku=&#34;.NETFramework,Version=v4.0&#34;/&amp;gt; &amp;lt;/startup&amp;gt; Because the security framework has changed in the .NET 4 runtime, you will likely encounter some exceptions containing a message similar to:</description>
+    </item>
+    
+    <item>
+      <title>Opera 10.5 Beta and Windows 7 Integration</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/02/15/opera-10-5-beta-and-windows-7-integration/</link>
+      <pubDate>Mon, 15 Feb 2010 11:08:01 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/02/15/opera-10-5-beta-and-windows-7-integration/</guid>
+      <description>Opera 10.5 Beta is out and it&amp;rsquo;s very impressive, and looks pretty stunning due to its Windows 7 integration.
+One thing I don&amp;rsquo;t really like is how it shows all the tabs using Aero Peek when you click it in the Task Bar.
+You can turn this off:
+ Type &amp;ldquo;opera:config&amp;rdquo; in the address bar and hit Enter Scroll down to User Prefs and expand it, or type in &amp;ldquo;Windows 7&amp;#8243; in the search box Untick the &amp;ldquo;Use Windows 7 Taskbar Thumbnails&amp;rdquo; setting Click Save Restart Opera  </description>
+    </item>
+    
+    <item>
+      <title>Running 32-bit Remote Desktop Connection on Windows 64 bit</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/12/02/running-32-bit-remote-desktop-connection-on-windows-64-bit/</link>
+      <pubDate>Wed, 02 Dec 2009 11:16:27 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/12/02/running-32-bit-remote-desktop-connection-on-windows-64-bit/</guid>
+      <description>On Windows Vista 64 and Windows 7 64, there is a 32 bit version of Remote Desktop Connection (Microsoft Terminal Services Client, mstsc.exe) in %SystemRoot%SysWOW64. Running this mstsc.exe will launch the 32 bit process but it will instantly launch the 64-bit mstsc.exe from System32 and shut itself down. This makes it impossible to run Remote Desktop Connection 32 bit. This is a problem when you have 32 bit Terminal Services add-ins (which won&amp;rsquo;t run under 64 bit).</description>
+    </item>
+    
+    <item>
+      <title>Generating GUIDs from Visual Studio 2008</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/09/30/generating-guids-from-visual-studio-2008/</link>
+      <pubDate>Wed, 30 Sep 2009 12:03:22 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/09/30/generating-guids-from-visual-studio-2008/</guid>
+      <description>I find I have to generate GUIDs often (mostly due to using WiX) and the in-built Tools &amp;gt; Create GUID tool is too cumbersome for this. I found a blog post that has a simple macro you can customize to bind a keyboard shortcut to paste in a new GUID Here are some full instructions, using their simple macro code:  Tools &amp;gt; Macros &amp;gt; Macro Explorer (or hit ALT+F8) Right click Macros, choose New Macro Project&amp;#8230; Choose a location for the Macro project and give it a meaningful name then click Add Rename Module1 to something more meaningful, then double-click to edit the module Insert the code to paste a new GUID into the current cursor position / selection:  Public Sub PasteNewGuid() DTE.</description>
+    </item>
+    
+    <item>
+      <title>Solution: Explorer open each folder in same window error and SQL Management Studio, IE and Team Explorer errors</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/08/19/solution-explorer-open-each-folder-in-same-window-error-and-sql-management-studio-ie-and-team-explorer-errors/</link>
+      <pubDate>Wed, 19 Aug 2009 20:45:01 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/08/19/solution-explorer-open-each-folder-in-same-window-error-and-sql-management-studio-ie-and-team-explorer-errors/</guid>
+      <description>Problem(s):  When attempting to open a folder in Windows Explorer, the folder opens in a new window, even if &amp;ldquo;Open each folder in the same window&amp;rdquo; is selected in Folder Options. Some links in Internet Explorer don&amp;rsquo;t open correctly Microsoft SQL Server Management Studio: An error with a message like &amp;ldquo;Unable to cast COM object of type &amp;lsquo;System.__ComObject&amp;rsquo; to interface type &amp;lsquo;Microsoft.VisualStudio.OLE.Interop.IServiceProvider&amp;rsquo;. This operation failed because the QueryInterface call on the COM component for the interface with IID &amp;lsquo;{6D5140C1-7436-11CE-8034-00AA006009FA}&amp;rsquo; failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E_NOINTERFACE)).</description>
+    </item>
+    
+    <item>
+      <title>Using batch parameter modifiers to get specific portions or file info from a full filename</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/08/19/using-batch-parameter-modifiers-to-get-specific-portions-or-file-info-from-a-full-filename/</link>
+      <pubDate>Wed, 19 Aug 2009 16:10:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/08/19/using-batch-parameter-modifiers-to-get-specific-portions-or-file-info-from-a-full-filename/</guid>
+      <description>From Using batch parameters [microsoft.com]: Cmd.exe provides the batch parameter expansion variables %0 through %9. When you use batch parameters in a batch file, %0 is replaced by the batch file name, and %1 through %9 are replaced by the corresponding arguments that you type at the command line These batch parameter modifiers variable arguments are immensely useful. That document is missing some examples, so I&amp;rsquo;ve put together a simple table:   %1</description>
+    </item>
+    
+    <item>
+      <title>Unit testing multi-threaded, asynchronous code and/or events</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/06/03/unit-testing-multi-threaded-asynchronous-code-andor-events/</link>
+      <pubDate>Wed, 03 Jun 2009 10:50:15 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/06/03/unit-testing-multi-threaded-asynchronous-code-andor-events/</guid>
+      <description>I&amp;rsquo;ve been writing some unit tests recently that test some multi-threaded functionality. Typically this involves hooking up some event handlers then waiting for some asynchronous code to fire the event before proceeding with the unit test and assertions. The ManualResetEvent class (MSDN) seems a good choice for this, and this post has a small example of using it in a unit test:   [Test()] public void AfterRunAsync() { ManualResetEvent manualEvent = new ManualResetEvent(false); TestTestCase tc = new TestTestCase(1, &amp;ldquo;&amp;rdquo;, 0, 0); bool eventFired = false; tc.</description>
+    </item>
+    
+    <item>
+      <title>Remote debugging from Visual Studio 2008 on a domain machine to a machine not on the domain</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/28/remote-debugging-from-visual-studio-2008-on-a-domain-machine-to-a-machine-not-on-the-domain/</link>
+      <pubDate>Thu, 28 May 2009 17:25:27 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/28/remote-debugging-from-visual-studio-2008-on-a-domain-machine-to-a-machine-not-on-the-domain/</guid>
+      <description>This details how you can debug an application running on a remote machine from Visual Studio on your local machine, as if the remote application was running on your local machine. The keys are:  There must be a user account with the same username and password on the remote machine and the local machine (MACHINE account, not domain account). Visual Studio 2008 Remote Debugger must be installed and running on the remote machine under the user account in point 1  Create local machine account  Right click My Computer &amp;gt; Manage Expand Computer Management &amp;gt; System Tools &amp;gt; Local Users and Groups Right-click Users under Local Users and Groups and choose New User&amp;#8230; Enter in the username e.</description>
+    </item>
+    
+    <item>
+      <title>Set up IP filtering in uTorrent and keep your ipfilter.dat up to date easily</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/27/set-up-ip-filtering-in-utorrent-and-keep-your-ipfilterdat-up-to-date-easily/</link>
+      <pubDate>Wed, 27 May 2009 00:14:13 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/27/set-up-ip-filtering-in-utorrent-and-keep-your-ipfilterdat-up-to-date-easily/</guid>
+      <description>The IPFilter Updater application now has its own page: http://www.davidmoore.info/ipfilter-updater/ uTorrent is one of the most popular BitTorrent clients out there. In my opinion it&amp;rsquo;s the best. You can set up IP filtering in uTorrent to block bad seeds and peers from a list maintained by the community. How to set up IP filtering in uTorrent  Open up uTorrent and go to Options &amp;gt; Preferences from the menu or click the Preferences button in the toolbar Select the Advanced option in the tree Find ipfilter.</description>
+    </item>
+    
+    <item>
+      <title>Could not load file or assembly &amp;#226;&amp;#8364;&amp;#732;x&amp;#226;&amp;#8364;&amp;#8482; or one of its dependencies. Strong name validation failed.</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/26/could-not-load-file-or-assembly-x-or-one-of-its-dependencies-strong-name-validation-failed/</link>
+      <pubDate>Tue, 26 May 2009 15:54:34 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/26/could-not-load-file-or-assembly-x-or-one-of-its-dependencies-strong-name-validation-failed/</guid>
+      <description>In some of the work I&amp;rsquo;m doing right now, I&amp;rsquo;m manipulating an assembly after compile time - having it disassembled into IL, tweaked, then re-compiled back into an assembly. The assembly is signed and what is being done to the assembly is breaking the strong name. This is quite comforting to know; the strong name wouldn&amp;rsquo;t be so strong if it was that easy to hack an assembly with a strong name.</description>
+    </item>
+    
+    <item>
+      <title>Disabling the Opera Bit Torrent support</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/26/disabling-the-opera-bit-torrent-support/</link>
+      <pubDate>Tue, 26 May 2009 01:06:19 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/26/disabling-the-opera-bit-torrent-support/</guid>
+      <description>Opera has built-in torrent support which is very handy and nice, but not quite as nice as a full-fledged client like uTorrent To disable the Torrent support in Opera so that uTorrent or your default torrent client will be used instead:  In Opera, type in opera:config in the address bar and hit enter Click the Bit Torrent section to expand it  Untick Enable  Hit Save Click OK at the message box  You won&amp;rsquo;t have to restart Opera for this change to take effect</description>
+    </item>
+    
+    <item>
+      <title>Moving your precious user profile and documents to another folder on another drive in Windows 7</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/26/moving-your-precious-user-profile-and-documents-to-another-folder-on-another-drive-in-windows-7/</link>
+      <pubDate>Tue, 26 May 2009 00:42:10 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/26/moving-your-precious-user-profile-and-documents-to-another-folder-on-another-drive-in-windows-7/</guid>
+      <description>One of the things I learned long ago was to always have more than 1 drive or have my single drive partitioned. You keep your programs and operating system on the C drive. On your D drive goes all your data, downloads and anything that you don&amp;rsquo;t want to vanish on you suddenly. A couple of advantages of this are:  This keeps the C drive quite lean if you want to make an image of it.</description>
+    </item>
+    
+    <item>
+      <title>Making a bootable USB drive for installing Windows 7 RC1</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/22/making-a-bootable-usb-drive-for-installing-windows-7-rc1/</link>
+      <pubDate>Fri, 22 May 2009 22:39:14 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/22/making-a-bootable-usb-drive-for-installing-windows-7-rc1/</guid>
+      <description>Here&amp;rsquo;s the article I followed to create my bootable USB flash drive when installing Windows 7 - something that&amp;rsquo;s essential when you don&amp;rsquo;t have a floppy drive or an optical drive in your machine. http://kmwoley.com/blog/?p=345 To make the process even simpler, you can use WinRAR or an ISO-mounting or reading application to get the installation files and boot sector from the Windows 7 RC1 ISO image without needing to burn a DVD.</description>
+    </item>
+    
+    <item>
+      <title>Configuring NLog for your application when NLog is in the Global Assembly Cache (GAC)</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/22/configuring-nlog-for-your-application-when-nlog-is-in-the-global-assembly-cache-gac/</link>
+      <pubDate>Fri, 22 May 2009 12:28:23 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/22/configuring-nlog-for-your-application-when-nlog-is-in-the-global-assembly-cache-gac/</guid>
+      <description>If you have several applications that are using NLog, it can be a good idea to install NLog into the GAC and reference that. A gotcha you must watch out for is caused by this piece of configuration from the NLog site:        Because you are not using the strong name for the Assembly-qualified name of ConfigSectionHandler, it&amp;rsquo;s impossible to do a GAC lookup, therefore NLog won&amp;rsquo;t be found and you&amp;rsquo;ll get an application error (even if NLog is actually in the GAC).</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio: Cannot add project to source control; it overlaps a project that is already bound to source control at a lower root</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/21/visual-studio-cannot-add-project-to-source-control-it-overlaps-a-project-that-is-already-bound-to-source-control-at-a-lower-root/</link>
+      <pubDate>Thu, 21 May 2009 16:53:17 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/21/visual-studio-cannot-add-project-to-source-control-it-overlaps-a-project-that-is-already-bound-to-source-control-at-a-lower-root/</guid>
+      <description>I&amp;rsquo;ve been getting this error a bit lately as I trying to add new projects to the solution, and then add them to source control: The project  cannot be added to source control. In folder , it overlaps a project that is already bound to source control at a lower root. To avoid this problem, add the project from a location below the binding root of the other source controlled projects in the solution.</description>
+    </item>
+    
+    <item>
+      <title>Improve Mozilla Firefox 3 memory usage</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/28/improve-mozilla-firefox-3-memory-usage/</link>
+      <pubDate>Sat, 28 Feb 2009 14:04:39 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/28/improve-mozilla-firefox-3-memory-usage/</guid>
+      <description>Firefox still tends to be a bit of a memory hog over an extended period of time, even though the latest major version (3) has made massive memory usage improvements over previous versions. This tweak will make sure Firefox behaves more like standard Windows applications when it comes to being minimized, as in freeing up the memory it&amp;rsquo;s using for Windows. The down-side to this is that when restored or maximized again, there will be a delay as the application shifts chunks from slow virtual memory to system memory.</description>
+    </item>
+    
+    <item>
+      <title>Finding duplicated data across one or more columns in a database table</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/28/finding-duplicated-data-across-one-or-more-columns-in-a-database-table/</link>
+      <pubDate>Sat, 28 Feb 2009 10:59:09 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/28/finding-duplicated-data-across-one-or-more-columns-in-a-database-table/</guid>
+      <description>A few months ago I posted a little query about finding duplicate rows in a database table. I&amp;rsquo;m revisiting this because I helped out Doogie with a similar query last night but with some complications. Let&amp;rsquo;s start with the original simple scenario of checking duplicates in a single column. Some example data, a Users table: +-&amp;mdash;+-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;mdash;+ | Id | Email | +-&amp;mdash;+-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;mdash;+ | 1 | joe@bloggs.com | | 2 | joe@bloggs.</description>
+    </item>
+    
+    <item>
+      <title>Creating thumbnail images with automatic cropping and maintaining aspect ratio</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/07/creating-thumbnail-images-with-automatic-cropping-and-maintaining-aspect-ratio/</link>
+      <pubDate>Sat, 07 Feb 2009 02:17:03 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/07/creating-thumbnail-images-with-automatic-cropping-and-maintaining-aspect-ratio/</guid>
+      <description>&lt;p&gt;Most thumbnail-generation solutions will shrink the original down while maintaining aspect ratio.&lt;/p&gt;
+
+&lt;p&gt;Usually you specify the maximum height and width of the thumbnail, e.g. 150 x 200&lt;/p&gt;
+
+&lt;p&gt;However, if your original image&amp;rsquo;s aspect ratio is different to the maximum thumbnail dimensions, you will end up with dead space vertically or horizontally (shown in green in the illustration). This can be quite an eyesore when displaying thumbnails in a grid.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-77&#34; title=&#34;Normal Thumbnail Resizing Diagram&#34; src=&#34;http://davidmoore.info/wp-content/uploads/2009/02/image-resize-normal.gif&#34; alt=&#34;Normal Thumbnail Resizing Diagram&#34; width=&#34;672&#34; height=&#34;334&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve got an algorithm that will automatically crop the image either horizontally or vertically to then match the thumbnail aspect ratio, so you end up with the thumbnails all being the same size even though they may be coming from originals of wildly different aspect ratio.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

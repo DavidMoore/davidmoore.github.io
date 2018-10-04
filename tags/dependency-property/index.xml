@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dependency Property on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/dependency-property/</link>
+    <description>Recent content in Dependency Property on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Jul 2010 22:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/dependency-property/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dependency Property ReSharper Live Template</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/07/06/dependency-property-resharper-live-template/</link>
+      <pubDate>Tue, 06 Jul 2010 22:30:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/07/06/dependency-property-resharper-live-template/</guid>
+      <description>Dependency Property ReSharper Live Template
+Don’t you love Dependency Properties?
+After the ease of automatic properties though, dependency properties are a chore to define.
+If you’ve got ReSharper (if not, why not?), I’ve got a simple Live Template you can use to create your dependency properties.
+I’ve set it up to use the dp keyword.
+Here it is in use. Typing dp first to pop up the template:
+
+Hitting tab or enter will run the template, with the name macro already selected:</description>
+    </item>
+    
+  </channel>
+</rss>

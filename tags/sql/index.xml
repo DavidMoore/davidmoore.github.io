@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sql on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/sql/</link>
+    <description>Recent content in Sql on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Jan 2018 06:15:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SQL Operations Studio</title>
+      <link>http://www.sadrobot.co.nz/blog/2018/01/14/sql-operations-studio/</link>
+      <pubDate>Sun, 14 Jan 2018 06:15:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2018/01/14/sql-operations-studio/</guid>
+      <description>SQL Operations Studio Released Microsoft recently released a preview of a free, new SQL management suite called SQL Operations Studio.
+It is obviously based on Visual Studio Code, so is extensible and scriptable, and potentially the SQL Operations Studio features may be added to VSCode later.
+The product already has an incredibly useful, customizable dashboard feature, as well as support for viewing SQL Query Plans and Execution Plans.
+There is also a connection manager that handles Azure connection.</description>
+    </item>
+    
+    <item>
+      <title>SQL Server Management Studio is Free</title>
+      <link>http://www.sadrobot.co.nz/blog/2017/02/02/sql-server-management-studio-is-free/</link>
+      <pubDate>Thu, 02 Feb 2017 18:28:32 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2017/02/02/sql-server-management-studio-is-free/</guid>
+      <description>SQL Server Management Studio aka SSMS is available to download and use for free from Microsoft. You do not require a SQL Server license.
+The latest version of SSMS, and future versions, are available from here:
+https://msdn.microsoft.com/en-us/library/mt238290.aspx
+This makes this easier for developers and DBAs that want to work with SQL Server, without having to acquire and install a full, licensed SQL Server ISO.</description>
+    </item>
+    
+    <item>
+      <title>Finding duplicated data across one or more columns in a database table</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/28/finding-duplicated-data-across-one-or-more-columns-in-a-database-table/</link>
+      <pubDate>Sat, 28 Feb 2009 10:59:09 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/28/finding-duplicated-data-across-one-or-more-columns-in-a-database-table/</guid>
+      <description>A few months ago I posted a little query about finding duplicate rows in a database table. I&amp;rsquo;m revisiting this because I helped out Doogie with a similar query last night but with some complications. Let&amp;rsquo;s start with the original simple scenario of checking duplicates in a single column. Some example data, a Users table: +-&amp;mdash;+-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;mdash;+ | Id | Email | +-&amp;mdash;+-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;mdash;+ | 1 | joe@bloggs.com | | 2 | joe@bloggs.</description>
+    </item>
+    
+    <item>
+      <title>Finding duplicate rows in the database</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/17/finding-duplicate-rows-in-the-database/</link>
+      <pubDate>Fri, 17 Oct 2008 11:39:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/17/finding-duplicate-rows-in-the-database/</guid>
+      <description>NOTE: This post has been re-visited in Finding duplicated data across one or more columns in a database table
+Information gleaned from Microsoft KB article: How to remove duplicate rows from a table in SQL Server
+When you allow duplicated rows in a database that aren&amp;rsquo;t expected and shouldn&amp;rsquo;t be allowed, it&amp;rsquo;s a flag saying that you need a unique index on the table to prevent duplicate rows to be added in the first place.</description>
+    </item>
+    
+  </channel>
+</rss>

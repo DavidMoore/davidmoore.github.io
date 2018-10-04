@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Actxprxy.dll on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/actxprxy.dll/</link>
+    <description>Recent content in Actxprxy.dll on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Aug 2009 20:45:01 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/actxprxy.dll/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Solution: Explorer open each folder in same window error and SQL Management Studio, IE and Team Explorer errors</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/08/19/solution-explorer-open-each-folder-in-same-window-error-and-sql-management-studio-ie-and-team-explorer-errors/</link>
+      <pubDate>Wed, 19 Aug 2009 20:45:01 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/08/19/solution-explorer-open-each-folder-in-same-window-error-and-sql-management-studio-ie-and-team-explorer-errors/</guid>
+      <description>Problem(s):  When attempting to open a folder in Windows Explorer, the folder opens in a new window, even if &amp;ldquo;Open each folder in the same window&amp;rdquo; is selected in Folder Options. Some links in Internet Explorer don&amp;rsquo;t open correctly Microsoft SQL Server Management Studio: An error with a message like &amp;ldquo;Unable to cast COM object of type &amp;lsquo;System.__ComObject&amp;rsquo; to interface type &amp;lsquo;Microsoft.VisualStudio.OLE.Interop.IServiceProvider&amp;rsquo;. This operation failed because the QueryInterface call on the COM component for the interface with IID &amp;lsquo;{6D5140C1-7436-11CE-8034-00AA006009FA}&amp;rsquo; failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E_NOINTERFACE)).</description>
+    </item>
+    
+  </channel>
+</rss>

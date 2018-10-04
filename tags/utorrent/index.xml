@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Utorrent on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/utorrent/</link>
+    <description>Recent content in Utorrent on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Jul 2012 06:35:38 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/utorrent/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IPFilter Updater&amp;#8230; Updated!</title>
+      <link>http://www.sadrobot.co.nz/blog/2012/07/14/ipfilter-updater-updated/</link>
+      <pubDate>Sat, 14 Jul 2012 06:35:38 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2012/07/14/ipfilter-updater-updated/</guid>
+      <description>I&amp;rsquo;ve made some minor changes to the IPFilter Updater.
+The list mirror it was using was out of date, so I&amp;rsquo;ve found a new list provider (I-Blocklist) and obtained their permission to point at that list.
+The project has also now been re-hosted on Codeplex.
+New home: https://ipfilter.codeplex.com/</description>
+    </item>
+    
+    <item>
+      <title>Set up IP filtering in uTorrent and keep your ipfilter.dat up to date easily</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/27/set-up-ip-filtering-in-utorrent-and-keep-your-ipfilterdat-up-to-date-easily/</link>
+      <pubDate>Wed, 27 May 2009 00:14:13 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/27/set-up-ip-filtering-in-utorrent-and-keep-your-ipfilterdat-up-to-date-easily/</guid>
+      <description>The IPFilter Updater application now has its own page: http://www.davidmoore.info/ipfilter-updater/ uTorrent is one of the most popular BitTorrent clients out there. In my opinion it&amp;rsquo;s the best. You can set up IP filtering in uTorrent to block bad seeds and peers from a list maintained by the community. How to set up IP filtering in uTorrent  Open up uTorrent and go to Options &amp;gt; Preferences from the menu or click the Preferences button in the toolbar Select the Advanced option in the tree Find ipfilter.</description>
+    </item>
+    
+    <item>
+      <title>Disabling the Opera Bit Torrent support</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/26/disabling-the-opera-bit-torrent-support/</link>
+      <pubDate>Tue, 26 May 2009 01:06:19 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/26/disabling-the-opera-bit-torrent-support/</guid>
+      <description>Opera has built-in torrent support which is very handy and nice, but not quite as nice as a full-fledged client like uTorrent To disable the Torrent support in Opera so that uTorrent or your default torrent client will be used instead:  In Opera, type in opera:config in the address bar and hit enter Click the Bit Torrent section to expand it  Untick Enable  Hit Save Click OK at the message box  You won&amp;rsquo;t have to restart Opera for this change to take effect</description>
+    </item>
+    
+  </channel>
+</rss>

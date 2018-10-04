@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unlinker on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/unlinker/</link>
+    <description>Recent content in Unlinker on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Nov 2008 01:38:27 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/unlinker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Opera &#34;Unlinker&#34; User JavaScript</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/11/06/opera-unlinker-user-javascript/</link>
+      <pubDate>Thu, 06 Nov 2008 01:38:27 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/11/06/opera-unlinker-user-javascript/</guid>
+      <description>It&amp;rsquo;s quite common on many websites, particularly forums, to post links to images.
+Unlinker is a very popular plugin for Firefox, which allows you to change the links to images in the page to in-line images.
+Opera doesn&amp;rsquo;t have a fully-fledged plugin system like Firefox (which is a pro just as much as it is a con), but you can customize it using User JavaScript.
+I&amp;rsquo;ve made a simple script to implement a very basic version of Unlinker.</description>
+    </item>
+    
+  </channel>
+</rss>

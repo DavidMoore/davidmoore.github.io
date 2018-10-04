@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/windows/</link>
+    <description>Recent content in Windows on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Dec 2009 11:16:27 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Running 32-bit Remote Desktop Connection on Windows 64 bit</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/12/02/running-32-bit-remote-desktop-connection-on-windows-64-bit/</link>
+      <pubDate>Wed, 02 Dec 2009 11:16:27 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/12/02/running-32-bit-remote-desktop-connection-on-windows-64-bit/</guid>
+      <description>On Windows Vista 64 and Windows 7 64, there is a 32 bit version of Remote Desktop Connection (Microsoft Terminal Services Client, mstsc.exe) in %SystemRoot%SysWOW64. Running this mstsc.exe will launch the 32 bit process but it will instantly launch the 64-bit mstsc.exe from System32 and shut itself down. This makes it impossible to run Remote Desktop Connection 32 bit. This is a problem when you have 32 bit Terminal Services add-ins (which won&amp;rsquo;t run under 64 bit).</description>
+    </item>
+    
+    <item>
+      <title>Moving your precious user profile and documents to another folder on another drive in Windows 7</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/26/moving-your-precious-user-profile-and-documents-to-another-folder-on-another-drive-in-windows-7/</link>
+      <pubDate>Tue, 26 May 2009 00:42:10 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/26/moving-your-precious-user-profile-and-documents-to-another-folder-on-another-drive-in-windows-7/</guid>
+      <description>One of the things I learned long ago was to always have more than 1 drive or have my single drive partitioned. You keep your programs and operating system on the C drive. On your D drive goes all your data, downloads and anything that you don&amp;rsquo;t want to vanish on you suddenly. A couple of advantages of this are:  This keeps the C drive quite lean if you want to make an image of it.</description>
+    </item>
+    
+  </channel>
+</rss>

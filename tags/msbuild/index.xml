@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Msbuild on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/msbuild/</link>
+    <description>Recent content in Msbuild on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Jul 2011 14:20:40 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/msbuild/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debugging MSBuild scripts</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/07/28/debugging-msbuild-scripts/</link>
+      <pubDate>Thu, 28 Jul 2011 14:20:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/07/28/debugging-msbuild-scripts/</guid>
+      <description>If you want to debug an MSBuild script from without Visual Studio, you need to use the /debug command line option.
+The trick is that this option is not normally available; you need to set a registry key to enable it.
+Enable the MSBuild Debugger Under the HKLMSoftwareMicrosoftMSBuild4.0 key, create a string value called EnableDebugger with a value of “true”.
+If you’re on a 64 bit system, you’ll also want to set the same value under the key HKLMSoftwareWow6432NodeMicrosoftMSBuild4.</description>
+    </item>
+    
+  </channel>
+</rss>

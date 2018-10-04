@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entertainment on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/categories/entertainment/</link>
+    <description>Recent content in Entertainment on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Jan 2012 09:49:25 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/categories/entertainment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating a machine account login for SQL Server</title>
+      <link>http://www.sadrobot.co.nz/blog/2012/01/27/creating-a-machine-account-login-for-sql-server/</link>
+      <pubDate>Fri, 27 Jan 2012 09:49:25 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2012/01/27/creating-a-machine-account-login-for-sql-server/</guid>
+      <description>You can create a machine account login for SQL Server with the following command:
+CREATE&amp;#160;USER&amp;#160;[MACHINENAME]&amp;#160;FOR&amp;#160;LOGIN&amp;#160;[DOMAIN\MACHINENAME$]&amp;#160;WITH&amp;#160;DEFAULT_SCHEMA=[dbo]  </description>
+    </item>
+    
+    <item>
+      <title>Generating a type library for Visual Basic 6 ActiveX Components</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/07/18/generating-a-type-library-for-visual-basic-6-activex-components/</link>
+      <pubDate>Mon, 18 Jul 2011 14:12:27 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/07/18/generating-a-type-library-for-visual-basic-6-activex-components/</guid>
+      <description>When generating setup code or isolation code (for Side by Side assemblies and Registration-free COM), VB6 ActiveX Components can be a little troublesome.
+ActiveX exes in particular can be difficult, with the WiX heat tool and various SxS tools not being able to harvest COM registration information from them properly.
+A good way of avoiding these problems is to generate a type library (.tlb) from the VB6 component, and then pointing the code generation tools at the type library.</description>
+    </item>
+    
+    <item>
+      <title>When System.Diagnostics.Process creates a process, it inherits inheritable handles from the parent process.</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/06/21/when-system-diagnostics-process-creates-a-process-it-inherits-inheritable-handles-from-the-parent-process/</link>
+      <pubDate>Tue, 21 Jun 2011 16:06:13 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/06/21/when-system-diagnostics-process-creates-a-process-it-inherits-inheritable-handles-from-the-parent-process/</guid>
+      <description>This post covers the cause of a bug I ran into at work.
+Our application would check for available updates when it started, and if they were found, it would launch the installer directly and exit the application immediately, so that the installer could run without encountering file locks.
+The installer was complaining our executable was still locked, meaning it had to schedule the overwrite of the old file with the new one after a reboot.</description>
+    </item>
+    
+    <item>
+      <title>.NET Decompilers</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/06/20/net-decompilers/</link>
+      <pubDate>Mon, 20 Jun 2011 14:55:03 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/06/20/net-decompilers/</guid>
+      <description>Reflector history The de facto .NET decompiler has been Reflector for what seems like forever.
+Reflector was originally developed by Lutz Roeder, and made freely available to the community.
+It was acquired by Red Gate Software in August 2008, who promised to maintain it as a free product.
+They reneged on this promise in February 2011, stating that Reflector would become a commercial product.
+This created a community backlash, culminating in creation and/or promotion of several free rival products through open source or offered by other vendors.</description>
+    </item>
+    
+    <item>
+      <title>How to check if the current user is an Administrator (even if UAC is on)</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/06/20/how-to-check-if-the-current-user-is-an-administrator-even-if-uac-is-on/</link>
+      <pubDate>Mon, 20 Jun 2011 11:23:47 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/06/20/how-to-check-if-the-current-user-is-an-administrator-even-if-uac-is-on/</guid>
+      <description>There may be a scenario where you want to determine from code if the current user is an Administrator.
+One example of this which I have had to deal with is checking for software updates.
+Say your application contacts a service to see if there is a newer version of the application available; if so, you can download and run the installer.
+Imagine that the installer requires admin privileges; you don’t want to run the installer if the current user does not have administrative privileges.</description>
+    </item>
+    
+    <item>
+      <title>Swiss ball trick</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/25/swiss-ball-trick/</link>
+      <pubDate>Mon, 25 May 2009 21:40:35 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/25/swiss-ball-trick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bouncer Win</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/04/15/bouncer-win/</link>
+      <pubDate>Wed, 15 Apr 2009 21:38:56 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/04/15/bouncer-win/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Play him off, Keyboard Cat</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/04/15/play-him-off-keyboard-cat/</link>
+      <pubDate>Wed, 15 Apr 2009 18:24:10 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/04/15/play-him-off-keyboard-cat/</guid>
+      <description>Introducing Keyboard Cat Play them off, Keyboard Cat This one&amp;rsquo;s pretty brutal, I&amp;rsquo;m going to hell:</description>
+    </item>
+    
+    <item>
+      <title>For people who&amp;#226;&amp;#8364;&amp;#8482;ve read Watchmen the &amp;#226;&amp;#8364;&amp;#339;graphic novel&amp;#226;&amp;#8364; and watched the movie</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/03/06/for-people-whove-read-watchmen-the-graphic-novel-and-watched-the-movie/</link>
+      <pubDate>Fri, 06 Mar 2009 00:31:38 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/03/06/for-people-whove-read-watchmen-the-graphic-novel-and-watched-the-movie/</guid>
+      <description>Otherwise, spoilers!</description>
+    </item>
+    
+    <item>
+      <title>Sleep walking dog&amp;#226;&amp;#8364;&amp;#166; or should that be sleep running?</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/28/sleep-walking-dog-or-should-that-be-sleep-running/</link>
+      <pubDate>Sat, 28 Feb 2009 14:23:15 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/28/sleep-walking-dog-or-should-that-be-sleep-running/</guid>
+      <description>If you&amp;rsquo;ve had a dog you&amp;rsquo;ll know how they often twitch and move their limbs in their sleep. Well, this dog is like that but on a whole other level. Must have scared the crap out of the owners the first time she did this. How about sleep barking? Sleep running in circles Imagine if the dog was narcoleptic too</description>
+    </item>
+    
+    <item>
+      <title>Where&amp;#226;&amp;#8364;&amp;#8482;d I get my bag?</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/27/whered-i-get-my-bag/</link>
+      <pubDate>Fri, 27 Feb 2009 13:08:02 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/27/whered-i-get-my-bag/</guid>
+      <description>Land for Bags, of course!</description>
+    </item>
+    
+    <item>
+      <title>Back to the Future Alternate Ending</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/25/back-to-the-future-alternate-ending/</link>
+      <pubDate>Wed, 25 Feb 2009 09:09:41 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/25/back-to-the-future-alternate-ending/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compilation of 2008 Viral Videos</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/12/12/compilation-of-2008-viral-videos/</link>
+      <pubDate>Fri, 12 Dec 2008 09:36:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/12/12/compilation-of-2008-viral-videos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>20 of the best optical illusions</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/11/26/20-of-the-best-optical-illusions/</link>
+      <pubDate>Wed, 26 Nov 2008 17:18:43 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/11/26/20-of-the-best-optical-illusions/</guid>
+      <description>20 Top Optical Illusions [Telegraph.co.uk]
+Some I haven&amp;rsquo;t seen before, and some of the most famous. Trippy!
+[](http://www.telegraph.co.uk/telegraph/multimedia/archive/01120/illusionone_1120795i.jpg)</description>
+    </item>
+    
+    <item>
+      <title>Bruce Lee &#43; nunchaku &#43; ping pong = win</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/11/21/bruce-lee-nunchaku-ping-pong-win/</link>
+      <pubDate>Fri, 21 Nov 2008 22:19:09 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/11/21/bruce-lee-nunchaku-ping-pong-win/</guid>
+      <description>A Bruce Lee edition N96. How cool is that?</description>
+    </item>
+    
+    <item>
+      <title>Om Nom Nom!</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/21/om-nom-nom/</link>
+      <pubDate>Tue, 21 Oct 2008 19:31:15 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/21/om-nom-nom/</guid>
+      <description>I was wandering around Chiswick a few weeks back and came upon a tree that made me lol and immediately think &amp;ldquo;OM NOM NOM!&amp;rdquo;. So I has made om nom nom pictar!</description>
+    </item>
+    
+    <item>
+      <title>Digg Reel presents the best viral videos of the week</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/12/digg-reel-presents-the-best-viral-videos-of-the-week/</link>
+      <pubDate>Sun, 12 Oct 2008 22:45:09 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/12/digg-reel-presents-the-best-viral-videos-of-the-week/</guid>
+      <description>The Digg Reel is a show over at &amp;ldquo;Internet Television&amp;rdquo; site Revision 3.
+They find the most popular videos posted on digg.com and package them together in a little hosted show. They even pick out some of the choicest user comments on the videos, reference other videos, and occasionally some pretty terrible but funny special effects and gags of their own.
+While you might already have seen some of the videos during the week if you haven&amp;rsquo;t been hiding under a rock, you&amp;rsquo;ll at least be sure you&amp;rsquo;re not missing out on any of the viral videos of the moment.</description>
+    </item>
+    
+    <item>
+      <title>Clever Lunch Insurance</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/09/21/clever-lunch-insurance/</link>
+      <pubDate>Sun, 21 Sep 2008 19:42:39 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/09/21/clever-lunch-insurance/</guid>
+      <description>I&amp;rsquo;ve never been one to pack a lunch for work, especially sandwiches (MEH @ sandwiches). So noone&amp;rsquo;s ever stolen my lunch from the office fridge, but then I don&amp;rsquo;t know who does those kinds of things.
+Someone&amp;rsquo;s come up with a very simple but effective deterrant: a sealable lunch bag with a mould print on it.Before After
+The makers seem to want to charge money for this, but you can probably make your own very easily.</description>
+    </item>
+    
+    <item>
+      <title>Fucking thing SUCKS</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/07/11/fucking-thing-sucks/</link>
+      <pubDate>Fri, 11 Jul 2008 17:12:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/07/11/fucking-thing-sucks/</guid>
+      <description>You&amp;rsquo;ve probably already seen the infamous Bill O&amp;rsquo;Reilly flips out video. If not, here it is:
+There&amp;rsquo;s some pretty funny remixes of it too.
+Bill O&amp;rsquo;Reilly&amp;rsquo;s Producer
+One of the intriguing things about the original is thinking how people react off camera and deal with the irrate O&amp;rsquo;Reilly. You hear a little bit of the producer on the original, but you still have to wonder how he manages the man day to day, and somehow gets O&amp;rsquo;Reilly to actually finish the piece.</description>
+    </item>
+    
+    <item>
+      <title>You can now disconnect from the Internet</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/07/10/you-can-now-disconnect-from-the-internet/</link>
+      <pubDate>Thu, 10 Jul 2008 12:15:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/07/10/you-can-now-disconnect-from-the-internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Essential lolblogs</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/06/26/essential-lolblogs/</link>
+      <pubDate>Thu, 26 Jun 2008 14:00:12 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/06/26/essential-lolblogs/</guid>
+      <description>You need to add these sites to your feed reader or make sure you check them everyday. Guaranteed to give you a laugh at least once a day, no matter how bad it&amp;rsquo;s going.
+I Has A Hotdog (Funny pics of dogs with captions aka loldogs)
+I Can Has Cheezburger (Funny pics of cats with captions aka lolcats)
+Fail Blog (Funny pictures and videos of epic failure)</description>
+    </item>
+    
+  </channel>
+</rss>

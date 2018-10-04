@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Studio on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/categories/visual-studio/</link>
+    <description>Recent content in Visual Studio on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Oct 2014 18:03:08 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/categories/visual-studio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Walkthrough: Using WinRT libraries from a Windows Desktop application</title>
+      <link>http://www.sadrobot.co.nz/blog/2014/10/17/walkthrough-using-winrt-libraries-from-a-windows-desktop-application/</link>
+      <pubDate>Fri, 17 Oct 2014 18:03:08 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2014/10/17/walkthrough-using-winrt-libraries-from-a-windows-desktop-application/</guid>
+      <description>Summary These are the steps for enabling WinRT libraries from within your Windows Desktop application. A more detailed walkthrough and explanation follows.
+Steps 1) Editing your project file, add the platform target:
+&amp;lt;AutoGenerateBindingRedirects&amp;gt;true&amp;lt;/AutoGenerateBindingRedirects&amp;gt; &amp;lt;TargetPlatformVersion&amp;gt;8.0&amp;lt;/TargetPlatformVersion&amp;gt; &amp;lt;/PropertyGroup&amp;gt; 2) Add the following references:
+&amp;lt;Reference Include=&amp;#34;Windows&amp;#34; /&amp;gt; &amp;lt;Reference Include=&amp;#34;System.Runtime&amp;#34; /&amp;gt; &amp;lt;Reference Include=&amp;#34;System.Runtime.InteropServices.WindowsRuntime&amp;#34; /&amp;gt; &amp;lt;Reference Include=&amp;#34;System.Runtime.WindowsRuntime&amp;#34; /&amp;gt; 3) Load your project properties, and change the platform target from AnyCPU to x64 (or x86 if you&amp;rsquo;re on a 32 bit operating system).</description>
+    </item>
+    
+    <item>
+      <title>Using MSBuild property functions and inline tasks: Example doing performance calculations</title>
+      <link>http://www.sadrobot.co.nz/blog/2014/07/19/using-msbuild-property-functions-and-inline-tasks-example-doing-performance-calculations/</link>
+      <pubDate>Sat, 19 Jul 2014 17:15:50 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2014/07/19/using-msbuild-property-functions-and-inline-tasks-example-doing-performance-calculations/</guid>
+      <description>The Problem User RandDavis on Reddit asked a question about capturing elapsed time of tasks in MSBuild:
+ I&amp;rsquo;m using MSBuild 4.0 (I also have MSBuild.Community.Tasks available). Note that I&amp;rsquo;m new to the syntax involved. All I&amp;rsquo;m trying to do is this: store the current time to a property, run a process, and determine the time that has elapsed. I&amp;rsquo;ve managed to write System.DateTime.Now to a property, but I don&amp;rsquo;t know how to do a simple datediff or construct a TimeSpan, so that I can get at what I&amp;rsquo;m looking for.</description>
+    </item>
+    
+    <item>
+      <title>Visual Basic 6 project extension for Visual Studio</title>
+      <link>http://www.sadrobot.co.nz/blog/2014/01/23/visual-basic-6-project-extension-for-visual-studio/</link>
+      <pubDate>Thu, 23 Jan 2014 11:14:13 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2014/01/23/visual-basic-6-project-extension-for-visual-studio/</guid>
+      <description>I’ve just published a new release of my Visual Studio extension that allows converting VB6 projects to a project that can be loaded and built in Visual Studio.
+Download Visual Basic 6X from the Visual Studio Gallery
+Project Homepage</description>
+    </item>
+    
+  </channel>
+</rss>

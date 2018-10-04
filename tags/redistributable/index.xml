@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redistributable on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/redistributable/</link>
+    <description>Recent content in Redistributable on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Jun 2010 17:09:49 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/redistributable/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HOW TO: Detect if the Visual C&#43;&#43; 2010 redistributable package is installed with WiX</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/06/30/how-to-detect-if-the-visual-c-2010-redistributable-package-is-installed-with-wix-2/</link>
+      <pubDate>Wed, 30 Jun 2010 17:09:49 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/06/30/how-to-detect-if-the-visual-c-2010-redistributable-package-is-installed-with-wix-2/</guid>
+      <description>As noted by Aaron Stebner, there is now a registry key you can search for to detect if the Visual C++ 2010 redistributable package is installed a machine, when installing your application.
+There are 3 different (but very similar) registry keys for each of the 3 platform packages. Each key has a DWORD value called &amp;ldquo;Installed&amp;rdquo; with a value of 1.
+ HKLMSOFTWAREMicrosoftVisualStudio10.0VCVCRedistx86 HKLMSOFTWAREMicrosoftVisualStudio10.0VCVCRedistx64 HKLMSOFTWAREMicrosoftVisualStudio10.0VCVCRedistia64  Here&amp;rsquo;s an example of using this in WiX, detecting the presence of the x86 version of the redistributable:</description>
+    </item>
+    
+  </channel>
+</rss>

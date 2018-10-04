@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/microsoft/</link>
+    <description>Recent content in Microsoft on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Nov 2009 22:38:24 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Free Anti-Virus: Microsoft Security Essentials</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/11/23/free-anti-virus-microsoft-security-essentials/</link>
+      <pubDate>Mon, 23 Nov 2009 22:38:24 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/11/23/free-anti-virus-microsoft-security-essentials/</guid>
+      <description>Microsoft Security Essentials is a free anti-virus program. All of the free anti-virus programs out there have usually pretty quickly fallen out of favour with me, in particular the previous community darling AVGFree. Having a free option from Microsoft, that performs extremely well with minimal resource usage, is a boon. For privacy reasons, you might want to opt out of the Microsoft SpyNet. Opting out is a very manual process though, with instructions here Download Microsoft Security Essentials</description>
+    </item>
+    
+    <item>
+      <title>Microsoft ASP.NET MVC goes to Beta</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/17/microsoft-aspnet-mvc-goes-to-beta/</link>
+      <pubDate>Fri, 17 Oct 2008 11:22:03 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/17/microsoft-aspnet-mvc-goes-to-beta/</guid>
+      <description>I&amp;rsquo;m currently using ASP.NET MVC to build the next-gen version of my CMS/App Framework Orange.
+I&amp;rsquo;ve been using CodePlex community builds, but MVC has finally gone to Beta. I&amp;rsquo;m just now in the process of fixing my code to go with the minor breaking changes in the beta.
+I&amp;rsquo;m really liking many things about MVC so far, but a review of MVC is another blog post for the future.
+Download ASP.</description>
+    </item>
+    
+    <item>
+      <title>You can now disconnect from the Internet</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/07/10/you-can-now-disconnect-from-the-internet/</link>
+      <pubDate>Thu, 10 Jul 2008 12:15:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/07/10/you-can-now-disconnect-from-the-internet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

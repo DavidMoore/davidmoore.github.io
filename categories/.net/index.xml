@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>.Net on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/categories/.net/</link>
+    <description>Recent content in .Net on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Oct 2014 18:03:08 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/categories/.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Walkthrough: Using WinRT libraries from a Windows Desktop application</title>
+      <link>http://www.sadrobot.co.nz/blog/2014/10/17/walkthrough-using-winrt-libraries-from-a-windows-desktop-application/</link>
+      <pubDate>Fri, 17 Oct 2014 18:03:08 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2014/10/17/walkthrough-using-winrt-libraries-from-a-windows-desktop-application/</guid>
+      <description>Summary These are the steps for enabling WinRT libraries from within your Windows Desktop application. A more detailed walkthrough and explanation follows.
+Steps 1) Editing your project file, add the platform target:
+&amp;lt;AutoGenerateBindingRedirects&amp;gt;true&amp;lt;/AutoGenerateBindingRedirects&amp;gt; &amp;lt;TargetPlatformVersion&amp;gt;8.0&amp;lt;/TargetPlatformVersion&amp;gt; &amp;lt;/PropertyGroup&amp;gt; 2) Add the following references:
+&amp;lt;Reference Include=&amp;#34;Windows&amp;#34; /&amp;gt; &amp;lt;Reference Include=&amp;#34;System.Runtime&amp;#34; /&amp;gt; &amp;lt;Reference Include=&amp;#34;System.Runtime.InteropServices.WindowsRuntime&amp;#34; /&amp;gt; &amp;lt;Reference Include=&amp;#34;System.Runtime.WindowsRuntime&amp;#34; /&amp;gt; 3) Load your project properties, and change the platform target from AnyCPU to x64 (or x86 if you&amp;rsquo;re on a 32 bit operating system).</description>
+    </item>
+    
+    <item>
+      <title>Using MSBuild property functions and inline tasks: Example doing performance calculations</title>
+      <link>http://www.sadrobot.co.nz/blog/2014/07/19/using-msbuild-property-functions-and-inline-tasks-example-doing-performance-calculations/</link>
+      <pubDate>Sat, 19 Jul 2014 17:15:50 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2014/07/19/using-msbuild-property-functions-and-inline-tasks-example-doing-performance-calculations/</guid>
+      <description>The Problem User RandDavis on Reddit asked a question about capturing elapsed time of tasks in MSBuild:
+ I&amp;rsquo;m using MSBuild 4.0 (I also have MSBuild.Community.Tasks available). Note that I&amp;rsquo;m new to the syntax involved. All I&amp;rsquo;m trying to do is this: store the current time to a property, run a process, and determine the time that has elapsed. I&amp;rsquo;ve managed to write System.DateTime.Now to a property, but I don&amp;rsquo;t know how to do a simple datediff or construct a TimeSpan, so that I can get at what I&amp;rsquo;m looking for.</description>
+    </item>
+    
+    <item>
+      <title>Deleting and purging items from Team Foundation Server</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/08/08/deleting-and-purging-items-from-team-foundation-server/</link>
+      <pubDate>Mon, 08 Aug 2011 11:32:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/08/08/deleting-and-purging-items-from-team-foundation-server/</guid>
+      <description>When you delete an item from TFS, it’s not actually permanently gone.
+You can view deleted items by going to Tools &amp;gt; Options &amp;gt; Source Control &amp;gt; Visual Studio Team Foundation Server and checking the Show deleted items in the Source Control Explorer option:
+
+You can then see folders and files that have been deleted, which allows you to right click on them to choose Undelete (or go to File &amp;gt; Source Control &amp;gt; Undelete).</description>
+    </item>
+    
+    <item>
+      <title>Debugging MSBuild scripts</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/07/28/debugging-msbuild-scripts/</link>
+      <pubDate>Thu, 28 Jul 2011 14:20:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/07/28/debugging-msbuild-scripts/</guid>
+      <description>If you want to debug an MSBuild script from without Visual Studio, you need to use the /debug command line option.
+The trick is that this option is not normally available; you need to set a registry key to enable it.
+Enable the MSBuild Debugger Under the HKLMSoftwareMicrosoftMSBuild4.0 key, create a string value called EnableDebugger with a value of “true”.
+If you’re on a 64 bit system, you’ll also want to set the same value under the key HKLMSoftwareWow6432NodeMicrosoftMSBuild4.</description>
+    </item>
+    
+    <item>
+      <title>Error building project when referencing native assembly dependency in app.manifest</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/01/14/error-building-project-when-referencing-native-assembly-dependency-in-app-manifest/</link>
+      <pubDate>Fri, 14 Jan 2011 08:45:38 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/01/14/error-building-project-when-referencing-native-assembly-dependency-in-app-manifest/</guid>
+      <description>If you&amp;rsquo;re using an app.manifest, and defining assembly dependencies (i.e. for SxS / Side by side / Reg-free COM etc), you may encounter this error when you build the project:
+Could not find file &#39;AssemblyName, Version=x.x.x.x, PublicKeyToken=xxxxxxxxxxx, ProcessorArchitecture=x86, Type=win32&amp;#8242;. This is even when the native assembly is in place where the project can find it.
+Example For example, your app.manifest may contain this fragment:
+dependencydependentAssembly
+assemblyIdentityname=&#34;Native.Custom&#34;version=&#34;1.0.0.0&#34;processorArchitecture=&#34;x86&#34;type=&#34;win32&#34;publicKeyToken=&#34;12345678&#34;/
+dependentAssembly
+dependency This manifest is available to the project, with the manifest file in the project directory or in a subdirectory called &amp;ldquo;Native.</description>
+    </item>
+    
+    <item>
+      <title>Running .NET 2 Runtime applications under the .NET 4 Runtime</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/12/17/running-net-2-runtime-applications-under-the-net-4-runtime/</link>
+      <pubDate>Fri, 17 Dec 2010 09:38:31 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/12/17/running-net-2-runtime-applications-under-the-net-4-runtime/</guid>
+      <description>In some situations, you might want to run a .NET 2 Runtime application (.NET 2, 3.0, 3.5 SP1 etc) under the .NET 4 Runtime &amp;#8211; without recompiling.
+You can configure your app to execute under the .NET 4 runtime by adding these lines to the executable&amp;rsquo;s configuration file, under the root � configuration element:
+&amp;lt;startup&amp;gt; &amp;lt;supportedRuntimeversion=&#34;v4.0&#34;sku=&#34;.NETFramework,Version=v4.0&#34;/&amp;gt; &amp;lt;/startup&amp;gt; Because the security framework has changed in the .NET 4 runtime, you will likely encounter some exceptions containing a message similar to:</description>
+    </item>
+    
+    <item>
+      <title>Dependency Property ReSharper Live Template</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/07/06/dependency-property-resharper-live-template/</link>
+      <pubDate>Tue, 06 Jul 2010 22:30:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/07/06/dependency-property-resharper-live-template/</guid>
+      <description>Dependency Property ReSharper Live Template
+Don’t you love Dependency Properties?
+After the ease of automatic properties though, dependency properties are a chore to define.
+If you’ve got ReSharper (if not, why not?), I’ve got a simple Live Template you can use to create your dependency properties.
+I’ve set it up to use the dp keyword.
+Here it is in use. Typing dp first to pop up the template:
+
+Hitting tab or enter will run the template, with the name macro already selected:</description>
+    </item>
+    
+    <item>
+      <title>HOW TO: Detect if the Visual C&#43;&#43; 2010 redistributable package is installed with WiX</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/06/30/how-to-detect-if-the-visual-c-2010-redistributable-package-is-installed-with-wix-2/</link>
+      <pubDate>Wed, 30 Jun 2010 17:09:49 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/06/30/how-to-detect-if-the-visual-c-2010-redistributable-package-is-installed-with-wix-2/</guid>
+      <description>As noted by Aaron Stebner, there is now a registry key you can search for to detect if the Visual C++ 2010 redistributable package is installed a machine, when installing your application.
+There are 3 different (but very similar) registry keys for each of the 3 platform packages. Each key has a DWORD value called &amp;ldquo;Installed&amp;rdquo; with a value of 1.
+ HKLMSOFTWAREMicrosoftVisualStudio10.0VCVCRedistx86 HKLMSOFTWAREMicrosoftVisualStudio10.0VCVCRedistx64 HKLMSOFTWAREMicrosoftVisualStudio10.0VCVCRedistia64  Here&amp;rsquo;s an example of using this in WiX, detecting the presence of the x86 version of the redistributable:</description>
+    </item>
+    
+    <item>
+      <title>HOW TO: Debug a Windows Installer custom action</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/06/28/how-to-debug-a-windows-installer-custom-action/</link>
+      <pubDate>Mon, 28 Jun 2010 10:53:58 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/06/28/how-to-debug-a-windows-installer-custom-action/</guid>
+      <description>Prerequisites:  Determine the name of the custom action you want to debug Ensure you have the source code and debug symbols for your custom action  Steps  Set the MsiBreak environment variable (user or system) to the name of the custom action. For example:
+&amp;lt;br /&amp;gt; Setx MsiBreak &amp;lt;strong&amp;gt;MyCustomActionName&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;/strong&amp;gt;
+ Run your installer
+ At the point where your custom action is about to run, you should get this message box prompt:</description>
+    </item>
+    
+    <item>
+      <title>Building Visual Studio 2010 Solutions in Team Foundation Server Build 2008</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/06/22/building-visual-studio-2010-solutions-in-team-foundation-server-build-2008/</link>
+      <pubDate>Tue, 22 Jun 2010 10:02:36 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/06/22/building-visual-studio-2010-solutions-in-team-foundation-server-build-2008/</guid>
+      <description>Visual Studio 2010 and Team Foundation Server 2010 have been out for a while. But what if you still have Team Foundation Server 2008 but want to build Visual Studio 2010 solutions on it?
+You can do so by updating the Team Foundation Build Service configuration to use the latest version of MSBuild that comes with the .NET Framework 4.0.
+ Open up� %Program Files%Microsoft Visual Studio 9.0Common7IDEPrivateAssembliestfsbuildservice.exe.config in a text editor Find the� MSBuildPath property, which will likely be empty, and enter the path to the .</description>
+    </item>
+    
+    <item>
+      <title>Generating GUIDs from Visual Studio 2008</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/09/30/generating-guids-from-visual-studio-2008/</link>
+      <pubDate>Wed, 30 Sep 2009 12:03:22 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/09/30/generating-guids-from-visual-studio-2008/</guid>
+      <description>I find I have to generate GUIDs often (mostly due to using WiX) and the in-built Tools &amp;gt; Create GUID tool is too cumbersome for this. I found a blog post that has a simple macro you can customize to bind a keyboard shortcut to paste in a new GUID Here are some full instructions, using their simple macro code:  Tools &amp;gt; Macros &amp;gt; Macro Explorer (or hit ALT+F8) Right click Macros, choose New Macro Project&amp;#8230; Choose a location for the Macro project and give it a meaningful name then click Add Rename Module1 to something more meaningful, then double-click to edit the module Insert the code to paste a new GUID into the current cursor position / selection:  Public Sub PasteNewGuid() DTE.</description>
+    </item>
+    
+    <item>
+      <title>Unit testing multi-threaded, asynchronous code and/or events</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/06/03/unit-testing-multi-threaded-asynchronous-code-andor-events/</link>
+      <pubDate>Wed, 03 Jun 2009 10:50:15 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/06/03/unit-testing-multi-threaded-asynchronous-code-andor-events/</guid>
+      <description>I&amp;rsquo;ve been writing some unit tests recently that test some multi-threaded functionality. Typically this involves hooking up some event handlers then waiting for some asynchronous code to fire the event before proceeding with the unit test and assertions. The ManualResetEvent class (MSDN) seems a good choice for this, and this post has a small example of using it in a unit test:   [Test()] public void AfterRunAsync() { ManualResetEvent manualEvent = new ManualResetEvent(false); TestTestCase tc = new TestTestCase(1, &amp;ldquo;&amp;rdquo;, 0, 0); bool eventFired = false; tc.</description>
+    </item>
+    
+    <item>
+      <title>Remote debugging from Visual Studio 2008 on a domain machine to a machine not on the domain</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/28/remote-debugging-from-visual-studio-2008-on-a-domain-machine-to-a-machine-not-on-the-domain/</link>
+      <pubDate>Thu, 28 May 2009 17:25:27 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/28/remote-debugging-from-visual-studio-2008-on-a-domain-machine-to-a-machine-not-on-the-domain/</guid>
+      <description>This details how you can debug an application running on a remote machine from Visual Studio on your local machine, as if the remote application was running on your local machine. The keys are:  There must be a user account with the same username and password on the remote machine and the local machine (MACHINE account, not domain account). Visual Studio 2008 Remote Debugger must be installed and running on the remote machine under the user account in point 1  Create local machine account  Right click My Computer &amp;gt; Manage Expand Computer Management &amp;gt; System Tools &amp;gt; Local Users and Groups Right-click Users under Local Users and Groups and choose New User&amp;#8230; Enter in the username e.</description>
+    </item>
+    
+    <item>
+      <title>Could not load file or assembly &amp;#226;&amp;#8364;&amp;#732;x&amp;#226;&amp;#8364;&amp;#8482; or one of its dependencies. Strong name validation failed.</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/26/could-not-load-file-or-assembly-x-or-one-of-its-dependencies-strong-name-validation-failed/</link>
+      <pubDate>Tue, 26 May 2009 15:54:34 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/26/could-not-load-file-or-assembly-x-or-one-of-its-dependencies-strong-name-validation-failed/</guid>
+      <description>In some of the work I&amp;rsquo;m doing right now, I&amp;rsquo;m manipulating an assembly after compile time - having it disassembled into IL, tweaked, then re-compiled back into an assembly. The assembly is signed and what is being done to the assembly is breaking the strong name. This is quite comforting to know; the strong name wouldn&amp;rsquo;t be so strong if it was that easy to hack an assembly with a strong name.</description>
+    </item>
+    
+    <item>
+      <title>Configuring NLog for your application when NLog is in the Global Assembly Cache (GAC)</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/22/configuring-nlog-for-your-application-when-nlog-is-in-the-global-assembly-cache-gac/</link>
+      <pubDate>Fri, 22 May 2009 12:28:23 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/22/configuring-nlog-for-your-application-when-nlog-is-in-the-global-assembly-cache-gac/</guid>
+      <description>If you have several applications that are using NLog, it can be a good idea to install NLog into the GAC and reference that. A gotcha you must watch out for is caused by this piece of configuration from the NLog site:        Because you are not using the strong name for the Assembly-qualified name of ConfigSectionHandler, it&amp;rsquo;s impossible to do a GAC lookup, therefore NLog won&amp;rsquo;t be found and you&amp;rsquo;ll get an application error (even if NLog is actually in the GAC).</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio: Cannot add project to source control; it overlaps a project that is already bound to source control at a lower root</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/21/visual-studio-cannot-add-project-to-source-control-it-overlaps-a-project-that-is-already-bound-to-source-control-at-a-lower-root/</link>
+      <pubDate>Thu, 21 May 2009 16:53:17 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/21/visual-studio-cannot-add-project-to-source-control-it-overlaps-a-project-that-is-already-bound-to-source-control-at-a-lower-root/</guid>
+      <description>I&amp;rsquo;ve been getting this error a bit lately as I trying to add new projects to the solution, and then add them to source control: The project  cannot be added to source control. In folder , it overlaps a project that is already bound to source control at a lower root. To avoid this problem, add the project from a location below the binding root of the other source controlled projects in the solution.</description>
+    </item>
+    
+    <item>
+      <title>You can now disconnect from the Internet</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/07/10/you-can-now-disconnect-from-the-internet/</link>
+      <pubDate>Thu, 10 Jul 2008 12:15:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/07/10/you-can-now-disconnect-from-the-internet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

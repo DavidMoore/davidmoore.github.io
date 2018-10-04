@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User Profile on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/user-profile/</link>
+    <description>Recent content in User Profile on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 May 2009 00:42:10 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/user-profile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Moving your precious user profile and documents to another folder on another drive in Windows 7</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/26/moving-your-precious-user-profile-and-documents-to-another-folder-on-another-drive-in-windows-7/</link>
+      <pubDate>Tue, 26 May 2009 00:42:10 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/26/moving-your-precious-user-profile-and-documents-to-another-folder-on-another-drive-in-windows-7/</guid>
+      <description>One of the things I learned long ago was to always have more than 1 drive or have my single drive partitioned. You keep your programs and operating system on the C drive. On your D drive goes all your data, downloads and anything that you don&amp;rsquo;t want to vanish on you suddenly. A couple of advantages of this are:  This keeps the C drive quite lean if you want to make an image of it.</description>
+    </item>
+    
+  </channel>
+</rss>

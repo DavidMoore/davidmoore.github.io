@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chkdsk on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/chkdsk/</link>
+    <description>Recent content in Chkdsk on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Aug 2011 12:02:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/chkdsk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Manually schedule a disk check at next restart</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/08/04/manually-schedule-a-disk-check-at-next-restart/</link>
+      <pubDate>Thu, 04 Aug 2011 12:02:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/08/04/manually-schedule-a-disk-check-at-next-restart/</guid>
+      <description>You can schedule a chkdsk at reboot time for a drive by using the Windows command line utility fsutil.
+You do this by setting the &amp;ldquo;dirty&amp;rdquo; flag for a drive, which marks the drive for a chkdsk when you next reboot.
+Usage:
+ fsutil dirty query &amp;lt;volume pathname&amp;gt;  e.g.
+ fsutil dirty set C:  You can check if a drive has been marked as dirty by using the query command:</description>
+    </item>
+    
+  </channel>
+</rss>

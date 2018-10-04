@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mvc on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/mvc/</link>
+    <description>Recent content in Mvc on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Oct 2008 11:22:03 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/mvc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Microsoft ASP.NET MVC goes to Beta</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/17/microsoft-aspnet-mvc-goes-to-beta/</link>
+      <pubDate>Fri, 17 Oct 2008 11:22:03 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/17/microsoft-aspnet-mvc-goes-to-beta/</guid>
+      <description>I&amp;rsquo;m currently using ASP.NET MVC to build the next-gen version of my CMS/App Framework Orange.
+I&amp;rsquo;ve been using CodePlex community builds, but MVC has finally gone to Beta. I&amp;rsquo;m just now in the process of fixing my code to go with the minor breaking changes in the beta.
+I&amp;rsquo;m really liking many things about MVC so far, but a review of MVC is another blog post for the future.
+Download ASP.</description>
+    </item>
+    
+  </channel>
+</rss>

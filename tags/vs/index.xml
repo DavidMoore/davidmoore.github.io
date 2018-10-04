@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vs on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/vs/</link>
+    <description>Recent content in Vs on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Sep 2009 12:03:22 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/vs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Generating GUIDs from Visual Studio 2008</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/09/30/generating-guids-from-visual-studio-2008/</link>
+      <pubDate>Wed, 30 Sep 2009 12:03:22 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/09/30/generating-guids-from-visual-studio-2008/</guid>
+      <description>I find I have to generate GUIDs often (mostly due to using WiX) and the in-built Tools &amp;gt; Create GUID tool is too cumbersome for this. I found a blog post that has a simple macro you can customize to bind a keyboard shortcut to paste in a new GUID Here are some full instructions, using their simple macro code:  Tools &amp;gt; Macros &amp;gt; Macro Explorer (or hit ALT+F8) Right click Macros, choose New Macro Project&amp;#8230; Choose a location for the Macro project and give it a meaningful name then click Add Rename Module1 to something more meaningful, then double-click to edit the module Insert the code to paste a new GUID into the current cursor position / selection:  Public Sub PasteNewGuid() DTE.</description>
+    </item>
+    
+    <item>
+      <title>Remote debugging from Visual Studio 2008 on a domain machine to a machine not on the domain</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/28/remote-debugging-from-visual-studio-2008-on-a-domain-machine-to-a-machine-not-on-the-domain/</link>
+      <pubDate>Thu, 28 May 2009 17:25:27 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/28/remote-debugging-from-visual-studio-2008-on-a-domain-machine-to-a-machine-not-on-the-domain/</guid>
+      <description>This details how you can debug an application running on a remote machine from Visual Studio on your local machine, as if the remote application was running on your local machine. The keys are:  There must be a user account with the same username and password on the remote machine and the local machine (MACHINE account, not domain account). Visual Studio 2008 Remote Debugger must be installed and running on the remote machine under the user account in point 1  Create local machine account  Right click My Computer &amp;gt; Manage Expand Computer Management &amp;gt; System Tools &amp;gt; Local Users and Groups Right-click Users under Local Users and Groups and choose New User&amp;#8230; Enter in the username e.</description>
+    </item>
+    
+    <item>
+      <title>Visual Studio: Cannot add project to source control; it overlaps a project that is already bound to source control at a lower root</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/21/visual-studio-cannot-add-project-to-source-control-it-overlaps-a-project-that-is-already-bound-to-source-control-at-a-lower-root/</link>
+      <pubDate>Thu, 21 May 2009 16:53:17 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/21/visual-studio-cannot-add-project-to-source-control-it-overlaps-a-project-that-is-already-bound-to-source-control-at-a-lower-root/</guid>
+      <description>I&amp;rsquo;ve been getting this error a bit lately as I trying to add new projects to the solution, and then add them to source control: The project  cannot be added to source control. In folder , it overlaps a project that is already bound to source control at a lower root. To avoid this problem, add the project from a location below the binding root of the other source controlled projects in the solution.</description>
+    </item>
+    
+  </channel>
+</rss>

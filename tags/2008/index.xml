@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2008 on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/2008/</link>
+    <description>Recent content in 2008 on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Sep 2009 12:03:22 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/2008/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Generating GUIDs from Visual Studio 2008</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/09/30/generating-guids-from-visual-studio-2008/</link>
+      <pubDate>Wed, 30 Sep 2009 12:03:22 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/09/30/generating-guids-from-visual-studio-2008/</guid>
+      <description>I find I have to generate GUIDs often (mostly due to using WiX) and the in-built Tools &amp;gt; Create GUID tool is too cumbersome for this. I found a blog post that has a simple macro you can customize to bind a keyboard shortcut to paste in a new GUID Here are some full instructions, using their simple macro code:  Tools &amp;gt; Macros &amp;gt; Macro Explorer (or hit ALT+F8) Right click Macros, choose New Macro Project&amp;#8230; Choose a location for the Macro project and give it a meaningful name then click Add Rename Module1 to something more meaningful, then double-click to edit the module Insert the code to paste a new GUID into the current cursor position / selection:  Public Sub PasteNewGuid() DTE.</description>
+    </item>
+    
+    <item>
+      <title>Compilation of 2008 Viral Videos</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/12/12/compilation-of-2008-viral-videos/</link>
+      <pubDate>Fri, 12 Dec 2008 09:36:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/12/12/compilation-of-2008-viral-videos/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>World of Warcraft: Battle for Azeroth on Sad Robot</title>
+    <title>World of Warcraft on Sad Robot</title>
     <link>http://www.sadrobot.co.nz/games/wow/</link>
-    <description>Recent content in World of Warcraft: Battle for Azeroth on Sad Robot</description>
+    <description>Recent content in World of Warcraft on Sad Robot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 04 Oct 2018 20:14:51 +1300</lastBuildDate>
     
 	<atom:link href="http://www.sadrobot.co.nz/games/wow/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,7 +17,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/dungeon/ataldazar/</guid>
-      <description> Priestess Alun&amp;rsquo;za  Use activate mitigation, perhaps a cooldown, for Gilded Claws Tank her near a Tainted Blood puddle Step into Tainted Blood just before she casts Transfusion Stun and kill Spirits of Gold so they don&amp;rsquo;t absorb Tainted Blood puddles. If there are no more Tainted Blood puddles, it will attack party members. Don&amp;rsquo;t get hit by Corrupted Gold, as it will damage you and debuff you, reducing damage done by 30% for 10 seconds Dispel Molten Gold debuff  Vol&amp;rsquo;kaal  Kill all 3 totems within 6 seconds of each other, or they will heal to full Vol&amp;rsquo;kaal will heal himself while the totems are up, so don&amp;rsquo;t bother DPSing him When the totems are down, Vol&amp;rsquo;kaal&amp;rsquo;s health will decay, but he does 50% more damage and spews out Toxic Pools Interrupt Noxious Stench Tank him along the outside, and keep moving around to dodge the Toxic Pools so you don&amp;rsquo;t run out of room and allow DPS to hit him  Rezan  Use active mitigation and/or cooldowns when hit by Serrated Teeth, as you bleed and take 50% additional physical damage Pick up Reanimated Raptor adds from Ancient Dry Bones piles Run away if Purse is on you, and try to avoid running Rezan through Ancient Dry Bones to reduce adds Tank him near stairs to allow people to LOS Terrifying Visage Healer should be ready to dispel fear from the tank if they can&amp;rsquo;t LOS the fear  Yazma  Use active mitigation and / or cooldowns for Skewer Dodge Echoes of Shad&amp;rsquo;ra, or it will burst and hurt players within 3 yds and drop a pool of Shadowy Remains Non-tanks should move away from Yazma and ideally stack on a marked location when Soulrend is cast, allowing Soulspawn to be stunned / slowed and DPSed down before they reach Yazma If any Soulspawn reaches Yazma, they will add a stacking 21 second debuff that ticks on all party members  </description>
+      <description>Notable Trash  If Dazar&amp;rsquo;ai Confessors get a Bwonsamdi&amp;rsquo;s Mantle cast off, drag trash out of the bubble, as it makes their casts un-interruptible Interrupt Dazar&amp;rsquo;ai Augur&amp;rsquo;s Fiery Enchant (exploding fire circles under party members&amp;rsquo; feet) For Shieldbearers of Zul, use Hammer of Justice or Blinding Light to interrupt their Bulwark of Juju   Priestess Alun&amp;rsquo;za  Use activate mitigation, perhaps a cooldown, for Gilded Claws Tank her near a Tainted Blood puddle Step into Tainted Blood just before she casts Transfusion Stun and kill Spirits of Gold so they don&amp;rsquo;t absorb Tainted Blood puddles.</description>
     </item>
     
     <item>
@@ -47,7 +48,7 @@ ElvUI Updater ElvUI is not available from the Twitch add-on manager, so you norm
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/dungeon/kings-rest/</guid>
-      <description></description>
+      <description> Dazar, The First King  Use Blessing of Spellwarding or Divine Shield to break the fear  </description>
     </item>
     
     <item>
@@ -65,7 +66,7 @@ ElvUI Updater ElvUI is not available from the Twitch add-on manager, so you norm
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/mythicplus/</guid>
-      <description>Mythic+ Affixes    Affix Holy Protection     Necrotic If the tank gets too many stacks, be ready to use Sacrifice and Devotion Aura You can bubble off stacks. Spellwarding can&amp;rsquo;t remove stacks, but will prevent new stacks from being applied and allow the existing stacks to drop off.    References Holy Paladin Mythic+ Guide: https://docs.google.com/document/d/1QcknG-1E-ZZRupIGOlA0A3-5WCwI1KnXotLkTjCtA_E Mythic+ Dungeon Guides: https://questionablyepic.com/mythic-plus/</description>
+      <description>Loot  Weekly Chest contains 1 item Azerite pieces only drop from the Weekly Chest No gear or talent changes in Mythic+ You can zone out, change gear and/or talents, then zone back in You can now bonus roll for loot in Mythic+     Keystone Level End of Dungeon Weekly Chest Azerite Armor (Weekly Chest)     Mythic 2 345 355 340   Mythic 3 345 355 340   Mythic 4 350 360 355   Mythic 5 355 360 355   Mythic 6 355 365 355   Mythic 7 360 370 370   Mythic 8 365 370 370   Mythic 9 365 375 370   Mythic 10+ 370 380 385    Affix Schedule Affix 1 Affix 2 Affix 3 Fortified Sanguine Necrotic Tyrannical Bursting Skittish Fortified Teeming Quaking Tyrannical Raging Necrotic Fortified Bolstering Skittish Tyrannical Teeming Volcanic Fortified Sanguine Grievous Tyrannical Bolstering Explosive Fortified Bursting Quaking Tyrannical Raging Volcanic Fortified Teeming Explosive Tyrannical Bolstering Grievous</description>
     </item>
     
     <item>
@@ -95,8 +96,7 @@ ElvUI Updater ElvUI is not available from the Twitch add-on manager, so you norm
       
       <guid>http://www.sadrobot.co.nz/games/wow/protection/</guid>
       <description>Stats Item Level &amp;gt; Haste &amp;gt; Mastery &amp;gt;= Versatility &amp;gt; Crit
-Enchants &amp;amp; Gems  Weapon Enchant: Quick Navigation Ring Enchant: Haste Gems: 1 x Strength then Haste  Consumables  Flask: Strength Battle Potion: Potion of Bursting Blood for Single Target, Battle Potion of Strength for Multi-Target Food: Feast or Haste  Trinkets Azerite Traits Defensive Gemhide
-Offensive Rotation Judgement &amp;gt; Avenger&amp;rsquo;s Shield &amp;gt; Hammer of the Righteous</description>
+Enchants &amp;amp; Gems  Weapon Enchant: Quick Navigation Ring Enchant: Haste Gems: 1 x Strength then Haste  Consumables  Flask: Strength Battle Potion: Potion of Bursting Blood for Single Target, Battle Potion of Strength for Multi-Target Food: Feast or Haste  Trinkets Azerite Traits   RankDefensiveOffensive STAOESTAOE OuterMiddleInnerOuterMiddleInnerOuterMiddleInnerOuterMiddleInner   S+ TierGemhideSoaring Shield S TierAblative ShieldingGemhide Inspiring Vanguard x1Inspiring Vanguard Ablative Shielding A TierCrystalline CarapaceCrystalline Carapace Impassive VisageBulwark of Light Meticulous SchemingImpassive Visage TradewindsBulwark of the Masses Bulwark of LightAvenger’s Might Life SpeedTradewinds Shimmering HavenIncite the Pack Blood SiphonBlood Siphon Avenger’s MightLife Speed Shimmering Haven B TierSoaring ShieldAzerite Veins Azerite VeinsResounding Protection Resounding ProtectionMeticulous Scheming Archive of the TitansArchive of the Titans On My WayOn My Way Concentrated MendingUnstable Catalyst Strength in Numbers   Defensive Gemhide</description>
     </item>
     
     <item>
@@ -105,7 +105,7 @@ Offensive Rotation Judgement &amp;gt; Avenger&amp;rsquo;s Shield &amp;gt; Hammer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/uldir/</guid>
-      <description>Loot Levels    Difficulty Item Level     LFR 340   Normal 355   Heroic 370   Mythic 385     Weapons can only Warforge (+5 or +10) Azerite Armor cannot Warforge or Titanforge  Boss Loot  BoEAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution Wrist Haste / Mast Hands Crit / Haste TalocAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution Trinket: +Int, aoe damage proc2H Str Mace Crit/Haste Wrists Vers/Crit Legs: Haste/Mastery MOTHERAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution HeadArchive of the TitansLaser MatrixAzerite VeinsElemental WhirlEphemeral RecoveryResounding ProtectionImpassive VisageInspiring VanguardGrace of the JusticarDivine Right Offhand Crit/Vers Waist Mast/Crit Ring: Crit/Haste Fetid DevourerAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution 1H Axe1H Axe Crit/Vers Hands Crit/Vers Cloak: Haste/Mastery Zek&#39;vozAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution 1H Ver/Mast MaceTrinket: +Str, Damage proc (cone) Legs: Vers/Mastery Feet: Haste/Vers Ring: Mastery/Crit VectisAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution VectisChestArchive of the TitansLaser MatrixStrength In NumbersUnstable FlamesWoundbinderJudicious DefenseBreaking DawnRelentless Inquisitor Shield Crit/VersTrinket: +Int; Active ability adds 3k to next 5 direct heals on target.</description>
+      <description>Loot Levels    Difficulty Item Level     LFR 340   Normal 355   Heroic 370   Mythic 385     Weapons can only Warforge (+5 or +10) Azerite Armor cannot Warforge or Titanforge  Boss Loot  BoEAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution Wrist Haste / Mast Hands Crit / Haste Wing 1 TalocAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution Trinket: +Int, aoe damage proc2H Str Mace Crit/Haste Wrists Vers/Crit Legs: Haste/Mastery MOTHERAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution HeadArchive of the TitansLaser MatrixAzerite VeinsElemental WhirlEphemeral RecoveryResounding ProtectionImpassive VisageInspiring VanguardGrace of the JusticarDivine Right Offhand Crit/Vers Waist Mast/Crit Ring: Crit/Haste Zek&#39;vozAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution 1H Ver/Mast MaceTrinket: +Str, Damage proc (cone) Legs: Vers/Mastery Feet: Haste/Vers Ring: Mastery/Crit Fetid DevourerAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution 1H Axe1H Axe Crit/Vers Hands Crit/Vers Cloak: Haste/Mastery VectisAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution VectisChestArchive of the TitansLaser MatrixStrength In NumbersUnstable FlamesWoundbinderJudicious DefenseBreaking DawnRelentless Inquisitor Shield Crit/VersTrinket: +Int; Active ability adds 3k to next 5 direct heals on target.</description>
     </item>
     
     <item>
@@ -127,7 +127,7 @@ System &amp;gt; Advanced    Setting Description Recommendation     Triple Buffer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/dungeon/shrine-of-the-storm/</guid>
-      <description></description>
+      <description> Notable Trash  Abyss Dwellers: Use Blessing of Spellwarding or Divine Shield to drop stacks or prevent application of Rip Mind  Lord Stormsong  Make sure you have Avenger&amp;rsquo;s Shield ready to interrupt the Void Bolt he will cast immediately after Awaken the Void  </description>
     </item>
     
     <item>
@@ -136,7 +136,7 @@ System &amp;gt; Advanced    Setting Description Recommendation     Triple Buffer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/dungeon/siege-of-boralus/</guid>
-      <description></description>
+      <description> Notable Trash  Bilge Rat Buccaneer: Use Blinding Light to disorient them when they try to cast Banana Rampage Ashvane Invader: Use Divine Shield or Blessing of Spellwarding to drop stacks of Stinging Venom Coating  Sergeant Bainbridge/Chopper Redhook  Blessing of Spellwarding or Divine Shield to immune bombs if they&amp;rsquo;re about to go off  </description>
     </item>
     
     <item>
@@ -145,7 +145,7 @@ System &amp;gt; Advanced    Setting Description Recommendation     Triple Buffer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/dungeon/temple-of-sethraliss/</guid>
-      <description></description>
+      <description> Notable Trash  Faithless Tender: Interrupt Drain  Merektha  Hammer of Justice can free party members from A Knot of Snakes Move adds out of Dust Cloud  Galvazzt  Use Blessing of Spellwarding to soak Galvanize, or Divine Shield to remove stacks if necessary  </description>
     </item>
     
     <item>

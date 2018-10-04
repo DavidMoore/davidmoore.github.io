@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qbasic on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/qbasic/</link>
+    <description>Recent content in Qbasic on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Oct 2014 00:04:10 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/qbasic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GORILLA.BAS, QBasic &amp; Edit</title>
+      <link>http://www.sadrobot.co.nz/blog/2014/10/15/gorilla-bas-qbasic-edit/</link>
+      <pubDate>Wed, 15 Oct 2014 00:04:10 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2014/10/15/gorilla-bas-qbasic-edit/</guid>
+      <description>Nostalgia time!
+Back when I got my first PC, QBasic was part of the operating system.
+I spent hours and hours playing around with QBasic and MS-DOS Editor (or simply edit as we all knew it) to see what graphics and games I could whisk up.
+There was a game that came with QBasic and MS-DOS called Gorillas, which was effectively like Worms and Scorched Earth.
+Look at those mind-blowing graphics!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Database on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/database/</link>
+    <description>Recent content in Database on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Oct 2008 11:39:40 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Finding duplicate rows in the database</title>
+      <link>http://www.sadrobot.co.nz/blog/2008/10/17/finding-duplicate-rows-in-the-database/</link>
+      <pubDate>Fri, 17 Oct 2008 11:39:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2008/10/17/finding-duplicate-rows-in-the-database/</guid>
+      <description>NOTE: This post has been re-visited in Finding duplicated data across one or more columns in a database table
+Information gleaned from Microsoft KB article: How to remove duplicate rows from a table in SQL Server
+When you allow duplicated rows in a database that aren&amp;rsquo;t expected and shouldn&amp;rsquo;t be allowed, it&amp;rsquo;s a flag saying that you need a unique index on the table to prevent duplicate rows to be added in the first place.</description>
+    </item>
+    
+  </channel>
+</rss>

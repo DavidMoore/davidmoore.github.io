@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debug on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/debug/</link>
+    <description>Recent content in Debug on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Jul 2011 14:20:40 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/debug/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debugging MSBuild scripts</title>
+      <link>http://www.sadrobot.co.nz/blog/2011/07/28/debugging-msbuild-scripts/</link>
+      <pubDate>Thu, 28 Jul 2011 14:20:40 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2011/07/28/debugging-msbuild-scripts/</guid>
+      <description>If you want to debug an MSBuild script from without Visual Studio, you need to use the /debug command line option.
+The trick is that this option is not normally available; you need to set a registry key to enable it.
+Enable the MSBuild Debugger Under the HKLMSoftwareMicrosoftMSBuild4.0 key, create a string value called EnableDebugger with a value of “true”.
+If you’re on a 64 bit system, you’ll also want to set the same value under the key HKLMSoftwareWow6432NodeMicrosoftMSBuild4.</description>
+    </item>
+    
+    <item>
+      <title>HOW TO: Debug a Windows Installer custom action</title>
+      <link>http://www.sadrobot.co.nz/blog/2010/06/28/how-to-debug-a-windows-installer-custom-action/</link>
+      <pubDate>Mon, 28 Jun 2010 10:53:58 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2010/06/28/how-to-debug-a-windows-installer-custom-action/</guid>
+      <description>Prerequisites:  Determine the name of the custom action you want to debug Ensure you have the source code and debug symbols for your custom action  Steps  Set the MsiBreak environment variable (user or system) to the name of the custom action. For example:
+&amp;lt;br /&amp;gt; Setx MsiBreak &amp;lt;strong&amp;gt;MyCustomActionName&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;/strong&amp;gt;
+ Run your installer
+ At the point where your custom action is about to run, you should get this message box prompt:</description>
+    </item>
+    
+    <item>
+      <title>Remote debugging from Visual Studio 2008 on a domain machine to a machine not on the domain</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/28/remote-debugging-from-visual-studio-2008-on-a-domain-machine-to-a-machine-not-on-the-domain/</link>
+      <pubDate>Thu, 28 May 2009 17:25:27 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/28/remote-debugging-from-visual-studio-2008-on-a-domain-machine-to-a-machine-not-on-the-domain/</guid>
+      <description>This details how you can debug an application running on a remote machine from Visual Studio on your local machine, as if the remote application was running on your local machine. The keys are:  There must be a user account with the same username and password on the remote machine and the local machine (MACHINE account, not domain account). Visual Studio 2008 Remote Debugger must be installed and running on the remote machine under the user account in point 1  Create local machine account  Right click My Computer &amp;gt; Manage Expand Computer Management &amp;gt; System Tools &amp;gt; Local Users and Groups Right-click Users under Local Users and Groups and choose New User&amp;#8230; Enter in the username e.</description>
+    </item>
+    
+  </channel>
+</rss>
