@@ -11,14 +11,5 @@
 	<atom:link href="http://www.sadrobot.co.nz/games/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/games/tuning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/games/tuning/</guid>
-      <description>Windows NVIDIA &amp;amp; G-Sync  Disable v-sync in NVIDIA Control Panel and In-game (reduce input lag) Enable G-Sync Limit in-game FPS to 3 frames below the max refresh rate of the monitor Max pre-rendered frames: 1 (minimum). If CPU seems to be struggling, try setting to 2 and see if framerate is smoother without introducing input lag. Disable triple-buffering  Power and Sleep settings  Use the High Performance plan if possible Check Processor Power Management  Minimum processor state: 100% System cooling policy: Active Maxmimum processor state: 100%   If you want to use more efficient power settings, you can disable the core parking by using an application such as Park Control</description>
-    </item>
-    
   </channel>
 </rss>

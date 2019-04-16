@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/wiki/windows/</link>
+    <description>Recent content in Windows on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Apr 2019 19:40:44 +1200</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/wiki/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows File Sharing</title>
+      <link>http://www.sadrobot.co.nz/wiki/windows/windows-file-sharing/</link>
+      <pubDate>Fri, 12 Aug 2011 22:20:05 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/windows/windows-file-sharing/</guid>
+      <description>So, you want to share your files on the lan without requiring people to log in or join your Home Group?
+The following instructions are for Windows 7 and the NTFS (default and recommended) file system.
+Turn off Simple File Sharing From the Control Panel, search for Folder Options and open it (or from an Explorer window, go to the menu Organize &amp;gt; Folder and search options
+Go to the View tab</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/windows/bootable-usb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/windows/bootable-usb/</guid>
+      <description>Making a Windows Bootable USB Drive Format the USB drive and make it bootable Replace ? with the letter of your USB Drive below
+diskpart list disk select disk ? clean create partition primary select partition 1 active format fs=ntfs quick label=&amp;quot;Windows Setup&amp;quot; exit  Make it boot Windows 10 Installer Copy over Windows 10 files Use 7-zip to extract the contents of the .iso to the USB drive</description>
+    </item>
+    
+    <item>
+      <title>Windows Maintenance</title>
+      <link>http://www.sadrobot.co.nz/wiki/windows/maintenance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/windows/maintenance/</guid>
+      <description>Deployment Image Servicing and Management tool (DISM) DISM can be used to mount and service a Windows image from a .wim file, .vhd file, or a .vhdx file or, in some cases, to update a running operating system.
+You can use DISM to do various cleanup operations related to installed components, updates and service packs.
+Remove Service Pack backup components after Service Pack installation After installing a Service Pack, you can clean up backed up components:</description>
+    </item>
+    
+  </channel>
+</rss>

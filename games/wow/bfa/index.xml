@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>World of Warcraft: Battle for Azeroth on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/games/wow/bfa/</link>
+    <description>Recent content in World of Warcraft: Battle for Azeroth on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Apr 2019 19:41:07 +1200</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/games/wow/bfa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mythic&#43;</title>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/mythicplus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/mythicplus/</guid>
+      <description>Titan Residuum You can only acquire Titan Residuum from:
+ Your weekly Mythic+ chest Scrapping epic Azerite pieces (not blues or greens) Island Expedition weekly that returns Titan Residdum  Azerite pieces can be scrapped for Titan Residuum for the following amounts:
+   Level Titan Residuum     340 1   355 3   370 12   385 35   400 115   415 365    Loot  Weekly Chest contains 1 item Azerite pieces cannot be obtained from Mythic+ except by purchasing with Titan Residuum You can now bonus roll for loot when completing a Mythic+ Loot can Warforge up to +10, and Titanforge from +15 up to a total maximum item level of +425     Keystone Level Scaling End of Dungeon Weekly Chest Titan Residuum (Weekly Chest)     2 (Fort/Tyr) 0% 375 380 15   3 8% 375 385 20   4 (Affix 1) 17% 380 390 60   5 26% 385 390 70   6 36% 385 395 80   7 (Affix 2) 47% 390 400 195   8 59% 395 400 205   9 71% 395 405 215   10+ (Seasonal Affix) 85% 400 410 625   11 100% 400 410 667   12 116% 400 410 709   13 133% 400 410 751   14 152% 400 410 793   15 172% 400 410 835   16 194% 400 410 866   17 217% 400 410 897   18 243% 400 410 928   19 270% 400 410 959   20 300% 400 410 990   21 332% 400 410 1010   22 366% 400 410 1030   23 403% 400 410 1050   24 444% 400 410 1070   25 487% 400 410 1090   26 534% 400 410 ?</description>
+    </item>
+    
+    <item>
+      <title>Paladin Macros</title>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/macros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/macros/</guid>
+      <description>Avenger&amp;rsquo;s Shield Casts at mouseover enemy, focus target enemy or current target If you&amp;rsquo;re in PvP and holding CTRL, then enable Shield of Virtue (AOE silence) before throwing shield
+ #showtooltip Avenger&#39;s Shield /cast [mod:ctrl] Shield of Virtue /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead]Avenger&#39;s Shield  Rebuke Kick / interrupt your mouseover target, focus target or selected target (in that priority order)
+ #showtooltip Rebuke /stopcasting /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead] Rebuke  Judgment Judges your mouseover target if they&amp;rsquo;re an enemy, enemy focus target or finally your target.</description>
+    </item>
+    
+    <item>
+      <title>Paladin PvP Guide</title>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/pvp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/pvp/</guid>
+      <description> References    Name Description Authors Updated     Skillcapped Paladin PvP Guide       </description>
+    </item>
+    
+    <item>
+      <title>Protection Paladin</title>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/protection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/protection/</guid>
+      <description>Stats Item Level &amp;gt; Haste &amp;gt; Mastery &amp;gt;= Versatility &amp;gt; Crit
+Enchants &amp;amp; Gems  Weapon Enchant: Quick Navigation Ring Enchant: Haste Gems: 1 x Strength then Haste  Consumables  Flask: Strength Battle Potion: Potion of Bursting Blood for Single Target, Battle Potion of Strength for Multi-Target Food: Feast or Haste  Trinkets Azerite Traits   RankDefensiveOffensive STAOESTAOE OuterMiddleInnerOuterMiddleInnerOuterMiddleInnerOuterMiddleInner   S+ TierGemhideSoaring Shield S TierAblative ShieldingGemhide Inspiring Vanguard x1Inspiring Vanguard Ablative Shielding A TierCrystalline CarapaceCrystalline Carapace Impassive VisageBulwark of Light Meticulous SchemingImpassive Visage TradewindsBulwark of the Masses Bulwark of LightAvenger’s Might Life SpeedTradewinds Shimmering HavenIncite the Pack Blood SiphonBlood Siphon Avenger’s MightLife Speed Shimmering Haven B TierSoaring ShieldAzerite Veins Azerite VeinsResounding Protection Resounding ProtectionMeticulous Scheming Archive of the TitansArchive of the Titans On My WayOn My Way Concentrated MendingUnstable Catalyst Strength in Numbers   Defensive Gemhide</description>
+    </item>
+    
+    <item>
+      <title>Raid: Uldir</title>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/raid/uldir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/raid/uldir/</guid>
+      <description>Loot Levels    Difficulty Item Level     LFR 340   Normal 355   Heroic 370   Mythic 385     Weapons can only Warforge (+5 or +10) Azerite Armor cannot Warforge or Titanforge  Boss Loot  BoEAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution Wrist Haste / Mast Hands Crit / Haste Wing 1 TalocAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution Trinket: +Int, aoe damage proc2H Str Mace Crit/Haste Wrists Vers/Crit Legs: Haste/Mastery MOTHERAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution HeadArchive of the TitansLaser MatrixAzerite VeinsElemental WhirlEphemeral RecoveryResounding ProtectionImpassive VisageInspiring VanguardGrace of the JusticarDivine Right Offhand Crit/Vers Waist Mast/Crit Ring: Crit/Haste Zek&#39;vozAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution 1H Ver/Mast MaceTrinket: +Str, Damage proc (cone) Legs: Vers/Mastery Feet: Haste/Vers Ring: Mastery/Crit Fetid DevourerAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution 1H Axe1H Axe Crit/Vers Hands Crit/Vers Cloak: Haste/Mastery VectisAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution VectisChestArchive of the TitansLaser MatrixStrength In NumbersUnstable FlamesWoundbinderJudicious DefenseBreaking DawnRelentless Inquisitor Shield Crit/VersTrinket: +Int; Active ability adds 3k to next 5 direct heals on target.</description>
+    </item>
+    
+  </channel>
+</rss>

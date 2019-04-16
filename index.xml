@@ -23,6 +23,30 @@ Wolfram|Alpha API Homepage</description>
     </item>
     
     <item>
+      <title>ElvUI Updater</title>
+      <link>http://www.sadrobot.co.nz/games/wow/elvui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/elvui/</guid>
+      <description>Download Latest Version: https://github.com/DavidMoore/ElvUI.Updater/releases/download/0.9.1/Setup.exe
+ Releases: https://github.com/DavidMoore/ElvUI.Updater/releases/latest Support: https://github.com/DavidMoore/ElvUI.Updater/issues  What is ElvUI? ElvUI is a beautiful, minimalist, highly customizable user interface suite for World of Warcraft.
+I have been using ElvUI for a few years now, and would recommend it to newcomers or veterans.
+You can find out more about ElvUI here: https://www.tukui.org/download.php?ui=elvui
+ElvUI Updater ElvUI is not available from the Twitch add-on manager, so you normally have to download and update it yourself.</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/async/async/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/async/async/</guid>
+      <description>Asynchronous Programming Model (APM): C# 1.0 / .NET 1.0 Style Legacy model using the IAsyncResult pattern.
+Asynchronous calls are made using Begin and End methods on an API, with callbacks and state being passed between them.
+public class MyClass { public IAsyncResult BeginRead( byte[] buffer, int offset, int count, AsyncCallback callback, object state); public int EndRead(IAsyncResult asyncResult); } Exception handling Exceptions can be thrown from BeginRead (such as trying to read from a stream that has already been closed).</description>
+    </item>
+    
+    <item>
       <title>SQL Operations Studio</title>
       <link>http://www.sadrobot.co.nz/blog/2018/01/14/sql-operations-studio/</link>
       <pubDate>Sun, 14 Jan 2018 06:15:00 +0000</pubDate>
@@ -228,12 +252,12 @@ New home: https://ipfilter.codeplex.com/</description>
     </item>
     
     <item>
-      <title>Database</title>
-      <link>http://www.sadrobot.co.nz/wiki/database/</link>
-      <pubDate>Fri, 27 Jan 2012 09:50:40 +0000</pubDate>
+      <title>SQL Server</title>
+      <link>http://www.sadrobot.co.nz/wiki/data/sql/sql-server/</link>
+      <pubDate>Fri, 27 Jan 2012 09:51:31 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/wiki/database/</guid>
-      <description>SQL Server</description>
+      <guid>http://www.sadrobot.co.nz/wiki/data/sql/sql-server/</guid>
+      <description>Creating a machine account login for SQL Server</description>
     </item>
     
     <item>
@@ -264,21 +288,10 @@ Go to the View tab</description>
       <pubDate>Wed, 10 Aug 2011 13:34:41 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/wiki/debugging/debugging-windows-installer-custom-actions-2/</guid>
-      <description>General  First, you must know the name of the custom action you want to debug. In this example we&amp;rsquo;ll call it MyCustomAction. Set the MsiBreak environment variable (user or system) to the name of the custom action. You can do this easily by running setx from the commandline:
- C:WindowsSystem32&amp;gt;setx MsiBreak MyCustomAction&amp;lt;br /&amp;gt; SUCCESS: Specified value was saved.&amp;lt;br /&amp;gt; C:WindowsSystem32&amp;gt;
- Run your installer
-  You should get now get a message box prompt like this:</description>
-    </item>
-    
-    <item>
-      <title>Debugging</title>
-      <link>http://www.sadrobot.co.nz/wiki/debugging/debugging/</link>
-      <pubDate>Wed, 10 Aug 2011 13:29:23 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/debugging/debugging/</guid>
-      <description>Debugging VSTO Add-ins
-Debugging Windows Installer Custom Actions
-Debugging Visual Basic 6</description>
+      <description>General First, you must know the name of the custom action you want to debug. In this example we&amp;rsquo;ll call it MyCustomAction.
+Set the MsiBreak environment variable (user or system) to the name of the custom action. You can do this easily by running setx from the commandline:
+C:\Windows\System32&amp;gt;setx MsiBreak MyCustomAction SUCCESS: Specified value was saved. C:\Windows\System32&amp;gt; Run your installer
+You should get now get a message box prompt like this:</description>
     </item>
     
     <item>
@@ -304,15 +317,6 @@ You do this by setting the &amp;ldquo;dirty&amp;rdquo; flag for a drive, which m
 Usage:
  fsutil dirty query &amp;lt;volume pathname&amp;gt;  e.g.
  fsutil dirty set C:  You can check if a drive has been marked as dirty by using the query command:</description>
-    </item>
-    
-    <item>
-      <title>MSBuild</title>
-      <link>http://www.sadrobot.co.nz/wiki/microsoft/</link>
-      <pubDate>Thu, 28 Jul 2011 14:22:44 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/microsoft/</guid>
-      <description>How Tos Debugging MSBuild Scripts</description>
     </item>
     
     <item>
@@ -397,6 +401,18 @@ dependencydependentAssembly
 assemblyIdentityname=&#34;Native.Custom&#34;version=&#34;1.0.0.0&#34;processorArchitecture=&#34;x86&#34;type=&#34;win32&#34;publicKeyToken=&#34;12345678&#34;/
 dependentAssembly
 dependency This manifest is available to the project, with the manifest file in the project directory or in a subdirectory called &amp;ldquo;Native.</description>
+    </item>
+    
+    <item>
+      <title>Error Codes</title>
+      <link>http://www.sadrobot.co.nz/wiki/debugging/error-codes/</link>
+      <pubDate>Fri, 17 Dec 2010 10:38:15 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/debugging/error-codes/</guid>
+      <description>HRESULT https://msdn.microsoft.com/en-us/library/cc231198.aspx
+The HRESULT numbering space is vendor-extensible. Vendors can supply their own values for this field, as long as the C bit (0x20000000) is set, indicating it is a customer code.
+The HRESULT numbering space has the following internal structure. Any protocol that uses NTSTATUS values on the wire is responsible for stating the order in which the bytes are placed on the wire.
+ S (1 bit): Severity.</description>
     </item>
     
     <item>
@@ -734,7 +750,7 @@ If you don&#39;t know about this incident, read up on it!</description>
       <pubDate>Sat, 28 Feb 2009 10:59:09 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/blog/2009/02/28/finding-duplicated-data-across-one-or-more-columns-in-a-database-table/</guid>
-      <description>A few months ago I posted a little query about finding duplicate rows in a database table. I&amp;rsquo;m revisiting this because I helped out Doogie with a similar query last night but with some complications. Let&amp;rsquo;s start with the original simple scenario of checking duplicates in a single column. Some example data, a Users table: +-&amp;mdash;+-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;mdash;+ | Id | Email | +-&amp;mdash;+-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;mdash;+ | 1 | joe@bloggs.com | | 2 | joe@bloggs.</description>
+      <description>&lt;p&gt;A few months ago I posted a little query about &lt;a title=&#34;Finding duplicate rows in a database table&#34; href=&#34;http://www.sadrobot.co.nz/2008/10/17/finding-duplicate-rows-in-the-database/&#34; target=&#34;\_blank&#34;&gt;finding duplicate rows in a database table&lt;/a&gt;. I&amp;rsquo;m revisiting this because I helped out Doogie with a similar query last night but with some complications. Let&amp;rsquo;s start with the original simple scenario of checking duplicates in a single column. Some example data, a Users table: &lt;pre&gt;+-&amp;mdash;+-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;mdash;+ | Id | Email | +-&amp;mdash;+-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;mdash;+ | 1 | joe@bloggs.com | | 2 | joe@bloggs.com | | 3 | joe@bloggs.com | | 4 | jane@doe.com | | 5 | jane@doe.com | | 6 | john@doe.com | +-&amp;mdash;+-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;ndash;-&amp;mdash;+&lt;/pre&gt; You can see that joe@bloggs.com and jane@doe.com have been duplicated. This could have been prevented by putting a unique index on the Email column. So to find what emails have duplicates in our table:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -778,9 +794,7 @@ If you don&#39;t know about this incident, read up on it!</description>
 
 &lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-77&#34; title=&#34;Normal Thumbnail Resizing Diagram&#34; src=&#34;http://davidmoore.info/wp-content/uploads/2009/02/image-resize-normal.gif&#34; alt=&#34;Normal Thumbnail Resizing Diagram&#34; width=&#34;672&#34; height=&#34;334&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;ve got an algorithm that will automatically crop the image either horizontally or vertically to then match the thumbnail aspect ratio, so you end up with the thumbnails all being the same size even though they may be coming from originals of wildly different aspect ratio.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;I&amp;rsquo;ve got an algorithm that will automatically crop the image either horizontally or vertically to then match the thumbnail aspect ratio, so you end up with the thumbnails all being the same size even though they may be coming from originals of wildly different aspect ratio.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1128,37 +1142,6 @@ Well New Zealand just beat Ireland on the weekend in their first game since the 
     
     <item>
       <title></title>
-      <link>http://www.sadrobot.co.nz/games/tuning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/games/tuning/</guid>
-      <description>Windows NVIDIA &amp;amp; G-Sync  Disable v-sync in NVIDIA Control Panel and In-game (reduce input lag) Enable G-Sync Limit in-game FPS to 3 frames below the max refresh rate of the monitor Max pre-rendered frames: 1 (minimum). If CPU seems to be struggling, try setting to 2 and see if framerate is smoother without introducing input lag. Disable triple-buffering  Power and Sleep settings  Use the High Performance plan if possible Check Processor Power Management  Minimum processor state: 100% System cooling policy: Active Maxmimum processor state: 100%   If you want to use more efficient power settings, you can disable the core parking by using an application such as Park Control</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/wiki/data/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/data/</guid>
-      <description>Data .. toctree:: :titlesonly:
-cassandra</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/wiki/debugging/error-codes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/debugging/error-codes/</guid>
-      <description>Error Codes HRESULT https://msdn.microsoft.com/en-us/library/cc231198.aspx
-The HRESULT numbering space is vendor-extensible. Vendors can supply their own values for this field, as long as the C bit (0x20000000) is set, indicating it is a customer code.
-The HRESULT numbering space has the following internal structure. Any protocol that uses NTSTATUS values on the wire is responsible for stating the order in which the bytes are placed on the wire.
-S (1 bit): Severity.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>http://www.sadrobot.co.nz/wiki/dotnet/wcf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1167,26 +1150,6 @@ S (1 bit): Severity.</description>
 ==Message Exchange Patterns (MEP)==
 The Datagram MEP
  1-way, send and forget May or may not elicit a response, which would require a new connection A datagram MEP is expressed in Web Services Description Language (WSDL) as an operation that contains a wsdl:input element and no wsdl:output elements In WCF, the contract method must have a void return type, and the OperationContract attribute needs IsOneWay set to true  WCF applications that receive datagrams over HTTP send the 202 reply upon receipt of the datagram but before processing the datagram.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/wiki/dotnet/msbuild/async-tasks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/dotnet/msbuild/async-tasks/</guid>
-      <description> Async Tasks You can use async / await:
-public class MyCustomTask : Task { public override bool Execute() { return ExecuteAsync().GetAwaiter().GetResult(); } protected async Task&amp;lt;bool&amp;gt; ExecuteAsync() { // Async / await code goes here // Return the result return true; } }  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/wiki/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/</guid>
-      <description> Developedia Software development reference and knowledge base
-Contents </description>
     </item>
     
     <item>
@@ -1207,43 +1170,7 @@ Contents </description>
       <guid>http://www.sadrobot.co.nz/wiki/sourcecontrol/git/</guid>
       <description>Git Create an empty branch git checkout --orphan &amp;lt;branch&amp;gt; git reset --hard  Clear the working directory git rm --cached -rf .
 Configure for Windows On Windows machine, open up Git Bash
-$ ssh-keygen -t rsa -C &amp;ldquo;David Moore david@digitalgenus.com&amp;ldquo; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/wiki/theory/solid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/theory/solid/</guid>
-      <description>S.O.L.I.D. S.O.L.I.D. aka SOLID stands for:
-S: Single Responsibility Principle aka SRP A class should have a single responsibility.
-O: Open / Closed A class should be open for extension, but closed to modification.
-L: Liskov substitution principle An object should be replaceable with an object of its subtype without breaking the program.
-I: Interface Segregation Principle Many interfaces are desirable over one general-purpose interface
-D: Dependency Injection Principle aka DI Classes should depend on supplied abstractions, instead of concrete implementations.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/wiki/theory/yagni/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/theory/yagni/</guid>
-      <description>YAGNI You Aren&amp;rsquo;t Gonna Need It:
-This originates from eXtreme Programming (XP).
-You should only add functionality until there is a need for that functionality, rather than adding functionality you forsee as being possibly necessary later.
-This helps keep the code base leaner, and allow changing requirements and refactoring.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/wiki/web/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/web/</guid>
-      <description>Web Technologies .. toctree:: :titlesonly:
-javascript/index</description>
+$ ssh-keygen -t rsa -C &amp;#34;David Moore &amp;lt;david@digitalgenus.com&amp;gt;&amp;#34; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/.</description>
     </item>
     
     <item>
@@ -1254,17 +1181,6 @@ javascript/index</description>
       <guid>http://www.sadrobot.co.nz/wiki/windows/bootable-usb/</guid>
       <description>Making a Windows Bootable USB Drive Format the USB drive and make it bootable Replace ? with the letter of your USB Drive below
 diskpart list disk select disk ? clean create partition primary select partition 1 active format fs=ntfs quick label=&amp;quot;Windows Setup&amp;quot; exit  Make it boot Windows 10 Installer Copy over Windows 10 files Use 7-zip to extract the contents of the .iso to the USB drive</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/wiki/windows/maintenance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/windows/maintenance/</guid>
-      <description>Windows Maintenance Deployment Image Servicing and Management tool (DISM) DISM can be used to mount and service a Windows image from a .wim file, .vhd file, or a .vhdx file or, in some cases, to update a running operating system.
-You can use DISM to do various cleanup operations related to installed components, updates and service packs.
-Remove Service Pack backup components after Service Pack installation After installing a Service Pack, you can clean up backed up components:</description>
     </item>
     
     <item>
@@ -1289,23 +1205,45 @@ Inputs Input URIs The input must be resolved to an absolute URI. While the final
     </item>
     
     <item>
-      <title>Ataldazar</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/ataldazar/</link>
+      <title>Async Tasks</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/msbuild/async-tasks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/ataldazar/</guid>
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/msbuild/async-tasks/</guid>
+      <description>Async Tasks You can use async in MSBuild tasks using a pattern like this:
+public class MyCustomTask : Task { public override bool Execute() { return ExecuteAsync().GetAwaiter().GetResult(); } protected async Task&amp;lt;bool&amp;gt; ExecuteAsync() { // Async / await code goes here // Return the result return true; } }  Here, the default Task Execute implementation simply calls an async method (in a synchronous manner obviously).
+This allows you to consume APIs that expose async methods, as the async/await becomes more pervasive.</description>
+    </item>
+    
+    <item>
+      <title>Ataldazar</title>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/ataldazar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/ataldazar/</guid>
       <description>Notable Trash  If Dazar&amp;rsquo;ai Confessors get a Bwonsamdi&amp;rsquo;s Mantle cast off, drag trash out of the bubble, as it makes their casts un-interruptible Interrupt Dazar&amp;rsquo;ai Augur&amp;rsquo;s Fiery Enchant (exploding fire circles under party members&amp;rsquo; feet) For Shieldbearers of Zul, use Hammer of Justice or Blinding Light to interrupt their Bulwark of Juju   Priestess Alun&amp;rsquo;za  Use activate mitigation, perhaps a cooldown, for Gilded Claws Tank her near a Tainted Blood puddle Step into Tainted Blood just before she casts Transfusion Stun and kill Spirits of Gold so they don&amp;rsquo;t absorb Tainted Blood puddles.</description>
     </item>
     
     <item>
       <title>CSharp Async &amp; Await</title>
-      <link>http://www.sadrobot.co.nz/wiki/dotnet/async/</link>
+      <link>http://www.sadrobot.co.nz/wiki/web/javascript/csharp-async-and-await/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/wiki/dotnet/async/</guid>
+      <guid>http://www.sadrobot.co.nz/wiki/web/javascript/csharp-async-and-await/</guid>
       <description>Asynchronous programming in C APM: C# 1.0 / .NET 1.0 Style This is known as the Asynchronous Programming Model (APM) and is associated with the IAsyncResult pattern.
 Asynchronous calls are made using Begin and End methods on an API, with callbacks and state being passed between them.
  Exception handling Exceptions can be thrown from BeginRead (such as trying to read from a stream that has already been closed). Unexpected errors occurring during the async request (e.</description>
+    </item>
+    
+    <item>
+      <title>Cassandra Database</title>
+      <link>http://www.sadrobot.co.nz/wiki/data/cassandra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/data/cassandra/</guid>
+      <description>Concepts    Cassandra SQL     Keyspace Database   Column Family Table   Row Partition   Column Cell       Data Types     text / varchar    Querying across partitions can be slow.
+TTL
+Cassandra Query Language (CQL)  Primary key determines the partition Primary key can be composite, in which case, first part of the primary key determines the partition.</description>
     </item>
     
     <item>
@@ -1314,7 +1252,7 @@ Asynchronous calls are made using Begin and End methods on an API, with callback
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/ipfilter/changelog/</guid>
-      <description> 3.0.0 Beta 1 Fixes  #40 Automatic update fails due to github SSL/TLS restrictions  Changes  Program updates from GitHub Releases Distributing a curated, combined default list available from GitHub Releases page  26 Jan 2010 Changes  Now requires .NET 3.5, and allows mirror selection Zip file support Allows list selection  </description>
+      <description>3.0.0 Beta 2 New  Added initial support for eMule  Improvements  For troubleshooting, a basic log is written to ipfilter.log Downloaded list(s) are now sorted and merged to make the list smaller, more compact and faster to load by P2P clients Applications receive their own copy of the ipfilter.dat, formatted to each application&amp;rsquo;s preferred format  Changes  Now installing to \AppData\Local\Programs\IPFilter (instead of AppData\Local\IPFilter) to follow the established convention for per-user applications The cached ipfilter.</description>
     </item>
     
     <item>
@@ -1344,16 +1282,16 @@ For example in C#, if Cat is a subtype of Animal, then:</description>
     </item>
     
     <item>
-      <title>ElvUI Updater</title>
-      <link>http://www.sadrobot.co.nz/games/wow/elvui/</link>
+      <title>Cross-Origin Resource Sharing (CORS)</title>
+      <link>http://www.sadrobot.co.nz/wiki/web/javascript/cors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/games/wow/elvui/</guid>
-      <description>Download Latest Version: https://github.com/DavidMoore/ElvUI.Updater/releases/download/0.9.1/Setup.exe
- Releases: https://github.com/DavidMoore/ElvUI.Updater/releases/latest Support: https://github.com/DavidMoore/ElvUI.Updater/issues  What is ElvUI? ElvUI is a beautiful, minimalist, highly customizable user interface suite for World of Warcraft.
-I have been using ElvUI for a few years now, and would recommend it to newcomers or veterans.
-You can find out more about ElvUI here: https://www.tukui.org/download.php?ui=elvui
-ElvUI Updater ElvUI is not available from the Twitch add-on manager, so you normally have to download and update it yourself.</description>
+      <guid>http://www.sadrobot.co.nz/wiki/web/javascript/cors/</guid>
+      <description>#Cross-Origin Resource Sharing (CORS)
+What problem does CORS solve? For security reasons, browsers can&amp;rsquo;t make cross-domain requests. They are limited to the same-origin.
+For example, website http://www.foo.com/ cannot access data from http://api.bar.com, because the origin differs (in this case, the domain name).
+Neither can https://www.foo.com access data from http://www.foo.com, because the scheme differs. The same can be said of differ port e.g. http://www.foo.com and http://www.foo.com:8080.
+This is a big problem for a world where applications talk to internal and external APIs on different hosts.</description>
     </item>
     
     <item>
@@ -1362,17 +1300,17 @@ ElvUI Updater ElvUI is not available from the Twitch add-on manager, so you norm
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/ipfilter/faq/</guid>
-      <description>FAQ What is IPFilter Updater? It&amp;rsquo;s a small Windows application that will download and update an ipfilter list for use in Bit Torrent clients.
+      <description>What is IPFilter Updater? It&amp;rsquo;s a small Windows application that will download and update an ipfilter list for use in Bit Torrent clients.
 What Bit Torrent clients are supported? Currently uTorrent, BitTorrent and qBittorrent are supported out of the box, but you can also configure other applications to pick up the downloaded list.
 What is an ipfilter? An ipfilter list is a simple (but usually very large) list of addresses and ranges of malicious peers that will transmit junk data (i.</description>
     </item>
     
     <item>
       <title>Freehold</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/freehold/</link>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/freehold/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/freehold/</guid>
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/freehold/</guid>
       <description>Talents Choose Blessing of Protection to put on party members if fixated by ground shark on 2nd boss (save for healer ideally)
 Skycap&amp;rsquo;n Kragg
 Spread from your party members, kick his healing spell. When he dismounts from his bird, the bird will come back from the edge of the arena and charge through. Try to avoid this bird.
@@ -1381,16 +1319,37 @@ When friendly has big barrel on his head, kill barrel, don&amp;rsquo;t stand in 
     </item>
     
     <item>
-      <title>IPFilter Updater</title>
-      <link>http://www.sadrobot.co.nz/ipfilter/</link>
+      <title>Gotchas</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/async/gotchas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/ipfilter/</guid>
-      <description> The ipfilter.dat file helps protect your privacy and security when using Bit Torrent by blocking a list of potentially malicious peers.
-This utility downloads and installs a selected list for your Bit Torrent client.
-Download
-Supported BitTorrent Applications  qBitTorrent (recommended) μTorrent Bit Torrent  Is your preferred Bit Torrent client not on this list? Request Application Support.
-</description>
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/async/gotchas/</guid>
+      <description>Async / Await Gotchas Spot the bug:
+internal Task&amp;lt;DataFormat&amp;gt; TestAsync() { using (var stream = File.Open(&amp;#34;test.dat&amp;#34;, FileMode.Open, FileAccess.Read, FileShare.Read)) { return StreamProcessingUtil.DoSomethingAsync(stream); } } Oops! We actually need to await the method that gets passed the stream, as without an await, the closing of the using will be hit, disposing the stream before our method has a chance to start or finish what it wants to do.
+Solution:
+internal async Task&amp;lt;DataFormat&amp;gt; TestAsync() { using (var stream = File.</description>
+    </item>
+    
+    <item>
+      <title>Gulp</title>
+      <link>http://www.sadrobot.co.nz/wiki/web/javascript/gulp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/javascript/gulp/</guid>
+      <description>Gulp is a JavaScript build tool.
+It revolves around piping input streams through one or more tasks.
+As an example, you could have a Gulp file that will take in all your application&amp;rsquo;s javascript files, concatenate them into a single file, run JSLint, generate sourcemaps, minify and place the resulting file in your release folder.
+Having such a powerful and simple build tool allows you to develop your web application in clean, modular code while allowing you to create a simple to deploy and load release.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Has Won</title>
+      <link>http://www.sadrobot.co.nz/wiki/web/javascript/javascript-has-won/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/javascript/javascript-has-won/</guid>
+      <description>#JavaScript Has Won
+Always Bet On js http://brendaneich.github.io/ModernWeb.tw-2015/#74</description>
     </item>
     
     <item>
@@ -1400,6 +1359,17 @@ Supported BitTorrent Applications  qBitTorrent (recommended) μTorrent Bit Torre
       
       <guid>http://www.sadrobot.co.nz/wiki/javascript/patterns/</guid>
       <description>JavaScript Patterns Promises References http://www.html5rocks.com/en/tutorials/es6/promises/ http://www.infoq.com/news/2014/05/promises-javascript</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Patterns</title>
+      <link>http://www.sadrobot.co.nz/wiki/web/javascript/javascript-patterns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/javascript/javascript-patterns/</guid>
+      <description>#JavaScript Patterns
+Promises #References
+http://www.html5rocks.com/en/tutorials/es6/promises/ http://www.infoq.com/news/2014/05/promises-javascript</description>
     </item>
     
     <item>
@@ -1419,11 +1389,27 @@ Unspecified parameters are set to undefined</description>
     </item>
     
     <item>
-      <title>Kings&#39; Rest</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/kings-rest/</link>
+      <title>JavaScript for C# Developers</title>
+      <link>http://www.sadrobot.co.nz/wiki/web/javascript/forcsharpdevelopers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/kings-rest/</guid>
+      <guid>http://www.sadrobot.co.nz/wiki/web/javascript/forcsharpdevelopers/</guid>
+      <description>Objects A Javascript object has a lot in common with a C# dictionary.
+You could imagine it as a dynamic type in C# that looks up values in a dictionary.
+Methods are object properties that reference a function.
+&amp;ldquo;this&amp;rdquo; is the calling context, not the current class.
+Functions Can return a reference to themselves.
+There is an &amp;ldquo;arguments&amp;rdquo; implicit parameter.
+All parameters are optional.
+Unspecified parameters are set to &amp;ldquo;undefined&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Kings&#39; Rest</title>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/kings-rest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/kings-rest/</guid>
       <description>Dazar, The First King  Use Blessing of Spellwarding or Divine Shield to break the fear  The Golden Serpent
 When you have orange DOT on yourself go away from boss it will make a pool appear beneath you at the end of the DOT, try to stack those pools at the same place, important cause thats where the adds will come from, don&amp;rsquo;t let adds reach boss, use your slows and stuns, dont stay melee range when boss is doing tornado around him</description>
     </item>
@@ -1477,11 +1463,32 @@ When you have orange DOT on yourself go away from boss it will make a pool appea
     
     <item>
       <title>Mythic&#43;</title>
-      <link>http://www.sadrobot.co.nz/games/wow/mythicplus/</link>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/mythicplus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/games/wow/mythicplus/</guid>
-      <description>Loot  Weekly Chest contains 1 item Azerite pieces only drop from the Weekly Chest No gear or talent changes in Mythic+ You can zone out, change gear and/or talents, then zone back in You can now bonus roll for loot in Mythic+     Keystone Level End of Dungeon Weekly Chest Azerite Armor (Weekly Chest)     Mythic 2 (Fort/Tyr) 345 355 340   Mythic 3 345 355 340   Mythic 4 (Affix 1) 350 360 355   Mythic 5 355 360 355   Mythic 6 355 365 355   Mythic 7 (Affix 2) 360 370 370   Mythic 8 365 370 370   Mythic 9 365 375 370   Mythic 10+ (Seasonal Affix) 370 380 385    Affix Schedule Affix 1 Affix 2 Affix 3 Fortified Sanguine Necrotic Tyrannical Bursting Skittish Fortified Teeming Quaking Tyrannical Raging Necrotic Fortified Bolstering Skittish Tyrannical Teeming Volcanic Fortified Sanguine Grievous Tyrannical Bolstering Explosive Fortified Bursting Quaking Tyrannical Raging Volcanic Fortified Teeming Explosive Tyrannical Bolstering Grievous</description>
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/mythicplus/</guid>
+      <description>Titan Residuum You can only acquire Titan Residuum from:
+ Your weekly Mythic+ chest Scrapping epic Azerite pieces (not blues or greens) Island Expedition weekly that returns Titan Residdum  Azerite pieces can be scrapped for Titan Residuum for the following amounts:
+   Level Titan Residuum     340 1   355 3   370 12   385 35   400 115   415 365    Loot  Weekly Chest contains 1 item Azerite pieces cannot be obtained from Mythic+ except by purchasing with Titan Residuum You can now bonus roll for loot when completing a Mythic+ Loot can Warforge up to +10, and Titanforge from +15 up to a total maximum item level of +425     Keystone Level Scaling End of Dungeon Weekly Chest Titan Residuum (Weekly Chest)     2 (Fort/Tyr) 0% 375 380 15   3 8% 375 385 20   4 (Affix 1) 17% 380 390 60   5 26% 385 390 70   6 36% 385 395 80   7 (Affix 2) 47% 390 400 195   8 59% 395 400 205   9 71% 395 405 215   10+ (Seasonal Affix) 85% 400 410 625   11 100% 400 410 667   12 116% 400 410 709   13 133% 400 410 751   14 152% 400 410 793   15 172% 400 410 835   16 194% 400 410 866   17 217% 400 410 897   18 243% 400 410 928   19 270% 400 410 959   20 300% 400 410 990   21 332% 400 410 1010   22 366% 400 410 1030   23 403% 400 410 1050   24 444% 400 410 1070   25 487% 400 410 1090   26 534% 400 410 ?</description>
+    </item>
+    
+    <item>
+      <title>NoSQL Databases</title>
+      <link>http://www.sadrobot.co.nz/wiki/data/nosql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/data/nosql/</guid>
+      <description>Comparison   Name CAP Tradeoff Transactions Indexes Data Model License     MongoDB Consistency Conditional Writes Local Secondary Document AGPL v3.0   Cassandra Availability Conditional Writes Local Secondary Wide Column Apache v2.0   Riak Availability Check and Set Local Secondary Key Value Apache v2.0   HBase Consistency Conditional Writes Primary Only Wide Column Apache v2.0   Accumulo Consistency Conditional Writes Primary Only Wide Column Apache v2.</description>
+    </item>
+    
+    <item>
+      <title>OAuth 2.0</title>
+      <link>http://www.sadrobot.co.nz/wiki/web/auth/oauth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/auth/oauth/</guid>
+      <description> #Open Authorization 2.0 (OAuth 2.0)
+What problem does OAuth 2.0 solve? </description>
     </item>
     
     <item>
@@ -1491,6 +1498,16 @@ When you have orange DOT on yourself go away from boss it will make a pool appea
       
       <guid>http://www.sadrobot.co.nz/wiki/dotnet/orm/</guid>
       <description> Generic Implementation </description>
+    </item>
+    
+    <item>
+      <title>OpenID Connect</title>
+      <link>http://www.sadrobot.co.nz/wiki/web/auth/openid-connect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/auth/openid-connect/</guid>
+      <description>#OpenID Connect
+OpenID Connect adds identity and authentication to the OAuth 2.0 protocol</description>
     </item>
     
     <item>
@@ -1507,11 +1524,23 @@ Transpiling ES6 Google Traceur is an ES6 to ES5 transpiler that can be used to d
     </item>
     
     <item>
-      <title>Paladin Macros</title>
-      <link>http://www.sadrobot.co.nz/games/wow/macros/</link>
+      <title>Overview</title>
+      <link>http://www.sadrobot.co.nz/wiki/web/javascript/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/games/wow/macros/</guid>
+      <guid>http://www.sadrobot.co.nz/wiki/web/javascript/overview/</guid>
+      <description>Overview ECMAScript, JavaScript, Java, asm.js ECMAScript is the standardized, versioned spec of JavaScript.
+ECMAScript Support The ES6 spec is expected to be finalized and implemented by the various browser vendors sometime mid / late 2015.
+================= === ==================================== Browser ES5 ECMAScript 2015 (ES6) (in progress) ================= === ==================================== Chrome 23+ Evergreen Internet Explorer 9+ 12+ Firefox 21+ Evergreen ================= === ====================================
+Evergreen browsers automatically update to the latest version.</description>
+    </item>
+    
+    <item>
+      <title>Paladin Macros</title>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/macros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/macros/</guid>
       <description>Avenger&amp;rsquo;s Shield Casts at mouseover enemy, focus target enemy or current target If you&amp;rsquo;re in PvP and holding CTRL, then enable Shield of Virtue (AOE silence) before throwing shield
  #showtooltip Avenger&#39;s Shield /cast [mod:ctrl] Shield of Virtue /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead]Avenger&#39;s Shield  Rebuke Kick / interrupt your mouseover target, focus target or selected target (in that priority order)
  #showtooltip Rebuke /stopcasting /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead] Rebuke  Judgment Judges your mouseover target if they&amp;rsquo;re an enemy, enemy focus target or finally your target.</description>
@@ -1519,30 +1548,44 @@ Transpiling ES6 Google Traceur is an ES6 to ES5 transpiler that can be used to d
     
     <item>
       <title>Paladin PvP Guide</title>
-      <link>http://www.sadrobot.co.nz/games/wow/pvp/</link>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/pvp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/games/wow/pvp/</guid>
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/pvp/</guid>
       <description> References    Name Description Authors Updated     Skillcapped Paladin PvP Guide       </description>
     </item>
     
     <item>
       <title>Protection Paladin</title>
-      <link>http://www.sadrobot.co.nz/games/wow/protection/</link>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/protection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/games/wow/protection/</guid>
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/protection/</guid>
       <description>Stats Item Level &amp;gt; Haste &amp;gt; Mastery &amp;gt;= Versatility &amp;gt; Crit
 Enchants &amp;amp; Gems  Weapon Enchant: Quick Navigation Ring Enchant: Haste Gems: 1 x Strength then Haste  Consumables  Flask: Strength Battle Potion: Potion of Bursting Blood for Single Target, Battle Potion of Strength for Multi-Target Food: Feast or Haste  Trinkets Azerite Traits   RankDefensiveOffensive STAOESTAOE OuterMiddleInnerOuterMiddleInnerOuterMiddleInnerOuterMiddleInner   S+ TierGemhideSoaring Shield S TierAblative ShieldingGemhide Inspiring Vanguard x1Inspiring Vanguard Ablative Shielding A TierCrystalline CarapaceCrystalline Carapace Impassive VisageBulwark of Light Meticulous SchemingImpassive Visage TradewindsBulwark of the Masses Bulwark of LightAvenger’s Might Life SpeedTradewinds Shimmering HavenIncite the Pack Blood SiphonBlood Siphon Avenger’s MightLife Speed Shimmering Haven B TierSoaring ShieldAzerite Veins Azerite VeinsResounding Protection Resounding ProtectionMeticulous Scheming Archive of the TitansArchive of the Titans On My WayOn My Way Concentrated MendingUnstable Catalyst Strength in Numbers   Defensive Gemhide</description>
     </item>
     
     <item>
       <title>Raid: Uldir</title>
-      <link>http://www.sadrobot.co.nz/games/wow/uldir/</link>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/raid/uldir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/games/wow/uldir/</guid>
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/raid/uldir/</guid>
       <description>Loot Levels    Difficulty Item Level     LFR 340   Normal 355   Heroic 370   Mythic 385     Weapons can only Warforge (+5 or +10) Azerite Armor cannot Warforge or Titanforge  Boss Loot  BoEAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution Wrist Haste / Mast Hands Crit / Haste Wing 1 TalocAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution Trinket: +Int, aoe damage proc2H Str Mace Crit/Haste Wrists Vers/Crit Legs: Haste/Mastery MOTHERAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution HeadArchive of the TitansLaser MatrixAzerite VeinsElemental WhirlEphemeral RecoveryResounding ProtectionImpassive VisageInspiring VanguardGrace of the JusticarDivine Right Offhand Crit/Vers Waist Mast/Crit Ring: Crit/Haste Zek&#39;vozAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution 1H Ver/Mast MaceTrinket: +Str, Damage proc (cone) Legs: Vers/Mastery Feet: Haste/Vers Ring: Mastery/Crit Fetid DevourerAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution 1H Axe1H Axe Crit/Vers Hands Crit/Vers Cloak: Haste/Mastery VectisAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution VectisChestArchive of the TitansLaser MatrixStrength In NumbersUnstable FlamesWoundbinderJudicious DefenseBreaking DawnRelentless Inquisitor Shield Crit/VersTrinket: +Int; Active ability adds 3k to next 5 direct heals on target.</description>
+    </item>
+    
+    <item>
+      <title>SOLID</title>
+      <link>http://www.sadrobot.co.nz/wiki/theory/solid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/theory/solid/</guid>
+      <description>S.O.L.I.D. S.O.L.I.D. aka SOLID stands for:
+S: Single Responsibility Principle aka SRP A class should have a single responsibility.
+O: Open / Closed A class should be open for extension, but closed to modification.
+L: Liskov substitution principle An object should be replaceable with an object of its subtype without breaking the program.
+I: Interface Segregation Principle Many interfaces are desirable over one general-purpose interface
+D: Dependency Injection Principle aka DI Classes should depend on supplied abstractions, instead of concrete implementations.</description>
     </item>
     
     <item>
@@ -1551,49 +1594,51 @@ Enchants &amp;amp; Gems  Weapon Enchant: Quick Navigation Ring Enchant: Haste Ge
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/performance/</guid>
-      <description>System &amp;gt; Graphics Always have these on:
+      <description>UI Scale Set the UI scale to 768 / (screen height.
+e.g. 768 / 1440 = 0.5333
+/script print(GetCVar(&amp;ldquo;useUiScale&amp;rdquo;)) /script print(GetCVar(&amp;ldquo;uiScale&amp;rdquo;)) /script print(UIParent:GetScale())
+/script SetCVar(&amp;ldquo;useUiScale&amp;rdquo;, 1); /script SetCVar(&amp;ldquo;uiScale&amp;rdquo;, 0.53333); /script UIParent:SetScale(0.5333)
+System &amp;gt; Graphics Always have these on:
 Project Textures (SET projectedTextures &amp;quot;1.000000&amp;quot;)
-Projected textures are usually used for ground visual effects for important mechanics in dungeons and raids; if you don&amp;rsquo;t have them enabled, you will often not be able to see these mechanics and die to them.
-Anti-Aliasing:
-System &amp;gt; Advanced    Setting Description Recommendation     Triple Buffering Smooths our framerate and eliminates tearing, but introduces input lag.</description>
+Projected textures are usually used for ground visual effects for important mechanics in dungeons and raids; if you don&amp;rsquo;t have them enabled, you will often not be able to see these mechanics and die to them.</description>
     </item>
     
     <item>
       <title>Shrine of the Storm</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/shrine-of-the-storm/</link>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/shrine-of-the-storm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/shrine-of-the-storm/</guid>
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/shrine-of-the-storm/</guid>
       <description>Notable Trash  Abyss Dwellers: Use Blessing of Spellwarding or Divine Shield to drop stacks or prevent application of Rip Mind  Lord Stormsong  Make sure you have Avenger&amp;rsquo;s Shield ready to interrupt the Void Bolt he will cast immediately after Awaken the Void  Aqu&amp;rsquo;Sirr
 Dont stand near edges, you don&amp;rsquo;t wanna get knocked back and die, avoid his charge, avoid blue aoe on the ground. When he splits into 3 water elementals, try to focus fire them one by one, dont spread DPS.</description>
     </item>
     
     <item>
       <title>Siege of Boralus</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/siege-of-boralus/</link>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/siege-of-boralus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/siege-of-boralus/</guid>
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/siege-of-boralus/</guid>
       <description>Notable Trash  Bilge Rat Buccaneer: Use Blinding Light to disorient them when they try to cast Banana Rampage Ashvane Invader: Use Divine Shield or Blessing of Spellwarding to drop stacks of Stinging Venom Coating  Sergeant Bainbridge/Chopper Redhook  Blessing of Spellwarding or Divine Shield to immune bombs if they&amp;rsquo;re about to go off  Sergeant Bainbridge
 Don&amp;rsquo;t walk in bombs on the ground. If the boss is chasing after you, make him run through bombs on ground.</description>
     </item>
     
     <item>
       <title>Temple of Sethraliss</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/temple-of-sethraliss/</link>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/temple-of-sethraliss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/temple-of-sethraliss/</guid>
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/temple-of-sethraliss/</guid>
       <description>Notable Trash  Faithless Tender: Interrupt Drain  Merektha  Hammer of Justice can free party members from A Knot of Snakes Move adds out of Dust Cloud  Galvazzt  Use Blessing of Spellwarding to soak Galvanize, or Divine Shield to remove stacks if necessary  Adderis and Aspix
 Hit the one that doesnt have Lightning Shield (it will change so be careful), if you have electricity debuff on you go away from friends, spread out when he is doing ninja electricity charge.</description>
     </item>
     
     <item>
       <title>The MOTHERLODE!!</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/the-motherlode/</link>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/the-motherlode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/the-motherlode/</guid>
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/the-motherlode/</guid>
       <description>Coin-Operated Crowd Pummeler
 When he drops grenades on the floor, go throw those back at him. You need to be facing him while in front of the grenade. When he turns facing you and starts canalizing a spell, move so you&amp;rsquo;re on his side or back.
 Azerokk
@@ -1602,10 +1647,10 @@ Use totems to CC 2 elementals before the fight. If you have big red eyes on you 
     
     <item>
       <title>The Underrot</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/the-underrot/</link>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/the-underrot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/the-underrot/</guid>
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/the-underrot/</guid>
       <description>Elder Leaxa
 I&amp;rsquo;m sure there is something this boss does apart from dying fast, but I havent found it yet.
 Cragmaw the Infested
@@ -1616,10 +1661,10 @@ He will spawn green shrooms around him. When you have a big arrow above your hea
     
     <item>
       <title>Tol Dagor</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/tol-dagor/</link>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/tol-dagor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/tol-dagor/</guid>
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/tol-dagor/</guid>
       <description>The Sand Queen
 When you have big arrow on your head, go away from friends. Dont walk into stuff she spawns on the ground. Kill adds quickly.
 Jes Howlis
@@ -1641,14 +1686,37 @@ You can use a generic implementation, so that you don&amp;rsquo;t need to update
     
     <item>
       <title>Waycrest Manor</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/waycrest-manor/</link>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/waycrest-manor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/waycrest-manor/</guid>
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/waycrest-manor/</guid>
       <description>Heartsbane Triad
 One of the 3 bosses will be bigger than the others. Do damage to this one. Then it will change. So change target, you need to hit the one that is bigger than the others always. Keep moving when you have shadow dot on you to avoid stacking it.
 Soulbound Goliath
 When he imprisons one of your friends kill the thing. Don&amp;rsquo;t stand on the fire. If you&amp;rsquo;re a tank, when boss reaches high stacks you might wanna pop defensive CDs or kite him.</description>
+    </item>
+    
+    <item>
+      <title>Windows Maintenance</title>
+      <link>http://www.sadrobot.co.nz/wiki/windows/maintenance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/windows/maintenance/</guid>
+      <description>Deployment Image Servicing and Management tool (DISM) DISM can be used to mount and service a Windows image from a .wim file, .vhd file, or a .vhdx file or, in some cases, to update a running operating system.
+You can use DISM to do various cleanup operations related to installed components, updates and service packs.
+Remove Service Pack backup components after Service Pack installation After installing a Service Pack, you can clean up backed up components:</description>
+    </item>
+    
+    <item>
+      <title>YAGNI</title>
+      <link>http://www.sadrobot.co.nz/wiki/theory/yagni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/theory/yagni/</guid>
+      <description>YAGNI You Aren&amp;rsquo;t Gonna Need It:
+This originates from eXtreme Programming (XP).
+You should only add functionality until there is a need for that functionality, rather than adding functionality you forsee as being possibly necessary later.
+This helps keep the code base leaner, and allow changing requirements and refactoring.</description>
     </item>
     
   </channel>

@@ -1,100 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wiki on Sad Robot</title>
+    <title>Developedia on Sad Robot</title>
     <link>http://www.sadrobot.co.nz/wiki/</link>
-    <description>Recent content in Wiki on Sad Robot</description>
+    <description>Recent content in Developedia on Sad Robot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Jan 2012 09:50:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Apr 2019 19:40:44 +1200</lastBuildDate>
     
 	<atom:link href="http://www.sadrobot.co.nz/wiki/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Database</title>
-      <link>http://www.sadrobot.co.nz/wiki/database/</link>
-      <pubDate>Fri, 27 Jan 2012 09:50:40 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/database/</guid>
-      <description>SQL Server</description>
-    </item>
-    
-    <item>
-      <title>Windows File Sharing</title>
-      <link>http://www.sadrobot.co.nz/wiki/windows/windows-file-sharing/</link>
-      <pubDate>Fri, 12 Aug 2011 22:20:05 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/windows/windows-file-sharing/</guid>
-      <description>So, you want to share your files on the lan without requiring people to log in or join your Home Group?
-The following instructions are for Windows 7 and the NTFS (default and recommended) file system.
-Turn off Simple File Sharing From the Control Panel, search for Folder Options and open it (or from an Explorer window, go to the menu Organize &amp;gt; Folder and search options
-Go to the View tab</description>
-    </item>
-    
-    <item>
-      <title>Debugging Windows Installer Custom Actions</title>
-      <link>http://www.sadrobot.co.nz/wiki/debugging/debugging-windows-installer-custom-actions-2/</link>
-      <pubDate>Wed, 10 Aug 2011 13:34:41 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/debugging/debugging-windows-installer-custom-actions-2/</guid>
-      <description>General  First, you must know the name of the custom action you want to debug. In this example we&amp;rsquo;ll call it MyCustomAction. Set the MsiBreak environment variable (user or system) to the name of the custom action. You can do this easily by running setx from the commandline:
- C:WindowsSystem32&amp;gt;setx MsiBreak MyCustomAction&amp;lt;br /&amp;gt; SUCCESS: Specified value was saved.&amp;lt;br /&amp;gt; C:WindowsSystem32&amp;gt;
- Run your installer
-  You should get now get a message box prompt like this:</description>
-    </item>
-    
-    <item>
-      <title>Debugging</title>
-      <link>http://www.sadrobot.co.nz/wiki/debugging/debugging/</link>
-      <pubDate>Wed, 10 Aug 2011 13:29:23 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/debugging/debugging/</guid>
-      <description>Debugging VSTO Add-ins
-Debugging Windows Installer Custom Actions
-Debugging Visual Basic 6</description>
-    </item>
-    
-    <item>
-      <title>MSBuild</title>
-      <link>http://www.sadrobot.co.nz/wiki/microsoft/</link>
-      <pubDate>Thu, 28 Jul 2011 14:22:44 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/microsoft/</guid>
-      <description>How Tos Debugging MSBuild Scripts</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/wiki/data/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/data/</guid>
-      <description>Data .. toctree:: :titlesonly:
-cassandra</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/wiki/debugging/error-codes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/debugging/error-codes/</guid>
-      <description>Error Codes HRESULT https://msdn.microsoft.com/en-us/library/cc231198.aspx
-The HRESULT numbering space is vendor-extensible. Vendors can supply their own values for this field, as long as the C bit (0x20000000) is set, indicating it is a customer code.
-The HRESULT numbering space has the following internal structure. Any protocol that uses NTSTATUS values on the wire is responsible for stating the order in which the bytes are placed on the wire.
-S (1 bit): Severity.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/wiki/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/</guid>
-      <description> Developedia Software development reference and knowledge base
-Contents </description>
-    </item>
     
     <item>
       <title></title>
@@ -114,64 +29,7 @@ Contents </description>
       <guid>http://www.sadrobot.co.nz/wiki/sourcecontrol/git/</guid>
       <description>Git Create an empty branch git checkout --orphan &amp;lt;branch&amp;gt; git reset --hard  Clear the working directory git rm --cached -rf .
 Configure for Windows On Windows machine, open up Git Bash
-$ ssh-keygen -t rsa -C &amp;ldquo;David Moore david@digitalgenus.com&amp;ldquo; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/wiki/theory/solid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/theory/solid/</guid>
-      <description>S.O.L.I.D. S.O.L.I.D. aka SOLID stands for:
-S: Single Responsibility Principle aka SRP A class should have a single responsibility.
-O: Open / Closed A class should be open for extension, but closed to modification.
-L: Liskov substitution principle An object should be replaceable with an object of its subtype without breaking the program.
-I: Interface Segregation Principle Many interfaces are desirable over one general-purpose interface
-D: Dependency Injection Principle aka DI Classes should depend on supplied abstractions, instead of concrete implementations.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/wiki/theory/yagni/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/theory/yagni/</guid>
-      <description>YAGNI You Aren&amp;rsquo;t Gonna Need It:
-This originates from eXtreme Programming (XP).
-You should only add functionality until there is a need for that functionality, rather than adding functionality you forsee as being possibly necessary later.
-This helps keep the code base leaner, and allow changing requirements and refactoring.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/wiki/web/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/web/</guid>
-      <description>Web Technologies .. toctree:: :titlesonly:
-javascript/index</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/wiki/windows/bootable-usb/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/windows/bootable-usb/</guid>
-      <description>Making a Windows Bootable USB Drive Format the USB drive and make it bootable Replace ? with the letter of your USB Drive below
-diskpart list disk select disk ? clean create partition primary select partition 1 active format fs=ntfs quick label=&amp;quot;Windows Setup&amp;quot; exit  Make it boot Windows 10 Installer Copy over Windows 10 files Use 7-zip to extract the contents of the .iso to the USB drive</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://www.sadrobot.co.nz/wiki/windows/maintenance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/wiki/windows/maintenance/</guid>
-      <description>Windows Maintenance Deployment Image Servicing and Management tool (DISM) DISM can be used to mount and service a Windows image from a .wim file, .vhd file, or a .vhdx file or, in some cases, to update a running operating system.
-You can use DISM to do various cleanup operations related to installed components, updates and service packs.
-Remove Service Pack backup components after Service Pack installation After installing a Service Pack, you can clean up backed up components:</description>
+$ ssh-keygen -t rsa -C &amp;#34;David Moore &amp;lt;david@digitalgenus.com&amp;gt;&amp;#34; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/.</description>
     </item>
     
   </channel>

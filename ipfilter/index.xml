@@ -6,6 +6,7 @@
     <description>Recent content in IPFilter Updater on Sad Robot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 16 Apr 2019 19:41:55 +1200</lastBuildDate>
     
 	<atom:link href="http://www.sadrobot.co.nz/ipfilter/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +21,15 @@
 IPFilter acquires and merges all of the inputs, and generates the output result.
 The merged inputs are then synced to the output(s).
 Inputs Input URIs The input must be resolved to an absolute URI. While the final URI must be absolute, there are shortcuts and abbreviations to make the specified input(s) more concise and readable.</description>
+    </item>
+    
+    <item>
+      <title>Changelog</title>
+      <link>http://www.sadrobot.co.nz/ipfilter/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/ipfilter/changelog/</guid>
+      <description>3.0.0 Beta 2 New  Added initial support for eMule  Improvements  For troubleshooting, a basic log is written to ipfilter.log Downloaded list(s) are now sorted and merged to make the list smaller, more compact and faster to load by P2P clients Applications receive their own copy of the ipfilter.dat, formatted to each application&amp;rsquo;s preferred format  Changes  Now installing to \AppData\Local\Programs\IPFilter (instead of AppData\Local\IPFilter) to follow the established convention for per-user applications The cached ipfilter.</description>
     </item>
     
     <item>
@@ -44,23 +54,9 @@ Inputs You can specify inputs as URIs / URLs or file system paths (including UNC
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/ipfilter/faq/</guid>
-      <description>FAQ What is IPFilter Updater? It&amp;rsquo;s a small Windows application that will download and update an ipfilter list for use in Bit Torrent clients.
+      <description>What is IPFilter Updater? It&amp;rsquo;s a small Windows application that will download and update an ipfilter list for use in Bit Torrent clients.
 What Bit Torrent clients are supported? Currently uTorrent, BitTorrent and qBittorrent are supported out of the box, but you can also configure other applications to pick up the downloaded list.
 What is an ipfilter? An ipfilter list is a simple (but usually very large) list of addresses and ranges of malicious peers that will transmit junk data (i.</description>
-    </item>
-    
-    <item>
-      <title>IPFilter Updater</title>
-      <link>http://www.sadrobot.co.nz/ipfilter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/ipfilter/</guid>
-      <description>The ipfilter.dat file helps protect your privacy and security when using Bit Torrent by blocking a list of potentially malicious peers.
-This utility downloads and installs a selected list for your Bit Torrent client.
-Download
-Supported BitTorrent Applications  qBitTorrent (recommended) μTorrent Bit Torrent   Is your preferred Bit Torrent client not on this list? Request Application Support.
- Install You can download and install from https://github.com/DavidMoore/ipfilter/releases
-IPFilter Updater Downloads IP Filter lists for use in Bit Torrent clients.</description>
     </item>
     
   </channel>

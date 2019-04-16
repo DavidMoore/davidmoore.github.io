@@ -14,7 +14,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-     <meta name="generator" content="Hugo 0.48" />
+     <meta name="generator" content="Hugo 0.54.0" />
 
       
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -23,13 +23,17 @@
      <link href='/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="Changelog" />
 <meta property="og:description" content="History of IPFilter Updater releases and changes" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.sadrobot.co.nz/ipfilter/changelog/" /><meta property="article:modified_time" content="2018-11-28T21:07:38&#43;13:00"/>
+<meta property="og:url" content="http://www.sadrobot.co.nz/ipfilter/changelog/" />
+
+<meta property="og:image" content="http://www.sadrobot.co.nz/images/gohugoio-card.png" />
+<meta property="article:modified_time" content="2019-04-16T19:41:55&#43;12:00"/>
+
 <meta itemprop="name" content="Changelog">
 <meta itemprop="description" content="History of IPFilter Updater releases and changes">
 
 
-
-<meta itemprop="wordCount" content="48">
+<meta itemprop="dateModified" content="2019-04-16T19:41:55&#43;12:00" />
+<meta itemprop="wordCount" content="130">
 
 
 
@@ -193,6 +197,29 @@
 
 
 
+<h2 id="3-0-0-beta-2">3.0.0 Beta 2</h2>
+
+<h3 id="new">New</h3>
+
+<ul>
+<li>Added initial support for eMule</li>
+</ul>
+
+<h3 id="improvements">Improvements</h3>
+
+<ul>
+<li>For troubleshooting, a basic log is written to ipfilter.log</li>
+<li>Downloaded list(s) are now sorted and merged to make the list smaller, more compact and faster to load by P2P clients</li>
+<li>Applications receive their own copy of the ipfilter.dat, formatted to each application&rsquo;s preferred format</li>
+</ul>
+
+<h3 id="changes">Changes</h3>
+
+<ul>
+<li>Now installing to <UserDirectory>\AppData\Local\Programs\IPFilter (instead of AppData\Local\IPFilter) to follow the established convention for per-user applications</li>
+<li>The cached ipfilter.dat will now be stored in <UserDirectory>\AppData\Local\Programs\IPFilter\ipfilter.dat</li>
+</ul>
+
 <h2 id="3-0-0-beta-1">3.0.0 Beta 1</h2>
 
 <h4 id="fixes">Fixes</h4>
@@ -201,16 +228,17 @@
 <li>#40 Automatic update fails due to github SSL/TLS restrictions</li>
 </ul>
 
-<h4 id="changes">Changes</h4>
+<h4 id="changes-1">Changes</h4>
 
 <ul>
 <li>Program updates from GitHub Releases</li>
 <li>Distributing a curated, combined default list available from GitHub Releases page</li>
+<li>Requires .NET 4.5</li>
 </ul>
 
 <h2 id="26-jan-2010">26 Jan 2010</h2>
 
-<h3 id="changes-1">Changes</h3>
+<h3 id="changes-2">Changes</h3>
 
 <ul>
 <li>Now requires .NET 3.5, and allows mirror selection</li>
@@ -231,29 +259,36 @@
     
       
       <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="/ipfilter/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".download">Download</a>
+        <a href="/ipfilter/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2  primary-color" >IPFilter Updater</a>
 
           
-        </li>
-    
-      
-      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="/ipfilter/faq/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".faq">FAQ</a>
-
-          
-        </li>
-    
-      
-      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="/ipfilter/contents/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".ipfilter-updater">IPFilter Updater</a>
-
-          
-        </li>
-    
-      
-      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="/ipfilter/changelog/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2  primary-color" data-target=".changelog">Changelog</a>
-
+            <ul class="ipfilter-updater desktopmenu animated fadeIn list pl0 bg-light-gray db">
+              
+                <li  class="f6 fw4">
+                  <a href="/ipfilter/faq/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    FAQ
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/ipfilter/changelog/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 primary-color ">
+                    Changelog
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/ipfilter/commandline/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Commandline
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/ipfilter/architecture/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Architecture
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
     
@@ -341,7 +376,7 @@
   <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
 </span>
     “Changelog”
-  </a> was last updated: November 28, 2018
+  </a> was last updated: April 16, 2019
   
   
 </h6>
@@ -387,7 +422,7 @@ f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
       <div class="pb3 pt4 w-100">
       
          <div class="b f3  light-gray mb3 nested-links tc">
-           Copyright &copy; David Moore 2018<br />
+           Copyright &copy; David Moore 2019<br />
           </div>
 
           

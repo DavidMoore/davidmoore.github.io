@@ -14,7 +14,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-     <meta name="generator" content="Hugo 0.48" />
+     <meta name="generator" content="Hugo 0.54.0" />
 
       
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -23,13 +23,17 @@
      <link href='/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="" />
 <meta property="og:description" content="Git Create an empty branch git checkout --orphan &lt;branch&gt; git reset --hard  Clear the working directory git rm --cached -rf .
 Configure for Windows On Windows machine, open up Git Bash
-$ ssh-keygen -t rsa -C &ldquo;David Moore david@digitalgenus.com&ldquo; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/." />
+$ ssh-keygen -t rsa -C &#34;David Moore &lt;david@digitalgenus.com&gt;&#34; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.sadrobot.co.nz/wiki/sourcecontrol/git/" /><meta property="article:modified_time" content="2018-10-04T20:13:43&#43;13:00"/>
+<meta property="og:url" content="http://www.sadrobot.co.nz/wiki/sourcecontrol/git/" />
+
+<meta property="og:image" content="http://www.sadrobot.co.nz/images/gohugoio-card.png" />
+
+
 <meta itemprop="name" content="">
 <meta itemprop="description" content="Git Create an empty branch git checkout --orphan &lt;branch&gt; git reset --hard  Clear the working directory git rm --cached -rf .
 Configure for Windows On Windows machine, open up Git Bash
-$ ssh-keygen -t rsa -C &ldquo;David Moore david@digitalgenus.com&ldquo; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/.">
+$ ssh-keygen -t rsa -C &#34;David Moore &lt;david@digitalgenus.com&gt;&#34; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/.">
 
 
 
@@ -44,7 +48,7 @@ $ ssh-keygen -t rsa -C &ldquo;David Moore david@digitalgenus.com&ldquo; Generati
 <meta name="twitter:title" content=""/>
 <meta name="twitter:description" content="Git Create an empty branch git checkout --orphan &lt;branch&gt; git reset --hard  Clear the working directory git rm --cached -rf .
 Configure for Windows On Windows machine, open up Git Bash
-$ ssh-keygen -t rsa -C &ldquo;David Moore david@digitalgenus.com&ldquo; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/."/>
+$ ssh-keygen -t rsa -C &#34;David Moore &lt;david@digitalgenus.com&gt;&#34; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/."/>
 <meta name="twitter:site" content="@whup"/>
 
 
@@ -161,14 +165,6 @@ $ ssh-keygen -t rsa -C &ldquo;David Moore david@digitalgenus.com&ldquo; Generati
 		
 
 		
-			<a href="http://www.sadrobot.co.nz/wiki/theory/solid/" class="dib f6 pr1 hover-bg-light-gray br-100" title="">
-			<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
-    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
-    <path d="M0 0h24v24H0z" fill="none"/>
-</svg>
-
-			</a>
-		
 	</div>
 
 </aside>
@@ -207,85 +203,67 @@ git reset --hard
 
 <p><code>git rm --cached -rf .</code></p>
 
-<h2 id="configure-for-windows">Configure for Windows</h2>
+<h1 id="configure-for-windows">Configure for Windows</h1>
 
 <p>On Windows machine, open up Git Bash</p>
-
-<p>$ ssh-keygen -t rsa -C &ldquo;David Moore <a href="mailto:david@digitalgenus.com" target="_blank">david@digitalgenus.com</a>&ldquo;
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ ssh-keygen -t rsa -C <span class="s2">&#34;David Moore &lt;david@digitalgenus.com&gt;&#34;</span>
 Generating public/private rsa key pair.
-Enter file in which to save the key (/d/Users/David/.ssh/id_rsa):
-Enter passphrase (empty for no passphrase):
+Enter file in which to save the key <span class="o">(</span>/d/Users/David/.ssh/id_rsa<span class="o">)</span>:
+Enter passphrase <span class="o">(</span>empty <span class="k">for</span> no passphrase<span class="o">)</span>:
 Enter same passphrase again:
 Your identification has been saved in /d/Users/David/.ssh/id_rsa.
 Your public key has been saved in /d/Users/David/.ssh/id_rsa.pub.
 The key fingerprint is:
-8a:ef:52:86:76:53:b3:ed:d6:54:02:c3:75:9d:94:22 David Moore <a href="mailto:david@digitalgenus.com" target="_blank">david@digitalgenus.com</a></p>
+xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx David Moore &lt;david@digitalgenus.com&gt;
 
-<p>David@WHUP ~/.ssh</p>
+David@WHUP ~/.ssh</code></pre></div>
+<p>Copy the contents of  <code>~/.ssh/id_rsa.pub,</code> paste into <code>&lt;dev&gt;/home/git/.ssh/authorized_keys</code></p>
 
-<p>Copy the contents of  ~/.ssh/id_rsa.pub, paste into <dev>/home/git/.ssh/authorized_keys</p>
+<p>On host, <code>tail -f /var/log/secure</code> to watch for errors.</p>
 
-<p>On host, tail -f /var/log/secure to watch for errors.
-If you see &ldquo;Authentication refused: bad ownership or modes for file /home/git/.ssh/authorized_keys&rdquo; (or for the .ssh dir) then you need to change the flags for /home/git/.ssh:</p>
+<p>If you see &ldquo;<code>Authentication refused: bad ownership or modes for file /home/git/.ssh/authorized_keys</code>&rdquo; (or for the <code>.ssh</code> dir) then you need to change the flags for <code>/home/git/.ssh</code>:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">    chmod -R <span class="m">750</span> /home/git/.ssh
 
-<pre><code>chmod -R 750 /home/git/.ssh
-</code></pre>
+ ::
 
-<p>::</p>
+    git --bare init
+    Initialized empty Git repository in /projects/git/Commons.git/
 
-<pre><code>git --bare init
-Initialized empty Git repository in /projects/git/Commons.git/
-</code></pre>
 
-<p>[David.Moore@maily ~]$ ssh-keygen
+<span class="o">[</span>David.Moore@maily ~<span class="o">]</span>$ ssh-keygen
 Generating public/private rsa key pair.
-Enter file in which to save the key (/home/David.Moore/.ssh/id_rsa):
-Created directory &lsquo;/home/David.Moore/.ssh&rsquo;.
-Enter passphrase (empty for no passphrase):
+Enter file in which to save the key <span class="o">(</span>/home/David.Moore/.ssh/id_rsa<span class="o">)</span>:
+Created directory <span class="s1">&#39;/home/David.Moore/.ssh&#39;</span>.
+Enter passphrase <span class="o">(</span>empty <span class="k">for</span> no passphrase<span class="o">)</span>:
 Enter same passphrase again:
 Your identification has been saved in /home/David.Moore/.ssh/id_rsa.
 Your public key has been saved in /home/David.Moore/.ssh/id_rsa.pub.
 The key fingerprint is:
-7d:a8:71:23:25:94:b2:8c:7b:1e:29:b7:62:63:fc:a9 David.Moore@maily.digitalgenus.com</p>
+xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx David.Moore@maily.digitalgenus.com
 
-<p>[David.Moore@maily ~]$ cat ~/.ssh/id_rsa.pub
-ssh-rsa <em>snip</em>== David.Moore@maily.digitalgenus.com</p>
-
+<span class="o">[</span>David.Moore@maily ~<span class="o">]</span>$ cat ~/.ssh/id_rsa.pub
+ssh-rsa *snip*<span class="o">==</span> David.Moore@maily.digitalgenus.com</code></pre></div>
 <h2 id="add-git-user">Add Git user</h2>
-
-<p>Useradd git
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">Useradd git
 Su - git
 Mkdir ~/.ssh
-exit</p>
-
+exit</code></pre></div>
 <h2 id="disable-shell-for-git-user">Disable shell for Git user</h2>
-
-<pre><code>vim /etc/passwd
-</code></pre>
-
-<p>Update the shell::</p>
-
-<pre><code>git❌520:520::/home/git:/usr/bin/git-shell
-</code></pre>
-
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">    vim /etc/passwd</code></pre></div>
+<p>Update the shell:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">    git❌520:520::/home/git:/usr/bin/git-shell</code></pre></div>
 <p>Verify:</p>
-
-<pre><code>$ ssh git@dev.net.gen.nz
-The authenticity of host 'dev.net.gen.nz (60.234.73.20)' can't be established.
-RSA key fingerprint is 0b:78:18🆎f0:9a:17:ec:6d:6d:7b:d3:1f:ae:04:4f.
-Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added 'dev.net.gen.nz,60.234.73.20' (RSA) to the list of kn
-own hosts.
-git@dev.net.gen.nz's password:
-fatal: What do you think I am? A shell?
-Connection to dev.net.gen.nz closed.
-</code></pre>
-
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">    $ ssh git@dev.net.gen.nz
+    The authenticity of host <span class="s1">&#39;dev.net.gen.nz (60.234.73.20)&#39;</span> can<span class="s1">&#39;t be established.
+</span><span class="s1">    RSA key fingerprint is xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx.
+</span><span class="s1">    Are you sure you want to continue connecting (yes/no)? yes
+</span><span class="s1">    Warning: Permanently added &#39;</span>dev.net.gen.nz,x.x.x.x<span class="s1">&#39; (RSA) to the list of kn
+</span><span class="s1">    own hosts.
+</span><span class="s1">    git@dev.net.gen.nz&#39;</span>s password:
+    fatal: What <span class="k">do</span> you think I am? A shell?
+    Connection to dev.net.gen.nz closed.</code></pre></div>
 <p>Add ssh keys to git:</p>
-
-<pre><code>cat /home/David.Moore/.ssh/id_rsa.pub &gt;&gt; /home/git/.ssh/authorized_keys
-</code></pre>
-
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">    cat /home/David.Moore/.ssh/id_rsa.pub &gt;&gt; /home/git/.ssh/authorized_keys</code></pre></div>
 </div>
 
           
@@ -299,41 +277,91 @@ Connection to dev.net.gen.nz closed.
     
       
       <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="/blog/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".latest-posts">Latest Posts</a>
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".net">.NET</a>
 
           
-        </li>
-    
-      
-      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="/categories/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".categories">Categories</a>
-
-          
-        </li>
-    
-      
-      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="/tags/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".tags">Tags</a>
-
-          
-        </li>
-    
-      
-      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".archive">Archive</a>
-
-          
-            <ul class="archive desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+            <ul class="net desktopmenu animated fadeIn list pl0 bg-light-gray dn">
               
                 <li  class="f6 fw4">
-                  <a href="/blog/2017/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
-                    2017
+                  <a href="/wiki/dotnet/async/async/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Overview
                   </a>
                 </li>
               
                 <li  class="f6 fw4">
-                  <a href="/blog/2016/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
-                    2016
+                  <a href="/wiki/dotnet/orm/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    ORM
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/wiki/dotnet/patterns/visitor/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Visitor Pattern
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/wiki/dotnet/async/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Asynchronous Programming
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/wiki/dotnet/csharp/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Covariance &amp; Contravariance
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/wiki/dotnet/msbuild/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    MSBuild
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+    
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".dynamics">Microsoft Dynamics</a>
+
+          
+            <ul class="dynamics desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+              
+                <li  class="f6 fw4">
+                  <a href="/wiki/dynamics/crm/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Microsoft Dynamics 365 CRM
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+    
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/wiki/debugging/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".">Debugging</a>
+
+          
+        </li>
+    
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".principles">Principles &amp; Theory</a>
+
+          
+            <ul class="principles desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+              
+                <li  class="f6 fw4">
+                  <a href="/wiki/theory/solid/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    SOLID
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/wiki/theory/yagni/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    YAGNI
                   </a>
                 </li>
               
@@ -356,7 +384,7 @@ Connection to dev.net.gen.nz closed.
   <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
 </span>
     “”
-  </a> was last updated: October 4, 2018
+  </a> was last updated: January 1, 0001
   
   
 </h6>
@@ -402,7 +430,7 @@ f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
       <div class="pb3 pt4 w-100">
       
          <div class="b f3  light-gray mb3 nested-links tc">
-           Copyright &copy; David Moore 2018<br />
+           Copyright &copy; David Moore 2019<br />
           </div>
 
           

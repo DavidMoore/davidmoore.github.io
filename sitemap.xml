@@ -8,6 +8,36 @@
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/wiki/dotnet/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/games/wow/elvui/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/wiki/dotnet/async/async/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/games/wow/bfa/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/games/wow/legion/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/wiki/dynamics/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/blog/2018/01/14/sql-operations-studio/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
   </url>
@@ -98,8 +128,8 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/wiki/database/</loc>
-    <lastmod>2018-01-14T19:03:00+13:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/wiki/data/sql/sql-server/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
   </url>
   
   <url>
@@ -114,12 +144,7 @@
   
   <url>
     <loc>http://www.sadrobot.co.nz/wiki/debugging/debugging-windows-installer-custom-actions-2/</loc>
-    <lastmod>2018-01-14T19:03:00+13:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.sadrobot.co.nz/wiki/debugging/debugging/</loc>
-    <lastmod>2018-01-14T19:03:00+13:00</lastmod>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
   </url>
   
   <url>
@@ -130,11 +155,6 @@
   <url>
     <loc>http://www.sadrobot.co.nz/blog/2011/08/04/manually-schedule-a-disk-check-at-next-restart/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.sadrobot.co.nz/wiki/microsoft/</loc>
-    <lastmod>2018-01-14T19:03:00+13:00</lastmod>
   </url>
   
   <url>
@@ -170,6 +190,11 @@
   <url>
     <loc>http://www.sadrobot.co.nz/blog/2011/01/14/error-building-project-when-referencing-native-assembly-dependency-in-app-manifest/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/wiki/debugging/error-codes/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
   </url>
   
   <url>
@@ -533,73 +558,19 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/tuning/</loc>
-    <lastmod>2018-11-14T08:38:09+13:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.sadrobot.co.nz/wiki/data/</loc>
-    <lastmod>2018-01-14T19:03:00+13:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.sadrobot.co.nz/wiki/debugging/error-codes/</loc>
-    <lastmod>2018-01-14T19:03:00+13:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.sadrobot.co.nz/wiki/dotnet/wcf/</loc>
-    <lastmod>2018-01-14T19:03:00+13:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.sadrobot.co.nz/wiki/dotnet/msbuild/async-tasks/</loc>
-    <lastmod>2018-09-28T13:28:14+12:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.sadrobot.co.nz/wiki/</loc>
-    <lastmod>2018-01-14T19:03:00+13:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.sadrobot.co.nz/wiki/practices/versioning/</loc>
-    <lastmod>2018-10-04T20:13:43+13:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.sadrobot.co.nz/wiki/sourcecontrol/git/</loc>
-    <lastmod>2018-10-04T20:13:43+13:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.sadrobot.co.nz/wiki/theory/solid/</loc>
-    <lastmod>2018-01-14T19:03:00+13:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.sadrobot.co.nz/wiki/theory/yagni/</loc>
-    <lastmod>2018-01-14T19:03:00+13:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.sadrobot.co.nz/wiki/web/</loc>
-    <lastmod>2018-01-14T19:03:00+13:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.sadrobot.co.nz/wiki/windows/bootable-usb/</loc>
-    <lastmod>2018-08-27T16:53:07+12:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.sadrobot.co.nz/wiki/windows/maintenance/</loc>
-    <lastmod>2018-10-04T20:13:43+13:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.sadrobot.co.nz/wiki/dotnet/</loc>
-    <lastmod>2018-10-04T20:13:43+13:00</lastmod>
   </url>
   
   <url>
@@ -734,7 +705,7 @@
   
   <url>
     <loc>http://www.sadrobot.co.nz/ipfilter/architecture/</loc>
-    <lastmod>2018-10-04T20:16:45+13:00</lastmod>
+    <lastmod>2019-04-16T19:41:55+12:00</lastmod>
   </url>
   
   <url>
@@ -768,14 +739,24 @@
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/wiki/dotnet/msbuild/async-tasks/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/tags/asynchronous/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/dungeon/ataldazar/</loc>
-    <lastmod>2018-10-04T20:14:51+13:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/wiki/dotnet/async/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/ataldazar/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
   </url>
   
   <url>
@@ -842,6 +823,11 @@
     <loc>http://www.sadrobot.co.nz/tags/battle/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
   </url>
   
   <url>
@@ -929,7 +915,7 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/tags/c/</loc>
+    <loc>http://www.sadrobot.co.nz/tags/c#/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
     <priority>0</priority>
   </url>
@@ -947,8 +933,13 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/wiki/dotnet/async/</loc>
-    <lastmod>2018-01-14T19:03:00+13:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/wiki/web/javascript/csharp-async-and-await/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/wiki/data/cassandra/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
   </url>
   
   <url>
@@ -971,7 +962,7 @@
   
   <url>
     <loc>http://www.sadrobot.co.nz/ipfilter/changelog/</loc>
-    <lastmod>2018-11-28T21:07:38+13:00</lastmod>
+    <lastmod>2019-04-16T19:41:55+12:00</lastmod>
   </url>
   
   <url>
@@ -1018,7 +1009,7 @@
   
   <url>
     <loc>http://www.sadrobot.co.nz/ipfilter/commandline/</loc>
-    <lastmod>2018-08-21T08:39:18+12:00</lastmod>
+    <lastmod>2019-04-16T19:41:55+12:00</lastmod>
   </url>
   
   <url>
@@ -1047,7 +1038,7 @@
   
   <url>
     <loc>http://www.sadrobot.co.nz/wiki/dotnet/csharp/</loc>
-    <lastmod>2018-01-14T19:03:00+13:00</lastmod>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
   </url>
   
   <url>
@@ -1060,6 +1051,11 @@
     <loc>http://www.sadrobot.co.nz/tags/crop/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/wiki/web/javascript/cors/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
   </url>
   
   <url>
@@ -1081,9 +1077,19 @@
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/wiki/data/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/tags/debug/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/wiki/debugging/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
   </url>
   
   <url>
@@ -1102,6 +1108,11 @@
     <loc>http://www.sadrobot.co.nz/tags/destroy/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/wiki/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
   </url>
   
   <url>
@@ -1237,11 +1248,6 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/elvui/</loc>
-    <lastmod>2018-08-27T20:38:04+12:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.sadrobot.co.nz/categories/entertainment/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
     <priority>0</priority>
@@ -1291,7 +1297,7 @@
   
   <url>
     <loc>http://www.sadrobot.co.nz/ipfilter/faq/</loc>
-    <lastmod>2018-11-14T08:38:33+13:00</lastmod>
+    <lastmod>2019-04-16T19:41:55+12:00</lastmod>
   </url>
   
   <url>
@@ -1355,8 +1361,8 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/dungeon/freehold/</loc>
-    <lastmod>2018-11-14T08:38:09+13:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/freehold/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
   </url>
   
   <url>
@@ -1414,6 +1420,11 @@
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/wiki/dotnet/async/gotchas/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/tags/graphics/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
     <priority>0</priority>
@@ -1435,6 +1446,11 @@
     <loc>http://www.sadrobot.co.nz/tags/guid/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/wiki/web/javascript/gulp/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
   </url>
   
   <url>
@@ -1480,13 +1496,8 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/ipfilter/contents/</loc>
-    <lastmod>2018-10-04T20:16:45+13:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.sadrobot.co.nz/ipfilter/</loc>
-    <lastmod>2018-11-28T21:07:38+13:00</lastmod>
+    <lastmod>2019-04-16T19:41:55+12:00</lastmod>
   </url>
   
   <url>
@@ -1567,13 +1578,33 @@
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/wiki/web/javascript/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/wiki/web/javascript/javascript-has-won/</loc>
+    <lastmod>2018-01-14T19:03:00+13:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/wiki/javascript/patterns/</loc>
     <lastmod>2018-08-21T08:40:37+12:00</lastmod>
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/wiki/web/javascript/javascript-patterns/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/wiki/javascript/forcsharpdevelopers/</loc>
     <lastmod>2018-08-21T08:40:37+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/wiki/web/javascript/forcsharpdevelopers/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
   </url>
   
   <url>
@@ -1631,8 +1662,8 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/dungeon/kings-rest/</loc>
-    <lastmod>2018-11-14T08:38:09+13:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/kings-rest/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
   </url>
   
   <url>
@@ -1665,7 +1696,7 @@
   
   <url>
     <loc>http://www.sadrobot.co.nz/games/wow/legion/protection/</loc>
-    <lastmod>2018-08-27T20:38:04+12:00</lastmod>
+    <lastmod>2019-03-21T18:10:43+13:00</lastmod>
   </url>
   
   <url>
@@ -1729,6 +1760,11 @@
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/wiki/dotnet/msbuild/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/tags/machine/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
     <priority>0</priority>
@@ -1789,13 +1825,8 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/wiki/dynamics/</loc>
-    <lastmod>2018-10-04T20:13:43+13:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.sadrobot.co.nz/wiki/dynamics/crm/</loc>
-    <lastmod>2018-10-04T20:13:43+13:00</lastmod>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
   </url>
   
   <url>
@@ -1935,8 +1966,8 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/mythicplus/</loc>
-    <lastmod>2018-12-13T17:59:11+13:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/games/wow/bfa/mythicplus/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
   </url>
   
   <url>
@@ -2000,6 +2031,11 @@
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/wiki/data/nosql/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/tags/nod32/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
     <priority>0</priority>
@@ -2036,8 +2072,13 @@
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/wiki/web/auth/oauth/</loc>
+    <lastmod>2018-01-14T19:03:00+13:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/wiki/dotnet/orm/</loc>
-    <lastmod>2018-10-04T20:13:43+13:00</lastmod>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
   </url>
   
   <url>
@@ -2080,6 +2121,11 @@
     <loc>http://www.sadrobot.co.nz/tags/open-source/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/wiki/web/auth/openid-connect/</loc>
+    <lastmod>2018-01-14T19:03:00+13:00</lastmod>
   </url>
   
   <url>
@@ -2136,13 +2182,18 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/macros/</loc>
-    <lastmod>2018-09-08T14:03:32+12:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/wiki/web/javascript/overview/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/pvp/</loc>
-    <lastmod>2018-09-08T14:03:32+12:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/games/wow/bfa/macros/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/games/wow/bfa/pvp/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
   </url>
   
   <url>
@@ -2224,6 +2275,11 @@
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/wiki/theory/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/tags/producer/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
     <priority>0</priority>
@@ -2242,8 +2298,8 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/protection/</loc>
-    <lastmod>2018-09-19T06:07:21+12:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/games/wow/bfa/protection/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
   </url>
   
   <url>
@@ -2283,8 +2339,8 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/uldir/</loc>
-    <lastmod>2018-11-14T08:38:09+13:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/games/wow/bfa/raid/uldir/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
   </url>
   
   <url>
@@ -2408,6 +2464,16 @@
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/wiki/theory/solid/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/wiki/data/sql/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/</loc>
     <lastmod>2018-01-14T19:03:00+13:00</lastmod>
     <priority>0</priority>
@@ -2445,7 +2511,7 @@
   
   <url>
     <loc>http://www.sadrobot.co.nz/games/wow/performance/</loc>
-    <lastmod>2018-11-14T08:38:09+13:00</lastmod>
+    <lastmod>2019-03-21T18:10:43+13:00</lastmod>
   </url>
   
   <url>
@@ -2455,13 +2521,13 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/dungeon/shrine-of-the-storm/</loc>
-    <lastmod>2018-11-14T08:38:09+13:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/shrine-of-the-storm/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/dungeon/siege-of-boralus/</loc>
-    <lastmod>2018-11-14T08:38:09+13:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/siege-of-boralus/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
   </url>
   
   <url>
@@ -2669,8 +2735,8 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/dungeon/temple-of-sethraliss/</loc>
-    <lastmod>2018-11-14T08:38:09+13:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/temple-of-sethraliss/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
   </url>
   
   <url>
@@ -2692,8 +2758,8 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/dungeon/the-motherlode/</loc>
-    <lastmod>2018-11-14T08:38:09+13:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/the-motherlode/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
   </url>
   
   <url>
@@ -2703,8 +2769,8 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/dungeon/the-underrot/</loc>
-    <lastmod>2018-11-14T08:38:09+13:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/the-underrot/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
   </url>
   
   <url>
@@ -2732,8 +2798,8 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/dungeon/tol-dagor/</loc>
-    <lastmod>2018-11-14T08:38:09+13:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/tol-dagor/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
   </url>
   
   <url>
@@ -2764,6 +2830,11 @@
     <loc>http://www.sadrobot.co.nz/tags/trejo/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/games/tuning/</loc>
+    <lastmod>2019-03-21T18:11:15+13:00</lastmod>
   </url>
   
   <url>
@@ -2983,7 +3054,7 @@
   
   <url>
     <loc>http://www.sadrobot.co.nz/wiki/dotnet/patterns/visitor/</loc>
-    <lastmod>2018-10-04T20:13:43+13:00</lastmod>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
   </url>
   
   <url>
@@ -3053,8 +3124,8 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/dungeon/waycrest-manor/</loc>
-    <lastmod>2018-11-14T08:38:09+13:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/waycrest-manor/</loc>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
   </url>
   
   <url>
@@ -3082,14 +3153,13 @@
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/tags/wheelchair/</loc>
-    <lastmod>2018-11-28T20:46:18+13:00</lastmod>
-    <priority>0</priority>
+    <loc>http://www.sadrobot.co.nz/wiki/web/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sadrobot.co.nz/wiki/</loc>
-    <lastmod>2018-01-14T19:03:00+13:00</lastmod>
+    <loc>http://www.sadrobot.co.nz/tags/wheelchair/</loc>
+    <lastmod>2018-11-28T20:46:18+13:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -3106,9 +3176,19 @@
   </url>
   
   <url>
+    <loc>http://www.sadrobot.co.nz/wiki/windows/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.sadrobot.co.nz/tags/windows-7/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/wiki/windows/maintenance/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
   </url>
   
   <url>
@@ -3155,12 +3235,7 @@
   
   <url>
     <loc>http://www.sadrobot.co.nz/games/wow/</loc>
-    <lastmod>2018-10-04T20:14:51+13:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.sadrobot.co.nz/games/wow/legion/</loc>
-    <lastmod>2018-10-04T20:14:51+13:00</lastmod>
+    <lastmod>2019-04-16T19:41:07+12:00</lastmod>
   </url>
   
   <url>
@@ -3173,6 +3248,11 @@
     <loc>http://www.sadrobot.co.nz/tags/x86/</loc>
     <lastmod>2018-11-28T20:46:18+13:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sadrobot.co.nz/wiki/theory/yagni/</loc>
+    <lastmod>2019-04-16T19:40:44+12:00</lastmod>
   </url>
   
 </urlset>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/wiki/web/javascript/</link>
+    <description>Recent content in JavaScript on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Apr 2019 19:40:44 +1200</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/wiki/web/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CSharp Async &amp; Await</title>
+      <link>http://www.sadrobot.co.nz/wiki/web/javascript/csharp-async-and-await/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/javascript/csharp-async-and-await/</guid>
+      <description>Asynchronous programming in C APM: C# 1.0 / .NET 1.0 Style This is known as the Asynchronous Programming Model (APM) and is associated with the IAsyncResult pattern.
+Asynchronous calls are made using Begin and End methods on an API, with callbacks and state being passed between them.
+ Exception handling Exceptions can be thrown from BeginRead (such as trying to read from a stream that has already been closed). Unexpected errors occurring during the async request (e.</description>
+    </item>
+    
+    <item>
+      <title>Cross-Origin Resource Sharing (CORS)</title>
+      <link>http://www.sadrobot.co.nz/wiki/web/javascript/cors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/javascript/cors/</guid>
+      <description>#Cross-Origin Resource Sharing (CORS)
+What problem does CORS solve? For security reasons, browsers can&amp;rsquo;t make cross-domain requests. They are limited to the same-origin.
+For example, website http://www.foo.com/ cannot access data from http://api.bar.com, because the origin differs (in this case, the domain name).
+Neither can https://www.foo.com access data from http://www.foo.com, because the scheme differs. The same can be said of differ port e.g. http://www.foo.com and http://www.foo.com:8080.
+This is a big problem for a world where applications talk to internal and external APIs on different hosts.</description>
+    </item>
+    
+    <item>
+      <title>Gulp</title>
+      <link>http://www.sadrobot.co.nz/wiki/web/javascript/gulp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/javascript/gulp/</guid>
+      <description>Gulp is a JavaScript build tool.
+It revolves around piping input streams through one or more tasks.
+As an example, you could have a Gulp file that will take in all your application&amp;rsquo;s javascript files, concatenate them into a single file, run JSLint, generate sourcemaps, minify and place the resulting file in your release folder.
+Having such a powerful and simple build tool allows you to develop your web application in clean, modular code while allowing you to create a simple to deploy and load release.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Has Won</title>
+      <link>http://www.sadrobot.co.nz/wiki/web/javascript/javascript-has-won/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/javascript/javascript-has-won/</guid>
+      <description>#JavaScript Has Won
+Always Bet On js http://brendaneich.github.io/ModernWeb.tw-2015/#74</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Patterns</title>
+      <link>http://www.sadrobot.co.nz/wiki/web/javascript/javascript-patterns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/javascript/javascript-patterns/</guid>
+      <description>#JavaScript Patterns
+Promises #References
+http://www.html5rocks.com/en/tutorials/es6/promises/ http://www.infoq.com/news/2014/05/promises-javascript</description>
+    </item>
+    
+    <item>
+      <title>JavaScript for C# Developers</title>
+      <link>http://www.sadrobot.co.nz/wiki/web/javascript/forcsharpdevelopers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/javascript/forcsharpdevelopers/</guid>
+      <description>Objects A Javascript object has a lot in common with a C# dictionary.
+You could imagine it as a dynamic type in C# that looks up values in a dictionary.
+Methods are object properties that reference a function.
+&amp;ldquo;this&amp;rdquo; is the calling context, not the current class.
+Functions Can return a reference to themselves.
+There is an &amp;ldquo;arguments&amp;rdquo; implicit parameter.
+All parameters are optional.
+Unspecified parameters are set to &amp;ldquo;undefined&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>http://www.sadrobot.co.nz/wiki/web/javascript/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/javascript/overview/</guid>
+      <description>Overview ECMAScript, JavaScript, Java, asm.js ECMAScript is the standardized, versioned spec of JavaScript.
+ECMAScript Support The ES6 spec is expected to be finalized and implemented by the various browser vendors sometime mid / late 2015.
+================= === ==================================== Browser ES5 ECMAScript 2015 (ES6) (in progress) ================= === ==================================== Chrome 23+ Evergreen Internet Explorer 9+ 12+ Firefox 21+ Evergreen ================= === ====================================
+Evergreen browsers automatically update to the latest version.</description>
+    </item>
+    
+  </channel>
+</rss>

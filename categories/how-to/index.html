@@ -14,7 +14,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-     <meta name="generator" content="Hugo 0.48" />
+     <meta name="generator" content="Hugo 0.54.0" />
 
       
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -24,7 +24,11 @@
 <meta property="og:description" content="We make software" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://www.sadrobot.co.nz/categories/how-to/" />
+
+<meta property="og:image" content="http://www.sadrobot.co.nz/images/gohugoio-card.png" />
+
 <meta property="og:updated_time" content="2011-08-08T11:32:00&#43;00:00"/>
+
 <meta itemprop="name" content="How To">
 <meta itemprop="description" content="We make software">
 
@@ -762,7 +766,7 @@ You can turn this off:
 
     <div class="lh-copy links">
       
-          A few months ago I posted a little query about finding duplicate rows in a database table. I&rsquo;m revisiting this because I helped out Doogie with a similar query last night but with some complications. Let&rsquo;s start with the original simple scenario of checking duplicates in a single column. Some example data, a Users table: +-&mdash;+-&ndash;-&ndash;-&ndash;-&ndash;-&mdash;+ | Id | Email | +-&mdash;+-&ndash;-&ndash;-&ndash;-&ndash;-&mdash;+ | 1 | joe@bloggs.com | | 2 | joe@bloggs.
+          <p>A few months ago I posted a little query about <a title="Finding duplicate rows in a database table" href="/2008/10/17/finding-duplicate-rows-in-the-database/" target="\_blank">finding duplicate rows in a database table</a>. I&rsquo;m revisiting this because I helped out Doogie with a similar query last night but with some complications. Let&rsquo;s start with the original simple scenario of checking duplicates in a single column. Some example data, a Users table: <pre>+-&mdash;+-&ndash;-&ndash;-&ndash;-&ndash;-&mdash;+ | Id | Email | +-&mdash;+-&ndash;-&ndash;-&ndash;-&ndash;-&mdash;+ | 1 | joe@bloggs.com | | 2 | joe@bloggs.com | | 3 | joe@bloggs.com | | 4 | jane@doe.com | | 5 | jane@doe.com | | 6 | john@doe.com | +-&mdash;+-&ndash;-&ndash;-&ndash;-&ndash;-&mdash;+</pre> You can see that joe@bloggs.com and jane@doe.com have been duplicated. This could have been prevented by putting a unique index on the Email column. So to find what emails have duplicates in our table:</p>
       
 
         <a href="/blog/2009/02/28/finding-duplicated-data-across-one-or-more-columns-in-a-database-table/" class="f6 mt2 db link primary-color dim">
@@ -800,8 +804,6 @@ You can turn this off:
 <p><img class="alignnone size-full wp-image-77" title="Normal Thumbnail Resizing Diagram" src="http://davidmoore.info/wp-content/uploads/2009/02/image-resize-normal.gif" alt="Normal Thumbnail Resizing Diagram" width="672" height="334" /></p>
 
 <p>I&rsquo;ve got an algorithm that will automatically crop the image either horizontally or vertically to then match the thumbnail aspect ratio, so you end up with the thumbnails all being the same size even though they may be coming from originals of wildly different aspect ratio.</p>
-
-<p></p>
       
 
         <a href="/blog/2009/02/07/creating-thumbnail-images-with-automatic-cropping-and-maintaining-aspect-ratio/" class="f6 mt2 db link primary-color dim">
@@ -832,7 +834,7 @@ You can turn this off:
       <div class="pb3 pt4 w-100">
       
          <div class="b f3  light-gray mb3 nested-links tc">
-           Copyright &copy; David Moore 2018<br />
+           Copyright &copy; David Moore 2019<br />
           </div>
 
           

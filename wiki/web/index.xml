@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Technologies on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/wiki/web/</link>
+    <description>Recent content in Web Technologies on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Apr 2019 19:40:44 +1200</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/wiki/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OAuth 2.0</title>
+      <link>http://www.sadrobot.co.nz/wiki/web/auth/oauth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/auth/oauth/</guid>
+      <description> #Open Authorization 2.0 (OAuth 2.0)
+What problem does OAuth 2.0 solve? </description>
+    </item>
+    
+    <item>
+      <title>OpenID Connect</title>
+      <link>http://www.sadrobot.co.nz/wiki/web/auth/openid-connect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/auth/openid-connect/</guid>
+      <description>#OpenID Connect
+OpenID Connect adds identity and authentication to the OAuth 2.0 protocol</description>
+    </item>
+    
+  </channel>
+</rss>

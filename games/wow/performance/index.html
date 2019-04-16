@@ -14,7 +14,7 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-     <meta name="generator" content="Hugo 0.48" />
+     <meta name="generator" content="Hugo 0.54.0" />
 
       
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -23,13 +23,17 @@
      <link href='/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="Settings &amp; Performance" />
 <meta property="og:description" content="System settings for graphics performance" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.sadrobot.co.nz/games/wow/performance/" /><meta property="article:modified_time" content="2018-11-14T08:38:09&#43;13:00"/>
+<meta property="og:url" content="http://www.sadrobot.co.nz/games/wow/performance/" />
+
+<meta property="og:image" content="http://www.sadrobot.co.nz/images/gohugoio-card.png" />
+<meta property="article:modified_time" content="2019-03-21T18:10:43&#43;13:00"/>
+
 <meta itemprop="name" content="Settings &amp; Performance">
 <meta itemprop="description" content="System settings for graphics performance">
 
 
-
-<meta itemprop="wordCount" content="205">
+<meta itemprop="dateModified" content="2019-03-21T18:10:43&#43;13:00" />
+<meta itemprop="wordCount" content="236">
 
 
 
@@ -145,6 +149,7 @@
 		<p class="b">On this page</p>
   	<nav id="TableOfContents">
 <ul>
+<li><a href="#ui-scale">UI Scale</a></li>
 <li><a href="#system-graphics">System &gt; Graphics</a></li>
 <li><a href="#system-advanced">System &gt; Advanced</a></li>
 <li><a href="#multi-threading-settings">Multi-Threading settings</a>
@@ -157,7 +162,7 @@
 
 	<div date-pref>
 		
-			<a href="http://www.sadrobot.co.nz/games/wow/uldir/" class="dib f6 pl1 hover-bg-light-gray br-100" title="Raid: Uldir ">
+			<a href="http://www.sadrobot.co.nz/games/wow/profile/" class="dib f6 pl1 hover-bg-light-gray br-100" title="My Profiles ">
 				<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
     <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
     <path d="M0 0h24v24H0z" fill="none"/>
@@ -166,14 +171,6 @@
 			</a>
 		
 
-		
-			<a href="http://www.sadrobot.co.nz/games/wow/dungeon/shrine-of-the-storm/" class="dib f6 pr1 hover-bg-light-gray br-100" title="Shrine of the Storm">
-			<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
-    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
-    <path d="M0 0h24v24H0z" fill="none"/>
-</svg>
-
-			</a>
 		
 	</div>
 
@@ -205,6 +202,20 @@
 
 
 
+<h1 id="ui-scale">UI Scale</h1>
+
+<p>Set the UI scale to 768 / (screen height.</p>
+
+<p>e.g. 768 / 1440 = 0.5333</p>
+
+<p>/script print(GetCVar(&ldquo;useUiScale&rdquo;))
+/script print(GetCVar(&ldquo;uiScale&rdquo;))
+/script print(UIParent:GetScale())</p>
+
+<p>/script SetCVar(&ldquo;useUiScale&rdquo;, 1);
+/script SetCVar(&ldquo;uiScale&rdquo;, 0.53333);
+/script UIParent:SetScale(0.5333)</p>
+
 <h1 id="system-graphics">System &gt; Graphics</h1>
 
 <p>Always have these on:</p>
@@ -229,7 +240,7 @@
 <tbody>
 <tr>
 <td>Triple Buffering</td>
-<td>Smooths our framerate and eliminates tearing, but introduces input lag.</td>
+<td>Smooths out framerate and eliminates tearing, but introduces input lag.</td>
 <td>Disabled</td>
 </tr>
 
@@ -344,10 +355,10 @@ SET gxMTShadow &quot;1&quot;
     
       
       <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2  primary-color" data-target=".world-of-warcraft-battle-for-azeroth">World of Warcraft: Battle for Azeroth</a>
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2  primary-color" data-target=".world-of-warcraft">World of Warcraft</a>
 
           
-            <ul class="world-of-warcraft-battle-for-azeroth desktopmenu animated fadeIn list pl0 bg-light-gray db">
+            <ul class="world-of-warcraft desktopmenu animated fadeIn list pl0 bg-light-gray db">
               
                 <li  class="f6 fw4">
                   <a href="/games/wow/profile/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
@@ -362,98 +373,115 @@ SET gxMTShadow &quot;1&quot;
                 </li>
               
                 <li  class="f6 fw4">
-                  <a href="/games/wow/mythicplus/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
-                    Mythic&#43;
-                  </a>
-                </li>
-              
-                <li  class="f6 fw4">
-                  <a href="/games/wow/pvp/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
-                    Paladin PvP Guide
-                  </a>
-                </li>
-              
-                <li  class="f6 fw4">
-                  <a href="/games/wow/protection/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
-                    Protection Paladin
-                  </a>
-                </li>
-              
-                <li  class="f6 fw4">
                   <a href="/games/wow/performance/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 primary-color ">
                     Settings
                   </a>
                 </li>
               
                 <li  class="f6 fw4">
-                  <a href="/games/wow/macros/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
-                    Paladin Macros
-                  </a>
-                </li>
-              
-                <li  class="f6 fw4">
-                  <a href="/games/wow/uldir/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
-                    Raid: Uldir
-                  </a>
-                </li>
-              
-                <li  class="f6 fw4">
-                  <a href="/games/wow/dungeon/ataldazar/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
-                    Dungeon: Ataldazar
-                  </a>
-                </li>
-              
-                <li  class="f6 fw4">
-                  <a href="/games/wow/dungeon/freehold/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
-                    Dungeon: Freehold
-                  </a>
-                </li>
-              
-                <li  class="f6 fw4">
-                  <a href="/games/wow/dungeon/kings-rest/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                  <a href="/games/wow/bfa/dungeon/kings-rest/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
                     Dungeon: Kings&#39; Rest
                   </a>
                 </li>
               
                 <li  class="f6 fw4">
-                  <a href="/games/wow/dungeon/shrine-of-the-storm/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                  <a href="/games/wow/bfa/dungeon/shrine-of-the-storm/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
                     Dungeon: Shrine of the Storm
                   </a>
                 </li>
               
                 <li  class="f6 fw4">
-                  <a href="/games/wow/dungeon/siege-of-boralus/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                  <a href="/games/wow/bfa/dungeon/siege-of-boralus/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
                     Dungeon: Siege of Boralus
                   </a>
                 </li>
               
                 <li  class="f6 fw4">
-                  <a href="/games/wow/dungeon/temple-of-sethraliss/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                  <a href="/games/wow/bfa/dungeon/temple-of-sethraliss/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
                     Dungeon: Temple of Sethraliss
                   </a>
                 </li>
               
                 <li  class="f6 fw4">
-                  <a href="/games/wow/dungeon/the-motherlode/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                  <a href="/games/wow/bfa/dungeon/the-motherlode/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
                     Dungeon: The MOTHERLODE!!
                   </a>
                 </li>
               
                 <li  class="f6 fw4">
-                  <a href="/games/wow/dungeon/the-underrot/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                  <a href="/games/wow/bfa/dungeon/the-underrot/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
                     Dungeon: The Underrot
                   </a>
                 </li>
               
                 <li  class="f6 fw4">
-                  <a href="/games/wow/dungeon/tol-dagor/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                  <a href="/games/wow/bfa/dungeon/tol-dagor/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
                     Dungeon: Tol Dagor
                   </a>
                 </li>
               
                 <li  class="f6 fw4">
-                  <a href="/games/wow/dungeon/waycrest-manor/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                  <a href="/games/wow/bfa/dungeon/waycrest-manor/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
                     Dungeon: Waycrest Manor
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+    
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".world-of-warcraft-battle-for-azeroth">World of Warcraft: Battle for Azeroth</a>
+
+          
+            <ul class="world-of-warcraft-battle-for-azeroth desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+              
+                <li  class="f6 fw4">
+                  <a href="/games/wow/bfa/dungeon/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Battle for Azeroth Dungeons
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/games/wow/bfa/mythicplus/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Mythic&#43;
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/games/wow/bfa/pvp/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Paladin PvP Guide
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/games/wow/bfa/protection/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Protection Paladin
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/games/wow/bfa/macros/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Paladin Macros
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/games/wow/bfa/raid/uldir/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Raid: Uldir
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/games/wow/bfa/dungeon/ataldazar/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Dungeon: Ataldazar
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/games/wow/bfa/dungeon/freehold/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Dungeon: Freehold
                   </a>
                 </li>
               
@@ -518,7 +546,7 @@ SET gxMTShadow &quot;1&quot;
   <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
 </span>
     “Settings &amp; Performance”
-  </a> was last updated: November 14, 2018
+  </a> was last updated: March 21, 2019
   
   
 </h6>
@@ -564,7 +592,7 @@ f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
       <div class="pb3 pt4 w-100">
       
          <div class="b f3  light-gray mb3 nested-links tc">
-           Copyright &copy; David Moore 2018<br />
+           Copyright &copy; David Moore 2019<br />
           </div>
 
           

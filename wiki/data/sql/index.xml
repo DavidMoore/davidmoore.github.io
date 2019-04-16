@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/wiki/data/sql/</link>
+    <description>Recent content in SQL on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Apr 2019 19:40:44 +1200</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/wiki/data/sql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SQL Server</title>
+      <link>http://www.sadrobot.co.nz/wiki/data/sql/sql-server/</link>
+      <pubDate>Fri, 27 Jan 2012 09:51:31 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/data/sql/sql-server/</guid>
+      <description>Creating a machine account login for SQL Server</description>
+    </item>
+    
+  </channel>
+</rss>

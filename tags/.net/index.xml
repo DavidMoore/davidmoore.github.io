@@ -72,9 +72,7 @@ You can configure your app to execute under the .NET 4 runtime by adding these l
 
 &lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-77&#34; title=&#34;Normal Thumbnail Resizing Diagram&#34; src=&#34;http://davidmoore.info/wp-content/uploads/2009/02/image-resize-normal.gif&#34; alt=&#34;Normal Thumbnail Resizing Diagram&#34; width=&#34;672&#34; height=&#34;334&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;ve got an algorithm that will automatically crop the image either horizontally or vertically to then match the thumbnail aspect ratio, so you end up with the thumbnails all being the same size even though they may be coming from originals of wildly different aspect ratio.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;I&amp;rsquo;ve got an algorithm that will automatically crop the image either horizontally or vertically to then match the thumbnail aspect ratio, so you end up with the thumbnails all being the same size even though they may be coming from originals of wildly different aspect ratio.&lt;/p&gt;</description>
     </item>
     
     <item>

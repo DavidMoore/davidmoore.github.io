@@ -9,33 +9,33 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
      
-    <title>Sad Robot</title>
+    <title>Error Codes | Sad Robot</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-     <meta name="generator" content="Hugo 0.48" />
+     <meta name="generator" content="Hugo 0.54.0" />
 
       
         <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
       
 
-     <link href='/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="" />
-<meta property="og:description" content="Error Codes HRESULT https://msdn.microsoft.com/en-us/library/cc231198.aspx
-The HRESULT numbering space is vendor-extensible. Vendors can supply their own values for this field, as long as the C bit (0x20000000) is set, indicating it is a customer code.
-The HRESULT numbering space has the following internal structure. Any protocol that uses NTSTATUS values on the wire is responsible for stating the order in which the bytes are placed on the wire.
-S (1 bit): Severity." />
+     <link href='/dist/main.css' rel='stylesheet' type="text/css" /><meta property="og:title" content="Error Codes" />
+<meta property="og:description" content="Common error codes, causes and solutions." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.sadrobot.co.nz/wiki/debugging/error-codes/" /><meta property="article:modified_time" content="2018-01-14T19:03:00&#43;13:00"/>
-<meta itemprop="name" content="">
-<meta itemprop="description" content="Error Codes HRESULT https://msdn.microsoft.com/en-us/library/cc231198.aspx
-The HRESULT numbering space is vendor-extensible. Vendors can supply their own values for this field, as long as the C bit (0x20000000) is set, indicating it is a customer code.
-The HRESULT numbering space has the following internal structure. Any protocol that uses NTSTATUS values on the wire is responsible for stating the order in which the bytes are placed on the wire.
-S (1 bit): Severity.">
+<meta property="og:url" content="http://www.sadrobot.co.nz/wiki/debugging/error-codes/" />
+
+<meta property="og:image" content="http://www.sadrobot.co.nz/images/gohugoio-card.png" />
+<meta property="article:published_time" content="2010-12-17T10:38:15&#43;00:00"/>
+<meta property="article:modified_time" content="2019-04-16T19:40:44&#43;12:00"/>
+
+<meta itemprop="name" content="Error Codes">
+<meta itemprop="description" content="Common error codes, causes and solutions.">
 
 
-
-<meta itemprop="wordCount" content="537">
+<meta itemprop="datePublished" content="2010-12-17T10:38:15&#43;00:00" />
+<meta itemprop="dateModified" content="2019-04-16T19:40:44&#43;12:00" />
+<meta itemprop="wordCount" content="518">
 
 
 
@@ -43,11 +43,8 @@ S (1 bit): Severity.">
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="http://www.sadrobot.co.nz/images/gohugoio-card.png"/>
 
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="Error Codes HRESULT https://msdn.microsoft.com/en-us/library/cc231198.aspx
-The HRESULT numbering space is vendor-extensible. Vendors can supply their own values for this field, as long as the C bit (0x20000000) is set, indicating it is a customer code.
-The HRESULT numbering space has the following internal structure. Any protocol that uses NTSTATUS values on the wire is responsible for stating the order in which the bytes are placed on the wire.
-S (1 bit): Severity."/>
+<meta name="twitter:title" content="Error Codes"/>
+<meta name="twitter:description" content="Common error codes, causes and solutions."/>
 <meta name="twitter:site" content="@whup"/>
 
 
@@ -154,7 +151,7 @@ S (1 bit): Severity."/>
 
 	<div date-pref>
 		
-			<a href="http://www.sadrobot.co.nz/wiki/data/" class="dib f6 pl1 hover-bg-light-gray br-100" title=" ">
+			<a href="http://www.sadrobot.co.nz/wiki/debugging/debugging-windows-installer-custom-actions-2/" class="dib f6 pl1 hover-bg-light-gray br-100" title="Debugging Windows Installer Custom Actions ">
 				<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
     <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
     <path d="M0 0h24v24H0z" fill="none"/>
@@ -163,14 +160,6 @@ S (1 bit): Severity."/>
 			</a>
 		
 
-		
-			<a href="http://www.sadrobot.co.nz/wiki/" class="dib f6 pr1 hover-bg-light-gray br-100" title="">
-			<svg class="fill-current" height="30px" viewBox="0 0 24 24" width="30px" xmlns="http://www.w3.org/2000/svg">
-    <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
-    <path d="M0 0h24v24H0z" fill="none"/>
-</svg>
-
-			</a>
 		
 	</div>
 
@@ -183,10 +172,14 @@ S (1 bit): Severity."/>
           </div>
           <header class="flex-none w-100">
   
-  <h1 class="lh-title mb3 mv0 pt3 primary-color-dark"></h1>
+  <h1 class="lh-title mb3 mv0 pt3 primary-color-dark">Error Codes</h1>
 </header>
 
 <aside class="bt bw1 pt3 mt2 mid-gray b--mid-gray fn w-100">
+  
+    <div class="f4 fw4 lh-copy">
+      Common error codes, causes and solutions.
+    </div>
   
 
   
@@ -198,8 +191,6 @@ S (1 bit): Severity."/>
 
 
 
-<h1 id="error-codes">Error Codes</h1>
-
 <h2 id="hresult">HRESULT</h2>
 
 <p><a href="https://msdn.microsoft.com/en-us/library/cc231198.aspx" target="_blank">https://msdn.microsoft.com/en-us/library/cc231198.aspx</a></p>
@@ -208,24 +199,15 @@ S (1 bit): Severity."/>
 
 <p>The HRESULT numbering space has the following internal structure. Any protocol that uses NTSTATUS values on the wire is responsible for stating the order in which the bytes are placed on the wire.</p>
 
-<p>S (1 bit): Severity. If set, indicates a failure result. If clear, indicates a success result.
-R (1 bit): Reserved. If the N bit is clear, this bit MUST be set to 0. If the N bit is set, this bit is defined by the NTSTATUS numbering space (as specified in section 2.3).
-C (1 bit): Customer. This bit specifies if the value is customer-defined or Microsoft-defined. The bit is set for customer-defined values and clear for Microsoft-defined values.<1>
-N (1 bit): If set, indicates that the error code is an NTSTATUS value (as specified in section 2.3), except that this bit is set.
-X (1 bit):  Reserved.  SHOULD be set to 0. <2>
-Facility (11 bits): An indicator of the source of the error. New facilities are occasionally added by Microsoft.
-Code (16 bits)</p>
-
-<hr />
-
-<p>id: 392
-title: Error Codes
-date: 2010-12-17T10:38:15+00:00
-author: David</p>
-
-<h2 id="guid-http-www-davidmoore-info-page-id-392">guid: <a href="http://www.davidmoore.info/?page_id=392" target="_blank">http://www.davidmoore.info/?page_id=392</a></h2>
-
-<p>Common error codes, causes and solutions.</p>
+<ul>
+<li>S (1 bit): Severity. If set, indicates a failure result. If clear, indicates a success result.</li>
+<li>R (1 bit): Reserved. If the N bit is clear, this bit MUST be set to 0. If the N bit is set, this bit is defined by the NTSTATUS numbering space (as specified in section 2.3).</li>
+<li>C (1 bit): Customer. This bit specifies if the value is customer-defined or Microsoft-defined. The bit is set for customer-defined values and clear for Microsoft-defined values.<1></li>
+<li>N (1 bit): If set, indicates that the error code is an NTSTATUS value (as specified in section 2.3), except that this bit is set.</li>
+<li>X (1 bit):  Reserved.  SHOULD be set to 0. <2></li>
+<li>Facility (11 bits): An indicator of the source of the error. New facilities are occasionally added by Microsoft.</li>
+<li>Code (16 bits)</li>
+</ul>
 
 <table border="0" cellspacing="2" cellpadding="2" width="891">
   <tr>
@@ -560,41 +542,91 @@ Sometimes the error code will be from another platform or framework, for example
     
       
       <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="/blog/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".latest-posts">Latest Posts</a>
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".net">.NET</a>
 
           
-        </li>
-    
-      
-      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="/categories/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".categories">Categories</a>
-
-          
-        </li>
-    
-      
-      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="/tags/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".tags">Tags</a>
-
-          
-        </li>
-    
-      
-      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
-        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".archive">Archive</a>
-
-          
-            <ul class="archive desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+            <ul class="net desktopmenu animated fadeIn list pl0 bg-light-gray dn">
               
                 <li  class="f6 fw4">
-                  <a href="/blog/2017/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
-                    2017
+                  <a href="/wiki/dotnet/async/async/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Overview
                   </a>
                 </li>
               
                 <li  class="f6 fw4">
-                  <a href="/blog/2016/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
-                    2016
+                  <a href="/wiki/dotnet/orm/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    ORM
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/wiki/dotnet/patterns/visitor/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Visitor Pattern
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/wiki/dotnet/async/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Asynchronous Programming
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/wiki/dotnet/csharp/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Covariance &amp; Contravariance
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/wiki/dotnet/msbuild/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    MSBuild
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+    
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".dynamics">Microsoft Dynamics</a>
+
+          
+            <ul class="dynamics desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+              
+                <li  class="f6 fw4">
+                  <a href="/wiki/dynamics/crm/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    Microsoft Dynamics 365 CRM
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </li>
+    
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="/wiki/debugging/" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".">Debugging</a>
+
+          
+        </li>
+    
+      
+      <li class="f5 w-100 hover-bg-light-gray hover-accent-color-light fw8">
+        <a href="javascript:void(0)" class="js-toggle dib w-100 link mid-gray hover-accent-color-light pl2 pr2 pv2 " data-target=".principles">Principles &amp; Theory</a>
+
+          
+            <ul class="principles desktopmenu animated fadeIn list pl0 bg-light-gray dn">
+              
+                <li  class="f6 fw4">
+                  <a href="/wiki/theory/solid/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    SOLID
+                  </a>
+                </li>
+              
+                <li  class="f6 fw4">
+                  <a href="/wiki/theory/yagni/" class="db link hover-bg-gray hover-white pl3 pr2 pv2 black ">
+                    YAGNI
                   </a>
                 </li>
               
@@ -616,8 +648,8 @@ Sometimes the error code will be from another platform or framework, for example
   <a href="http://www.sadrobot.co.nz/wiki/debugging/error-codes/" class="hide-child link primary-color">
   <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
 </span>
-    “”
-  </a> was last updated: January 14, 2018
+    “Error Codes”
+  </a> was last updated: April 16, 2019
   
   
 </h6>
@@ -663,7 +695,7 @@ f6 ph3 pv1 br2 dib  tc ttu mv3 bg-primary-color white hover-bg-green link
       <div class="pb3 pt4 w-100">
       
          <div class="b f3  light-gray mb3 nested-links tc">
-           Copyright &copy; David Moore 2018<br />
+           Copyright &copy; David Moore 2019<br />
           </div>
 
           

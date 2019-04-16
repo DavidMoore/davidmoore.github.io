@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asynchronous Programming on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/wiki/dotnet/async/</link>
+    <description>Recent content in Asynchronous Programming on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Apr 2019 19:40:44 +1200</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/wiki/dotnet/async/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/async/async/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/async/async/</guid>
+      <description>Asynchronous Programming Model (APM): C# 1.0 / .NET 1.0 Style Legacy model using the IAsyncResult pattern.
+Asynchronous calls are made using Begin and End methods on an API, with callbacks and state being passed between them.
+public class MyClass { public IAsyncResult BeginRead( byte[] buffer, int offset, int count, AsyncCallback callback, object state); public int EndRead(IAsyncResult asyncResult); } Exception handling Exceptions can be thrown from BeginRead (such as trying to read from a stream that has already been closed).</description>
+    </item>
+    
+    <item>
+      <title>Gotchas</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/async/gotchas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/async/gotchas/</guid>
+      <description>Async / Await Gotchas Spot the bug:
+internal Task&amp;lt;DataFormat&amp;gt; TestAsync() { using (var stream = File.Open(&amp;#34;test.dat&amp;#34;, FileMode.Open, FileAccess.Read, FileShare.Read)) { return StreamProcessingUtil.DoSomethingAsync(stream); } } Oops! We actually need to await the method that gets passed the stream, as without an await, the closing of the using will be hit, disposing the stream before our method has a chance to start or finish what it wants to do.
+Solution:
+internal async Task&amp;lt;DataFormat&amp;gt; TestAsync() { using (var stream = File.</description>
+    </item>
+    
+  </channel>
+</rss>

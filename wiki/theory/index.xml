@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Principles &amp; Theory on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/wiki/theory/</link>
+    <description>Recent content in Principles &amp; Theory on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Apr 2019 19:40:44 +1200</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/wiki/theory/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SOLID</title>
+      <link>http://www.sadrobot.co.nz/wiki/theory/solid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/theory/solid/</guid>
+      <description>S.O.L.I.D. S.O.L.I.D. aka SOLID stands for:
+S: Single Responsibility Principle aka SRP A class should have a single responsibility.
+O: Open / Closed A class should be open for extension, but closed to modification.
+L: Liskov substitution principle An object should be replaceable with an object of its subtype without breaking the program.
+I: Interface Segregation Principle Many interfaces are desirable over one general-purpose interface
+D: Dependency Injection Principle aka DI Classes should depend on supplied abstractions, instead of concrete implementations.</description>
+    </item>
+    
+    <item>
+      <title>YAGNI</title>
+      <link>http://www.sadrobot.co.nz/wiki/theory/yagni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/theory/yagni/</guid>
+      <description>YAGNI You Aren&amp;rsquo;t Gonna Need It:
+This originates from eXtreme Programming (XP).
+You should only add functionality until there is a need for that functionality, rather than adding functionality you forsee as being possibly necessary later.
+This helps keep the code base leaner, and allow changing requirements and refactoring.</description>
+    </item>
+    
+  </channel>
+</rss>

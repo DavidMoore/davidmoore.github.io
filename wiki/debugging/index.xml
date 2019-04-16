@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debugging on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/wiki/debugging/</link>
+    <description>Recent content in Debugging on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Apr 2019 19:40:44 +1200</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/wiki/debugging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debugging Windows Installer Custom Actions</title>
+      <link>http://www.sadrobot.co.nz/wiki/debugging/debugging-windows-installer-custom-actions-2/</link>
+      <pubDate>Wed, 10 Aug 2011 13:34:41 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/debugging/debugging-windows-installer-custom-actions-2/</guid>
+      <description>General First, you must know the name of the custom action you want to debug. In this example we&amp;rsquo;ll call it MyCustomAction.
+Set the MsiBreak environment variable (user or system) to the name of the custom action. You can do this easily by running setx from the commandline:
+C:\Windows\System32&amp;gt;setx MsiBreak MyCustomAction SUCCESS: Specified value was saved. C:\Windows\System32&amp;gt; Run your installer
+You should get now get a message box prompt like this:</description>
+    </item>
+    
+    <item>
+      <title>Error Codes</title>
+      <link>http://www.sadrobot.co.nz/wiki/debugging/error-codes/</link>
+      <pubDate>Fri, 17 Dec 2010 10:38:15 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/debugging/error-codes/</guid>
+      <description>HRESULT https://msdn.microsoft.com/en-us/library/cc231198.aspx
+The HRESULT numbering space is vendor-extensible. Vendors can supply their own values for this field, as long as the C bit (0x20000000) is set, indicating it is a customer code.
+The HRESULT numbering space has the following internal structure. Any protocol that uses NTSTATUS values on the wire is responsible for stating the order in which the bytes are placed on the wire.
+ S (1 bit): Severity.</description>
+    </item>
+    
+  </channel>
+</rss>

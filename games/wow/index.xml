@@ -6,19 +6,10 @@
     <description>Recent content in World of Warcraft on Sad Robot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Oct 2018 20:14:51 +1300</lastBuildDate>
+    <lastBuildDate>Tue, 16 Apr 2019 19:41:07 +1200</lastBuildDate>
     
 	<atom:link href="http://www.sadrobot.co.nz/games/wow/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Ataldazar</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/ataldazar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/ataldazar/</guid>
-      <description>Notable Trash  If Dazar&amp;rsquo;ai Confessors get a Bwonsamdi&amp;rsquo;s Mantle cast off, drag trash out of the bubble, as it makes their casts un-interruptible Interrupt Dazar&amp;rsquo;ai Augur&amp;rsquo;s Fiery Enchant (exploding fire circles under party members&amp;rsquo; feet) For Shieldbearers of Zul, use Hammer of Justice or Blinding Light to interrupt their Bulwark of Juju   Priestess Alun&amp;rsquo;za  Use activate mitigation, perhaps a cooldown, for Gilded Claws Tank her near a Tainted Blood puddle Step into Tainted Blood just before she casts Transfusion Stun and kill Spirits of Gold so they don&amp;rsquo;t absorb Tainted Blood puddles.</description>
-    </item>
     
     <item>
       <title>ElvUI Updater</title>
@@ -34,29 +25,6 @@ ElvUI Updater ElvUI is not available from the Twitch add-on manager, so you norm
     </item>
     
     <item>
-      <title>Freehold</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/freehold/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/freehold/</guid>
-      <description>Talents Choose Blessing of Protection to put on party members if fixated by ground shark on 2nd boss (save for healer ideally)
-Skycap&amp;rsquo;n Kragg
-Spread from your party members, kick his healing spell. When he dismounts from his bird, the bird will come back from the edge of the arena and charge through. Try to avoid this bird.
-Council o&amp;rsquo; Captains
-When friendly has big barrel on his head, kill barrel, don&amp;rsquo;t stand in AOE.</description>
-    </item>
-    
-    <item>
-      <title>Kings&#39; Rest</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/kings-rest/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/kings-rest/</guid>
-      <description>Dazar, The First King  Use Blessing of Spellwarding or Divine Shield to break the fear  The Golden Serpent
-When you have orange DOT on yourself go away from boss it will make a pool appear beneath you at the end of the DOT, try to stack those pools at the same place, important cause thats where the adds will come from, don&amp;rsquo;t let adds reach boss, use your slows and stuns, dont stay melee range when boss is doing tornado around him</description>
-    </item>
-    
-    <item>
       <title>My Profiles</title>
       <link>http://www.sadrobot.co.nz/games/wow/profile/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -66,146 +34,18 @@ When you have orange DOT on yourself go away from boss it will make a pool appea
     </item>
     
     <item>
-      <title>Mythic&#43;</title>
-      <link>http://www.sadrobot.co.nz/games/wow/mythicplus/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/games/wow/mythicplus/</guid>
-      <description>Loot  Weekly Chest contains 1 item Azerite pieces only drop from the Weekly Chest No gear or talent changes in Mythic+ You can zone out, change gear and/or talents, then zone back in You can now bonus roll for loot in Mythic+     Keystone Level End of Dungeon Weekly Chest Azerite Armor (Weekly Chest)     Mythic 2 (Fort/Tyr) 345 355 340   Mythic 3 345 355 340   Mythic 4 (Affix 1) 350 360 355   Mythic 5 355 360 355   Mythic 6 355 365 355   Mythic 7 (Affix 2) 360 370 370   Mythic 8 365 370 370   Mythic 9 365 375 370   Mythic 10+ (Seasonal Affix) 370 380 385    Affix Schedule Affix 1 Affix 2 Affix 3 Fortified Sanguine Necrotic Tyrannical Bursting Skittish Fortified Teeming Quaking Tyrannical Raging Necrotic Fortified Bolstering Skittish Tyrannical Teeming Volcanic Fortified Sanguine Grievous Tyrannical Bolstering Explosive Fortified Bursting Quaking Tyrannical Raging Volcanic Fortified Teeming Explosive Tyrannical Bolstering Grievous</description>
-    </item>
-    
-    <item>
-      <title>Paladin Macros</title>
-      <link>http://www.sadrobot.co.nz/games/wow/macros/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/games/wow/macros/</guid>
-      <description>Avenger&amp;rsquo;s Shield Casts at mouseover enemy, focus target enemy or current target If you&amp;rsquo;re in PvP and holding CTRL, then enable Shield of Virtue (AOE silence) before throwing shield
- #showtooltip Avenger&#39;s Shield /cast [mod:ctrl] Shield of Virtue /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead]Avenger&#39;s Shield  Rebuke Kick / interrupt your mouseover target, focus target or selected target (in that priority order)
- #showtooltip Rebuke /stopcasting /cast [@mouseover,harm,nodead][@focus,harm,nodead][@target,harm,nodead] Rebuke  Judgment Judges your mouseover target if they&amp;rsquo;re an enemy, enemy focus target or finally your target.</description>
-    </item>
-    
-    <item>
-      <title>Paladin PvP Guide</title>
-      <link>http://www.sadrobot.co.nz/games/wow/pvp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/games/wow/pvp/</guid>
-      <description> References    Name Description Authors Updated     Skillcapped Paladin PvP Guide       </description>
-    </item>
-    
-    <item>
-      <title>Protection Paladin</title>
-      <link>http://www.sadrobot.co.nz/games/wow/protection/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/games/wow/protection/</guid>
-      <description>Stats Item Level &amp;gt; Haste &amp;gt; Mastery &amp;gt;= Versatility &amp;gt; Crit
-Enchants &amp;amp; Gems  Weapon Enchant: Quick Navigation Ring Enchant: Haste Gems: 1 x Strength then Haste  Consumables  Flask: Strength Battle Potion: Potion of Bursting Blood for Single Target, Battle Potion of Strength for Multi-Target Food: Feast or Haste  Trinkets Azerite Traits   RankDefensiveOffensive STAOESTAOE OuterMiddleInnerOuterMiddleInnerOuterMiddleInnerOuterMiddleInner   S+ TierGemhideSoaring Shield S TierAblative ShieldingGemhide Inspiring Vanguard x1Inspiring Vanguard Ablative Shielding A TierCrystalline CarapaceCrystalline Carapace Impassive VisageBulwark of Light Meticulous SchemingImpassive Visage TradewindsBulwark of the Masses Bulwark of LightAvenger’s Might Life SpeedTradewinds Shimmering HavenIncite the Pack Blood SiphonBlood Siphon Avenger’s MightLife Speed Shimmering Haven B TierSoaring ShieldAzerite Veins Azerite VeinsResounding Protection Resounding ProtectionMeticulous Scheming Archive of the TitansArchive of the Titans On My WayOn My Way Concentrated MendingUnstable Catalyst Strength in Numbers   Defensive Gemhide</description>
-    </item>
-    
-    <item>
-      <title>Raid: Uldir</title>
-      <link>http://www.sadrobot.co.nz/games/wow/uldir/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/games/wow/uldir/</guid>
-      <description>Loot Levels    Difficulty Item Level     LFR 340   Normal 355   Heroic 370   Mythic 385     Weapons can only Warforge (+5 or +10) Azerite Armor cannot Warforge or Titanforge  Boss Loot  BoEAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution Wrist Haste / Mast Hands Crit / Haste Wing 1 TalocAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution Trinket: +Int, aoe damage proc2H Str Mace Crit/Haste Wrists Vers/Crit Legs: Haste/Mastery MOTHERAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution HeadArchive of the TitansLaser MatrixAzerite VeinsElemental WhirlEphemeral RecoveryResounding ProtectionImpassive VisageInspiring VanguardGrace of the JusticarDivine Right Offhand Crit/Vers Waist Mast/Crit Ring: Crit/Haste Zek&#39;vozAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution 1H Ver/Mast MaceTrinket: +Str, Damage proc (cone) Legs: Vers/Mastery Feet: Haste/Vers Ring: Mastery/Crit Fetid DevourerAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution 1H Axe1H Axe Crit/Vers Hands Crit/Vers Cloak: Haste/Mastery VectisAzerite ArmourRole TraitsDefensive TraitsProtectionHolyRetribution VectisChestArchive of the TitansLaser MatrixStrength In NumbersUnstable FlamesWoundbinderJudicious DefenseBreaking DawnRelentless Inquisitor Shield Crit/VersTrinket: +Int; Active ability adds 3k to next 5 direct heals on target.</description>
-    </item>
-    
-    <item>
       <title>Settings &amp; Performance</title>
       <link>http://www.sadrobot.co.nz/games/wow/performance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/games/wow/performance/</guid>
-      <description>System &amp;gt; Graphics Always have these on:
+      <description>UI Scale Set the UI scale to 768 / (screen height.
+e.g. 768 / 1440 = 0.5333
+/script print(GetCVar(&amp;ldquo;useUiScale&amp;rdquo;)) /script print(GetCVar(&amp;ldquo;uiScale&amp;rdquo;)) /script print(UIParent:GetScale())
+/script SetCVar(&amp;ldquo;useUiScale&amp;rdquo;, 1); /script SetCVar(&amp;ldquo;uiScale&amp;rdquo;, 0.53333); /script UIParent:SetScale(0.5333)
+System &amp;gt; Graphics Always have these on:
 Project Textures (SET projectedTextures &amp;quot;1.000000&amp;quot;)
-Projected textures are usually used for ground visual effects for important mechanics in dungeons and raids; if you don&amp;rsquo;t have them enabled, you will often not be able to see these mechanics and die to them.
-Anti-Aliasing:
-System &amp;gt; Advanced    Setting Description Recommendation     Triple Buffering Smooths our framerate and eliminates tearing, but introduces input lag.</description>
-    </item>
-    
-    <item>
-      <title>Shrine of the Storm</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/shrine-of-the-storm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/shrine-of-the-storm/</guid>
-      <description>Notable Trash  Abyss Dwellers: Use Blessing of Spellwarding or Divine Shield to drop stacks or prevent application of Rip Mind  Lord Stormsong  Make sure you have Avenger&amp;rsquo;s Shield ready to interrupt the Void Bolt he will cast immediately after Awaken the Void  Aqu&amp;rsquo;Sirr
-Dont stand near edges, you don&amp;rsquo;t wanna get knocked back and die, avoid his charge, avoid blue aoe on the ground. When he splits into 3 water elementals, try to focus fire them one by one, dont spread DPS.</description>
-    </item>
-    
-    <item>
-      <title>Siege of Boralus</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/siege-of-boralus/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/siege-of-boralus/</guid>
-      <description>Notable Trash  Bilge Rat Buccaneer: Use Blinding Light to disorient them when they try to cast Banana Rampage Ashvane Invader: Use Divine Shield or Blessing of Spellwarding to drop stacks of Stinging Venom Coating  Sergeant Bainbridge/Chopper Redhook  Blessing of Spellwarding or Divine Shield to immune bombs if they&amp;rsquo;re about to go off  Sergeant Bainbridge
-Don&amp;rsquo;t walk in bombs on the ground. If the boss is chasing after you, make him run through bombs on ground.</description>
-    </item>
-    
-    <item>
-      <title>Temple of Sethraliss</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/temple-of-sethraliss/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/temple-of-sethraliss/</guid>
-      <description>Notable Trash  Faithless Tender: Interrupt Drain  Merektha  Hammer of Justice can free party members from A Knot of Snakes Move adds out of Dust Cloud  Galvazzt  Use Blessing of Spellwarding to soak Galvanize, or Divine Shield to remove stacks if necessary  Adderis and Aspix
-Hit the one that doesnt have Lightning Shield (it will change so be careful), if you have electricity debuff on you go away from friends, spread out when he is doing ninja electricity charge.</description>
-    </item>
-    
-    <item>
-      <title>The MOTHERLODE!!</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/the-motherlode/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/the-motherlode/</guid>
-      <description>Coin-Operated Crowd Pummeler
-When he drops grenades on the floor, go throw those back at him. You need to be facing him while in front of the grenade. When he turns facing you and starts canalizing a spell, move so you&amp;rsquo;re on his side or back.
-Azerokk
-Use totems to CC 2 elementals before the fight. If you have big red eyes on you run away from elementals. When they become very shiny they take 150% more damage but they also hit harder, so kill them with range.</description>
-    </item>
-    
-    <item>
-      <title>The Underrot</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/the-underrot/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/the-underrot/</guid>
-      <description>Elder Leaxa
-I&amp;rsquo;m sure there is something this boss does apart from dying fast, but I havent found it yet.
-Cragmaw the Infested
-Go away from the direction he&amp;rsquo;s facing when he&amp;rsquo;s charging. Go step on red things on ground so it doesnt spawn little adds that will stack a nasty dot on you.
-Sporecaller Zancha
-He will spawn green shrooms around him. When you have a big arrow above your head, go stand near those shrooms (but not IN it).</description>
-    </item>
-    
-    <item>
-      <title>Tol Dagor</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/tol-dagor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/tol-dagor/</guid>
-      <description>The Sand Queen
-When you have big arrow on your head, go away from friends. Dont walk into stuff she spawns on the ground. Kill adds quickly.
-Jes Howlis
-When he starts casting Flashing Daggers go behind a wall. When he runs away follow him and finish him. Use your stuns / slows on adds.
-Kingh Captain Valyri
-If you have red fire dot on you, dont go near barrels, you will explode them.</description>
-    </item>
-    
-    <item>
-      <title>Waycrest Manor</title>
-      <link>http://www.sadrobot.co.nz/games/wow/dungeon/waycrest-manor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sadrobot.co.nz/games/wow/dungeon/waycrest-manor/</guid>
-      <description>Heartsbane Triad
-One of the 3 bosses will be bigger than the others. Do damage to this one. Then it will change. So change target, you need to hit the one that is bigger than the others always. Keep moving when you have shadow dot on you to avoid stacking it.
-Soulbound Goliath
-When he imprisons one of your friends kill the thing. Don&amp;rsquo;t stand on the fire. If you&amp;rsquo;re a tank, when boss reaches high stacks you might wanna pop defensive CDs or kite him.</description>
+Projected textures are usually used for ground visual effects for important mechanics in dungeons and raids; if you don&amp;rsquo;t have them enabled, you will often not be able to see these mechanics and die to them.</description>
     </item>
     
   </channel>

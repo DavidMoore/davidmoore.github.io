@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C# on Sad Robot</title>
+    <link>http://www.sadrobot.co.nz/tags/c#/</link>
+    <description>Recent content in C# on Sad Robot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Jun 2009 10:50:15 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sadrobot.co.nz/tags/c#/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unit testing multi-threaded, asynchronous code and/or events</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/06/03/unit-testing-multi-threaded-asynchronous-code-andor-events/</link>
+      <pubDate>Wed, 03 Jun 2009 10:50:15 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/06/03/unit-testing-multi-threaded-asynchronous-code-andor-events/</guid>
+      <description>I&amp;rsquo;ve been writing some unit tests recently that test some multi-threaded functionality. Typically this involves hooking up some event handlers then waiting for some asynchronous code to fire the event before proceeding with the unit test and assertions. The ManualResetEvent class (MSDN) seems a good choice for this, and this post has a small example of using it in a unit test:   [Test()] public void AfterRunAsync() { ManualResetEvent manualEvent = new ManualResetEvent(false); TestTestCase tc = new TestTestCase(1, &amp;ldquo;&amp;rdquo;, 0, 0); bool eventFired = false; tc.</description>
+    </item>
+    
+    <item>
+      <title>Could not load file or assembly &amp;#226;&amp;#8364;&amp;#732;x&amp;#226;&amp;#8364;&amp;#8482; or one of its dependencies. Strong name validation failed.</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/26/could-not-load-file-or-assembly-x-or-one-of-its-dependencies-strong-name-validation-failed/</link>
+      <pubDate>Tue, 26 May 2009 15:54:34 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/26/could-not-load-file-or-assembly-x-or-one-of-its-dependencies-strong-name-validation-failed/</guid>
+      <description>In some of the work I&amp;rsquo;m doing right now, I&amp;rsquo;m manipulating an assembly after compile time - having it disassembled into IL, tweaked, then re-compiled back into an assembly. The assembly is signed and what is being done to the assembly is breaking the strong name. This is quite comforting to know; the strong name wouldn&amp;rsquo;t be so strong if it was that easy to hack an assembly with a strong name.</description>
+    </item>
+    
+    <item>
+      <title>Configuring NLog for your application when NLog is in the Global Assembly Cache (GAC)</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/05/22/configuring-nlog-for-your-application-when-nlog-is-in-the-global-assembly-cache-gac/</link>
+      <pubDate>Fri, 22 May 2009 12:28:23 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/05/22/configuring-nlog-for-your-application-when-nlog-is-in-the-global-assembly-cache-gac/</guid>
+      <description>If you have several applications that are using NLog, it can be a good idea to install NLog into the GAC and reference that. A gotcha you must watch out for is caused by this piece of configuration from the NLog site:        Because you are not using the strong name for the Assembly-qualified name of ConfigSectionHandler, it&amp;rsquo;s impossible to do a GAC lookup, therefore NLog won&amp;rsquo;t be found and you&amp;rsquo;ll get an application error (even if NLog is actually in the GAC).</description>
+    </item>
+    
+    <item>
+      <title>Creating thumbnail images with automatic cropping and maintaining aspect ratio</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/02/07/creating-thumbnail-images-with-automatic-cropping-and-maintaining-aspect-ratio/</link>
+      <pubDate>Sat, 07 Feb 2009 02:17:03 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/02/07/creating-thumbnail-images-with-automatic-cropping-and-maintaining-aspect-ratio/</guid>
+      <description>&lt;p&gt;Most thumbnail-generation solutions will shrink the original down while maintaining aspect ratio.&lt;/p&gt;
+
+&lt;p&gt;Usually you specify the maximum height and width of the thumbnail, e.g. 150 x 200&lt;/p&gt;
+
+&lt;p&gt;However, if your original image&amp;rsquo;s aspect ratio is different to the maximum thumbnail dimensions, you will end up with dead space vertically or horizontally (shown in green in the illustration). This can be quite an eyesore when displaying thumbnails in a grid.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-77&#34; title=&#34;Normal Thumbnail Resizing Diagram&#34; src=&#34;http://davidmoore.info/wp-content/uploads/2009/02/image-resize-normal.gif&#34; alt=&#34;Normal Thumbnail Resizing Diagram&#34; width=&#34;672&#34; height=&#34;334&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve got an algorithm that will automatically crop the image either horizontally or vertically to then match the thumbnail aspect ratio, so you end up with the thumbnails all being the same size even though they may be coming from originals of wildly different aspect ratio.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Castle Project update</title>
+      <link>http://www.sadrobot.co.nz/blog/2009/01/08/castle-project-update/</link>
+      <pubDate>Thu, 08 Jan 2009 03:18:26 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/blog/2009/01/08/castle-project-update/</guid>
+      <description>Hamilton has applied a bunch of patches and fixes to the Castle Project for the Components and Windsor sub-projects. Including 2 minor and insignificant patches that I submitted +D. It&amp;rsquo;s good to feel part of a major Open Source project, even for a small contribution.
+http://hammett.castleproject.org/?p=336
+While I&amp;rsquo;m currently focusing my efforts on ASP.NET MVC and moved away from MonoRail, I use Castle extensively in my .NET projects, particularly ActiveRecord and Windsor/MicroKernel.</description>
+    </item>
+    
+  </channel>
+</rss>
