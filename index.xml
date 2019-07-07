@@ -1142,6 +1142,15 @@ Well New Zealand just beat Ireland on the weekend in their first game since the 
     
     <item>
       <title></title>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/elvui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/elvui/</guid>
+      <description>ElvUI Nameplates Tweaking nameplates</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://www.sadrobot.co.nz/wiki/dotnet/wcf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1150,6 +1159,18 @@ Well New Zealand just beat Ireland on the weekend in their first game since the 
 ==Message Exchange Patterns (MEP)==
 The Datagram MEP
  1-way, send and forget May or may not elicit a response, which would require a new connection A datagram MEP is expressed in Web Services Description Language (WSDL) as an operation that contains a wsdl:input element and no wsdl:output elements In WCF, the contract method must have a void return type, and the OperationContract attribute needs IsOneWay set to true  WCF applications that receive datagrams over HTTP send the 202 reply upon receipt of the datagram but before processing the datagram.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/office/excel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/office/excel/</guid>
+      <description>Excel Tricks Flash Fill Next to the column of data you&amp;rsquo;re manually correcting (such as splitting full names into first and last name), make your corrections manually in the next column, select the empty rows and hit CTRL+E to Flash Fill
+Pivot Tables Goal Seek For forecasting / setting targets
+Data &amp;gt; Data Tools &amp;gt; What-If Analysis &amp;gt; Goal Seek
+Forecasting For forecasting graphs, Data &amp;gt; Forecast &amp;gt; Forecast Sheet</description>
     </item>
     
     <item>
@@ -1171,6 +1192,15 @@ The Datagram MEP
       <description>Git Create an empty branch git checkout --orphan &amp;lt;branch&amp;gt; git reset --hard  Clear the working directory git rm --cached -rf .
 Configure for Windows On Windows machine, open up Git Bash
 $ ssh-keygen -t rsa -C &amp;#34;David Moore &amp;lt;david@digitalgenus.com&amp;gt;&amp;#34; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/web/react/tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/react/tips/</guid>
+      <description> References  https://www.freecodecamp.org/news/what-i-wish-i-knew-when-i-started-to-work-with-react-js-3ba36107fd13/  </description>
     </item>
     
     <item>
@@ -1208,10 +1238,11 @@ You can create a batch file to make it easier to run, parse and view the SxSTrac
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/ipfilter/architecture/</guid>
-      <description>The IPFilter updater takes in a set of one or more inputs, and one or more outputs.
+      <description>This documentation is a bit out of date and won&amp;rsquo;t be updated for at least a few weeks
+The IPFilter updater takes in a set of one or more inputs, and one or more outputs.
 IPFilter acquires and merges all of the inputs, and generates the output result.
 The merged inputs are then synced to the output(s).
-Inputs Input URIs The input must be resolved to an absolute URI. While the final URI must be absolute, there are shortcuts and abbreviations to make the specified input(s) more concise and readable.</description>
+Inputs Input URIs The input must be resolved to an absolute URI.</description>
     </item>
     
     <item>
@@ -1262,7 +1293,7 @@ Cassandra Query Language (CQL)  Primary key determines the partition Primary key
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/ipfilter/changelog/</guid>
-      <description>3.0.0 Beta 2 New  Added initial support for eMule  Improvements  For troubleshooting, a basic log is written to ipfilter.log Downloaded list(s) are now sorted and merged to make the list smaller, more compact and faster to load by P2P clients Applications receive their own copy of the ipfilter.dat, formatted to each application&amp;rsquo;s preferred format  Changes  Now installing to \AppData\Local\Programs\IPFilter (instead of AppData\Local\IPFilter) to follow the established convention for per-user applications The cached ipfilter.</description>
+      <description>3.0.1 Beta New  The options windows is back, starting with some basic settings, but with more to come  You may disable the software update check when IPFilter starts (enable this in the Options) Try the latest features by enabling pre-release updates Get IPFilter to schedule itself to do an automatic silent update of the list every day   Improvements  Performance improvements when loading, merging and outputting lists A link button to open the log file using your default editor The exe and installer are now signed using a code signing certificate for authenticity  Changes  Removed the old app.</description>
     </item>
     
     <item>
@@ -1271,14 +1302,13 @@ Cassandra Query Language (CQL)  Primary key determines the partition Primary key
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/ipfilter/commandline/</guid>
-      <description>Command Line You can control IPFilter Update from the command line easily.
-Syntax ipfilter.exe [options] [inputs] [outputs]
+      <description>Command Line The command line and its documentation is in a state of flux. Please get in contact with any suggestions or issues for how you want it to work.
+Syntax ipfilter.exe [options] [inputs] [outputs]
 Options /silent
  Launch, run and exit silently. Useful for when automating IPFilter yourself.
  /service
  Instruct IPFilter to register itself as a Windows service, and start running.
- Supported file formats .zip, .gzip, .dat, .json
-Inputs You can specify inputs as URIs / URLs or file system paths (including UNC paths).</description>
+ service install service uninstall service Run as a service service install hugo server</description>
     </item>
     
     <item>
@@ -1313,6 +1343,15 @@ This is a big problem for a world where applications talk to internal and extern
       <description>What is IPFilter Updater? It&amp;rsquo;s a small Windows application that will download and update an ipfilter list for use in Bit Torrent clients.
 What Bit Torrent clients are supported? Currently uTorrent, BitTorrent and qBittorrent are supported out of the box, but you can also configure other applications to pick up the downloaded list.
 What is an ipfilter? An ipfilter list is a simple (but usually very large) list of addresses and ranges of malicious peers that will transmit junk data (i.</description>
+    </item>
+    
+    <item>
+      <title>Fizz Buzz</title>
+      <link>http://www.sadrobot.co.nz/wiki/dotnet/patterns/fizzbuzz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/dotnet/patterns/fizzbuzz/</guid>
+      <description>var numbers = Enumerable.Range(1, 100); foreach(var value in numbers) { var fizz = value % 3 == 0; var buzz = value % 5 == 0; if( !fizz &amp;amp;&amp;amp; !buzz ) continue; if( fizz ) Console.Write(&amp;#34;Fizz&amp;#34;); if( buzz ) Console.Write(&amp;#34;Buzz&amp;#34;); Console.WriteLine(); }</description>
     </item>
     
     <item>
@@ -1497,8 +1536,9 @@ When you have orange DOT on yourself go away from boss it will make a pool appea
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/wiki/web/auth/oauth/</guid>
-      <description> #Open Authorization 2.0 (OAuth 2.0)
-What problem does OAuth 2.0 solve? </description>
+      <description>#Open Authorization 2.0 (OAuth 2.0)
+What problem does OAuth 2.0 solve? With the appearance of consumer devices in Smartphones, then tablets, hybrid devices and IoT, auth that could cover the new connectedness of things was needed.
+Enterprise SAML and SOAP, Kerberos, LDAP, AD etc only really worked on Intranets.</description>
     </item>
     
     <item>
@@ -1576,6 +1616,15 @@ Enchants &amp;amp; Gems  Weapon Enchant: Quick Navigation Ring Enchant: Haste Ge
     </item>
     
     <item>
+      <title>Raid: Battle for Dazar&#39;alor</title>
+      <link>http://www.sadrobot.co.nz/games/wow/bfa/raid/bod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/games/wow/bfa/raid/bod/</guid>
+      <description>Loot Levels    Difficulty Item Level     LFR 340   Normal 355   Heroic 370   Mythic 385     Weapons can only Warforge (+5 or +10) Azerite Armor cannot Warforge or Titanforge  Champions of the Light  One tank on the boss, another on adds Main Tank: Let stacks drop off with Blessing of Spellwarding Offtank: Tank in corner away from raid, face away from Blinding Faith If it&amp;rsquo;s not possible to solo tank, you can swap at 4-6 stacks to let stacks drop off  Grong  Necrotic Combo = Rending Bite, Bestial Smash, Bestial Throw.</description>
+    </item>
+    
+    <item>
       <title>Raid: Uldir</title>
       <link>http://www.sadrobot.co.nz/games/wow/bfa/raid/uldir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1631,6 +1680,15 @@ Dont stand near edges, you don&amp;rsquo;t wanna get knocked back and die, avoid
       <guid>http://www.sadrobot.co.nz/games/wow/bfa/dungeon/siege-of-boralus/</guid>
       <description>Notable Trash  Bilge Rat Buccaneer: Use Blinding Light to disorient them when they try to cast Banana Rampage Ashvane Invader: Use Divine Shield or Blessing of Spellwarding to drop stacks of Stinging Venom Coating  Sergeant Bainbridge/Chopper Redhook  Blessing of Spellwarding or Divine Shield to immune bombs if they&amp;rsquo;re about to go off  Sergeant Bainbridge
 Don&amp;rsquo;t walk in bombs on the ground. If the boss is chasing after you, make him run through bombs on ground.</description>
+    </item>
+    
+    <item>
+      <title>Signing</title>
+      <link>http://www.sadrobot.co.nz/wiki/practices/signing/signing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/practices/signing/signing/</guid>
+      <description>Authenticode  Store the certificate in a secure location such as Azure KeyVault, and restrict access You could consider only timestamping when ready for release, to prevent things like continuous integration builds &amp;ldquo;spamming&amp;rdquo; the timestamp server, getting eventually rate limited and failing builds  $certSecret = Get-AzureKeyVaultSecret -VaultName $vaultName -Name $secretName $certBytes = [System.Convert]::FromBase64String($certSecret.SecretValueText) $flags = [System.Security.Cryptography.X509Certificates.X509KeyStorageFlags]::EphemeralKeySet $certificateSecret = Get-AzureKeyVaultSecret -VaultName &amp;#34;MyVault&amp;#34; -Name &amp;#34;MySecret&amp;#34; $certificateBytes = [System.Convert]::FromBase64String($certificateSecret.SecretValueText) $certificate = New-Object System.</description>
     </item>
     
     <item>
@@ -1727,6 +1785,15 @@ Remove Service Pack backup components after Service Pack installation After inst
 This originates from eXtreme Programming (XP).
 You should only add functionality until there is a need for that functionality, rather than adding functionality you forsee as being possibly necessary later.
 This helps keep the code base leaner, and allow changing requirements and refactoring.</description>
+    </item>
+    
+    <item>
+      <title>YAML</title>
+      <link>http://www.sadrobot.co.nz/wiki/data/yaml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/data/yaml/</guid>
+      <description>YAML is a subset of JSON</description>
     </item>
     
   </channel>

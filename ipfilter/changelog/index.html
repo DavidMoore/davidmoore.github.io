@@ -26,14 +26,14 @@
 <meta property="og:url" content="http://www.sadrobot.co.nz/ipfilter/changelog/" />
 
 <meta property="og:image" content="http://www.sadrobot.co.nz/images/gohugoio-card.png" />
-<meta property="article:modified_time" content="2019-04-16T19:41:55&#43;12:00"/>
+<meta property="article:modified_time" content="2019-07-08T01:50:33&#43;12:00"/>
 
 <meta itemprop="name" content="Changelog">
 <meta itemprop="description" content="History of IPFilter Updater releases and changes">
 
 
-<meta itemprop="dateModified" content="2019-04-16T19:41:55&#43;12:00" />
-<meta itemprop="wordCount" content="130">
+<meta itemprop="dateModified" content="2019-07-08T01:50:33&#43;12:00" />
+<meta itemprop="wordCount" content="236">
 
 
 
@@ -197,15 +197,43 @@
 
 
 
-<h2 id="3-0-0-beta-2">3.0.0 Beta 2</h2>
+<h2 id="3-0-1-beta">3.0.1 Beta</h2>
 
 <h3 id="new">New</h3>
+
+<ul>
+<li>The options windows is back, starting with some basic settings, but with more to come
+
+<ul>
+<li>You may disable the software update check when IPFilter starts (enable this in the Options)</li>
+<li>Try the latest features by enabling pre-release updates</li>
+<li>Get IPFilter to schedule itself to do an automatic silent update of the list every day</li>
+</ul></li>
+</ul>
+
+<h3 id="improvements">Improvements</h3>
+
+<ul>
+<li>Performance improvements when loading, merging and outputting lists</li>
+<li>A link button to open the log file using your default editor</li>
+<li>The exe and installer are now signed using a code signing certificate for authenticity</li>
+</ul>
+
+<h3 id="changes">Changes</h3>
+
+<ul>
+<li>Removed the old app.config / user.config settings; settings are now stored in settings.json</li>
+</ul>
+
+<h2 id="3-0-0-beta-2">3.0.0 Beta 2</h2>
+
+<h3 id="new-1">New</h3>
 
 <ul>
 <li>Added initial support for eMule</li>
 </ul>
 
-<h3 id="improvements">Improvements</h3>
+<h3 id="improvements-1">Improvements</h3>
 
 <ul>
 <li>For troubleshooting, a basic log is written to ipfilter.log</li>
@@ -213,7 +241,7 @@
 <li>Applications receive their own copy of the ipfilter.dat, formatted to each application&rsquo;s preferred format</li>
 </ul>
 
-<h3 id="changes">Changes</h3>
+<h3 id="changes-1">Changes</h3>
 
 <ul>
 <li>Now installing to <UserDirectory>\AppData\Local\Programs\IPFilter (instead of AppData\Local\IPFilter) to follow the established convention for per-user applications</li>
@@ -228,7 +256,7 @@
 <li>#40 Automatic update fails due to github SSL/TLS restrictions</li>
 </ul>
 
-<h4 id="changes-1">Changes</h4>
+<h4 id="changes-2">Changes</h4>
 
 <ul>
 <li>Program updates from GitHub Releases</li>
@@ -238,7 +266,7 @@
 
 <h2 id="26-jan-2010">26 Jan 2010</h2>
 
-<h3 id="changes-2">Changes</h3>
+<h3 id="changes-3">Changes</h3>
 
 <ul>
 <li>Now requires .NET 3.5, and allows mirror selection</li>
@@ -294,6 +322,8 @@
     
   </ul>
 </nav>
+
+
 
 <p class=" nested-links"><a href="https://www.jetbrains.com/?from=IPFilterUpdater" class="link" target="_blank">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -376,7 +406,7 @@
   <span class="nl3 child"><svg class="grow" fill="" height="14px" viewBox="0 0 24 24" width="14px" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/></svg>
 </span>
     “Changelog”
-  </a> was last updated: April 16, 2019
+  </a> was last updated: July 8, 2019
   
   
 </h6>

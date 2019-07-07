@@ -12,13 +12,23 @@
     
     
     <item>
+      <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/web/react/tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/web/react/tips/</guid>
+      <description> References  https://www.freecodecamp.org/news/what-i-wish-i-knew-when-i-started-to-work-with-react-js-3ba36107fd13/  </description>
+    </item>
+    
+    <item>
       <title>OAuth 2.0</title>
       <link>http://www.sadrobot.co.nz/wiki/web/auth/oauth/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/wiki/web/auth/oauth/</guid>
-      <description> #Open Authorization 2.0 (OAuth 2.0)
-What problem does OAuth 2.0 solve? </description>
+      <description>#Open Authorization 2.0 (OAuth 2.0)
+What problem does OAuth 2.0 solve? With the appearance of consumer devices in Smartphones, then tablets, hybrid devices and IoT, auth that could cover the new connectedness of things was needed.
+Enterprise SAML and SOAP, Kerberos, LDAP, AD etc only really worked on Intranets.</description>
     </item>
     
     <item>

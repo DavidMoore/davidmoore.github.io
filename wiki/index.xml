@@ -13,6 +13,18 @@
     
     <item>
       <title></title>
+      <link>http://www.sadrobot.co.nz/wiki/office/excel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/office/excel/</guid>
+      <description>Excel Tricks Flash Fill Next to the column of data you&amp;rsquo;re manually correcting (such as splitting full names into first and last name), make your corrections manually in the next column, select the empty rows and hit CTRL+E to Flash Fill
+Pivot Tables Goal Seek For forecasting / setting targets
+Data &amp;gt; Data Tools &amp;gt; What-If Analysis &amp;gt; Goal Seek
+Forecasting For forecasting graphs, Data &amp;gt; Forecast &amp;gt; Forecast Sheet</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://www.sadrobot.co.nz/wiki/practices/versioning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -30,6 +42,15 @@
       <description>Git Create an empty branch git checkout --orphan &amp;lt;branch&amp;gt; git reset --hard  Clear the working directory git rm --cached -rf .
 Configure for Windows On Windows machine, open up Git Bash
 $ ssh-keygen -t rsa -C &amp;#34;David Moore &amp;lt;david@digitalgenus.com&amp;gt;&amp;#34; Generating public/private rsa key pair. Enter file in which to save the key (/d/Users/David/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /d/Users/David/.</description>
+    </item>
+    
+    <item>
+      <title>Signing</title>
+      <link>http://www.sadrobot.co.nz/wiki/practices/signing/signing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sadrobot.co.nz/wiki/practices/signing/signing/</guid>
+      <description>Authenticode  Store the certificate in a secure location such as Azure KeyVault, and restrict access You could consider only timestamping when ready for release, to prevent things like continuous integration builds &amp;ldquo;spamming&amp;rdquo; the timestamp server, getting eventually rate limited and failing builds  $certSecret = Get-AzureKeyVaultSecret -VaultName $vaultName -Name $secretName $certBytes = [System.Convert]::FromBase64String($certSecret.SecretValueText) $flags = [System.Security.Cryptography.X509Certificates.X509KeyStorageFlags]::EphemeralKeySet $certificateSecret = Get-AzureKeyVaultSecret -VaultName &amp;#34;MyVault&amp;#34; -Name &amp;#34;MySecret&amp;#34; $certificateBytes = [System.Convert]::FromBase64String($certificateSecret.SecretValueText) $certificate = New-Object System.</description>
     </item>
     
   </channel>
