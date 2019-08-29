@@ -6,7 +6,7 @@
     <description>Recent content in IPFilter Updater on Sad Robot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jul 2019 01:50:33 +1200</lastBuildDate>
+    <lastBuildDate>Fri, 30 Aug 2019 09:00:43 +1200</lastBuildDate>
     
 	<atom:link href="http://www.sadrobot.co.nz/ipfilter/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,7 +30,7 @@ Inputs Input URIs The input must be resolved to an absolute URI.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.sadrobot.co.nz/ipfilter/changelog/</guid>
-      <description>3.0.1 Beta New  The options windows is back, starting with some basic settings, but with more to come  You may disable the software update check when IPFilter starts (enable this in the Options) Try the latest features by enabling pre-release updates Get IPFilter to schedule itself to do an automatic silent update of the list every day   Improvements  Performance improvements when loading, merging and outputting lists A link button to open the log file using your default editor The exe and installer are now signed using a code signing certificate for authenticity  Changes  Removed the old app.</description>
+      <description>3.0.2 Beta Fixes  #58 Silent list update was installing empty blocklists #27 Japanese path support  3.0.1 Beta New  The options windows is back, starting with some basic settings, but with more to come  You may disable the software update check when IPFilter starts (enable this in the Options) Try the latest features by enabling pre-release updates Get IPFilter to schedule itself to do an automatic silent update of the list every day   Improvements  Performance improvements when loading, merging and outputting lists A link button to open the log file using your default editor The exe and installer are now signed using a code signing certificate for authenticity  Changes  Removed the old app.</description>
     </item>
     
     <item>
